@@ -1,0 +1,1028 @@
+{
+  "summary": {
+    "total_pages": 39,
+    "fully_working": 6,
+    "display_issues": 20,
+    "config_errors": 0,
+    "no_images": 13,
+    "duplicate_issues": 0
+  },
+  "results": {
+    "alumina-castable": {
+      "product_id": "alumina-castable",
+      "status": "display_issue",
+      "issues": [
+        "有图片配置但显示占位符（可能是JavaScript初始化问题）",
+        "可能存在重复图片"
+      ],
+      "details": {
+        "configured_images_count": 2,
+        "configured_images": [
+          "../images/products/alumina-castable-official-1.png",
+          "../images/products/alumina-castable-official-2.png"
+        ],
+        "main_image_src": "../images/products/alumina-castable-official-1.png",
+        "actual_images_count": 2,
+        "actual_images": [
+          "alumina-castable-official-1.png",
+          "alumina-castable-official-2.png"
+        ],
+        "missing_images": [],
+        "missing_count": 0,
+        "has_placeholder": true
+      },
+      "recommendations": [
+        "检查JavaScript轮播组件是否正确初始化",
+        "验证图片路径是否正确",
+        "清除浏览器缓存后重新测试"
+      ]
+    },
+    "alumina-hollow-sphere-brick": {
+      "product_id": "alumina-hollow-sphere-brick",
+      "status": "display_issue",
+      "issues": [
+        "有图片配置但显示占位符（可能是JavaScript初始化问题）",
+        "可能存在重复图片"
+      ],
+      "details": {
+        "configured_images_count": 4,
+        "configured_images": [
+          "../images/products/alumina-hollow-sphere-brick-official-1.png",
+          "../images/products/alumina-hollow-sphere-brick-official-2.png",
+          "../images/products/alumina-hollow-sphere-brick-1.png",
+          "../images/products/alumina-hollow-sphere-brick-2.png"
+        ],
+        "main_image_src": "../images/products/alumina-hollow-sphere-brick-official-1.png",
+        "actual_images_count": 4,
+        "actual_images": [
+          "alumina-hollow-sphere-brick-official-1.png",
+          "alumina-hollow-sphere-brick-official-2.png",
+          "alumina-hollow-sphere-brick-1.png",
+          "alumina-hollow-sphere-brick-2.png"
+        ],
+        "missing_images": [],
+        "missing_count": 0,
+        "has_placeholder": true
+      },
+      "recommendations": [
+        "检查JavaScript轮播组件是否正确初始化",
+        "验证图片路径是否正确",
+        "清除浏览器缓存后重新测试"
+      ]
+    },
+    "blast-furnace-ceramic-cup": {
+      "product_id": "blast-furnace-ceramic-cup",
+      "status": "display_issue",
+      "issues": [
+        "有图片配置但显示占位符（可能是JavaScript初始化问题）",
+        "可能存在重复图片"
+      ],
+      "details": {
+        "configured_images_count": 2,
+        "configured_images": [
+          "../images/products/blast-furnace-ceramic-cup-official-1.png",
+          "../images/products/blast-furnace-ceramic-cup-official-2.png"
+        ],
+        "main_image_src": "../images/products/blast-furnace-ceramic-cup-official-1.png",
+        "actual_images_count": 2,
+        "actual_images": [
+          "blast-furnace-ceramic-cup-official-1.png",
+          "blast-furnace-ceramic-cup-official-2.png"
+        ],
+        "missing_images": [],
+        "missing_count": 0,
+        "has_placeholder": true
+      },
+      "recommendations": [
+        "检查JavaScript轮播组件是否正确初始化",
+        "验证图片路径是否正确",
+        "清除浏览器缓存后重新测试"
+      ]
+    },
+    "chrome-corundum-castable": {
+      "product_id": "chrome-corundum-castable",
+      "status": "single_image_ok",
+      "issues": [],
+      "details": {
+        "configured_images_count": 1,
+        "configured_images": [
+          "../images/products/chrome-corundum-castable-official-1.png"
+        ],
+        "main_image_src": "../images/products/chrome-corundum-castable-official-1.png",
+        "actual_images_count": 1,
+        "actual_images": [
+          "chrome-corundum-castable-official-1.png"
+        ],
+        "missing_images": [],
+        "missing_count": 0,
+        "has_placeholder": true
+      },
+      "recommendations": []
+    },
+    "clay-brick": {
+      "product_id": "clay-brick",
+      "status": "no_images",
+      "issues": [
+        "没有找到任何图片文件"
+      ],
+      "details": {
+        "configured_images_count": 4,
+        "configured_images": [
+          "../images/products/clay-brick-new.jpg",
+          "../images/products/clay-brick-1.png",
+          "../images/products/clay-brick-2.png",
+          "../images/products/clay-brick-real.png"
+        ],
+        "main_image_src": "../images/products/clay-brick-new.jpg",
+        "actual_images_count": 0,
+        "actual_images": [],
+        "missing_images": [
+          "clay-brick-new.jpg",
+          "clay-brick-1.png",
+          "clay-brick-2.png",
+          "clay-brick-real.png"
+        ],
+        "missing_count": 4,
+        "has_placeholder": true
+      },
+      "recommendations": [
+        "为该产品添加图片或配置合适的占位符",
+        "修复缺失的图片文件路径"
+      ]
+    },
+    "coke-oven-brick": {
+      "product_id": "coke-oven-brick",
+      "status": "no_images",
+      "issues": [
+        "缺少data-images配置",
+        "没有找到任何图片文件"
+      ],
+      "details": {
+        "configured_images_count": 0,
+        "main_image_src": "../images/products/coke-oven-brick-new.jpg",
+        "actual_images_count": 0,
+        "actual_images": [],
+        "missing_images": [],
+        "missing_count": 0,
+        "has_placeholder": true
+      },
+      "recommendations": [
+        "为该产品添加图片或配置合适的占位符"
+      ]
+    },
+    "corundum-ball": {
+      "product_id": "corundum-ball",
+      "status": "display_issue",
+      "issues": [
+        "有图片配置但显示占位符（可能是JavaScript初始化问题）",
+        "可能存在重复图片"
+      ],
+      "details": {
+        "configured_images_count": 2,
+        "configured_images": [
+          "../images/products/corundum-ball-official-1.png",
+          "../images/products/corundum-ball-official-2.png"
+        ],
+        "main_image_src": "../images/products/corundum-ball-official-1.png",
+        "actual_images_count": 2,
+        "actual_images": [
+          "corundum-ball-official-1.png",
+          "corundum-ball-official-2.png"
+        ],
+        "missing_images": [],
+        "missing_count": 0,
+        "has_placeholder": true
+      },
+      "recommendations": [
+        "检查JavaScript轮播组件是否正确初始化",
+        "验证图片路径是否正确",
+        "清除浏览器缓存后重新测试"
+      ]
+    },
+    "corundum-brick": {
+      "product_id": "corundum-brick",
+      "status": "display_issue",
+      "issues": [
+        "有图片配置但显示占位符（可能是JavaScript初始化问题）",
+        "可能存在重复图片"
+      ],
+      "details": {
+        "configured_images_count": 2,
+        "configured_images": [
+          "../images/products/corundum-brick-official-1.png",
+          "../images/products/corundum-brick-official-2.png"
+        ],
+        "main_image_src": "../images/products/corundum-brick-official-1.png",
+        "actual_images_count": 2,
+        "actual_images": [
+          "corundum-brick-official-1.png",
+          "corundum-brick-official-2.png"
+        ],
+        "missing_images": [],
+        "missing_count": 0,
+        "has_placeholder": true
+      },
+      "recommendations": [
+        "检查JavaScript轮播组件是否正确初始化",
+        "验证图片路径是否正确",
+        "清除浏览器缓存后重新测试"
+      ]
+    },
+    "corundum-mullite": {
+      "product_id": "corundum-mullite",
+      "status": "display_issue",
+      "issues": [
+        "有图片配置但显示占位符（可能是JavaScript初始化问题）",
+        "可能存在重复图片"
+      ],
+      "details": {
+        "configured_images_count": 2,
+        "configured_images": [
+          "../images/products/corundum-mullite-official-1.png",
+          "../images/products/corundum-mullite-official-2.png"
+        ],
+        "main_image_src": "../images/products/corundum-mullite-official-1.png",
+        "actual_images_count": 2,
+        "actual_images": [
+          "corundum-mullite-official-1.png",
+          "corundum-mullite-official-2.png"
+        ],
+        "missing_images": [],
+        "missing_count": 0,
+        "has_placeholder": true
+      },
+      "recommendations": [
+        "检查JavaScript轮播组件是否正确初始化",
+        "验证图片路径是否正确",
+        "清除浏览器缓存后重新测试"
+      ]
+    },
+    "general-silica-brick": {
+      "product_id": "general-silica-brick",
+      "status": "display_issue",
+      "issues": [
+        "有图片配置但显示占位符（可能是JavaScript初始化问题）",
+        "可能存在重复图片"
+      ],
+      "details": {
+        "configured_images_count": 2,
+        "configured_images": [
+          "../images/products/general-silica-brick-official-1.png",
+          "../images/products/general-silica-brick-official-2.png"
+        ],
+        "main_image_src": "../images/products/general-silica-brick-official-1.png",
+        "actual_images_count": 2,
+        "actual_images": [
+          "general-silica-brick-official-1.png",
+          "general-silica-brick-official-2.png"
+        ],
+        "missing_images": [],
+        "missing_count": 0,
+        "has_placeholder": true
+      },
+      "recommendations": [
+        "检查JavaScript轮播组件是否正确初始化",
+        "验证图片路径是否正确",
+        "清除浏览器缓存后重新测试"
+      ]
+    },
+    "heavy-clay-brick": {
+      "product_id": "heavy-clay-brick",
+      "status": "display_issue",
+      "issues": [
+        "有图片配置但显示占位符（可能是JavaScript初始化问题）",
+        "可能存在重复图片"
+      ],
+      "details": {
+        "configured_images_count": 2,
+        "configured_images": [
+          "../images/products/heavy-clay-brick-official-1.png",
+          "../images/products/heavy-clay-brick-official-2.png"
+        ],
+        "main_image_src": "../images/products/heavy-clay-brick-official-1.png",
+        "actual_images_count": 2,
+        "actual_images": [
+          "heavy-clay-brick-official-1.png",
+          "heavy-clay-brick-official-2.png"
+        ],
+        "missing_images": [],
+        "missing_count": 0,
+        "has_placeholder": true
+      },
+      "recommendations": [
+        "检查JavaScript轮播组件是否正确初始化",
+        "验证图片路径是否正确",
+        "清除浏览器缓存后重新测试"
+      ]
+    },
+    "high-alumina-brick": {
+      "product_id": "high-alumina-brick",
+      "status": "no_images",
+      "issues": [
+        "没有找到任何图片文件"
+      ],
+      "details": {
+        "configured_images_count": 4,
+        "configured_images": [
+          "../images/products/high-alumina-brick-new.jpg",
+          "../images/products/high-alumina-brick-1.png",
+          "../images/products/high-alumina-brick-2.png",
+          "../images/products/high-alumina-brick-real.png"
+        ],
+        "main_image_src": "../images/products/high-alumina-brick-new.jpg",
+        "actual_images_count": 0,
+        "actual_images": [],
+        "missing_images": [
+          "high-alumina-brick-new.jpg",
+          "high-alumina-brick-1.png",
+          "high-alumina-brick-2.png",
+          "high-alumina-brick-real.png"
+        ],
+        "missing_count": 4,
+        "has_placeholder": true
+      },
+      "recommendations": [
+        "为该产品添加图片或配置合适的占位符",
+        "修复缺失的图片文件路径"
+      ]
+    },
+    "hot-blast-stove-checker-silica-brick": {
+      "product_id": "hot-blast-stove-checker-silica-brick",
+      "status": "no_images",
+      "issues": [
+        "缺少data-images配置",
+        "没有找到任何图片文件"
+      ],
+      "details": {
+        "configured_images_count": 0,
+        "main_image_src": "../images/products/shaped_hot_blast_furnace_silica_brick.jpg",
+        "actual_images_count": 0,
+        "actual_images": [],
+        "missing_images": [],
+        "missing_count": 0,
+        "has_placeholder": true
+      },
+      "recommendations": [
+        "为该产品添加图片或配置合适的占位符"
+      ]
+    },
+    "hot-blast-stove-clay-checker-brick": {
+      "product_id": "hot-blast-stove-clay-checker-brick",
+      "status": "no_images",
+      "issues": [
+        "缺少data-images配置",
+        "未找到主图片配置",
+        "没有找到任何图片文件"
+      ],
+      "details": {
+        "configured_images_count": 0,
+        "actual_images_count": 0,
+        "actual_images": [],
+        "missing_images": [],
+        "missing_count": 0,
+        "has_placeholder": true
+      },
+      "recommendations": [
+        "为该产品添加图片或配置合适的占位符"
+      ]
+    },
+    "hot-blast-stove-silica-brick": {
+      "product_id": "hot-blast-stove-silica-brick",
+      "status": "display_issue",
+      "issues": [
+        "有图片配置但显示占位符（可能是JavaScript初始化问题）",
+        "可能存在重复图片"
+      ],
+      "details": {
+        "configured_images_count": 3,
+        "configured_images": [
+          "../images/products/hot-blast-stove-silica-brick-official-1.png",
+          "../images/products/hot-blast-stove-silica-brick-official-2.png",
+          "../images/products/hot-blast-stove-silica-brick-official-3.png"
+        ],
+        "main_image_src": "../images/products/hot-blast-stove-silica-brick-official-1.png",
+        "actual_images_count": 3,
+        "actual_images": [
+          "hot-blast-stove-silica-brick-official-1.png",
+          "hot-blast-stove-silica-brick-official-2.png",
+          "hot-blast-stove-silica-brick-official-3.png"
+        ],
+        "missing_images": [],
+        "missing_count": 0,
+        "has_placeholder": true
+      },
+      "recommendations": [
+        "检查JavaScript轮播组件是否正确初始化",
+        "验证图片路径是否正确",
+        "清除浏览器缓存后重新测试"
+      ]
+    },
+    "insulating-brick": {
+      "product_id": "insulating-brick",
+      "status": "no_images",
+      "issues": [
+        "缺少data-images配置",
+        "没有找到任何图片文件"
+      ],
+      "details": {
+        "configured_images_count": 0,
+        "main_image_src": "../images/products/lightweight_insulation_brick.jpg",
+        "actual_images_count": 0,
+        "actual_images": [],
+        "missing_images": [],
+        "missing_count": 0,
+        "has_placeholder": true
+      },
+      "recommendations": [
+        "为该产品添加图片或配置合适的占位符"
+      ]
+    },
+    "insulating-material": {
+      "product_id": "insulating-material",
+      "status": "no_images",
+      "issues": [
+        "缺少data-images配置",
+        "没有找到任何图片文件"
+      ],
+      "details": {
+        "configured_images_count": 0,
+        "main_image_src": "../images/products/insulating-material-new.jpg",
+        "actual_images_count": 0,
+        "actual_images": [],
+        "missing_images": [],
+        "missing_count": 0,
+        "has_placeholder": true
+      },
+      "recommendations": [
+        "为该产品添加图片或配置合适的占位符"
+      ]
+    },
+    "lightweight-castable": {
+      "product_id": "lightweight-castable",
+      "status": "single_image_ok",
+      "issues": [],
+      "details": {
+        "configured_images_count": 1,
+        "configured_images": [
+          "../images/products/lightweight-castable-official-1.png"
+        ],
+        "main_image_src": "../images/products/lightweight-castable-official-1.png",
+        "actual_images_count": 1,
+        "actual_images": [
+          "lightweight-castable-official-1.png"
+        ],
+        "missing_images": [],
+        "missing_count": 0,
+        "has_placeholder": true
+      },
+      "recommendations": []
+    },
+    "lightweight-clay-brick": {
+      "product_id": "lightweight-clay-brick",
+      "status": "display_issue",
+      "issues": [
+        "有图片配置但显示占位符（可能是JavaScript初始化问题）",
+        "可能存在重复图片"
+      ],
+      "details": {
+        "configured_images_count": 4,
+        "configured_images": [
+          "../images/products/lightweight-clay-brick-official-1.png",
+          "../images/products/lightweight-clay-brick-official-2.png",
+          "../images/products/lightweight-clay-brick-official-3.png",
+          "../images/products/lightweight-clay-brick-2.png"
+        ],
+        "main_image_src": "../images/products/lightweight-clay-brick-official-1.png",
+        "actual_images_count": 4,
+        "actual_images": [
+          "lightweight-clay-brick-official-1.png",
+          "lightweight-clay-brick-official-2.png",
+          "lightweight-clay-brick-official-3.png",
+          "lightweight-clay-brick-2.png"
+        ],
+        "missing_images": [],
+        "missing_count": 0,
+        "has_placeholder": true
+      },
+      "recommendations": [
+        "检查JavaScript轮播组件是否正确初始化",
+        "验证图片路径是否正确",
+        "清除浏览器缓存后重新测试"
+      ]
+    },
+    "lightweight-high-alumina-brick": {
+      "product_id": "lightweight-high-alumina-brick",
+      "status": "display_issue",
+      "issues": [
+        "有图片配置但显示占位符（可能是JavaScript初始化问题）",
+        "可能存在重复图片"
+      ],
+      "details": {
+        "configured_images_count": 2,
+        "configured_images": [
+          "../images/products/lightweight-high-alumina-brick-official-1.png",
+          "../images/products/lightweight-high-alumina-brick-official-2.png"
+        ],
+        "main_image_src": "../images/products/lightweight-high-alumina-brick-official-1.png",
+        "actual_images_count": 2,
+        "actual_images": [
+          "lightweight-high-alumina-brick-official-1.png",
+          "lightweight-high-alumina-brick-official-2.png"
+        ],
+        "missing_images": [],
+        "missing_count": 0,
+        "has_placeholder": true
+      },
+      "recommendations": [
+        "检查JavaScript轮播组件是否正确初始化",
+        "验证图片路径是否正确",
+        "清除浏览器缓存后重新测试"
+      ]
+    },
+    "lightweight-mullite-brick": {
+      "product_id": "lightweight-mullite-brick",
+      "status": "display_issue",
+      "issues": [
+        "有图片配置但显示占位符（可能是JavaScript初始化问题）",
+        "可能存在重复图片"
+      ],
+      "details": {
+        "configured_images_count": 4,
+        "configured_images": [
+          "../images/products/lightweight-mullite-brick-official-1.png",
+          "../images/products/lightweight-mullite-brick-official-2.png",
+          "../images/products/lightweight-mullite-brick-1.png",
+          "../images/products/lightweight-mullite-brick-2.png"
+        ],
+        "main_image_src": "../images/products/lightweight-mullite-brick-official-1.png",
+        "actual_images_count": 4,
+        "actual_images": [
+          "lightweight-mullite-brick-official-1.png",
+          "lightweight-mullite-brick-official-2.png",
+          "lightweight-mullite-brick-1.png",
+          "lightweight-mullite-brick-2.png"
+        ],
+        "missing_images": [],
+        "missing_count": 0,
+        "has_placeholder": true
+      },
+      "recommendations": [
+        "检查JavaScript轮播组件是否正确初始化",
+        "验证图片路径是否正确",
+        "清除浏览器缓存后重新测试"
+      ]
+    },
+    "lightweight-silica-brick": {
+      "product_id": "lightweight-silica-brick",
+      "status": "no_images",
+      "issues": [
+        "缺少data-images配置",
+        "没有找到任何图片文件"
+      ],
+      "details": {
+        "configured_images_count": 0,
+        "main_image_src": "../images/products/shaped_lightweight_fireclay_brick.jpg",
+        "actual_images_count": 0,
+        "actual_images": [],
+        "missing_images": [],
+        "missing_count": 0,
+        "has_placeholder": true
+      },
+      "recommendations": [
+        "为该产品添加图片或配置合适的占位符"
+      ]
+    },
+    "magnesia-chrome-brick": {
+      "product_id": "magnesia-chrome-brick",
+      "status": "display_issue",
+      "issues": [
+        "有图片配置但显示占位符（可能是JavaScript初始化问题）",
+        "可能存在重复图片"
+      ],
+      "details": {
+        "configured_images_count": 2,
+        "configured_images": [
+          "../images/products/magnesia-chrome-brick-official-1.png",
+          "../images/products/magnesia-chrome-brick-official-2.png"
+        ],
+        "main_image_src": "../images/products/magnesia-chrome-brick-official-1.png",
+        "actual_images_count": 2,
+        "actual_images": [
+          "magnesia-chrome-brick-official-1.png",
+          "magnesia-chrome-brick-official-2.png"
+        ],
+        "missing_images": [],
+        "missing_count": 0,
+        "has_placeholder": true
+      },
+      "recommendations": [
+        "检查JavaScript轮播组件是否正确初始化",
+        "验证图片路径是否正确",
+        "清除浏览器缓存后重新测试"
+      ]
+    },
+    "mullite-brick": {
+      "product_id": "mullite-brick",
+      "status": "display_issue",
+      "issues": [
+        "有图片配置但显示占位符（可能是JavaScript初始化问题）",
+        "可能存在重复图片"
+      ],
+      "details": {
+        "configured_images_count": 3,
+        "configured_images": [
+          "../images/products/mullite-brick-official-1.png",
+          "../images/products/mullite-brick-official-2.png",
+          "../images/products/mullite-brick-official-3.png"
+        ],
+        "main_image_src": "../images/products/mullite-brick-official-1.png",
+        "actual_images_count": 3,
+        "actual_images": [
+          "mullite-brick-official-1.png",
+          "mullite-brick-official-2.png",
+          "mullite-brick-official-3.png"
+        ],
+        "missing_images": [],
+        "missing_count": 0,
+        "has_placeholder": true
+      },
+      "recommendations": [
+        "检查JavaScript轮播组件是否正确初始化",
+        "验证图片路径是否正确",
+        "清除浏览器缓存后重新测试"
+      ]
+    },
+    "phosphate-brick": {
+      "product_id": "phosphate-brick",
+      "status": "display_issue",
+      "issues": [
+        "有图片配置但显示占位符（可能是JavaScript初始化问题）"
+      ],
+      "details": {
+        "configured_images_count": 2,
+        "configured_images": [
+          "../images/products/phosphate-brick-official-1.png",
+          "../images/products/phosphate-brick-1.png"
+        ],
+        "main_image_src": "../images/products/phosphate-brick-official-1.png",
+        "actual_images_count": 2,
+        "actual_images": [
+          "phosphate-brick-official-1.png",
+          "phosphate-brick-1.png"
+        ],
+        "missing_images": [],
+        "missing_count": 0,
+        "has_placeholder": true
+      },
+      "recommendations": [
+        "检查JavaScript轮播组件是否正确初始化",
+        "验证图片路径是否正确",
+        "清除浏览器缓存后重新测试"
+      ]
+    },
+    "phosphate-wear-resistant-brick": {
+      "product_id": "phosphate-wear-resistant-brick",
+      "status": "display_issue",
+      "issues": [
+        "有图片配置但显示占位符（可能是JavaScript初始化问题）",
+        "可能存在重复图片"
+      ],
+      "details": {
+        "configured_images_count": 2,
+        "configured_images": [
+          "../images/products/phosphate-wear-resistant-brick-official-1.png",
+          "../images/products/phosphate-wear-resistant-brick-official-2.png"
+        ],
+        "main_image_src": "../images/products/phosphate-wear-resistant-brick-official-1.png",
+        "actual_images_count": 2,
+        "actual_images": [
+          "phosphate-wear-resistant-brick-official-1.png",
+          "phosphate-wear-resistant-brick-official-2.png"
+        ],
+        "missing_images": [],
+        "missing_count": 0,
+        "has_placeholder": true
+      },
+      "recommendations": [
+        "检查JavaScript轮播组件是否正确初始化",
+        "验证图片路径是否正确",
+        "清除浏览器缓存后重新测试"
+      ]
+    },
+    "plastic-refractory": {
+      "product_id": "plastic-refractory",
+      "status": "display_issue",
+      "issues": [
+        "有图片配置但显示占位符（可能是JavaScript初始化问题）",
+        "可能存在重复图片"
+      ],
+      "details": {
+        "configured_images_count": 3,
+        "configured_images": [
+          "../images/products/plastic-refractory-official-1.png",
+          "../images/products/plastic-refractory-official-2.png",
+          "../images/products/plastic-refractory-official-3.png"
+        ],
+        "main_image_src": "../images/products/plastic-refractory-official-1.png",
+        "actual_images_count": 3,
+        "actual_images": [
+          "plastic-refractory-official-1.png",
+          "plastic-refractory-official-2.png",
+          "plastic-refractory-official-3.png"
+        ],
+        "missing_images": [],
+        "missing_count": 0,
+        "has_placeholder": true
+      },
+      "recommendations": [
+        "检查JavaScript轮播组件是否正确初始化",
+        "验证图片路径是否正确",
+        "清除浏览器缓存后重新测试"
+      ]
+    },
+    "refractory-castable": {
+      "product_id": "refractory-castable",
+      "status": "no_images",
+      "issues": [
+        "没有找到任何图片文件"
+      ],
+      "details": {
+        "configured_images_count": 1,
+        "configured_images": [
+          "../images/products/refractory-castable-new.png"
+        ],
+        "main_image_src": "../images/products/refractory-castable-new.png",
+        "actual_images_count": 0,
+        "actual_images": [],
+        "missing_images": [
+          "refractory-castable-new.png"
+        ],
+        "missing_count": 1,
+        "has_placeholder": true
+      },
+      "recommendations": [
+        "为该产品添加图片或配置合适的占位符",
+        "修复缺失的图片文件路径"
+      ]
+    },
+    "refractory-spray-coating": {
+      "product_id": "refractory-spray-coating",
+      "status": "single_image_ok",
+      "issues": [],
+      "details": {
+        "configured_images_count": 1,
+        "configured_images": [
+          "../images/products/refractory-spray-coating-official-1.png"
+        ],
+        "main_image_src": "../images/products/refractory-spray-coating-official-1.png",
+        "actual_images_count": 1,
+        "actual_images": [
+          "refractory-spray-coating-official-1.png"
+        ],
+        "missing_images": [],
+        "missing_count": 0,
+        "has_placeholder": true
+      },
+      "recommendations": []
+    },
+    "semi-silica-brick": {
+      "product_id": "semi-silica-brick",
+      "status": "no_images",
+      "issues": [
+        "缺少data-images配置",
+        "没有找到任何图片文件"
+      ],
+      "details": {
+        "configured_images_count": 0,
+        "main_image_src": "../images/products/semi-silica-brick-new.jpg",
+        "actual_images_count": 0,
+        "actual_images": [],
+        "missing_images": [],
+        "missing_count": 0,
+        "has_placeholder": true
+      },
+      "recommendations": [
+        "为该产品添加图片或配置合适的占位符"
+      ]
+    },
+    "silica-brick": {
+      "product_id": "silica-brick",
+      "status": "no_images",
+      "issues": [
+        "没有找到任何图片文件"
+      ],
+      "details": {
+        "configured_images_count": 4,
+        "configured_images": [
+          "../images/products/silica-brick-1.png",
+          "../images/products/silica-brick-2.png",
+          "../images/products/silica-brick-real.png",
+          "../images/products/silica-brick.jpg"
+        ],
+        "main_image_src": "../images/products/silica-brick-1.png",
+        "actual_images_count": 0,
+        "actual_images": [],
+        "missing_images": [
+          "silica-brick-1.png",
+          "silica-brick-2.png",
+          "silica-brick-real.png",
+          "silica-brick.jpg"
+        ],
+        "missing_count": 4,
+        "has_placeholder": true
+      },
+      "recommendations": [
+        "为该产品添加图片或配置合适的占位符",
+        "修复缺失的图片文件路径"
+      ]
+    },
+    "silica-molybdenum-brick": {
+      "product_id": "silica-molybdenum-brick",
+      "status": "display_issue",
+      "issues": [
+        "有图片配置但显示占位符（可能是JavaScript初始化问题）",
+        "可能存在重复图片"
+      ],
+      "details": {
+        "configured_images_count": 2,
+        "configured_images": [
+          "../images/products/silica-molybdenum-brick-official-1.png",
+          "../images/products/silica-molybdenum-brick-official-2.png"
+        ],
+        "main_image_src": "../images/products/silica-molybdenum-brick-official-1.png",
+        "actual_images_count": 2,
+        "actual_images": [
+          "silica-molybdenum-brick-official-1.png",
+          "silica-molybdenum-brick-official-2.png"
+        ],
+        "missing_images": [],
+        "missing_count": 0,
+        "has_placeholder": true
+      },
+      "recommendations": [
+        "检查JavaScript轮播组件是否正确初始化",
+        "验证图片路径是否正确",
+        "清除浏览器缓存后重新测试"
+      ]
+    },
+    "standard-high-alumina-brick": {
+      "product_id": "standard-high-alumina-brick",
+      "status": "display_issue",
+      "issues": [
+        "有图片配置但显示占位符（可能是JavaScript初始化问题）",
+        "可能存在重复图片"
+      ],
+      "details": {
+        "configured_images_count": 2,
+        "configured_images": [
+          "../images/products/standard-high-alumina-brick-official-1.png",
+          "../images/products/standard-high-alumina-brick-official-2.png"
+        ],
+        "main_image_src": "../images/products/standard-high-alumina-brick-official-1.png",
+        "actual_images_count": 2,
+        "actual_images": [
+          "standard-high-alumina-brick-official-1.png",
+          "standard-high-alumina-brick-official-2.png"
+        ],
+        "missing_images": [],
+        "missing_count": 0,
+        "has_placeholder": true
+      },
+      "recommendations": [
+        "检查JavaScript轮播组件是否正确初始化",
+        "验证图片路径是否正确",
+        "清除浏览器缓存后重新测试"
+      ]
+    },
+    "standard-silica-brick": {
+      "product_id": "standard-silica-brick",
+      "status": "no_images",
+      "issues": [
+        "缺少data-images配置",
+        "没有找到任何图片文件"
+      ],
+      "details": {
+        "configured_images_count": 0,
+        "main_image_src": "../images/products/standard-silica-brick-new.jpg",
+        "actual_images_count": 0,
+        "actual_images": [],
+        "missing_images": [],
+        "missing_count": 0,
+        "has_placeholder": true
+      },
+      "recommendations": [
+        "为该产品添加图片或配置合适的占位符"
+      ]
+    },
+    "steel-fiber-castable": {
+      "product_id": "steel-fiber-castable",
+      "status": "single_image_ok",
+      "issues": [],
+      "details": {
+        "configured_images_count": 1,
+        "configured_images": [
+          "../images/products/steel-fiber-castable-official-1.png"
+        ],
+        "main_image_src": "../images/products/steel-fiber-castable-official-1.png",
+        "actual_images_count": 1,
+        "actual_images": [
+          "steel-fiber-castable-official-1.png"
+        ],
+        "missing_images": [],
+        "missing_count": 0,
+        "has_placeholder": true
+      },
+      "recommendations": []
+    },
+    "thermal-insulation-brick": {
+      "product_id": "thermal-insulation-brick",
+      "status": "display_issue",
+      "issues": [
+        "有图片配置但显示占位符（可能是JavaScript初始化问题）",
+        "可能存在重复图片"
+      ],
+      "details": {
+        "configured_images_count": 2,
+        "configured_images": [
+          "../images/products/thermal-insulation-brick-official-1.png",
+          "../images/products/thermal-insulation-brick-official-2.png"
+        ],
+        "main_image_src": "../images/products/thermal-insulation-brick-official-1.png",
+        "actual_images_count": 2,
+        "actual_images": [
+          "thermal-insulation-brick-official-1.png",
+          "thermal-insulation-brick-official-2.png"
+        ],
+        "missing_images": [],
+        "missing_count": 0,
+        "has_placeholder": true
+      },
+      "recommendations": [
+        "检查JavaScript轮播组件是否正确初始化",
+        "验证图片路径是否正确",
+        "清除浏览器缓存后重新测试"
+      ]
+    },
+    "unshaped-refractory-material": {
+      "product_id": "unshaped-refractory-material",
+      "status": "single_image_ok",
+      "issues": [],
+      "details": {
+        "configured_images_count": 1,
+        "configured_images": [
+          "../images/products/unshaped-refractory-material-20.png"
+        ],
+        "main_image_src": "../images/products/unshaped-refractory-material-1.png",
+        "actual_images_count": 1,
+        "actual_images": [
+          "unshaped-refractory-material-20.png"
+        ],
+        "missing_images": [],
+        "missing_count": 0,
+        "has_placeholder": true
+      },
+      "recommendations": []
+    },
+    "unshaped-refractory": {
+      "product_id": "unshaped-refractory",
+      "status": "single_image_ok",
+      "issues": [],
+      "details": {
+        "configured_images_count": 1,
+        "configured_images": [
+          "../images/products/unshaped-refractory-material-20.png"
+        ],
+        "main_image_src": "../images/products/unshaped-refractory-1.png",
+        "actual_images_count": 1,
+        "actual_images": [
+          "unshaped-refractory-material-20.png"
+        ],
+        "missing_images": [],
+        "missing_count": 0,
+        "has_placeholder": true
+      },
+      "recommendations": []
+    },
+    "wear-resistant-ceramic": {
+      "product_id": "wear-resistant-ceramic",
+      "status": "no_images",
+      "issues": [
+        "缺少data-images配置",
+        "没有找到任何图片文件"
+      ],
+      "details": {
+        "configured_images_count": 0,
+        "main_image_src": "../images/products/phosphate-wear-resistant-brick-4.png",
+        "actual_images_count": 0,
+        "actual_images": [],
+        "missing_images": [],
+        "missing_count": 0,
+        "has_placeholder": true
+      },
+      "recommendations": [
+        "为该产品添加图片或配置合适的占位符"
+      ]
+    }
+  },
+  "generated_at": null
+}

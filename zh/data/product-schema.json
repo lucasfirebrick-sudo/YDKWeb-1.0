@@ -1,0 +1,407 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "type": "object",
+  "title": "Refractory Product Data Schema",
+  "description": "统一的耐火材料产品数据结构 - 支持65个产品页面的所有数据类型",
+  "required": ["metadata", "product"],
+  "properties": {
+    "metadata": {
+      "type": "object",
+      "description": "页面元数据信息",
+      "required": ["filename", "lastModified"],
+      "properties": {
+        "filename": {
+          "type": "string",
+          "description": "HTML文件名"
+        },
+        "lastModified": {
+          "type": "string",
+          "format": "date-time",
+          "description": "最后修改时间"
+        },
+        "language": {
+          "type": "string",
+          "default": "zh-CN",
+          "description": "页面语言"
+        },
+        "fileSize": {
+          "type": "integer",
+          "description": "原文件大小(字节)"
+        }
+      }
+    },
+    "seo": {
+      "type": "object",
+      "description": "SEO相关数据",
+      "properties": {
+        "title": {
+          "type": "string",
+          "description": "页面标题"
+        },
+        "description": {
+          "type": "string",
+          "description": "页面描述"
+        },
+        "keywords": {
+          "type": "string",
+          "description": "关键词"
+        },
+        "canonicalUrl": {
+          "type": "string",
+          "format": "uri",
+          "description": "规范URL"
+        },
+        "ogImage": {
+          "type": "string",
+          "format": "uri",
+          "description": "Open Graph图片"
+        }
+      }
+    },
+    "product": {
+      "type": "object",
+      "description": "产品核心数据",
+      "required": ["name", "category"],
+      "properties": {
+        "name": {
+          "type": "object",
+          "description": "产品名称（中英文）",
+          "required": ["chinese"],
+          "properties": {
+            "chinese": {
+              "type": "string",
+              "description": "中文产品名"
+            },
+            "english": {
+              "type": "string",
+              "description": "英文产品名"
+            }
+          }
+        },
+        "category": {
+          "type": "object",
+          "description": "产品分类信息",
+          "required": ["primary"],
+          "properties": {
+            "primary": {
+              "type": "string",
+              "enum": ["定型耐火制品", "不定型耐火材料", "轻质保温制品", "特种耐火制品"],
+              "description": "主要分类"
+            },
+            "secondary": {
+              "type": "string",
+              "description": "次要分类"
+            },
+            "series": {
+              "type": "string",
+              "description": "产品系列"
+            }
+          }
+        },
+        "breadcrumb": {
+          "type": "array",
+          "description": "面包屑导航",
+          "items": {
+            "type": "object",
+            "required": ["name"],
+            "properties": {
+              "name": { "type": "string" },
+              "icon": { "type": "string" },
+              "url": { "type": "string" },
+              "active": { "type": "boolean", "default": false }
+            }
+          }
+        },
+        "description": {
+          "type": "object",
+          "description": "产品描述信息",
+          "properties": {
+            "summary": {
+              "type": "string",
+              "description": "产品简介"
+            },
+            "detailed": {
+              "type": "string",
+              "description": "详细描述"
+            },
+            "subtitle": {
+              "type": "string",
+              "description": "副标题"
+            }
+          }
+        },
+        "images": {
+          "type": "object",
+          "description": "产品图片资源",
+          "properties": {
+            "main": {
+              "type": "string",
+              "format": "uri",
+              "description": "主图片"
+            },
+            "thumbnails": {
+              "type": "array",
+              "description": "缩略图列表",
+              "items": { "type": "string", "format": "uri" }
+            },
+            "fallback": {
+              "type": "string",
+              "format": "uri",
+              "description": "备用图片"
+            }
+          }
+        },
+        "highlights": {
+          "type": "array",
+          "description": "产品亮点标签",
+          "items": {
+            "type": "object",
+            "required": ["text"],
+            "properties": {
+              "icon": { "type": "string" },
+              "text": { "type": "string" }
+            }
+          }
+        },
+        "advantages": {
+          "type": "array",
+          "description": "产品优势",
+          "items": {
+            "type": "object",
+            "required": ["title"],
+            "properties": {
+              "title": { "type": "string" },
+              "icon": { "type": "string" },
+              "description": { "type": "string" }
+            }
+          }
+        },
+        "specifications": {
+          "type": "object",
+          "description": "技术规格参数",
+          "properties": {
+            "headers": {
+              "type": "array",
+              "description": "表头字段",
+              "items": { "type": "string" },
+              "default": ["项目", "指标", "单位", "标准"]
+            },
+            "data": {
+              "type": "array",
+              "description": "规格数据",
+              "items": {
+                "type": "object",
+                "required": ["property", "value"],
+                "properties": {
+                  "property": { "type": "string", "description": "参数项目" },
+                  "value": { "type": "string", "description": "参数值" },
+                  "unit": { "type": "string", "description": "单位" },
+                  "standard": { "type": "string", "description": "执行标准" }
+                }
+              }
+            },
+            "notes": {
+              "type": "array",
+              "description": "技术说明",
+              "items": { "type": "string" }
+            }
+          }
+        },
+        "features": {
+          "type": "array",
+          "description": "产品特点详述",
+          "items": {
+            "type": "object",
+            "required": ["title"],
+            "properties": {
+              "title": { "type": "string" },
+              "icon": { "type": "string" },
+              "description": { "type": "string" }
+            }
+          }
+        },
+        "applications": {
+          "type": "object",
+          "description": "应用领域信息",
+          "properties": {
+            "industries": {
+              "type": "array",
+              "description": "适用行业",
+              "items": {
+                "type": "object",
+                "required": ["name"],
+                "properties": {
+                  "name": { "type": "string" },
+                  "icon": { "type": "string" },
+                  "description": { "type": "string" }
+                }
+              }
+            },
+            "cases": {
+              "type": "array",
+              "description": "应用案例",
+              "items": {
+                "type": "object",
+                "required": ["title"],
+                "properties": {
+                  "title": { "type": "string" },
+                  "industry": { "type": "string" },
+                  "location": { "type": "string" },
+                  "application": { "type": "string" },
+                  "challenge": { "type": "string" },
+                  "solution": { "type": "string" },
+                  "result": { "type": "string" },
+                  "benefits": {
+                    "type": "array",
+                    "items": { "type": "string" }
+                  }
+                }
+              }
+            },
+            "scenarios": {
+              "type": "array",
+              "description": "应用场景",
+              "items": {
+                "type": "object",
+                "required": ["name"],
+                "properties": {
+                  "name": { "type": "string" },
+                  "description": { "type": "string" },
+                  "details": {
+                    "type": "array",
+                    "items": { "type": "string" }
+                  }
+                }
+              }
+            }
+          }
+        },
+        "installation": {
+          "type": "object",
+          "description": "安装使用指南",
+          "properties": {
+            "steps": {
+              "type": "array",
+              "description": "安装步骤",
+              "items": {
+                "type": "object",
+                "required": ["stepNumber", "title"],
+                "properties": {
+                  "stepNumber": { "type": "integer" },
+                  "title": { "type": "string" },
+                  "description": { "type": "string" }
+                }
+              }
+            },
+            "tips": {
+              "type": "array",
+              "description": "安装注意事项",
+              "items": { "type": "string" }
+            }
+          }
+        },
+        "maintenance": {
+          "type": "object",
+          "description": "维护保养信息",
+          "properties": {
+            "dailyMaintenance": {
+              "type": "array",
+              "description": "日常维护",
+              "items": { "type": "string" }
+            },
+            "repairGuide": {
+              "type": "array",
+              "description": "维修指南",
+              "items": {
+                "type": "object",
+                "required": ["type"],
+                "properties": {
+                  "type": { "type": "string" },
+                  "icon": { "type": "string" },
+                  "description": { "type": "string" }
+                }
+              }
+            },
+            "preventiveMaintenance": {
+              "type": "array",
+              "description": "预防性维护",
+              "items": { "type": "string" }
+            }
+          }
+        },
+        "certifications": {
+          "type": "array",
+          "description": "质量认证信息",
+          "items": {
+            "type": "object",
+            "required": ["name"],
+            "properties": {
+              "name": { "type": "string" },
+              "icon": { "type": "string" },
+              "description": { "type": "string" }
+            }
+          }
+        },
+        "relatedProducts": {
+          "type": "array",
+          "description": "相关产品推荐",
+          "items": {
+            "type": "object",
+            "required": ["name"],
+            "properties": {
+              "name": { "type": "string" },
+              "icon": { "type": "string" },
+              "url": { "type": "string" }
+            }
+          }
+        },
+        "quickSpecs": {
+          "type": "array",
+          "description": "快速规格参数",
+          "items": {
+            "type": "object",
+            "required": ["label", "value"],
+            "properties": {
+              "label": { "type": "string" },
+              "value": { "type": "string" }
+            }
+          }
+        }
+      }
+    },
+    "contact": {
+      "type": "object",
+      "description": "联系信息",
+      "properties": {
+        "phones": {
+          "type": "array",
+          "description": "联系电话",
+          "items": { "type": "string" }
+        },
+        "email": {
+          "type": "string",
+          "format": "email",
+          "description": "电子邮箱"
+        },
+        "address": {
+          "type": "string",
+          "description": "地址"
+        }
+      }
+    },
+    "schemaOrg": {
+      "type": "object",
+      "description": "Schema.org结构化数据（用于SEO）",
+      "properties": {
+        "@context": { "type": "string", "default": "https://schema.org" },
+        "@type": { "type": "string", "default": "Product" },
+        "name": { "type": "string" },
+        "description": { "type": "string" },
+        "image": { "type": "string", "format": "uri" },
+        "brand": { "type": "object" },
+        "manufacturer": { "type": "object" },
+        "category": { "type": "string" }
+      }
+    }
+  }
+}

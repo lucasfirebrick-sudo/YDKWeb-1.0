@@ -1,0 +1,248 @@
+/* ========== 精简统一按钮样式系统 ========== */
+/* 替代原有的复杂按钮样式，统一为5种核心类型 */
+
+/* 基础按钮样式 */
+.btn {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+    padding: 0.75rem 1.5rem;
+    border: 2px solid transparent;
+    border-radius: 6px;
+    font-family: inherit;
+    font-size: 1rem;
+    font-weight: 500;
+    line-height: 1.2;
+    text-decoration: none;
+    text-align: center;
+    white-space: nowrap;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    user-select: none;
+
+    /* 防止按钮文字被选中 */
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+}
+
+/* 按钮焦点状态 */
+.btn:focus {
+    outline: none;
+    box-shadow: 0 0 0 3px rgba(211, 47, 47, 0.3);
+}
+
+/* 按钮禁用状态 */
+.btn:disabled,
+.btn.disabled {
+    opacity: 0.6;
+    cursor: not-allowed;
+    pointer-events: none;
+}
+
+/* ========== 核心按钮类型 ========== */
+
+/* 1. 主要按钮 - 红色主色调 */
+.btn-primary {
+    background: var(--primary-color, #d32f2f);
+    color: white;
+    border-color: var(--primary-color, #d32f2f);
+}
+
+.btn-primary:hover:not(:disabled) {
+    background: var(--primary-dark, #b71c1c);
+    border-color: var(--primary-dark, #b71c1c);
+    color: white;
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(211, 47, 47, 0.3);
+}
+
+/* 2. 次要按钮 - 白色背景，红色边框 */
+.btn-secondary,
+.btn-outline {
+    background: white;
+    color: var(--primary-color, #d32f2f);
+    border-color: var(--primary-color, #d32f2f);
+}
+
+.btn-secondary:hover:not(:disabled),
+.btn-outline:hover:not(:disabled) {
+    background: var(--primary-color, #d32f2f);
+    color: white;
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(211, 47, 47, 0.2);
+}
+
+/* 3. 成功按钮 - 绿色 */
+.btn-success {
+    background: #25D366;
+    color: white;
+    border-color: #25D366;
+}
+
+.btn-success:hover:not(:disabled) {
+    background: #128C7E;
+    border-color: #128C7E;
+    color: white;
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(37, 211, 102, 0.3);
+}
+
+/* 4. 警告按钮 - 橙色 */
+.btn-warning {
+    background: #ff9800;
+    color: white;
+    border-color: #ff9800;
+}
+
+.btn-warning:hover:not(:disabled) {
+    background: #f57c00;
+    border-color: #f57c00;
+    color: white;
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(255, 152, 0, 0.3);
+}
+
+/* 5. 浅色按钮 - 浅灰色 */
+.btn-light {
+    background: #f8f9fa;
+    color: #333;
+    border-color: #e9ecef;
+}
+
+.btn-light:hover:not(:disabled) {
+    background: #e9ecef;
+    border-color: #dee2e6;
+    color: #333;
+    transform: translateY(-1px);
+}
+
+/* ========== 按钮尺寸变体 ========== */
+
+/* 小尺寸按钮 */
+.btn-sm {
+    padding: 0.5rem 1rem;
+    font-size: 0.875rem;
+    border-radius: 4px;
+}
+
+/* 大尺寸按钮 */
+.btn-lg {
+    padding: 1rem 2rem;
+    font-size: 1.125rem;
+    border-radius: 8px;
+}
+
+/* 特大尺寸按钮 */
+.btn-xl {
+    padding: 1.25rem 2.5rem;
+    font-size: 1.25rem;
+    border-radius: 10px;
+}
+
+/* ========== 特殊样式按钮 ========== */
+
+/* 全宽按钮 */
+.btn-block {
+    width: 100%;
+    display: flex;
+}
+
+/* 圆形按钮 */
+.btn-rounded {
+    border-radius: 50px;
+}
+
+/* 图标按钮 */
+.btn-icon-only {
+    padding: 0.75rem;
+    width: auto;
+    aspect-ratio: 1;
+}
+
+/* ========== 响应式适配 ========== */
+
+@media (max-width: 768px) {
+    .btn {
+        padding: 0.625rem 1.25rem;
+        font-size: 0.9rem;
+    }
+
+    .btn-lg {
+        padding: 0.875rem 1.75rem;
+        font-size: 1rem;
+    }
+
+    .btn-xl {
+        padding: 1rem 2rem;
+        font-size: 1.125rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .btn {
+        padding: 0.5rem 1rem;
+        font-size: 0.875rem;
+    }
+
+    .btn-lg {
+        padding: 0.75rem 1.5rem;
+        font-size: 0.9rem;
+    }
+}
+
+/* ========== 兼容性样式 ========== */
+
+/* 保持与现有CTA按钮的兼容性 */
+.btn-cta-primary {
+    @apply .btn .btn-primary .btn-lg .btn-rounded;
+}
+
+.btn-cta-secondary {
+    @apply .btn .btn-secondary .btn-lg .btn-rounded;
+}
+
+/* WhatsApp按钮特殊样式 */
+.btn-whatsapp {
+    background: #25D366;
+    color: white;
+    border-color: #25D366;
+}
+
+.btn-whatsapp:hover:not(:disabled) {
+    background: #128C7E;
+    border-color: #128C7E;
+    color: white;
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(37, 211, 102, 0.3);
+}
+
+/* ========== 动画效果 ========== */
+
+/* 按钮点击效果 */
+.btn:active {
+    transform: scale(0.98);
+}
+
+/* 加载状态 */
+.btn.loading {
+    position: relative;
+    pointer-events: none;
+}
+
+.btn.loading::after {
+    content: '';
+    position: absolute;
+    width: 16px;
+    height: 16px;
+    border: 2px solid transparent;
+    border-top: 2px solid currentColor;
+    border-radius: 50%;
+    animation: btn-loading 1s linear infinite;
+}
+
+@keyframes btn-loading {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}

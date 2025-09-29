@@ -1,0 +1,1895 @@
+{
+  "timestamp": "D:\\ai\\新建文件夹\\新建文件夹\\7788",
+  "homepage_analysis": {
+    "total_cards": 8,
+    "images_exist": 8,
+    "images_missing": 0,
+    "cards": [
+      {
+        "card_number": 1,
+        "product_name": "粘土砖",
+        "image_src": "images/products/shaped_clay_brick.jpg",
+        "image_exists": true,
+        "status": "✅ 正常"
+      },
+      {
+        "card_number": 2,
+        "product_name": "高铝砖",
+        "image_src": "images/products/shaped_high_alumina_brick.jpg",
+        "image_exists": true,
+        "status": "✅ 正常"
+      },
+      {
+        "card_number": 3,
+        "product_name": "保温砖",
+        "image_src": "images/products/shaped_lightweight_high_alumina_brick.jpg",
+        "image_exists": true,
+        "status": "✅ 正常"
+      },
+      {
+        "card_number": 4,
+        "product_name": "浇注料",
+        "image_src": "images/products/unshaped_high_alumina_castable.jpg",
+        "image_exists": true,
+        "status": "✅ 正常"
+      },
+      {
+        "card_number": 5,
+        "product_name": "硅砖",
+        "image_src": "images/products/shaped_silica_brick.jpg",
+        "image_exists": true,
+        "status": "✅ 正常"
+      },
+      {
+        "card_number": 6,
+        "product_name": "烧结莫来石砖",
+        "image_src": "images/products/shaped_sintered_mullite_brick.jpg",
+        "image_exists": true,
+        "status": "✅ 正常"
+      },
+      {
+        "card_number": 7,
+        "product_name": "轻质莫来石砖",
+        "image_src": "images/products/shaped_lightweight_mullite_brick.jpg",
+        "image_exists": true,
+        "status": "✅ 正常"
+      },
+      {
+        "card_number": 8,
+        "product_name": "钢纤维浇注料",
+        "image_src": "images/products/unshaped_steel_fiber_castable.jpg",
+        "image_exists": true,
+        "status": "✅ 正常"
+      }
+    ]
+  },
+  "products_center_analysis": {
+    "total_cards": 32,
+    "images_exist": 32,
+    "images_missing": 0,
+    "cards": [
+      {
+        "card_number": 1,
+        "product_name": "高铝砖",
+        "image_src": "images/products/high-alumina-brick-real.png",
+        "image_exists": true,
+        "status": "✅ 正常"
+      },
+      {
+        "card_number": 2,
+        "product_name": "粘土砖",
+        "image_src": "images/products/clay-brick-real.png",
+        "image_exists": true,
+        "status": "✅ 正常"
+      },
+      {
+        "card_number": 3,
+        "product_name": "硅砖",
+        "image_src": "images/products/silica-brick-real.png",
+        "image_exists": true,
+        "status": "✅ 正常"
+      },
+      {
+        "card_number": 4,
+        "product_name": "莫来石砖",
+        "image_src": "images/products/sintered-mullite-brick-real.png",
+        "image_exists": true,
+        "status": "✅ 正常"
+      },
+      {
+        "card_number": 5,
+        "product_name": "轻质粘土砖",
+        "image_src": "images/products/shaped_lightweight_clay_brick.jpg",
+        "image_exists": true,
+        "status": "✅ 正常"
+      },
+      {
+        "card_number": 6,
+        "product_name": "半硅砖",
+        "image_src": "images/products/shaped_combination_brick.jpg",
+        "image_exists": true,
+        "status": "✅ 正常"
+      },
+      {
+        "card_number": 7,
+        "product_name": "轻质硅砖",
+        "image_src": "images/products/shaped_lightweight_fireclay_brick.jpg",
+        "image_exists": true,
+        "status": "✅ 正常"
+      },
+      {
+        "card_number": 8,
+        "product_name": "一般硅砖",
+        "image_src": "images/products/shaped_silica_brick.jpg",
+        "image_exists": true,
+        "status": "✅ 正常"
+      },
+      {
+        "card_number": 9,
+        "product_name": "耐火浇注料",
+        "image_src": "images/products/unshaped_corundum_castable.jpg",
+        "image_exists": true,
+        "status": "✅ 正常"
+      },
+      {
+        "card_number": 10,
+        "product_name": "钢纤维浇注料",
+        "image_src": "images/products/unshaped_steel_fiber_castable.jpg",
+        "image_exists": true,
+        "status": "✅ 正常"
+      },
+      {
+        "card_number": 11,
+        "product_name": "刚玉莫来石",
+        "image_src": "images/products/special_corundum_mullite.jpg",
+        "image_exists": true,
+        "status": "✅ 正常"
+      },
+      {
+        "card_number": 12,
+        "product_name": "轻质高铝砖",
+        "image_src": "images/products/lightweight-high-alumina-brick-official-1.png",
+        "image_exists": true,
+        "status": "✅ 正常"
+      },
+      {
+        "card_number": 13,
+        "product_name": "标准硅砖",
+        "image_src": "images/products/shaped_hot_blast_furnace_silica_brick.jpg",
+        "image_exists": true,
+        "status": "✅ 正常"
+      },
+      {
+        "card_number": 14,
+        "product_name": "标准高铝砖",
+        "image_src": "images/products/shaped_high_alumina_brick.jpg",
+        "image_exists": true,
+        "status": "✅ 正常"
+      },
+      {
+        "card_number": 15,
+        "product_name": "重质粘土砖",
+        "image_src": "images/products/shaped_clay_brick.jpg",
+        "image_exists": true,
+        "status": "✅ 正常"
+      },
+      {
+        "card_number": 16,
+        "product_name": "轻质莫来石砖",
+        "image_src": "images/products/shaped_lightweight_mullite_brick.jpg",
+        "image_exists": true,
+        "status": "✅ 正常"
+      },
+      {
+        "card_number": 17,
+        "product_name": "保温砖",
+        "image_src": "images/products/shaped_mullite_light_brick.jpg",
+        "image_exists": true,
+        "status": "✅ 正常"
+      },
+      {
+        "card_number": 18,
+        "product_name": "焦炉砖",
+        "image_src": "images/products/shaped_high_alumina_light_brick.jpg",
+        "image_exists": true,
+        "status": "✅ 正常"
+      },
+      {
+        "card_number": 19,
+        "product_name": "硅钼砖",
+        "image_src": "images/products/shaped_lightweight_high_alumina_brick.jpg",
+        "image_exists": true,
+        "status": "✅ 正常"
+      },
+      {
+        "card_number": 20,
+        "product_name": "热风炉用格子硅砖",
+        "image_src": "images/products/shaped_silica_mullite_brick.jpg",
+        "image_exists": true,
+        "status": "✅ 正常"
+      },
+      {
+        "card_number": 21,
+        "product_name": "热风炉用硅砖",
+        "image_src": "images/products/hot-blast-stove-silica-brick-official-1.png",
+        "image_exists": true,
+        "status": "✅ 正常"
+      },
+      {
+        "card_number": 22,
+        "product_name": "高铝浇注料",
+        "image_src": "images/products/unshaped_high_alumina_castable.jpg",
+        "image_exists": true,
+        "status": "✅ 正常"
+      },
+      {
+        "card_number": 23,
+        "product_name": "不定型耐火材料",
+        "image_src": "images/products/unshaped-refractory-material-20.png",
+        "image_exists": true,
+        "status": "✅ 正常"
+      },
+      {
+        "card_number": 24,
+        "product_name": "高炉陶瓷杯",
+        "image_src": "images/products/unshaped_blast_furnace_ceramic_cup.jpg",
+        "image_exists": true,
+        "status": "✅ 正常"
+      },
+      {
+        "card_number": 25,
+        "product_name": "铬刚玉浇注料",
+        "image_src": "images/products/unshaped_chrome_corundum_castable.jpg",
+        "image_exists": true,
+        "status": "✅ 正常"
+      },
+      {
+        "card_number": 26,
+        "product_name": "不定型耐火制品",
+        "image_src": "images/products/unshaped_monolithic_refractory.jpg",
+        "image_exists": true,
+        "status": "✅ 正常"
+      },
+      {
+        "card_number": 27,
+        "product_name": "刚玉球",
+        "image_src": "images/products/special_corundum_ball.jpg",
+        "image_exists": true,
+        "status": "✅ 正常"
+      },
+      {
+        "card_number": 28,
+        "product_name": "刚玉砖",
+        "image_src": "images/products/special_corundum_brick.jpg",
+        "image_exists": true,
+        "status": "✅ 正常"
+      },
+      {
+        "card_number": 29,
+        "product_name": "磷酸盐耐磨砖",
+        "image_src": "images/products/special_phosphate_wear_resistant_brick.jpg",
+        "image_exists": true,
+        "status": "✅ 正常"
+      },
+      {
+        "card_number": 30,
+        "product_name": "磷酸盐砖",
+        "image_src": "images/products/special_phosphate_brick.jpg",
+        "image_exists": true,
+        "status": "✅ 正常"
+      },
+      {
+        "card_number": 31,
+        "product_name": "镁铬砖",
+        "image_src": "images/products/special_magnesia_chrome_brick.jpg",
+        "image_exists": true,
+        "status": "✅ 正常"
+      },
+      {
+        "card_number": 32,
+        "product_name": "氧化铝空心球砖",
+        "image_src": "images/products/special_alumina_hollow_sphere_brick.jpg",
+        "image_exists": true,
+        "status": "✅ 正常"
+      }
+    ]
+  },
+  "product_details_analysis": {
+    "total_products": 39,
+    "ok_count": 32,
+    "issues_count": 7,
+    "error_count": 0,
+    "common_issues": {
+      "主图片文件不存在": 7
+    },
+    "detailed_results": {
+      "alumina-castable": {
+        "product_id": "alumina-castable",
+        "status": "ok",
+        "issues": [],
+        "structure_problems": [],
+        "image_analysis": {
+          "main_image_count": 1,
+          "main_src": "../images/products/alumina-castable-official-1.png",
+          "main_src_exists": true,
+          "has_data_images": true,
+          "data_images": [
+            "../images/products/alumina-castable-official-1.png",
+            "../images/products/alumina-castable-official-2.png"
+          ],
+          "data_images_count": 2
+        },
+        "placeholder_analysis": {
+          "has_placeholders": true,
+          "placeholder_count": 2,
+          "placeholder_types": [
+            "<div class=\"no-images-placeholder hidden\">",
+            "产品图片更新中"
+          ]
+        },
+        "javascript_analysis": {
+          "total_scripts": 8,
+          "has_multi_gallery": true,
+          "has_product_database": true,
+          "all_scripts": [
+            "../js/product-database.js",
+            "../js/pdf-generator.js",
+            "../js/modal-components.js",
+            "../js/ydk-navbar.js",
+            "../js/ydk-footer.js",
+            "../js/placeholder-randomizer.js",
+            "../js/quote-wizard.js",
+            "../js/multi-image-gallery.js"
+          ]
+        }
+      },
+      "alumina-hollow-sphere-brick": {
+        "product_id": "alumina-hollow-sphere-brick",
+        "status": "ok",
+        "issues": [],
+        "structure_problems": [],
+        "image_analysis": {
+          "main_image_count": 1,
+          "main_src": "../images/products/alumina-hollow-sphere-brick-official-1.png",
+          "main_src_exists": true,
+          "has_data_images": true,
+          "data_images": [
+            "../images/products/alumina-hollow-sphere-brick-official-1.png",
+            "../images/products/alumina-hollow-sphere-brick-official-2.png",
+            "../images/products/alumina-hollow-sphere-brick-1.png",
+            "../images/products/alumina-hollow-sphere-brick-2.png"
+          ],
+          "data_images_count": 4
+        },
+        "placeholder_analysis": {
+          "has_placeholders": true,
+          "placeholder_count": 2,
+          "placeholder_types": [
+            "<div class=\"no-images-placeholder hidden\">",
+            "产品图片更新中"
+          ]
+        },
+        "javascript_analysis": {
+          "total_scripts": 8,
+          "has_multi_gallery": true,
+          "has_product_database": true,
+          "all_scripts": [
+            "../js/product-database.js",
+            "../js/pdf-generator.js",
+            "../js/modal-components.js",
+            "../js/ydk-navbar.js",
+            "../js/ydk-footer.js",
+            "../js/placeholder-randomizer.js",
+            "../js/quote-wizard.js",
+            "../js/multi-image-gallery.js"
+          ]
+        }
+      },
+      "blast-furnace-ceramic-cup": {
+        "product_id": "blast-furnace-ceramic-cup",
+        "status": "ok",
+        "issues": [],
+        "structure_problems": [],
+        "image_analysis": {
+          "main_image_count": 1,
+          "main_src": "../images/products/blast-furnace-ceramic-cup-official-1.png",
+          "main_src_exists": true,
+          "has_data_images": true,
+          "data_images": [
+            "../images/products/blast-furnace-ceramic-cup-official-1.png",
+            "../images/products/blast-furnace-ceramic-cup-official-2.png"
+          ],
+          "data_images_count": 2
+        },
+        "placeholder_analysis": {
+          "has_placeholders": true,
+          "placeholder_count": 2,
+          "placeholder_types": [
+            "<div class=\"no-images-placeholder hidden\">",
+            "产品图片更新中"
+          ]
+        },
+        "javascript_analysis": {
+          "total_scripts": 8,
+          "has_multi_gallery": true,
+          "has_product_database": true,
+          "all_scripts": [
+            "../js/product-database.js",
+            "../js/pdf-generator.js",
+            "../js/modal-components.js",
+            "../js/ydk-navbar.js",
+            "../js/ydk-footer.js",
+            "../js/placeholder-randomizer.js",
+            "../js/quote-wizard.js",
+            "../js/multi-image-gallery.js"
+          ]
+        }
+      },
+      "chrome-corundum-castable": {
+        "product_id": "chrome-corundum-castable",
+        "status": "ok",
+        "issues": [],
+        "structure_problems": [],
+        "image_analysis": {
+          "main_image_count": 1,
+          "main_src": "../images/products/chrome-corundum-castable-official-1.png",
+          "main_src_exists": true,
+          "has_data_images": true,
+          "data_images": [
+            "../images/products/chrome-corundum-castable-official-1.png"
+          ],
+          "data_images_count": 1
+        },
+        "placeholder_analysis": {
+          "has_placeholders": true,
+          "placeholder_count": 2,
+          "placeholder_types": [
+            "<div class=\"no-images-placeholder hidden\">",
+            "产品图片更新中"
+          ]
+        },
+        "javascript_analysis": {
+          "total_scripts": 8,
+          "has_multi_gallery": true,
+          "has_product_database": true,
+          "all_scripts": [
+            "../js/product-database.js",
+            "../js/pdf-generator.js",
+            "../js/modal-components.js",
+            "../js/ydk-navbar.js",
+            "../js/ydk-footer.js",
+            "../js/placeholder-randomizer.js",
+            "../js/quote-wizard.js",
+            "../js/multi-image-gallery.js"
+          ]
+        }
+      },
+      "clay-brick": {
+        "product_id": "clay-brick",
+        "status": "ok",
+        "issues": [],
+        "structure_problems": [],
+        "image_analysis": {
+          "main_image_count": 1,
+          "main_src": "../images/products/clay-brick-real.png",
+          "main_src_exists": true,
+          "has_data_images": true,
+          "data_images": [
+            "../images/products/clay-brick-real.png"
+          ],
+          "data_images_count": 1
+        },
+        "placeholder_analysis": {
+          "has_placeholders": true,
+          "placeholder_count": 2,
+          "placeholder_types": [
+            "<div class=\"no-images-placeholder hidden\">",
+            "产品图片更新中"
+          ]
+        },
+        "javascript_analysis": {
+          "total_scripts": 8,
+          "has_multi_gallery": true,
+          "has_product_database": true,
+          "all_scripts": [
+            "../js/product-database.js",
+            "../js/pdf-generator.js",
+            "../js/modal-components.js",
+            "../js/ydk-navbar.js",
+            "../js/ydk-footer.js",
+            "../js/placeholder-randomizer.js",
+            "../js/multi-image-gallery.js",
+            "../js/quote-wizard.js"
+          ]
+        }
+      },
+      "coke-oven-brick": {
+        "product_id": "coke-oven-brick",
+        "status": "has_issues",
+        "issues": [
+          "主图片文件不存在"
+        ],
+        "structure_problems": [],
+        "image_analysis": {
+          "main_image_count": 1,
+          "main_src": "../images/products/placeholder.jpg",
+          "main_src_exists": false,
+          "has_data_images": true,
+          "data_images": [
+            "../images/products/placeholder.jpg"
+          ],
+          "data_images_count": 1
+        },
+        "placeholder_analysis": {
+          "has_placeholders": true,
+          "placeholder_count": 2,
+          "placeholder_types": [
+            "<div class=\"no-images-placeholder hidden\">",
+            "产品图片更新中"
+          ]
+        },
+        "javascript_analysis": {
+          "total_scripts": 8,
+          "has_multi_gallery": true,
+          "has_product_database": true,
+          "all_scripts": [
+            "../js/product-database.js",
+            "../js/pdf-generator.js",
+            "../js/modal-components.js",
+            "../js/ydk-navbar.js",
+            "../js/ydk-footer.js",
+            "../js/placeholder-randomizer.js",
+            "../js/quote-wizard.js",
+            "../js/multi-image-gallery.js"
+          ]
+        }
+      },
+      "corundum-ball": {
+        "product_id": "corundum-ball",
+        "status": "ok",
+        "issues": [],
+        "structure_problems": [],
+        "image_analysis": {
+          "main_image_count": 1,
+          "main_src": "../images/products/corundum-ball-official-1.png",
+          "main_src_exists": true,
+          "has_data_images": true,
+          "data_images": [
+            "../images/products/corundum-ball-official-1.png",
+            "../images/products/corundum-ball-official-2.png"
+          ],
+          "data_images_count": 2
+        },
+        "placeholder_analysis": {
+          "has_placeholders": true,
+          "placeholder_count": 2,
+          "placeholder_types": [
+            "<div class=\"no-images-placeholder hidden\">",
+            "产品图片更新中"
+          ]
+        },
+        "javascript_analysis": {
+          "total_scripts": 8,
+          "has_multi_gallery": true,
+          "has_product_database": true,
+          "all_scripts": [
+            "../js/product-database.js",
+            "../js/pdf-generator.js",
+            "../js/modal-components.js",
+            "../js/ydk-navbar.js",
+            "../js/ydk-footer.js",
+            "../js/placeholder-randomizer.js",
+            "../js/quote-wizard.js",
+            "../js/multi-image-gallery.js"
+          ]
+        }
+      },
+      "corundum-brick": {
+        "product_id": "corundum-brick",
+        "status": "ok",
+        "issues": [],
+        "structure_problems": [],
+        "image_analysis": {
+          "main_image_count": 1,
+          "main_src": "../images/products/corundum-brick-official-1.png",
+          "main_src_exists": true,
+          "has_data_images": true,
+          "data_images": [
+            "../images/products/corundum-brick-official-1.png",
+            "../images/products/corundum-brick-official-2.png"
+          ],
+          "data_images_count": 2
+        },
+        "placeholder_analysis": {
+          "has_placeholders": true,
+          "placeholder_count": 6,
+          "placeholder_types": [
+            "<div class=\"product-placeholder placeholder-random\" data-product=\"刚玉砖\">",
+            "<div class=\"placeholder-text\">",
+            "<div class=\"no-images-placeholder hidden\">",
+            "产品图片更新中",
+            "产品图片正在烧制中",
+            "Product Image in Production"
+          ]
+        },
+        "javascript_analysis": {
+          "total_scripts": 8,
+          "has_multi_gallery": true,
+          "has_product_database": true,
+          "all_scripts": [
+            "../js/product-database.js",
+            "../js/pdf-generator.js",
+            "../js/modal-components.js",
+            "../js/ydk-navbar.js",
+            "../js/ydk-footer.js",
+            "../js/placeholder-randomizer.js",
+            "../js/quote-wizard.js",
+            "../js/multi-image-gallery.js"
+          ]
+        }
+      },
+      "corundum-mullite": {
+        "product_id": "corundum-mullite",
+        "status": "ok",
+        "issues": [],
+        "structure_problems": [],
+        "image_analysis": {
+          "main_image_count": 1,
+          "main_src": "../images/products/corundum-mullite-official-1.png",
+          "main_src_exists": true,
+          "has_data_images": true,
+          "data_images": [
+            "../images/products/corundum-mullite-official-1.png",
+            "../images/products/corundum-mullite-official-2.png"
+          ],
+          "data_images_count": 2
+        },
+        "placeholder_analysis": {
+          "has_placeholders": true,
+          "placeholder_count": 2,
+          "placeholder_types": [
+            "<div class=\"no-images-placeholder hidden\">",
+            "产品图片更新中"
+          ]
+        },
+        "javascript_analysis": {
+          "total_scripts": 8,
+          "has_multi_gallery": true,
+          "has_product_database": true,
+          "all_scripts": [
+            "../js/product-database.js",
+            "../js/pdf-generator.js",
+            "../js/modal-components.js",
+            "../js/ydk-navbar.js",
+            "../js/ydk-footer.js",
+            "../js/placeholder-randomizer.js",
+            "../js/quote-wizard.js",
+            "../js/multi-image-gallery.js"
+          ]
+        }
+      },
+      "general-silica-brick": {
+        "product_id": "general-silica-brick",
+        "status": "ok",
+        "issues": [],
+        "structure_problems": [],
+        "image_analysis": {
+          "main_image_count": 1,
+          "main_src": "../images/products/general-silica-brick-official-1.png",
+          "main_src_exists": true,
+          "has_data_images": true,
+          "data_images": [
+            "../images/products/general-silica-brick-official-1.png",
+            "../images/products/general-silica-brick-official-2.png"
+          ],
+          "data_images_count": 2
+        },
+        "placeholder_analysis": {
+          "has_placeholders": true,
+          "placeholder_count": 2,
+          "placeholder_types": [
+            "<div class=\"no-images-placeholder hidden\">",
+            "产品图片更新中"
+          ]
+        },
+        "javascript_analysis": {
+          "total_scripts": 8,
+          "has_multi_gallery": true,
+          "has_product_database": true,
+          "all_scripts": [
+            "../js/product-database.js",
+            "../js/pdf-generator.js",
+            "../js/modal-components.js",
+            "../js/ydk-navbar.js",
+            "../js/ydk-footer.js",
+            "../js/placeholder-randomizer.js",
+            "../js/quote-wizard.js",
+            "../js/multi-image-gallery.js"
+          ]
+        }
+      },
+      "heavy-clay-brick": {
+        "product_id": "heavy-clay-brick",
+        "status": "ok",
+        "issues": [],
+        "structure_problems": [],
+        "image_analysis": {
+          "main_image_count": 1,
+          "main_src": "../images/products/heavy-clay-brick-official-1.png",
+          "main_src_exists": true,
+          "has_data_images": true,
+          "data_images": [
+            "../images/products/heavy-clay-brick-official-1.png",
+            "../images/products/heavy-clay-brick-official-2.png"
+          ],
+          "data_images_count": 2
+        },
+        "placeholder_analysis": {
+          "has_placeholders": true,
+          "placeholder_count": 2,
+          "placeholder_types": [
+            "<div class=\"no-images-placeholder hidden\">",
+            "产品图片更新中"
+          ]
+        },
+        "javascript_analysis": {
+          "total_scripts": 8,
+          "has_multi_gallery": true,
+          "has_product_database": true,
+          "all_scripts": [
+            "../js/product-database.js",
+            "../js/pdf-generator.js",
+            "../js/modal-components.js",
+            "../js/ydk-navbar.js",
+            "../js/ydk-footer.js",
+            "../js/placeholder-randomizer.js",
+            "../js/quote-wizard.js",
+            "../js/multi-image-gallery.js"
+          ]
+        }
+      },
+      "high-alumina-brick": {
+        "product_id": "high-alumina-brick",
+        "status": "ok",
+        "issues": [],
+        "structure_problems": [],
+        "image_analysis": {
+          "main_image_count": 1,
+          "main_src": "../images/products/high-alumina-brick-real.png",
+          "main_src_exists": true,
+          "has_data_images": true,
+          "data_images": [
+            "../images/products/high-alumina-brick-real.png",
+            "../images/products/high-alumina-brick.jpg"
+          ],
+          "data_images_count": 2
+        },
+        "placeholder_analysis": {
+          "has_placeholders": true,
+          "placeholder_count": 2,
+          "placeholder_types": [
+            "<div class=\"no-images-placeholder hidden\">",
+            "产品图片更新中"
+          ]
+        },
+        "javascript_analysis": {
+          "total_scripts": 8,
+          "has_multi_gallery": true,
+          "has_product_database": true,
+          "all_scripts": [
+            "../js/product-database.js",
+            "../js/pdf-generator.js",
+            "../js/modal-components.js",
+            "../js/ydk-navbar.js",
+            "../js/ydk-footer.js",
+            "../js/placeholder-randomizer.js",
+            "../js/multi-image-gallery.js",
+            "../js/quote-wizard.js"
+          ]
+        }
+      },
+      "hot-blast-stove-checker-silica-brick": {
+        "product_id": "hot-blast-stove-checker-silica-brick",
+        "status": "ok",
+        "issues": [],
+        "structure_problems": [],
+        "image_analysis": {
+          "main_image_count": 1,
+          "main_src": "../images/products/shaped_hot_blast_furnace_silica_brick.jpg",
+          "main_src_exists": true,
+          "has_data_images": false,
+          "data_images": [],
+          "data_images_count": 0
+        },
+        "placeholder_analysis": {
+          "has_placeholders": true,
+          "placeholder_count": 2,
+          "placeholder_types": [
+            "<div class=\"no-images-placeholder hidden\">",
+            "产品图片更新中"
+          ]
+        },
+        "javascript_analysis": {
+          "total_scripts": 8,
+          "has_multi_gallery": true,
+          "has_product_database": true,
+          "all_scripts": [
+            "../js/product-database.js",
+            "../js/pdf-generator.js",
+            "../js/modal-components.js",
+            "../js/ydk-navbar.js",
+            "../js/ydk-footer.js",
+            "../js/placeholder-randomizer.js",
+            "../js/quote-wizard.js",
+            "../js/multi-image-gallery.js"
+          ]
+        }
+      },
+      "hot-blast-stove-clay-checker-brick": {
+        "product_id": "hot-blast-stove-clay-checker-brick",
+        "status": "has_issues",
+        "issues": [
+          "主图片文件不存在"
+        ],
+        "structure_problems": [],
+        "image_analysis": {
+          "main_image_count": 1,
+          "main_src": "../images/products/placeholder.jpg",
+          "main_src_exists": false,
+          "has_data_images": true,
+          "data_images": [
+            "../images/products/placeholder.jpg"
+          ],
+          "data_images_count": 1
+        },
+        "placeholder_analysis": {
+          "has_placeholders": true,
+          "placeholder_count": 2,
+          "placeholder_types": [
+            "<div class=\"no-images-placeholder hidden\">",
+            "产品图片更新中"
+          ]
+        },
+        "javascript_analysis": {
+          "total_scripts": 8,
+          "has_multi_gallery": true,
+          "has_product_database": true,
+          "all_scripts": [
+            "../js/product-database.js",
+            "../js/pdf-generator.js",
+            "../js/modal-components.js",
+            "../js/ydk-navbar.js",
+            "../js/ydk-footer.js",
+            "../js/placeholder-randomizer.js",
+            "../js/quote-wizard.js",
+            "../js/multi-image-gallery.js"
+          ]
+        }
+      },
+      "hot-blast-stove-silica-brick": {
+        "product_id": "hot-blast-stove-silica-brick",
+        "status": "ok",
+        "issues": [],
+        "structure_problems": [],
+        "image_analysis": {
+          "main_image_count": 1,
+          "main_src": "../images/products/hot-blast-stove-silica-brick-official-1.png",
+          "main_src_exists": true,
+          "has_data_images": true,
+          "data_images": [
+            "../images/products/hot-blast-stove-silica-brick-official-1.png",
+            "../images/products/hot-blast-stove-silica-brick-official-2.png",
+            "../images/products/hot-blast-stove-silica-brick-official-3.png"
+          ],
+          "data_images_count": 3
+        },
+        "placeholder_analysis": {
+          "has_placeholders": true,
+          "placeholder_count": 2,
+          "placeholder_types": [
+            "<div class=\"no-images-placeholder hidden\">",
+            "产品图片更新中"
+          ]
+        },
+        "javascript_analysis": {
+          "total_scripts": 8,
+          "has_multi_gallery": true,
+          "has_product_database": true,
+          "all_scripts": [
+            "../js/product-database.js",
+            "../js/pdf-generator.js",
+            "../js/modal-components.js",
+            "../js/ydk-navbar.js",
+            "../js/ydk-footer.js",
+            "../js/placeholder-randomizer.js",
+            "../js/quote-wizard.js",
+            "../js/multi-image-gallery.js"
+          ]
+        }
+      },
+      "insulating-brick": {
+        "product_id": "insulating-brick",
+        "status": "has_issues",
+        "issues": [
+          "主图片文件不存在"
+        ],
+        "structure_problems": [],
+        "image_analysis": {
+          "main_image_count": 1,
+          "main_src": "../images/products/placeholder.jpg",
+          "main_src_exists": false,
+          "has_data_images": true,
+          "data_images": [
+            "../images/products/placeholder.jpg"
+          ],
+          "data_images_count": 1
+        },
+        "placeholder_analysis": {
+          "has_placeholders": true,
+          "placeholder_count": 2,
+          "placeholder_types": [
+            "<div class=\"no-images-placeholder hidden\">",
+            "产品图片更新中"
+          ]
+        },
+        "javascript_analysis": {
+          "total_scripts": 8,
+          "has_multi_gallery": true,
+          "has_product_database": true,
+          "all_scripts": [
+            "../js/product-database.js",
+            "../js/pdf-generator.js",
+            "../js/modal-components.js",
+            "../js/ydk-navbar.js",
+            "../js/ydk-footer.js",
+            "../js/placeholder-randomizer.js",
+            "../js/quote-wizard.js",
+            "../js/multi-image-gallery.js"
+          ]
+        }
+      },
+      "insulating-material": {
+        "product_id": "insulating-material",
+        "status": "ok",
+        "issues": [],
+        "structure_problems": [],
+        "image_analysis": {
+          "main_image_count": 1,
+          "main_src": "../images/products/thermal-insulation-brick-official-1.png",
+          "main_src_exists": true,
+          "has_data_images": true,
+          "data_images": [
+            "../images/products/thermal-insulation-brick-official-1.png",
+            "../images/products/thermal-insulation-brick-official-2.png"
+          ],
+          "data_images_count": 2
+        },
+        "placeholder_analysis": {
+          "has_placeholders": true,
+          "placeholder_count": 2,
+          "placeholder_types": [
+            "<div class=\"no-images-placeholder hidden\">",
+            "产品图片更新中"
+          ]
+        },
+        "javascript_analysis": {
+          "total_scripts": 8,
+          "has_multi_gallery": true,
+          "has_product_database": true,
+          "all_scripts": [
+            "../js/product-database.js",
+            "../js/pdf-generator.js",
+            "../js/modal-components.js",
+            "../js/ydk-navbar.js",
+            "../js/ydk-footer.js",
+            "../js/placeholder-randomizer.js",
+            "../js/quote-wizard.js",
+            "../js/multi-image-gallery.js"
+          ]
+        }
+      },
+      "lightweight-castable": {
+        "product_id": "lightweight-castable",
+        "status": "ok",
+        "issues": [],
+        "structure_problems": [],
+        "image_analysis": {
+          "main_image_count": 1,
+          "main_src": "../images/products/lightweight-castable-official-1.png",
+          "main_src_exists": true,
+          "has_data_images": true,
+          "data_images": [
+            "../images/products/lightweight-castable-official-1.png"
+          ],
+          "data_images_count": 1
+        },
+        "placeholder_analysis": {
+          "has_placeholders": true,
+          "placeholder_count": 6,
+          "placeholder_types": [
+            "<div class=\"product-placeholder placeholder-random\" data-product=\"轻质浇注料\">",
+            "<div class=\"placeholder-text\">",
+            "<div class=\"no-images-placeholder hidden\">",
+            "产品图片更新中",
+            "产品图片正在烧制中",
+            "Product Image in Production"
+          ]
+        },
+        "javascript_analysis": {
+          "total_scripts": 8,
+          "has_multi_gallery": true,
+          "has_product_database": true,
+          "all_scripts": [
+            "../js/product-database.js",
+            "../js/pdf-generator.js",
+            "../js/modal-components.js",
+            "../js/ydk-navbar.js",
+            "../js/ydk-footer.js",
+            "../js/placeholder-randomizer.js",
+            "../js/quote-wizard.js",
+            "../js/multi-image-gallery.js"
+          ]
+        }
+      },
+      "lightweight-clay-brick": {
+        "product_id": "lightweight-clay-brick",
+        "status": "ok",
+        "issues": [],
+        "structure_problems": [],
+        "image_analysis": {
+          "main_image_count": 1,
+          "main_src": "../images/products/lightweight-clay-brick-official-1.png",
+          "main_src_exists": true,
+          "has_data_images": true,
+          "data_images": [
+            "../images/products/lightweight-clay-brick-official-1.png",
+            "../images/products/lightweight-clay-brick-official-2.png",
+            "../images/products/lightweight-clay-brick-official-3.png",
+            "../images/products/lightweight-clay-brick-2.png"
+          ],
+          "data_images_count": 4
+        },
+        "placeholder_analysis": {
+          "has_placeholders": true,
+          "placeholder_count": 2,
+          "placeholder_types": [
+            "<div class=\"no-images-placeholder hidden\">",
+            "产品图片更新中"
+          ]
+        },
+        "javascript_analysis": {
+          "total_scripts": 8,
+          "has_multi_gallery": true,
+          "has_product_database": true,
+          "all_scripts": [
+            "../js/product-database.js",
+            "../js/pdf-generator.js",
+            "../js/modal-components.js",
+            "../js/ydk-navbar.js",
+            "../js/ydk-footer.js",
+            "../js/placeholder-randomizer.js",
+            "../js/quote-wizard.js",
+            "../js/multi-image-gallery.js"
+          ]
+        }
+      },
+      "lightweight-high-alumina-brick": {
+        "product_id": "lightweight-high-alumina-brick",
+        "status": "ok",
+        "issues": [],
+        "structure_problems": [],
+        "image_analysis": {
+          "main_image_count": 1,
+          "main_src": "../images/products/lightweight-high-alumina-brick-official-1.png",
+          "main_src_exists": true,
+          "has_data_images": true,
+          "data_images": [
+            "../images/products/lightweight-high-alumina-brick-official-1.png",
+            "../images/products/lightweight-high-alumina-brick-official-2.png"
+          ],
+          "data_images_count": 2
+        },
+        "placeholder_analysis": {
+          "has_placeholders": true,
+          "placeholder_count": 2,
+          "placeholder_types": [
+            "<div class=\"no-images-placeholder hidden\">",
+            "产品图片更新中"
+          ]
+        },
+        "javascript_analysis": {
+          "total_scripts": 8,
+          "has_multi_gallery": true,
+          "has_product_database": true,
+          "all_scripts": [
+            "../js/product-database.js",
+            "../js/pdf-generator.js",
+            "../js/modal-components.js",
+            "../js/ydk-navbar.js",
+            "../js/ydk-footer.js",
+            "../js/placeholder-randomizer.js",
+            "../js/quote-wizard.js",
+            "../js/multi-image-gallery.js"
+          ]
+        }
+      },
+      "lightweight-mullite-brick": {
+        "product_id": "lightweight-mullite-brick",
+        "status": "ok",
+        "issues": [],
+        "structure_problems": [],
+        "image_analysis": {
+          "main_image_count": 1,
+          "main_src": "../images/products/lightweight-mullite-brick-official-1.png",
+          "main_src_exists": true,
+          "has_data_images": true,
+          "data_images": [
+            "../images/products/lightweight-mullite-brick-official-1.png",
+            "../images/products/lightweight-mullite-brick-official-2.png",
+            "../images/products/lightweight-mullite-brick-1.png",
+            "../images/products/lightweight-mullite-brick-2.png"
+          ],
+          "data_images_count": 4
+        },
+        "placeholder_analysis": {
+          "has_placeholders": true,
+          "placeholder_count": 2,
+          "placeholder_types": [
+            "<div class=\"no-images-placeholder hidden\">",
+            "产品图片更新中"
+          ]
+        },
+        "javascript_analysis": {
+          "total_scripts": 8,
+          "has_multi_gallery": true,
+          "has_product_database": true,
+          "all_scripts": [
+            "../js/product-database.js",
+            "../js/pdf-generator.js",
+            "../js/modal-components.js",
+            "../js/ydk-navbar.js",
+            "../js/ydk-footer.js",
+            "../js/placeholder-randomizer.js",
+            "../js/quote-wizard.js",
+            "../js/multi-image-gallery.js"
+          ]
+        }
+      },
+      "lightweight-silica-brick": {
+        "product_id": "lightweight-silica-brick",
+        "status": "ok",
+        "issues": [],
+        "structure_problems": [],
+        "image_analysis": {
+          "main_image_count": 1,
+          "main_src": "../images/products/shaped_lightweight_fireclay_brick.jpg",
+          "main_src_exists": true,
+          "has_data_images": false,
+          "data_images": [],
+          "data_images_count": 0
+        },
+        "placeholder_analysis": {
+          "has_placeholders": true,
+          "placeholder_count": 2,
+          "placeholder_types": [
+            "<div class=\"no-images-placeholder hidden\">",
+            "产品图片更新中"
+          ]
+        },
+        "javascript_analysis": {
+          "total_scripts": 8,
+          "has_multi_gallery": true,
+          "has_product_database": true,
+          "all_scripts": [
+            "../js/product-database.js",
+            "../js/pdf-generator.js",
+            "../js/modal-components.js",
+            "../js/ydk-navbar.js",
+            "../js/ydk-footer.js",
+            "../js/placeholder-randomizer.js",
+            "../js/quote-wizard.js",
+            "../js/multi-image-gallery.js"
+          ]
+        }
+      },
+      "magnesia-chrome-brick": {
+        "product_id": "magnesia-chrome-brick",
+        "status": "ok",
+        "issues": [],
+        "structure_problems": [],
+        "image_analysis": {
+          "main_image_count": 1,
+          "main_src": "../images/products/magnesia-chrome-brick-official-1.png",
+          "main_src_exists": true,
+          "has_data_images": true,
+          "data_images": [
+            "../images/products/magnesia-chrome-brick-official-1.png",
+            "../images/products/magnesia-chrome-brick-official-2.png"
+          ],
+          "data_images_count": 2
+        },
+        "placeholder_analysis": {
+          "has_placeholders": true,
+          "placeholder_count": 2,
+          "placeholder_types": [
+            "<div class=\"no-images-placeholder hidden\">",
+            "产品图片更新中"
+          ]
+        },
+        "javascript_analysis": {
+          "total_scripts": 8,
+          "has_multi_gallery": true,
+          "has_product_database": true,
+          "all_scripts": [
+            "../js/product-database.js",
+            "../js/pdf-generator.js",
+            "../js/modal-components.js",
+            "../js/ydk-navbar.js",
+            "../js/ydk-footer.js",
+            "../js/placeholder-randomizer.js",
+            "../js/quote-wizard.js",
+            "../js/multi-image-gallery.js"
+          ]
+        }
+      },
+      "mullite-brick": {
+        "product_id": "mullite-brick",
+        "status": "ok",
+        "issues": [],
+        "structure_problems": [],
+        "image_analysis": {
+          "main_image_count": 1,
+          "main_src": "../images/products/mullite-brick-official-1.png",
+          "main_src_exists": true,
+          "has_data_images": true,
+          "data_images": [
+            "../images/products/mullite-brick-official-1.png",
+            "../images/products/mullite-brick-official-2.png",
+            "../images/products/mullite-brick-official-3.png",
+            "../images/products/mullite-brick.jpg"
+          ],
+          "data_images_count": 4
+        },
+        "placeholder_analysis": {
+          "has_placeholders": true,
+          "placeholder_count": 2,
+          "placeholder_types": [
+            "<div class=\"no-images-placeholder hidden\">",
+            "产品图片更新中"
+          ]
+        },
+        "javascript_analysis": {
+          "total_scripts": 8,
+          "has_multi_gallery": true,
+          "has_product_database": true,
+          "all_scripts": [
+            "../js/product-database.js",
+            "../js/pdf-generator.js",
+            "../js/modal-components.js",
+            "../js/ydk-navbar.js",
+            "../js/ydk-footer.js",
+            "../js/placeholder-randomizer.js",
+            "../js/multi-image-gallery.js",
+            "../js/quote-wizard.js"
+          ]
+        }
+      },
+      "phosphate-brick": {
+        "product_id": "phosphate-brick",
+        "status": "ok",
+        "issues": [],
+        "structure_problems": [],
+        "image_analysis": {
+          "main_image_count": 1,
+          "main_src": "../images/products/phosphate-brick-official-1.png",
+          "main_src_exists": true,
+          "has_data_images": true,
+          "data_images": [
+            "../images/products/phosphate-brick-official-1.png",
+            "../images/products/phosphate-brick-1.png"
+          ],
+          "data_images_count": 2
+        },
+        "placeholder_analysis": {
+          "has_placeholders": true,
+          "placeholder_count": 6,
+          "placeholder_types": [
+            "<div class=\"product-placeholder placeholder-random\" data-product=\"磷酸盐砖\">",
+            "<div class=\"placeholder-text\">",
+            "<div class=\"no-images-placeholder hidden\">",
+            "产品图片更新中",
+            "产品图片正在烧制中",
+            "Product Image in Production"
+          ]
+        },
+        "javascript_analysis": {
+          "total_scripts": 8,
+          "has_multi_gallery": true,
+          "has_product_database": true,
+          "all_scripts": [
+            "../js/product-database.js",
+            "../js/pdf-generator.js",
+            "../js/modal-components.js",
+            "../js/ydk-navbar.js",
+            "../js/ydk-footer.js",
+            "../js/placeholder-randomizer.js",
+            "../js/quote-wizard.js",
+            "../js/multi-image-gallery.js"
+          ]
+        }
+      },
+      "phosphate-wear-resistant-brick": {
+        "product_id": "phosphate-wear-resistant-brick",
+        "status": "ok",
+        "issues": [],
+        "structure_problems": [],
+        "image_analysis": {
+          "main_image_count": 1,
+          "main_src": "../images/products/phosphate-wear-resistant-brick-official-1.png",
+          "main_src_exists": true,
+          "has_data_images": true,
+          "data_images": [
+            "../images/products/phosphate-wear-resistant-brick-official-1.png",
+            "../images/products/phosphate-wear-resistant-brick-official-2.png"
+          ],
+          "data_images_count": 2
+        },
+        "placeholder_analysis": {
+          "has_placeholders": true,
+          "placeholder_count": 2,
+          "placeholder_types": [
+            "<div class=\"no-images-placeholder hidden\">",
+            "产品图片更新中"
+          ]
+        },
+        "javascript_analysis": {
+          "total_scripts": 8,
+          "has_multi_gallery": true,
+          "has_product_database": true,
+          "all_scripts": [
+            "../js/product-database.js",
+            "../js/pdf-generator.js",
+            "../js/modal-components.js",
+            "../js/ydk-navbar.js",
+            "../js/ydk-footer.js",
+            "../js/placeholder-randomizer.js",
+            "../js/quote-wizard.js",
+            "../js/multi-image-gallery.js"
+          ]
+        }
+      },
+      "plastic-refractory": {
+        "product_id": "plastic-refractory",
+        "status": "ok",
+        "issues": [],
+        "structure_problems": [],
+        "image_analysis": {
+          "main_image_count": 1,
+          "main_src": "../images/products/plastic-refractory-official-1.png",
+          "main_src_exists": true,
+          "has_data_images": true,
+          "data_images": [
+            "../images/products/plastic-refractory-official-1.png",
+            "../images/products/plastic-refractory-official-2.png",
+            "../images/products/plastic-refractory-official-3.png"
+          ],
+          "data_images_count": 3
+        },
+        "placeholder_analysis": {
+          "has_placeholders": true,
+          "placeholder_count": 6,
+          "placeholder_types": [
+            "<div class=\"product-placeholder placeholder-random\" data-product=\"可塑耐火材料\">",
+            "<div class=\"placeholder-text\">",
+            "<div class=\"no-images-placeholder hidden\">",
+            "产品图片更新中",
+            "产品图片正在烧制中",
+            "Product Image in Production"
+          ]
+        },
+        "javascript_analysis": {
+          "total_scripts": 8,
+          "has_multi_gallery": true,
+          "has_product_database": true,
+          "all_scripts": [
+            "../js/product-database.js",
+            "../js/pdf-generator.js",
+            "../js/modal-components.js",
+            "../js/ydk-navbar.js",
+            "../js/ydk-footer.js",
+            "../js/placeholder-randomizer.js",
+            "../js/quote-wizard.js",
+            "../js/multi-image-gallery.js"
+          ]
+        }
+      },
+      "refractory-castable": {
+        "product_id": "refractory-castable",
+        "status": "has_issues",
+        "issues": [
+          "主图片文件不存在"
+        ],
+        "structure_problems": [],
+        "image_analysis": {
+          "main_image_count": 1,
+          "main_src": "../images/products/refractory-castable-new.png",
+          "main_src_exists": false,
+          "has_data_images": true,
+          "data_images": [
+            "../images/products/refractory-castable-new.png"
+          ],
+          "data_images_count": 1
+        },
+        "placeholder_analysis": {
+          "has_placeholders": true,
+          "placeholder_count": 2,
+          "placeholder_types": [
+            "<div class=\"no-images-placeholder hidden\">",
+            "产品图片更新中"
+          ]
+        },
+        "javascript_analysis": {
+          "total_scripts": 8,
+          "has_multi_gallery": true,
+          "has_product_database": true,
+          "all_scripts": [
+            "../js/product-database.js",
+            "../js/pdf-generator.js",
+            "../js/modal-components.js",
+            "../js/ydk-navbar.js",
+            "../js/ydk-footer.js",
+            "../js/placeholder-randomizer.js",
+            "../js/quote-wizard.js",
+            "../js/multi-image-gallery.js"
+          ]
+        }
+      },
+      "refractory-spray-coating": {
+        "product_id": "refractory-spray-coating",
+        "status": "ok",
+        "issues": [],
+        "structure_problems": [],
+        "image_analysis": {
+          "main_image_count": 1,
+          "main_src": "../images/products/refractory-spray-coating-official-1.png",
+          "main_src_exists": true,
+          "has_data_images": true,
+          "data_images": [
+            "../images/products/refractory-spray-coating-official-1.png"
+          ],
+          "data_images_count": 1
+        },
+        "placeholder_analysis": {
+          "has_placeholders": true,
+          "placeholder_count": 6,
+          "placeholder_types": [
+            "<div class=\"product-placeholder placeholder-random\" data-product=\"耐火喷涂料\">",
+            "<div class=\"placeholder-text\">",
+            "<div class=\"no-images-placeholder hidden\">",
+            "产品图片更新中",
+            "产品图片正在烧制中",
+            "Product Image in Production"
+          ]
+        },
+        "javascript_analysis": {
+          "total_scripts": 8,
+          "has_multi_gallery": true,
+          "has_product_database": true,
+          "all_scripts": [
+            "../js/product-database.js",
+            "../js/pdf-generator.js",
+            "../js/modal-components.js",
+            "../js/ydk-navbar.js",
+            "../js/ydk-footer.js",
+            "../js/placeholder-randomizer.js",
+            "../js/quote-wizard.js",
+            "../js/multi-image-gallery.js"
+          ]
+        }
+      },
+      "semi-silica-brick": {
+        "product_id": "semi-silica-brick",
+        "status": "has_issues",
+        "issues": [
+          "主图片文件不存在"
+        ],
+        "structure_problems": [],
+        "image_analysis": {
+          "main_image_count": 1,
+          "main_src": "../images/products/placeholder.jpg",
+          "main_src_exists": false,
+          "has_data_images": true,
+          "data_images": [
+            "../images/products/placeholder.jpg"
+          ],
+          "data_images_count": 1
+        },
+        "placeholder_analysis": {
+          "has_placeholders": true,
+          "placeholder_count": 2,
+          "placeholder_types": [
+            "<div class=\"no-images-placeholder hidden\">",
+            "产品图片更新中"
+          ]
+        },
+        "javascript_analysis": {
+          "total_scripts": 8,
+          "has_multi_gallery": true,
+          "has_product_database": true,
+          "all_scripts": [
+            "../js/product-database.js",
+            "../js/pdf-generator.js",
+            "../js/modal-components.js",
+            "../js/ydk-navbar.js",
+            "../js/ydk-footer.js",
+            "../js/placeholder-randomizer.js",
+            "../js/quote-wizard.js",
+            "../js/multi-image-gallery.js"
+          ]
+        }
+      },
+      "silica-brick": {
+        "product_id": "silica-brick",
+        "status": "ok",
+        "issues": [],
+        "structure_problems": [],
+        "image_analysis": {
+          "main_image_count": 1,
+          "main_src": "../images/products/silica-brick-real.png",
+          "main_src_exists": true,
+          "has_data_images": true,
+          "data_images": [
+            "../images/products/silica-brick-real.png"
+          ],
+          "data_images_count": 1
+        },
+        "placeholder_analysis": {
+          "has_placeholders": true,
+          "placeholder_count": 2,
+          "placeholder_types": [
+            "<div class=\"no-images-placeholder hidden\">",
+            "产品图片更新中"
+          ]
+        },
+        "javascript_analysis": {
+          "total_scripts": 8,
+          "has_multi_gallery": true,
+          "has_product_database": true,
+          "all_scripts": [
+            "../js/product-database.js",
+            "../js/pdf-generator.js",
+            "../js/modal-components.js",
+            "../js/ydk-navbar.js",
+            "../js/ydk-footer.js",
+            "../js/placeholder-randomizer.js",
+            "../js/multi-image-gallery.js",
+            "../js/quote-wizard.js"
+          ]
+        }
+      },
+      "silica-molybdenum-brick": {
+        "product_id": "silica-molybdenum-brick",
+        "status": "ok",
+        "issues": [],
+        "structure_problems": [],
+        "image_analysis": {
+          "main_image_count": 1,
+          "main_src": "../images/products/silica-molybdenum-brick-official-1.png",
+          "main_src_exists": true,
+          "has_data_images": true,
+          "data_images": [
+            "../images/products/silica-molybdenum-brick-official-1.png",
+            "../images/products/silica-molybdenum-brick-official-2.png"
+          ],
+          "data_images_count": 2
+        },
+        "placeholder_analysis": {
+          "has_placeholders": true,
+          "placeholder_count": 2,
+          "placeholder_types": [
+            "<div class=\"no-images-placeholder hidden\">",
+            "产品图片更新中"
+          ]
+        },
+        "javascript_analysis": {
+          "total_scripts": 8,
+          "has_multi_gallery": true,
+          "has_product_database": true,
+          "all_scripts": [
+            "../js/product-database.js",
+            "../js/pdf-generator.js",
+            "../js/modal-components.js",
+            "../js/ydk-navbar.js",
+            "../js/ydk-footer.js",
+            "../js/placeholder-randomizer.js",
+            "../js/quote-wizard.js",
+            "../js/multi-image-gallery.js"
+          ]
+        }
+      },
+      "standard-high-alumina-brick": {
+        "product_id": "standard-high-alumina-brick",
+        "status": "ok",
+        "issues": [],
+        "structure_problems": [],
+        "image_analysis": {
+          "main_image_count": 1,
+          "main_src": "../images/products/standard-high-alumina-brick-official-1.png",
+          "main_src_exists": true,
+          "has_data_images": true,
+          "data_images": [
+            "../images/products/standard-high-alumina-brick-official-1.png",
+            "../images/products/standard-high-alumina-brick-official-2.png"
+          ],
+          "data_images_count": 2
+        },
+        "placeholder_analysis": {
+          "has_placeholders": true,
+          "placeholder_count": 2,
+          "placeholder_types": [
+            "<div class=\"no-images-placeholder hidden\">",
+            "产品图片更新中"
+          ]
+        },
+        "javascript_analysis": {
+          "total_scripts": 8,
+          "has_multi_gallery": true,
+          "has_product_database": true,
+          "all_scripts": [
+            "../js/product-database.js",
+            "../js/pdf-generator.js",
+            "../js/modal-components.js",
+            "../js/ydk-navbar.js",
+            "../js/ydk-footer.js",
+            "../js/placeholder-randomizer.js",
+            "../js/quote-wizard.js",
+            "../js/multi-image-gallery.js"
+          ]
+        }
+      },
+      "standard-silica-brick": {
+        "product_id": "standard-silica-brick",
+        "status": "has_issues",
+        "issues": [
+          "主图片文件不存在"
+        ],
+        "structure_problems": [],
+        "image_analysis": {
+          "main_image_count": 1,
+          "main_src": "../images/products/placeholder.jpg",
+          "main_src_exists": false,
+          "has_data_images": true,
+          "data_images": [
+            "../images/products/placeholder.jpg"
+          ],
+          "data_images_count": 1
+        },
+        "placeholder_analysis": {
+          "has_placeholders": true,
+          "placeholder_count": 2,
+          "placeholder_types": [
+            "<div class=\"no-images-placeholder hidden\">",
+            "产品图片更新中"
+          ]
+        },
+        "javascript_analysis": {
+          "total_scripts": 8,
+          "has_multi_gallery": true,
+          "has_product_database": true,
+          "all_scripts": [
+            "../js/product-database.js",
+            "../js/pdf-generator.js",
+            "../js/modal-components.js",
+            "../js/ydk-navbar.js",
+            "../js/ydk-footer.js",
+            "../js/placeholder-randomizer.js",
+            "../js/quote-wizard.js",
+            "../js/multi-image-gallery.js"
+          ]
+        }
+      },
+      "steel-fiber-castable": {
+        "product_id": "steel-fiber-castable",
+        "status": "ok",
+        "issues": [],
+        "structure_problems": [],
+        "image_analysis": {
+          "main_image_count": 1,
+          "main_src": "../images/products/steel-fiber-castable-official-1.png",
+          "main_src_exists": true,
+          "has_data_images": true,
+          "data_images": [
+            "../images/products/steel-fiber-castable-official-1.png"
+          ],
+          "data_images_count": 1
+        },
+        "placeholder_analysis": {
+          "has_placeholders": true,
+          "placeholder_count": 6,
+          "placeholder_types": [
+            "<div class=\"product-placeholder placeholder-random\" data-product=\"钢纤维浇注料\">",
+            "<div class=\"placeholder-text\">",
+            "<div class=\"no-images-placeholder hidden\">",
+            "产品图片更新中",
+            "产品图片正在烧制中",
+            "Product Image in Production"
+          ]
+        },
+        "javascript_analysis": {
+          "total_scripts": 8,
+          "has_multi_gallery": true,
+          "has_product_database": true,
+          "all_scripts": [
+            "../js/product-database.js",
+            "../js/pdf-generator.js",
+            "../js/modal-components.js",
+            "../js/ydk-navbar.js",
+            "../js/ydk-footer.js",
+            "../js/placeholder-randomizer.js",
+            "../js/quote-wizard.js",
+            "../js/multi-image-gallery.js"
+          ]
+        }
+      },
+      "thermal-insulation-brick": {
+        "product_id": "thermal-insulation-brick",
+        "status": "ok",
+        "issues": [],
+        "structure_problems": [],
+        "image_analysis": {
+          "main_image_count": 1,
+          "main_src": "../images/products/thermal-insulation-brick-official-1.png",
+          "main_src_exists": true,
+          "has_data_images": true,
+          "data_images": [
+            "../images/products/thermal-insulation-brick-official-1.png",
+            "../images/products/thermal-insulation-brick-official-2.png"
+          ],
+          "data_images_count": 2
+        },
+        "placeholder_analysis": {
+          "has_placeholders": true,
+          "placeholder_count": 2,
+          "placeholder_types": [
+            "<div class=\"no-images-placeholder hidden\">",
+            "产品图片更新中"
+          ]
+        },
+        "javascript_analysis": {
+          "total_scripts": 8,
+          "has_multi_gallery": true,
+          "has_product_database": true,
+          "all_scripts": [
+            "../js/product-database.js",
+            "../js/pdf-generator.js",
+            "../js/modal-components.js",
+            "../js/ydk-navbar.js",
+            "../js/ydk-footer.js",
+            "../js/placeholder-randomizer.js",
+            "../js/quote-wizard.js",
+            "../js/multi-image-gallery.js"
+          ]
+        }
+      },
+      "unshaped-refractory": {
+        "product_id": "unshaped-refractory",
+        "status": "ok",
+        "issues": [],
+        "structure_problems": [],
+        "image_analysis": {
+          "main_image_count": 1,
+          "main_src": "../images/products/unshaped_monolithic_refractory.jpg",
+          "main_src_exists": true,
+          "has_data_images": true,
+          "data_images": [
+            "../images/products/unshaped_monolithic_refractory.jpg"
+          ],
+          "data_images_count": 1
+        },
+        "placeholder_analysis": {
+          "has_placeholders": true,
+          "placeholder_count": 2,
+          "placeholder_types": [
+            "<div class=\"no-images-placeholder hidden\">",
+            "产品图片更新中"
+          ]
+        },
+        "javascript_analysis": {
+          "total_scripts": 8,
+          "has_multi_gallery": true,
+          "has_product_database": true,
+          "all_scripts": [
+            "../js/product-database.js",
+            "../js/pdf-generator.js",
+            "../js/modal-components.js",
+            "../js/ydk-navbar.js",
+            "../js/ydk-footer.js",
+            "../js/placeholder-randomizer.js",
+            "../js/quote-wizard.js",
+            "../js/multi-image-gallery.js"
+          ]
+        }
+      },
+      "unshaped-refractory-material": {
+        "product_id": "unshaped-refractory-material",
+        "status": "ok",
+        "issues": [],
+        "structure_problems": [],
+        "image_analysis": {
+          "main_image_count": 1,
+          "main_src": "../images/products/unshaped-refractory-material-20.png",
+          "main_src_exists": true,
+          "has_data_images": true,
+          "data_images": [
+            "../images/products/unshaped-refractory-material-20.png"
+          ],
+          "data_images_count": 1
+        },
+        "placeholder_analysis": {
+          "has_placeholders": true,
+          "placeholder_count": 2,
+          "placeholder_types": [
+            "<div class=\"no-images-placeholder hidden\">",
+            "产品图片更新中"
+          ]
+        },
+        "javascript_analysis": {
+          "total_scripts": 8,
+          "has_multi_gallery": true,
+          "has_product_database": true,
+          "all_scripts": [
+            "../js/product-database.js",
+            "../js/pdf-generator.js",
+            "../js/modal-components.js",
+            "../js/ydk-navbar.js",
+            "../js/ydk-footer.js",
+            "../js/placeholder-randomizer.js",
+            "../js/quote-wizard.js",
+            "../js/multi-image-gallery.js"
+          ]
+        }
+      },
+      "wear-resistant-ceramic": {
+        "product_id": "wear-resistant-ceramic",
+        "status": "has_issues",
+        "issues": [
+          "主图片文件不存在"
+        ],
+        "structure_problems": [],
+        "image_analysis": {
+          "main_image_count": 1,
+          "main_src": "../images/products/placeholder.jpg",
+          "main_src_exists": false,
+          "has_data_images": true,
+          "data_images": [
+            "../images/products/placeholder.jpg"
+          ],
+          "data_images_count": 1
+        },
+        "placeholder_analysis": {
+          "has_placeholders": true,
+          "placeholder_count": 2,
+          "placeholder_types": [
+            "<div class=\"no-images-placeholder hidden\">",
+            "产品图片更新中"
+          ]
+        },
+        "javascript_analysis": {
+          "total_scripts": 8,
+          "has_multi_gallery": true,
+          "has_product_database": true,
+          "all_scripts": [
+            "../js/product-database.js",
+            "../js/pdf-generator.js",
+            "../js/modal-components.js",
+            "../js/ydk-navbar.js",
+            "../js/ydk-footer.js",
+            "../js/placeholder-randomizer.js",
+            "../js/quote-wizard.js",
+            "../js/multi-image-gallery.js"
+          ]
+        }
+      }
+    }
+  }
+}

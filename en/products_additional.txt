@@ -1,0 +1,35 @@
+Here are the remaining 22 products that need to be added to the English products.html file:
+
+Shaped Refractory Products (继续):
+18. Insulating Brick (保温砖)
+19. Coke Oven Brick (焦炉砖)
+20. Silica Molybdenum Brick (硅钼砖)
+21. Hot Blast Stove Checker Silica Brick (热风炉格子砖硅砖)
+22. Hot Blast Stove Silica Brick (热风炉硅砖)
+23. Hot Blast Stove Clay Checker Brick (热风炉粘土格子砖)
+
+Unshaped Refractory Materials (继续):
+24. Unshaped Refractory (不定型耐火材料)
+25. Blast Furnace Ceramic Cup (高炉陶瓷杯)
+26. Chrome Corundum Castable (铬刚玉浇注料)
+27. Unshaped Refractory Material (不定型耐火材料2)
+28. Refractory Spray Coating (耐火喷涂料)
+29. Lightweight Castable (轻质浇注料)
+30. Plastic Refractory (可塑耐火材料)
+
+Special Refractory Products:
+31. Corundum Mullite (刚玉莫来石)
+32. Corundum Ball (刚玉球)
+33. Corundum Brick (刚玉砖)
+34. Phosphate Wear Resistant Brick (磷酸盐耐磨砖)
+35. Phosphate Brick (磷酸盐砖)
+36. Magnesia Chrome Brick (镁铬砖)
+37. Alumina Hollow Sphere Brick (氧化铝空心球砖)
+38. Wear Resistant Ceramic (耐磨陶瓷)
+
+Lightweight Insulation Products:
+39. Lightweight High Alumina Brick (轻质高铝砖)
+40. Insulating Material (保温材料)
+41. Thermal Insulation Brick (隔热砖)
+
+Note: We already have 17 products, so we need to add 22 more to reach 39 total.

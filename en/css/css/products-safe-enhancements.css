@@ -1,0 +1,1010 @@
+/* Products Page Safe Enhancements - 产品页面安全优化样式 */
+/* 严格限制：只优化页面框架，绝不影响产品卡片区域 */
+
+/* =============================================================================
+   1. PRODUCTS HERO 区域优化 - 静态Hero样式
+============================================================================= */
+
+.products-hero {
+    position: relative;
+    height: 500px;
+    min-height: 400px;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.hero-background {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+}
+
+.hero-bg-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+
+.hero-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(
+        135deg,
+        rgba(0, 0, 0, 0.4) 0%,
+        rgba(0, 0, 0, 0.2) 50%,
+        rgba(0, 0, 0, 0.4) 100%
+    );
+    z-index: 2;
+}
+
+.products-hero .container {
+    position: relative;
+    z-index: 3;
+    text-align: center;
+}
+
+.products-hero .hero-content {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 0 2rem;
+}
+
+.products-hero .hero-text {
+    color: white;
+}
+
+.products-hero .hero-title {
+    font-size: clamp(2rem, 5vw, 3rem);
+    font-weight: 700;
+    margin-bottom: 1.5rem;
+    color: white;
+    text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.7);
+    line-height: 1.2;
+}
+
+.products-hero .hero-description {
+    font-size: clamp(1rem, 2.5vw, 1.3rem);
+    line-height: 1.6;
+    color: rgba(255, 255, 255, 0.95);
+    text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.6);
+    margin: 0;
+}
+
+/* =============================================================================
+   2. COMPANY STATS 区域优化
+============================================================================= */
+
+.company-stats-section {
+    padding: 3rem 0;
+    background: linear-gradient(135deg,
+        rgba(248, 249, 250, 1) 0%,
+        rgba(255, 255, 255, 1) 50%,
+        rgba(248, 249, 250, 1) 100%);
+    border-top: 1px solid rgba(0, 0, 0, 0.05);
+    border-bottom: 1px solid rgba(0, 0, 0, 0.05);
+}
+
+.stats-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 2rem;
+}
+
+.stats-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 2rem;
+}
+
+.stat-card {
+    background: white;
+    padding: 2rem 1.5rem;
+    border-radius: 16px;
+    text-align: center;
+    box-shadow:
+        0 4px 15px rgba(0, 0, 0, 0.05),
+        0 1px 3px rgba(0, 0, 0, 0.05);
+    transition: all 0.3s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+    position: relative;
+    overflow: hidden;
+    border: 1px solid rgba(211, 47, 47, 0.08);
+}
+
+.stat-card:hover {
+    transform: translateY(-8px);
+    box-shadow:
+        0 15px 35px rgba(0, 0, 0, 0.1),
+        0 5px 15px rgba(211, 47, 47, 0.15);
+    border-color: rgba(211, 47, 47, 0.2);
+}
+
+.stat-card::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 3px;
+    background: linear-gradient(90deg,
+        var(--primary-color) 0%,
+        var(--primary-dark) 100%);
+    opacity: 0;
+    transition: opacity 0.3s ease;
+}
+
+.stat-card:hover::after {
+    opacity: 1;
+}
+
+.stat-icon {
+    margin-bottom: 1rem;
+}
+
+.stat-icon i {
+    font-size: 2.5rem;
+    color: var(--primary-color);
+    transition: all 0.3s ease;
+}
+
+.stat-card:hover .stat-icon i {
+    transform: scale(1.1);
+    color: var(--primary-dark);
+}
+
+.stat-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.stat-number {
+    font-size: 2.5rem;
+    font-weight: 700;
+    color: var(--primary-color);
+    margin-bottom: 0.5rem;
+    line-height: 1;
+    display: block;
+}
+
+.stat-label {
+    font-size: 1rem;
+    color: var(--text-light);
+    font-weight: 500;
+}
+
+/* =============================================================================
+   3. PRODUCTS TITLE 区域优化
+============================================================================= */
+
+.products-title-section {
+    padding: 3rem 0;
+    background: white;
+    text-align: center;
+}
+
+.products-title-section .container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 0 2rem;
+}
+
+.section-header {
+    position: relative;
+}
+
+.section-title {
+    font-size: clamp(2rem, 4vw, 2.5rem);
+    font-weight: 700;
+    color: var(--text-dark);
+    margin-bottom: 1rem;
+    position: relative;
+}
+
+.section-title::after {
+    content: '';
+    position: absolute;
+    bottom: -15px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 80px;
+    height: 4px;
+    background: linear-gradient(90deg,
+        transparent 0%,
+        var(--primary-color) 20%,
+        var(--primary-dark) 80%,
+        transparent 100%);
+    border-radius: 2px;
+}
+
+.section-description {
+    font-size: clamp(1rem, 2.5vw, 1.2rem);
+    color: var(--text-light);
+    line-height: 1.6;
+    margin: 2rem 0 0 0;
+}
+
+/* =============================================================================
+   4. PRODUCTS TOOLBAR 区域优化
+============================================================================= */
+
+.products-toolbar {
+    background: white;
+    padding: 2rem 0;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.08);
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
+}
+
+.toolbar-content {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 2rem;
+}
+
+.toolbar-top-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 2rem;
+    gap: 2rem;
+    flex-wrap: wrap;
+}
+
+.toolbar-search {
+    flex: 1;
+    max-width: 400px;
+}
+
+.search-input-wrapper {
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+.search-input {
+    width: 100%;
+    padding: 12px 45px 12px 16px;
+    border: 2px solid rgba(0, 0, 0, 0.1);
+    border-radius: 25px;
+    font-size: 1rem;
+    transition: all 0.3s ease;
+    background: rgba(248, 249, 250, 0.5);
+}
+
+.search-input:focus {
+    outline: none;
+    border-color: var(--primary-color);
+    background: white;
+    box-shadow: 0 0 0 3px rgba(211, 47, 47, 0.1);
+}
+
+.search-icon {
+    position: absolute;
+    right: 16px;
+    color: var(--text-light);
+    font-size: 1rem;
+}
+
+.toolbar-filters {
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+}
+
+.filter-select {
+    padding: 12px 16px;
+    border: 2px solid rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    background: white;
+    font-size: 0.9rem;
+    color: var(--text-dark);
+    cursor: pointer;
+    transition: all 0.3s ease;
+    min-width: 140px;
+}
+
+.filter-select:focus {
+    outline: none;
+    border-color: var(--primary-color);
+    box-shadow: 0 0 0 3px rgba(211, 47, 47, 0.1);
+}
+
+/* =============================================================================
+   合并后的产品中心区域样式
+============================================================================= */
+
+.products-center-section {
+    padding: 1.5rem 0 1rem;
+    background: #fafafa;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.05);
+}
+
+.products-center-section .section-header {
+    text-align: center;
+    margin-bottom: 1.2rem;
+}
+
+.products-center-section .section-title {
+    margin-bottom: 0.5rem;
+    color: var(--text-dark);
+}
+
+.products-center-section .section-description {
+    margin-bottom: 0;
+    color: var(--text-secondary);
+}
+
+.filter-tabs {
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 1rem 0 0;
+}
+
+.filter-tab {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0.6rem 1rem;
+    background: #ffffff;
+    border: 2px solid #e0e0e0;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: all 0.2s ease;
+    min-width: 100px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.filter-tab:hover {
+    border-color: var(--primary-color);
+    background: rgba(211, 47, 47, 0.05);
+    transform: translateY(-1px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+}
+
+.filter-tab.active {
+    border-color: var(--primary-color);
+    background: var(--primary-color);
+    color: white;
+    transform: translateY(-1px);
+    box-shadow: 0 4px 12px rgba(211, 47, 47, 0.3);
+}
+
+.tab-text {
+    font-weight: 600;
+    font-size: 0.8rem;
+    margin-bottom: 0.2rem;
+    line-height: 1.2;
+}
+
+.tab-count {
+    font-size: 0.7rem;
+    font-weight: 700;
+    background: rgba(211, 47, 47, 0.1);
+    color: var(--primary-color);
+    padding: 2px 6px;
+    border-radius: 8px;
+    min-width: 20px;
+    text-align: center;
+}
+
+.filter-tab.active .tab-count {
+    background: rgba(255, 255, 255, 0.3);
+    color: white;
+}
+
+/* =============================================================================
+   5. TOOLBAR RESULTS 区域优化
+============================================================================= */
+
+.toolbar-results {
+    background: rgba(248, 249, 250, 0.5);
+    padding: 1rem 0;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.05);
+}
+
+.results-info {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1rem;
+    flex-wrap: wrap;
+}
+
+.products-count {
+    font-size: 0.95rem;
+    color: var(--text-light);
+    font-weight: 500;
+}
+
+.quick-filters {
+    display: flex;
+    gap: 0.5rem;
+    flex-wrap: wrap;
+}
+
+.filter-tag {
+    padding: 6px 12px;
+    background: white;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: 15px;
+    font-size: 0.8rem;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    font-weight: 500;
+}
+
+.filter-tag:hover {
+    border-color: var(--primary-color);
+    background: rgba(211, 47, 47, 0.05);
+}
+
+.filter-tag.active {
+    border-color: var(--primary-color);
+    background: var(--primary-color);
+    color: white;
+}
+
+/* =============================================================================
+   6. 响应式设计
+============================================================================= */
+
+@media (max-width: 992px) {
+    .products-hero {
+        height: 400px;
+        min-height: 350px;
+    }
+
+    .stats-grid {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 1.5rem;
+    }
+
+    .toolbar-top-row {
+        flex-direction: column;
+        align-items: stretch;
+    }
+
+    .toolbar-search {
+        max-width: none;
+    }
+
+    .filter-tabs {
+        gap: 0.8rem;
+    }
+
+    .filter-tab {
+        min-width: 100px;
+        padding: 0.8rem 1rem;
+    }
+}
+
+@media (max-width: 768px) {
+    .products-hero {
+        height: 350px;
+        min-height: 300px;
+    }
+
+    .products-hero .hero-content {
+        padding: 0 1rem;
+    }
+
+    .company-stats-section {
+        padding: 2rem 0;
+    }
+
+    .stats-container {
+        padding: 0 1rem;
+    }
+
+    .stats-grid {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 1rem;
+    }
+
+    .stat-card {
+        padding: 1.5rem 1rem;
+    }
+
+    .stat-number {
+        font-size: 2rem;
+    }
+
+    .stat-icon i {
+        font-size: 2rem;
+    }
+
+    /* 合并区域移动端优化 */
+    .products-center-section {
+        padding: 1.2rem 0 0.8rem;
+    }
+
+    .filter-tabs {
+        gap: 0.8rem;
+        margin: 0.8rem 0 0;
+    }
+
+    .filter-tab {
+        min-width: 90px;
+        padding: 0.5rem 0.8rem;
+    }
+
+    .products-title-section {
+        padding: 2rem 0;
+    }
+
+    .products-toolbar {
+        padding: 1.5rem 0;
+    }
+
+    .toolbar-content {
+        padding: 0 1rem;
+    }
+
+    .toolbar-filters {
+        flex-direction: column;
+        width: 100%;
+        gap: 0.8rem;
+    }
+
+    .filter-select {
+        width: 100%;
+    }
+
+    .filter-tabs {
+        flex-direction: column;
+    }
+
+    .filter-tab {
+        width: 100%;
+    }
+
+    .results-info {
+        padding: 0 1rem;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 0.8rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .products-hero {
+        height: 300px;
+        min-height: 250px;
+    }
+
+    .products-hero .hero-content {
+        padding: 0 0.5rem;
+    }
+
+    .stats-grid {
+        grid-template-columns: 1fr;
+        gap: 1rem;
+    }
+
+    .stat-card {
+        padding: 1.2rem 0.8rem;
+    }
+
+    .toolbar-content {
+        padding: 0 0.5rem;
+    }
+
+    .search-input {
+        padding: 10px 40px 10px 14px;
+        font-size: 0.9rem;
+    }
+
+    .results-info {
+        padding: 0 0.5rem;
+    }
+
+    /* 合并区域小屏幕优化 */
+    .products-center-section {
+        padding: 1rem 0 0.6rem;
+    }
+
+    .filter-tabs {
+        gap: 0.6rem;
+        margin: 0.6rem 0 0;
+    }
+
+    .filter-tab {
+        min-width: 80px;
+        padding: 0.4rem 0.6rem;
+    }
+
+    .tab-text {
+        font-size: 0.7rem;
+    }
+
+    .tab-count {
+        font-size: 0.65rem;
+        padding: 1px 4px;
+    }
+}
+
+/* =============================================================================
+   7. 为什么选择元达科区域优化
+============================================================================= */
+
+.usp-section {
+    padding: 4rem 0;
+    background: linear-gradient(135deg,
+        rgba(248, 249, 250, 1) 0%,
+        rgba(255, 255, 255, 1) 50%,
+        rgba(248, 249, 250, 1) 100%);
+    position: relative;
+    overflow: hidden;
+}
+
+.usp-section::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-image:
+        radial-gradient(circle at 25% 25%, rgba(211, 47, 47, 0.03) 1px, transparent 1px),
+        radial-gradient(circle at 75% 75%, rgba(211, 47, 47, 0.02) 1px, transparent 1px);
+    background-size: 80px 80px, 60px 60px;
+    pointer-events: none;
+    z-index: 1;
+}
+
+.usp-section .container {
+    position: relative;
+    z-index: 2;
+}
+
+.section-header-with-icon {
+    text-align: center;
+    margin-bottom: 3rem;
+}
+
+.section-header-with-icon .section-icon {
+    font-size: 3rem;
+    color: var(--primary-color);
+    margin-bottom: 1rem;
+    display: block;
+}
+
+.section-header-with-icon h2 {
+    font-size: clamp(2rem, 4vw, 2.5rem);
+    color: var(--text-dark);
+    font-weight: 700;
+    margin-bottom: 1rem;
+    position: relative;
+}
+
+.section-header-with-icon h2::after {
+    content: '';
+    position: absolute;
+    bottom: -15px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 80px;
+    height: 4px;
+    background: linear-gradient(90deg,
+        transparent 0%,
+        var(--primary-color) 20%,
+        var(--primary-dark) 80%,
+        transparent 100%);
+    border-radius: 2px;
+}
+
+.section-header-with-icon p {
+    font-size: clamp(1rem, 2.5vw, 1.2rem);
+    color: var(--text-light);
+    line-height: 1.6;
+    margin: 2rem 0 0 0;
+}
+
+.usp-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2rem;
+    margin-bottom: 3rem;
+}
+
+.usp-item {
+    background: white;
+    padding: 2.5rem 2rem;
+    border-radius: 16px;
+    text-align: center;
+    box-shadow:
+        0 4px 15px rgba(0, 0, 0, 0.05),
+        0 1px 3px rgba(0, 0, 0, 0.05);
+    transition: all 0.3s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+    position: relative;
+    overflow: hidden;
+    border: 1px solid rgba(211, 47, 47, 0.08);
+}
+
+.usp-item:hover {
+    transform: translateY(-8px);
+    box-shadow:
+        0 15px 35px rgba(0, 0, 0, 0.1),
+        0 5px 15px rgba(211, 47, 47, 0.15);
+    border-color: rgba(211, 47, 47, 0.2);
+}
+
+.usp-item::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 3px;
+    background: linear-gradient(90deg,
+        var(--primary-color) 0%,
+        var(--primary-dark) 100%);
+    opacity: 0;
+    transition: opacity 0.3s ease;
+}
+
+.usp-item:hover::after {
+    opacity: 1;
+}
+
+.usp-icon {
+    margin-bottom: 1.5rem;
+}
+
+.usp-icon i {
+    font-size: 2.5rem;
+    color: var(--primary-color);
+    transition: all 0.3s ease;
+}
+
+.usp-item:hover .usp-icon i {
+    transform: scale(1.1);
+    color: var(--primary-dark);
+}
+
+.usp-item h3 {
+    font-size: 1.3rem;
+    font-weight: 600;
+    color: var(--text-dark);
+    margin-bottom: 1rem;
+    line-height: 1.3;
+}
+
+.usp-item p {
+    font-size: 1rem;
+    color: var(--text-light);
+    line-height: 1.5;
+    margin: 0;
+}
+
+.section-cta {
+    text-align: center;
+}
+
+.btn-cta-primary {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem 2rem;
+    background: linear-gradient(135deg,
+        var(--primary-color) 0%,
+        var(--primary-dark) 100%);
+    color: white !important;
+    text-decoration: none;
+    border-radius: 8px;
+    font-weight: 500;
+    font-size: 1rem;
+    transition: all 0.3s ease;
+    position: relative;
+    overflow: hidden;
+    gap: 0.5rem;
+}
+
+.btn-cta-primary::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: -100%;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(90deg,
+        transparent 0%,
+        rgba(255, 255, 255, 0.2) 50%,
+        transparent 100%);
+    transition: left 0.5s ease;
+}
+
+.btn-cta-primary:hover::before {
+    left: 100%;
+}
+
+.btn-cta-primary:hover {
+    background: linear-gradient(135deg,
+        var(--primary-dark) 0%,
+        #a01c1c 100%);
+    transform: translateY(-2px);
+    box-shadow: 0 8px 20px rgba(211, 47, 47, 0.3);
+    color: white !important;
+    text-decoration: none;
+}
+
+/* =============================================================================
+   8. 高对比度和无障碍支持
+============================================================================= */
+
+@media (prefers-contrast: high) {
+    .stat-card,
+    .filter-tab,
+    .filter-tag,
+    .usp-item {
+        border-width: 2px;
+        border-color: var(--text-dark);
+    }
+
+    .products-hero .hero-title,
+    .products-hero .hero-description {
+        text-shadow: 3px 3px 6px rgba(0, 0, 0, 1);
+    }
+
+    .btn-cta-primary {
+        border: 2px solid var(--primary-dark);
+    }
+
+    .usp-item h3 {
+        color: #000000;
+    }
+}
+
+@media (prefers-reduced-motion: reduce) {
+    .stat-card,
+    .stat-icon i,
+    .filter-tab,
+    .filter-tag,
+    .search-input,
+    .filter-select,
+    .usp-item,
+    .usp-icon i,
+    .btn-cta-primary,
+    .btn-cta-primary::before {
+        transition: none;
+    }
+
+    .stat-card:hover {
+        transform: none;
+    }
+
+    .stat-card:hover .stat-icon i {
+        transform: none;
+    }
+
+    .usp-item:hover {
+        transform: none;
+    }
+
+    .usp-item:hover .usp-icon i {
+        transform: none;
+    }
+
+    .btn-cta-primary:hover {
+        transform: none;
+    }
+}
+
+/* =============================================================================
+   9. USP区域响应式设计
+============================================================================= */
+
+@media (max-width: 992px) {
+    .usp-grid {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 1.5rem;
+    }
+
+    .usp-item {
+        padding: 2rem 1.5rem;
+    }
+
+    .usp-icon i {
+        font-size: 2.2rem;
+    }
+
+    .usp-item h3 {
+        font-size: 1.2rem;
+    }
+
+    .section-header-with-icon .section-icon {
+        font-size: 2.5rem;
+    }
+}
+
+@media (max-width: 768px) {
+    .usp-section {
+        padding: 3rem 0;
+    }
+
+    .usp-grid {
+        grid-template-columns: 1fr;
+        gap: 1.5rem;
+        max-width: 400px;
+        margin: 0 auto 2rem auto;
+    }
+
+    .usp-item {
+        padding: 2.5rem 2rem;
+    }
+
+    .usp-icon i {
+        font-size: 2.8rem;
+        margin-bottom: 1.5rem;
+    }
+
+    .usp-item h3 {
+        font-size: 1.4rem;
+        margin-bottom: 1.2rem;
+    }
+
+    .usp-item p {
+        font-size: 1rem;
+    }
+
+    .section-header-with-icon {
+        margin-bottom: 2.5rem;
+    }
+
+    .section-header-with-icon .section-icon {
+        font-size: 2.8rem;
+    }
+
+    .btn-cta-primary {
+        padding: 1.2rem 2.5rem;
+        font-size: 1.1rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .usp-section {
+        padding: 2.5rem 0;
+    }
+
+    .usp-section .container {
+        padding: 0 1rem;
+    }
+
+    .usp-item {
+        padding: 2rem 1.5rem;
+    }
+
+    .usp-icon i {
+        font-size: 2.5rem;
+    }
+
+    .usp-item h3 {
+        font-size: 1.3rem;
+    }
+
+    .usp-item p {
+        font-size: 0.95rem;
+    }
+
+    .btn-cta-primary {
+        padding: 1rem 2rem;
+        font-size: 1rem;
+    }
+
+    .section-header-with-icon .section-icon {
+        font-size: 2.5rem;
+    }
+}

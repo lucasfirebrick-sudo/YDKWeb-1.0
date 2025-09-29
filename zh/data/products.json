@@ -1,0 +1,926 @@
+[
+  {
+    "id": 1,
+    "title": "高铝砖",
+    "description": "适用于高温工业炉窑，具有优异的耐火性能和机械强度",
+    "category": "shaped",
+    "image": "images/products/high-alumina-brick-new.jpg",
+    "alt": "高铝砖",
+    "href": "products/high-alumina-brick.html",
+    "specs": [
+      "耐火度: 1750℃",
+      "Al₂O₃: ≥48%",
+      "抗压强度: ≥50MPa",
+      "密度: 2.3-2.6g/cm³"
+    ],
+    "applications": [
+      "钢铁冶炼",
+      "水泥工业",
+      "石化装置",
+      "电力设备"
+    ],
+    "badges": [
+      "热门",
+      "出口优势"
+    ]
+  },
+  {
+    "id": 2,
+    "title": "粘土砖",
+    "description": "通用型耐火砖，广泛应用于各种工业炉窑的内衬",
+    "category": "shaped",
+    "image": "images/products/clay-brick-new.jpg",
+    "alt": "粘土砖",
+    "href": "products/clay-brick.html",
+    "specs": [
+      "使用温度: 1200-1400℃",
+      "Al₂O₃: 35-45%",
+      "密度: 2.0-2.3g/cm³",
+      "抗压强度: ≥25MPa"
+    ],
+    "applications": [
+      "钢铁冶炼",
+      "水泥工业",
+      "陶瓷工业",
+      "玻璃熔炉",
+      "钢铁冶炼",
+      "水泥工业",
+      "陶瓷工业",
+      "玻璃熔炉"
+    ],
+    "badges": [
+      "经典产品",
+      "出口品质"
+    ]
+  },
+  {
+    "id": 3,
+    "title": "硅砖",
+    "description": "高温性能优异，适用于焦炉、热风炉等高温设备",
+    "category": "shaped",
+    "image": "images/products/silica-brick.jpg",
+    "alt": "硅砖",
+    "href": "products/silica-brick.html",
+    "specs": [
+      "使用温度: 1600-1700℃",
+      "SiO₂: ≥94%",
+      "抗压强度: ≥30MPa",
+      "密度: 2.35g/cm³"
+    ],
+    "applications": [
+      "钢铁冶炼",
+      "焦化工业",
+      "玻璃工业",
+      "陶瓷工业",
+      "焦炉工业",
+      "热风炉",
+      "蓄热室",
+      "玻璃窑"
+    ],
+    "badges": [
+      "国际认证",
+      "热销"
+    ]
+  },
+  {
+    "id": 4,
+    "title": "莫来石砖",
+    "description": "优异的抗热震性能，适用于温度变化剧烈的环境",
+    "category": "shaped",
+    "image": "images/products/shaped_sintered_mullite_brick.jpg",
+    "alt": "莫来石砖",
+    "href": "products/mullite-brick.html",
+    "specs": [
+      "使用温度: 1500-1600℃",
+      "抗热震: ≥25次",
+      "Al₂O₃: 65-75%",
+      "密度: 2.5-2.8g/cm³"
+    ],
+    "applications": [
+      "高温窑炉",
+      "石化装置",
+      "精炼设备",
+      "陶瓷工业"
+    ],
+    "badges": [
+      "优质产品",
+      "ISO认证"
+    ]
+  },
+  {
+    "id": 5,
+    "title": "轻质粘土砖",
+    "description": "轻质保温材料，具有良好的隔热性能",
+    "category": "shaped",
+    "image": "images/products/shaped_lightweight_clay_brick.jpg",
+    "alt": "轻质粘土砖",
+    "href": "products/lightweight-clay-brick.html",
+    "specs": [
+      "使用温度: 1200-1350℃",
+      "密度: 0.8-1.2g/cm³",
+      "导热系数: 0.3-0.6W/(m·K)",
+      "抗压强度: ≥10MPa"
+    ],
+    "applications": [
+      "保温隔热",
+      "窑炉内衬",
+      "管道保温",
+      "建材工业"
+    ],
+    "badges": [
+      "可靠性高",
+      "质量认证"
+    ]
+  },
+  {
+    "id": 6,
+    "title": "半硅砖",
+    "description": "介于粘土砖和硅砖之间的过渡性产品",
+    "category": "shaped",
+    "image": "images/products/shaped_combination_brick.jpg",
+    "alt": "半硅砖",
+    "href": "products/semi-silica-brick.html",
+    "specs": [
+      "使用温度: 1400-1500℃",
+      "SiO₂: 65-85%",
+      "Al₂O₃: 15-30%",
+      "密度: 2.1-2.4g/cm³"
+    ],
+    "applications": [
+      "钢铁冶炼",
+      "有色金属",
+      "焦化工业",
+      "石化装置"
+    ],
+    "badges": [
+      "经典产品",
+      "久经考验"
+    ]
+  },
+  {
+    "id": 7,
+    "title": "轻质硅砖",
+    "description": "轻质高温材料，具有优异的保温性能",
+    "category": "shaped",
+    "image": "images/products/shaped_lightweight_fireclay_brick.jpg",
+    "alt": "轻质硅砖",
+    "href": "products/lightweight-silica-brick.html",
+    "specs": [
+      "使用温度: 1500-1600℃",
+      "密度: 0.9-1.3g/cm³",
+      "SiO₂: ≥92%",
+      "抗压强度: ≥15MPa"
+    ],
+    "applications": [
+      "保温隔热",
+      "高温设备",
+      "窑炉背衬",
+      "节能改造"
+    ],
+    "badges": [
+      "绿色材料",
+      "品质保证"
+    ]
+  },
+  {
+    "id": 8,
+    "title": "一般硅砖",
+    "description": "标准硅砖产品，广泛应用于各类高温炉窑",
+    "category": "shaped",
+    "image": "images/products/shaped_silica_brick.jpg",
+    "alt": "一般硅砖",
+    "href": "products/general-silica-brick.html",
+    "specs": [
+      "使用温度: 1550-1650℃",
+      "SiO₂: ≥92%",
+      "耐火度: ≥1690℃",
+      "密度: 2.3-2.4g/cm³"
+    ],
+    "applications": [
+      "焦化工业",
+      "玻璃工业",
+      "陶瓷工业",
+      "耐火材料"
+    ],
+    "badges": [
+      "高端选择",
+      "环保首选"
+    ]
+  },
+  {
+    "id": 9,
+    "title": "标准硅砖",
+    "description": "高标准硅砖，适用于要求严格的高温环境",
+    "category": "shaped",
+    "image": "images/products/shaped_hot_blast_furnace_silica_brick.jpg",
+    "alt": "标准硅砖",
+    "href": "products/standard-silica-brick.html",
+    "specs": [
+      "使用温度: 1600-1700℃",
+      "SiO₂: ≥94%",
+      "抗压强度: ≥40MPa",
+      "热膨胀: 1.5-2.2%"
+    ],
+    "applications": [
+      "钢铁冶炼",
+      "焦炉建设",
+      "玻璃熔炉",
+      "高温设备"
+    ],
+    "badges": [
+      "节能环保"
+    ]
+  },
+  {
+    "id": 10,
+    "title": "标准高铝砖",
+    "description": "标准规格高铝砖，性能稳定可靠",
+    "category": "shaped",
+    "image": "images/products/shaped_high_alumina_brick.jpg",
+    "alt": "标准高铝砖",
+    "href": "products/standard-high-alumina-brick.html",
+    "specs": [
+      "使用温度: 1450-1530℃",
+      "Al₂O₃: 48-65%",
+      "抗压强度: ≥45MPa",
+      "密度: 2.3-2.6g/cm³"
+    ],
+    "applications": [
+      "钢铁冶炼",
+      "有色金属",
+      "水泥工业",
+      "石化装置"
+    ],
+    "badges": [
+      "绿色材料",
+      "工艺创新"
+    ]
+  },
+  {
+    "id": 11,
+    "title": "重质粘土砖",
+    "description": "高密度粘土砖，具有优异的机械强度",
+    "category": "shaped",
+    "image": "images/products/shaped_clay_brick.jpg",
+    "alt": "重质粘土砖",
+    "href": "products/heavy-clay-brick.html",
+    "specs": [
+      "使用温度: 1300-1400℃",
+      "密度: 2.1-2.4g/cm³",
+      "抗压强度: ≥40MPa",
+      "Al₂O₃: 30-48%"
+    ],
+    "applications": [
+      "重工业炉",
+      "钢铁冶炼",
+      "建材工业",
+      "化工设备"
+    ],
+    "badges": [
+      "优质产品",
+      "稳定性好"
+    ]
+  },
+  {
+    "id": 12,
+    "title": "轻质莫来石砖",
+    "description": "轻质莫来石材料，兼具保温和耐火性能",
+    "category": "shaped",
+    "image": "images/products/shaped_lightweight_mullite_brick.jpg",
+    "alt": "轻质莫来石砖",
+    "href": "products/lightweight-mullite-brick.html",
+    "specs": [
+      "使用温度: 1400-1550℃",
+      "密度: 1.2-1.8g/cm³",
+      "抗热震: ≥20次",
+      "导热系数: 0.4-0.8W/(m·K)"
+    ],
+    "applications": [
+      "高温保温",
+      "精密设备",
+      "实验炉窑",
+      "节能应用"
+    ],
+    "badges": [
+      "创新技术",
+      "高端选择"
+    ]
+  },
+  {
+    "id": 13,
+    "title": "保温砖",
+    "description": "专业保温材料，优异的隔热性能",
+    "category": "shaped",
+    "image": "images/products/shaped_mullite_light_brick.jpg",
+    "alt": "保温砖",
+    "href": "products/insulating-brick.html",
+    "specs": [
+      "使用温度: 1000-1400℃",
+      "密度: 0.8-1.5g/cm³",
+      "导热系数: 0.2-0.4W/(m·K)",
+      "气孔率: 65-75%"
+    ],
+    "applications": [
+      "保温隔热",
+      "节能改造",
+      "管道保温",
+      "设备保温"
+    ],
+    "badges": [
+      "节能环保",
+      "技术先进"
+    ]
+  },
+  {
+    "id": 14,
+    "title": "焦炉砖",
+    "description": "焦炉专用耐火砖，适用于焦化设备",
+    "category": "shaped",
+    "image": "images/products/shaped_high_alumina_light_brick.jpg",
+    "alt": "焦炉砖",
+    "href": "products/coke-oven-brick.html",
+    "specs": [
+      "耐火度: ≥1790℃",
+      "Al₂O₃: ≥42%",
+      "焦炉专用",
+      "高温稳定"
+    ],
+    "applications": [
+      "焦化工业",
+      "煤气化",
+      "钢铁冶炼",
+      "化工装置"
+    ],
+    "badges": [
+      "品质保证",
+      "ISO认证"
+    ]
+  },
+  {
+    "id": 15,
+    "title": "硅钼砖",
+    "description": "含钼硅砖，特殊工艺制造",
+    "category": "shaped",
+    "image": "images/products/shaped_lightweight_high_alumina_brick.jpg",
+    "alt": "硅钼砖",
+    "href": "products/silica-molybdenum-brick.html",
+    "specs": [
+      "使用温度: ≤1650℃",
+      "含Mo成分",
+      "特殊用途",
+      "定制生产"
+    ],
+    "applications": [
+      "高温设备",
+      "特殊炉窑",
+      "精密工业",
+      "科研设备"
+    ],
+    "badges": [
+      "工艺创新",
+      "优质产品"
+    ]
+  },
+  {
+    "id": 16,
+    "title": "热风炉用格子硅砖",
+    "description": "热风炉格子砖，特殊结构设计",
+    "category": "shaped",
+    "image": "images/products/shaped_silica_mullite_brick.jpg",
+    "alt": "热风炉用格子硅砖",
+    "href": "products/hot-blast-stove-checker-silica-brick.html",
+    "specs": [
+      "使用温度: ≤1600℃",
+      "格子结构",
+      "热风炉专用",
+      "定制规格"
+    ],
+    "applications": [
+      "热风炉",
+      "钢铁冶炼",
+      "高炉系统",
+      "节能设备"
+    ],
+    "badges": [
+      "创新技术",
+      "可靠性高"
+    ]
+  },
+  {
+    "id": 17,
+    "title": "热风炉用硅砖",
+    "description": "热风炉专用硅砖，高纯度硅质材料",
+    "category": "shaped",
+    "image": "images/products/placeholder-companion.jpg",
+    "alt": "热风炉用硅砖",
+    "href": "products/hot-blast-stove-silica-brick.html",
+    "specs": [
+      "使用温度: ≤1650℃",
+      "SiO₂: ≥96%",
+      "热风炉专用",
+      "高纯硅质"
+    ],
+    "applications": [
+      "热风炉",
+      "高炉设备",
+      "钢铁工业",
+      "冶金设备"
+    ],
+    "badges": [
+      "久经考验",
+      "品质保证"
+    ]
+  },
+  {
+    "id": 18,
+    "title": "热风炉用黏土格子硅砖",
+    "description": "热风炉黏土格子砖，专用结构设计",
+    "category": "shaped",
+    "image": "images/products/placeholder-guardian.jpg",
+    "alt": "热风炉用黏土格子硅砖",
+    "href": "products/hot-blast-stove-clay-checker-brick.html",
+    "specs": [
+      "使用温度: ≤1400℃",
+      "格子结构",
+      "黏土基质",
+      "热风炉专用"
+    ],
+    "applications": [
+      "热风炉",
+      "高炉系统",
+      "钢铁冶炼",
+      "冶金工程"
+    ],
+    "badges": [
+      "国际认证",
+      "稳定性好"
+    ]
+  },
+  {
+    "id": 19,
+    "title": "耐火浇注料",
+    "description": "高性能刚玉浇注料，适用于各种高温炉窑",
+    "category": "unshaped",
+    "image": "images/products/unshaped_corundum_castable.jpg",
+    "alt": "耐火浇注料",
+    "href": "products/refractory-castable.html",
+    "specs": [
+      "使用温度: 1700-1800℃",
+      "Al₂O₃: 90-95%",
+      "抗压强度: ≥80MPa",
+      "流动度: 130-160mm"
+    ],
+    "applications": [
+      "钢铁冶炼",
+      "有色金属",
+      "水泥工业",
+      "石化装置"
+    ],
+    "badges": [
+      "热门",
+      "出口优势"
+    ]
+  },
+  {
+    "id": 20,
+    "title": "钢纤维浇注料",
+    "description": "增强型耐磨浇注料，适用于高磨损环境",
+    "category": "unshaped",
+    "image": "images/products/unshaped_steel_fiber_castable.jpg",
+    "alt": "钢纤维浇注料",
+    "href": "products/steel-fiber-castable.html",
+    "specs": [
+      "使用温度: 1400-1600℃",
+      "钢纤维: 3-8%",
+      "耐磨指数: ≥9",
+      "抗冲击: ≥15kJ/m²"
+    ],
+    "applications": [
+      "钢铁冶炼",
+      "高温设备",
+      "耐磨应用",
+      "重工业"
+    ],
+    "badges": []
+  },
+  {
+    "id": 21,
+    "title": "高铝浇注料",
+    "description": "高铝系列浇注料，广泛应用于各种工业炉窑",
+    "category": "unshaped",
+    "image": "images/products/unshaped_high_alumina_castable.jpg",
+    "alt": "高铝浇注料",
+    "href": "products/alumina-castable.html",
+    "specs": [
+      "使用温度: 1350-1650℃",
+      "Al₂O₃: 50-80%",
+      "流动性: 120-180mm",
+      "抗压强度: ≥50MPa"
+    ],
+    "applications": [
+      "高温炉窑",
+      "钢铁冶炼",
+      "精炼设备",
+      "石化装置"
+    ],
+    "badges": []
+  },
+  {
+    "id": 22,
+    "title": "不定型耐火材料",
+    "description": "多种不定型耐火材料，满足不同施工需求",
+    "category": "unshaped",
+    "image": "images/products/unshaped_refractory_material.jpg",
+    "alt": "不定型耐火材料",
+    "href": "products/unshaped-refractory.html",
+    "specs": [
+      "使用温度: 1200-1700℃",
+      "施工方便: 浇筑/捉打",
+      "多种类型: 浇注料/材料",
+      "定制化: 按需配制"
+    ],
+    "applications": [
+      "各类炉窑",
+      "钢铁冶炼",
+      "有色金属",
+      "化工设备"
+    ],
+    "badges": []
+  },
+  {
+    "id": 23,
+    "title": "高炉陶瓷杯",
+    "description": "高炉专用陶瓷杯，优异的抗侵蚀性能",
+    "category": "unshaped",
+    "image": "images/products/unshaped_blast_furnace_ceramic_cup.jpg",
+    "alt": "高炉陶瓷杯",
+    "href": "products/blast-furnace-ceramic-cup.html",
+    "specs": [
+      "使用温度: 1500-1650℃",
+      "抗侵蚀指数: ≥85%",
+      "使用寿命: 3-5年",
+      "抗冲刷: ≥20级"
+    ],
+    "applications": [
+      "高炉系统",
+      "钢铁冶炼",
+      "冶金设备",
+      "铁水出铁"
+    ],
+    "badges": []
+  },
+  {
+    "id": 24,
+    "title": "铬刚玉浇注料",
+    "description": "高温铬刚玉浇注料，优异的抗渣性能",
+    "category": "unshaped",
+    "image": "images/products/unshaped_chrome_corundum_castable.jpg",
+    "alt": "铬刚玉浇注料",
+    "href": "products/chrome-corundum-castable.html",
+    "specs": [
+      "使用温度: 1650-1750℃",
+      "Cr₂O₃: 8-15%",
+      "高温强度: ≥70MPa",
+      "抗渣性: 优异"
+    ],
+    "applications": [
+      "钢铁冶炼",
+      "有色金属",
+      "高温炉窑",
+      "精炼设备"
+    ],
+    "badges": []
+  },
+  {
+    "id": 25,
+    "title": "不定型耐火制品",
+    "description": "出口级不定型耐火制品，符合欧盟标准",
+    "category": "unshaped",
+    "image": "images/products/unshaped_monolithic_refractory.jpg",
+    "alt": "不定型耐火制品",
+    "href": "products/unshaped-refractory-material.html",
+    "specs": [
+      "使用温度: 1000-1800℃",
+      "多种类型: 浇注料/可塑料",
+      "出口标准: 欧盟认证",
+      "市场占有率: 35%"
+    ],
+    "applications": [
+      "各类炉窑",
+      "工业设备",
+      "维修补强",
+      "定制应用"
+    ],
+    "badges": []
+  },
+  {
+    "id": 26,
+    "title": "耐火喷涂料",
+    "description": "耐火喷涂材料，适用于喷涂施工",
+    "category": "unshaped",
+    "image": "images/products/placeholder-defender.jpg",
+    "alt": "耐火喷涂料",
+    "href": "products/refractory-spray-coating.html",
+    "specs": [
+      "使用温度: 1300-1500℃",
+      "喷涂施工",
+      "施工便捷",
+      "附着力强"
+    ],
+    "applications": [
+      "炉窑维修",
+      "快速施工",
+      "表面防护",
+      "应急修补"
+    ],
+    "badges": []
+  },
+  {
+    "id": 27,
+    "title": "轻质浇注料",
+    "description": "轻质保温浇注料，优异的保温性能",
+    "category": "unshaped",
+    "image": "images/products/placeholder-core.jpg",
+    "alt": "轻质浇注料",
+    "href": "products/lightweight-castable.html",
+    "specs": [
+      "使用温度: 1100-1300℃",
+      "密度: 0.6-1.2g/cm³",
+      "保温性能好",
+      "重量轻"
+    ],
+    "applications": [
+      "保温应用",
+      "轻质炉衬",
+      "节能改造",
+      "背衬材料"
+    ],
+    "badges": []
+  },
+  {
+    "id": 28,
+    "title": "可塑料",
+    "description": "耐火可塑料，适用于捣打施工",
+    "category": "unshaped",
+    "image": "images/products/placeholder-expert.jpg",
+    "alt": "可塑料",
+    "href": "products/plastic-refractory.html",
+    "specs": [
+      "使用温度: 1400-1600℃",
+      "捣打施工",
+      "可塑性好",
+      "高温稳定"
+    ],
+    "applications": [
+      "炉窑修补",
+      "异形部位",
+      "手工成型",
+      "维修应用"
+    ],
+    "badges": []
+  },
+  {
+    "id": 29,
+    "title": "刚玉莫来石",
+    "description": "刚玉莫来石复合材料，优异的高温性能",
+    "category": "special",
+    "image": "images/products/special_corundum_mullite.jpg",
+    "alt": "刚玉莫来石",
+    "href": "products/corundum-mullite.html",
+    "specs": [
+      "使用温度: 1600-1750℃",
+      "刚玉: 50-70%",
+      "复合材料",
+      "高温稳定"
+    ],
+    "applications": [
+      "高温炉窑",
+      "精密设备",
+      "实验设备",
+      "特殊应用"
+    ],
+    "badges": []
+  },
+  {
+    "id": 30,
+    "title": "刚玉球",
+    "description": "高纯刚玉球，多种规格可选",
+    "category": "special",
+    "image": "images/products/special_corundum_ball.jpg",
+    "alt": "刚玉球",
+    "href": "products/corundum-ball.html",
+    "specs": [
+      "使用温度: 1700-1800℃",
+      "直径: Φ6-50mm",
+      "高纯刚玉",
+      "球形结构"
+    ],
+    "applications": [
+      "研磨介质",
+      "球磨机",
+      "陶瓷工业",
+      "化工设备"
+    ],
+    "badges": []
+  },
+  {
+    "id": 31,
+    "title": "刚玉砖",
+    "description": "超高温刚玉砖，适用于极高温环境",
+    "category": "special",
+    "image": "images/products/special_corundum_brick.jpg",
+    "alt": "刚玉砖",
+    "href": "products/corundum-brick.html",
+    "specs": [
+      "使用温度: 1750-1900℃",
+      "Al₂O₃: ≥95%",
+      "超高温砖",
+      "高纯刚玉"
+    ],
+    "applications": [
+      "高温炉窑",
+      "钢铁冶炼",
+      "有色金属",
+      "精炼设备"
+    ],
+    "badges": []
+  },
+  {
+    "id": 32,
+    "title": "磷酸盐耐磨砖",
+    "description": "磷酸盐结合耐磨砖，优异的耐磨性能",
+    "category": "special",
+    "image": "images/products/special_phosphate_wear_resistant_brick.jpg",
+    "alt": "磷酸盐耐磨砖",
+    "href": "products/phosphate-wear-resistant-brick.html",
+    "specs": [
+      "使用温度: 1200-1500℃",
+      "耐磨指数: ≥8",
+      "磷酸盐结合",
+      "耐磨性优"
+    ],
+    "applications": [
+      "耐磨应用",
+      "水泥工业",
+      "矿物加工",
+      "重型设备"
+    ],
+    "badges": []
+  },
+  {
+    "id": 33,
+    "title": "磷酸盐砖",
+    "description": "磷酸盐结合砖，快速硬化特性",
+    "category": "special",
+    "image": "images/products/special_phosphate_brick.jpg",
+    "alt": "磷酸盐砖",
+    "href": "products/phosphate-brick.html",
+    "specs": [
+      "使用温度: 1300-1550℃",
+      "快速硬化",
+      "磷酸盐结合",
+      "化学稳定"
+    ],
+    "applications": [
+      "中温炉窑",
+      "化工设备",
+      "建材工业",
+      "特殊环境"
+    ],
+    "badges": []
+  },
+  {
+    "id": 34,
+    "title": "镁铬砖",
+    "description": "碱性耐火砖，优异的抗侵蚀性能",
+    "category": "special",
+    "image": "images/products/special_magnesia_chrome_brick.jpg",
+    "alt": "镁铬砖",
+    "href": "products/magnesia-chrome-brick.html",
+    "specs": [
+      "使用温度: 1600-1800℃",
+      "MgO: 55-65%",
+      "Cr₂O₃: 12-18%",
+      "抗渣性优"
+    ],
+    "applications": [
+      "钢铁冶炼",
+      "有色金属",
+      "水泥工业",
+      "高温设备"
+    ],
+    "badges": []
+  },
+  {
+    "id": 35,
+    "title": "氧化铝空心球砖",
+    "description": "超高温轻质材料，节能效果显著",
+    "category": "special",
+    "image": "images/products/special_alumina_hollow_sphere_brick.jpg",
+    "alt": "氧化铝空心球砖",
+    "href": "products/alumina-hollow-sphere-brick.html",
+    "specs": [
+      "使用温度: 1600-1800℃",
+      "Al₂O₃: ≥99%",
+      "空心球结构",
+      "节能效果: 30%+"
+    ],
+    "applications": [
+      "高温保温",
+      "节能应用",
+      "轻质炉衬",
+      "精密设备"
+    ],
+    "badges": []
+  },
+  {
+    "id": 36,
+    "title": "耐磨陶瓷",
+    "description": "高耐磨陶瓷材料，适用于磨损环境",
+    "category": "special",
+    "image": "images/products/placeholder-expert.jpg",
+    "alt": "耐磨陶瓷",
+    "href": "products/wear-resistant-ceramic.html",
+    "specs": [
+      "使用温度: 1200-1400℃",
+      "耐磨性: 优异",
+      "陶瓷材质",
+      "长寿命"
+    ],
+    "applications": [
+      "耐磨设备",
+      "矿物加工",
+      "输送系统",
+      "工业防护"
+    ],
+    "badges": []
+  },
+  {
+    "id": 37,
+    "title": "轻质高铝砖",
+    "description": "轻质高铝材料，保温节能效果显著",
+    "category": "lightweight",
+    "image": "images/products/placeholder-custom.jpg",
+    "alt": "轻质高铝砖",
+    "href": "products/lightweight-high-alumina-brick.html",
+    "specs": [
+      "使用温度: 1350-1450℃",
+      "密度: 0.8-1.3g/cm³",
+      "Al₂O₃: ≥48%",
+      "导热系数: 0.4-0.8W/(m·K)"
+    ],
+    "applications": [
+      "保温隔热",
+      "轻质炉衬",
+      "节能应用",
+      "高温背衬"
+    ],
+    "badges": [
+      "出口品质"
+    ]
+  },
+  {
+    "id": 38,
+    "title": "保温材料",
+    "description": "专业保温材料，节能降耗效果明显",
+    "category": "lightweight",
+    "image": "images/products/placeholder-core.jpg",
+    "alt": "保温材料",
+    "href": "products/insulating-material.html",
+    "specs": [
+      "使用温度: 800-1200℃",
+      "密度: 0.3-0.8g/cm³",
+      "导热系数: 0.1-0.4W/(m·K)",
+      "保温性优"
+    ],
+    "applications": [
+      "保温隔热",
+      "节能改造",
+      "管道保温",
+      "设备保温"
+    ],
+    "badges": []
+  },
+  {
+    "id": 39,
+    "title": "隔热砖",
+    "description": "轻质隔热砖，有效减少热量损失",
+    "category": "lightweight",
+    "image": "images/products/placeholder-custom.jpg",
+    "alt": "隔热砖",
+    "href": "products/thermal-insulation-brick.html",
+    "specs": [
+      "使用温度: 1000-1300℃",
+      "密度: 0.6-1.0g/cm³",
+      "隔热性优",
+      "轻质结构"
+    ],
+    "applications": [
+      "隔热保温",
+      "节能应用",
+      "背衬材料",
+      "温度控制"
+    ],
+    "badges": []
+  }
+]

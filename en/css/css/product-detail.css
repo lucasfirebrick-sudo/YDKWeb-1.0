@@ -1,0 +1,574 @@
+/* ================================================
+   产品详情页专用样式
+   ================================================ */
+
+.product-detail-page {
+    font-family: 'Noto Sans SC', sans-serif;
+    line-height: 1.6;
+    color: #333;
+}
+
+/* 面包屑导航 */
+.breadcrumb-section {
+    background: #f8f9fa;
+    padding: 1rem 0;
+    border-bottom: 1px solid #e9ecef;
+}
+
+.breadcrumb {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    font-size: 0.9rem;
+}
+
+.breadcrumb a {
+    color: #666;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.breadcrumb a:hover {
+    color: #d32f2f;
+}
+
+.breadcrumb-separator {
+    color: #999;
+    margin: 0 0.25rem;
+}
+
+.breadcrumb .current {
+    color: #d32f2f;
+    font-weight: 500;
+}
+
+/* 产品概览区域 */
+.product-overview {
+    padding: 3rem 0;
+    background: #fff;
+}
+
+.product-overview-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 4rem;
+    align-items: start;
+}
+
+/* 产品图片区域 */
+.product-image-section {
+    position: relative;
+}
+
+.product-badge {
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+    z-index: 10;
+    padding: 0.5rem 1rem;
+    border-radius: 20px;
+    font-size: 0.85rem;
+    font-weight: 600;
+    color: white;
+}
+
+.product-badge.hot {
+    background: linear-gradient(135deg, #ff6b35, #d32f2f);
+}
+
+.product-badge.premium {
+    background: linear-gradient(135deg, #ffd700, #ff8c00);
+}
+
+.product-badge.export {
+    background: linear-gradient(135deg, #4caf50, #2e7d32);
+}
+
+.product-badge.industrial {
+    background: linear-gradient(135deg, #2196f3, #1565c0);
+}
+
+.product-badge.performance {
+    background: linear-gradient(135deg, #9c27b0, #6a1b9a);
+}
+
+.product-badge.special {
+    background: linear-gradient(135deg, #ff5722, #d84315);
+}
+
+.main-image {
+    background: #f8f9fa;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.1);
+}
+
+.product-image {
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+    display: block;
+}
+
+/* 产品信息区域 */
+.product-info-section {
+    padding: 2rem 0;
+}
+
+.product-header {
+    margin-bottom: 2rem;
+}
+
+.product-title {
+    font-size: 2.5rem;
+    font-weight: 700;
+    color: #d32f2f;
+    margin-bottom: 0.5rem;
+    line-height: 1.2;
+}
+
+.product-english {
+    display: block;
+    font-size: 1.2rem;
+    font-weight: 400;
+    color: #666;
+    margin-top: 0.5rem;
+}
+
+.product-description {
+    font-size: 1.1rem;
+    color: #555;
+    line-height: 1.6;
+    margin-top: 1rem;
+}
+
+/* 关键规格 */
+.key-specs {
+    margin-bottom: 2rem;
+}
+
+.key-specs h3 {
+    font-size: 1.3rem;
+    color: #333;
+    margin-bottom: 1rem;
+    border-bottom: 2px solid #d32f2f;
+    padding-bottom: 0.5rem;
+}
+
+.specs-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    gap: 1rem;
+}
+
+.spec-item {
+    background: #f8f9fa;
+    padding: 1rem;
+    border-radius: 8px;
+    text-align: center;
+    border-left: 4px solid #d32f2f;
+}
+
+.spec-value {
+    font-size: 1.2rem;
+    font-weight: 700;
+    color: #d32f2f;
+    display: block;
+}
+
+.spec-label {
+    font-size: 0.9rem;
+    color: #666;
+    margin-top: 0.25rem;
+}
+
+/* 产品特点 */
+.product-features {
+    margin-bottom: 2rem;
+}
+
+.product-features h3 {
+    font-size: 1.3rem;
+    color: #333;
+    margin-bottom: 1rem;
+    border-bottom: 2px solid #d32f2f;
+    padding-bottom: 0.5rem;
+}
+
+.features-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.features-list li {
+    padding: 0.5rem 0;
+    position: relative;
+    padding-left: 1.5rem;
+}
+
+.features-list li::before {
+    content: '✓';
+    position: absolute;
+    left: 0;
+    color: #4caf50;
+    font-weight: bold;
+}
+
+/* 行动按钮 */
+.product-actions {
+    display: flex;
+    gap: 1rem;
+    margin-top: 2rem;
+}
+
+.btn {
+    padding: 1rem 2rem;
+    border-radius: 8px;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 1rem;
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+    transition: all 0.3s ease;
+    cursor: pointer;
+    border: none;
+}
+
+.btn-primary {
+    background: linear-gradient(135deg, #d32f2f, #ff6b35);
+    color: white;
+}
+
+.btn-primary:hover {
+    background: linear-gradient(135deg, #b71c1c, #e55722);
+    transform: translateY(-2px);
+    box-shadow: 0 8px 16px rgba(211, 47, 47, 0.3);
+}
+
+.btn-outline {
+    background: transparent;
+    color: #d32f2f;
+    border: 2px solid #d32f2f;
+}
+
+.btn-outline:hover {
+    background: #d32f2f;
+    color: white;
+}
+
+.btn-large {
+    padding: 1.25rem 2.5rem;
+    font-size: 1.1rem;
+}
+
+/* 详细技术参数 */
+.technical-params {
+    padding: 4rem 0;
+    background: #f8f9fa;
+}
+
+.section-title {
+    font-size: 2rem;
+    font-weight: 700;
+    color: #333;
+    text-align: center;
+    margin-bottom: 3rem;
+    position: relative;
+}
+
+.section-title::after {
+    content: '';
+    position: absolute;
+    bottom: -0.5rem;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 60px;
+    height: 3px;
+    background: linear-gradient(90deg, #d32f2f, #ff6b35);
+    border-radius: 3px;
+}
+
+.params-table-container {
+    background: white;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1);
+}
+
+.params-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.params-table thead {
+    background: linear-gradient(135deg, #d32f2f, #ff6b35);
+    color: white;
+}
+
+.params-table th,
+.params-table td {
+    padding: 1rem;
+    text-align: left;
+    border-bottom: 1px solid #e9ecef;
+}
+
+.params-table th {
+    font-weight: 600;
+    font-size: 0.95rem;
+}
+
+.params-table tbody tr:hover {
+    background: #f8f9fa;
+}
+
+/* 应用场景 */
+.applications-section {
+    padding: 4rem 0;
+    background: white;
+}
+
+.applications-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 2rem;
+    margin-bottom: 2rem;
+}
+
+.application-item {
+    background: #f8f9fa;
+    padding: 2rem;
+    border-radius: 12px;
+    text-align: center;
+    transition: all 0.3s ease;
+    border-top: 4px solid transparent;
+}
+
+.application-item:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.15);
+    border-top-color: #d32f2f;
+}
+
+.application-icon {
+    font-size: 3rem;
+    color: #d32f2f;
+    margin-bottom: 1rem;
+}
+
+.application-title {
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: #333;
+    margin-bottom: 0.5rem;
+}
+
+.application-desc {
+    color: #666;
+    font-size: 0.95rem;
+}
+
+.applications-description {
+    text-align: center;
+    font-size: 1.1rem;
+    color: #555;
+    max-width: 800px;
+    margin: 0 auto;
+    line-height: 1.6;
+}
+
+/* 相关产品推荐 */
+.related-products {
+    padding: 4rem 0;
+    background: #f8f9fa;
+}
+
+.related-products-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 2rem;
+}
+
+.related-product-card {
+    background: white;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+    text-decoration: none;
+    color: inherit;
+}
+
+.related-product-card:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.15);
+    text-decoration: none;
+    color: inherit;
+}
+
+.related-product-image {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+.related-product-body {
+    padding: 1.5rem;
+}
+
+.related-product-title {
+    font-size: 1.1rem;
+    font-weight: 600;
+    color: #333;
+    margin-bottom: 0.5rem;
+}
+
+.related-product-desc {
+    color: #666;
+    font-size: 0.9rem;
+    margin-bottom: 1rem;
+}
+
+.related-product-specs {
+    display: flex;
+    gap: 1rem;
+    font-size: 0.85rem;
+    color: #888;
+}
+
+/* 快速联系区域 */
+.quick-contact {
+    padding: 4rem 0;
+    background: linear-gradient(135deg, #d32f2f, #ff6b35);
+}
+
+.contact-card {
+    background: rgba(255, 255, 255, 0.95);
+    padding: 3rem;
+    border-radius: 16px;
+    text-align: center;
+    backdrop-filter: blur(10px);
+}
+
+.contact-header h3 {
+    font-size: 1.8rem;
+    color: #333;
+    margin-bottom: 0.5rem;
+}
+
+.contact-header p {
+    color: #666;
+    font-size: 1.1rem;
+    margin-bottom: 2rem;
+}
+
+.contact-methods {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 2rem;
+    margin-bottom: 2rem;
+}
+
+.contact-item {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    padding: 1rem;
+    background: #f8f9fa;
+    border-radius: 8px;
+}
+
+.contact-item i {
+    font-size: 1.5rem;
+    color: #d32f2f;
+}
+
+.contact-info strong {
+    display: block;
+    color: #333;
+    font-weight: 600;
+    margin-bottom: 0.25rem;
+}
+
+.contact-info span {
+    color: #666;
+    font-size: 0.9rem;
+}
+
+/* 产品详情页特定模态框增强样式 */
+
+/* 产品详情页表单特有样式会继承 modal-components.css */
+
+/* 响应式设计 */
+@media (max-width: 768px) {
+    .product-overview-grid {
+        grid-template-columns: 1fr;
+        gap: 2rem;
+    }
+
+    .product-title {
+        font-size: 2rem;
+    }
+
+    .product-actions {
+        flex-direction: column;
+    }
+
+    .btn {
+        text-align: center;
+        justify-content: center;
+    }
+
+    .specs-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .applications-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .related-products-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .contact-methods {
+        grid-template-columns: 1fr;
+    }
+
+    .contact-item {
+        justify-content: center;
+        text-align: center;
+    }
+
+    .form-row {
+        grid-template-columns: 1fr;
+    }
+
+    .form-actions {
+        flex-direction: column;
+    }
+}
+
+@media (max-width: 480px) {
+    .product-overview,
+    .technical-params,
+    .applications-section,
+    .related-products,
+    .quick-contact {
+        padding: 2rem 0;
+    }
+
+    .contact-card {
+        padding: 2rem;
+    }
+
+    .modal-content {
+        width: 95%;
+    }
+
+    .modal-header,
+    .modal-body {
+        padding: 1.5rem;
+    }
+}

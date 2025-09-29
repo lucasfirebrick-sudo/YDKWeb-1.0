@@ -1,0 +1,177 @@
+/* 产品占位图样式系统 */
+
+/* 基础占位图样式 */
+.no-images-placeholder {
+    text-align: center;
+    padding: 40px 20px;
+    background: #f8f9fa;
+    border-radius: 12px;
+    border: 2px dashed #dee2e6;
+    color: #6c757d;
+    margin: 20px 0;
+    transition: all 0.3s ease;
+}
+
+.no-images-placeholder:hover {
+    border-color: #007bff;
+    background: #f0f8ff;
+}
+
+.no-images-placeholder i {
+    font-size: 48px;
+    margin-bottom: 16px;
+    color: #adb5bd;
+}
+
+.no-images-placeholder p {
+    margin: 0 0 8px 0;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.no-images-placeholder small {
+    font-size: 14px;
+    color: #868e96;
+}
+
+/* 占位图版本2 - 渐变背景风格 */
+.placeholder-version-2 {
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    border: none;
+    color: white;
+    box-shadow: 0 10px 30px rgba(102, 126, 234, 0.3);
+}
+
+.placeholder-version-2:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 15px 40px rgba(102, 126, 234, 0.4);
+}
+
+.placeholder-version-2 i {
+    color: rgba(255, 255, 255, 0.9);
+    font-size: 52px;
+    text-shadow: 0 2px 10px rgba(0, 0, 0, 0.3);
+}
+
+.placeholder-version-2 p {
+    color: white;
+    font-weight: 600;
+    text-shadow: 0 1px 3px rgba(0, 0, 0, 0.3);
+}
+
+.placeholder-version-2 small {
+    color: rgba(255, 255, 255, 0.8);
+}
+
+/* 占位图版本3 - 几何图案风格 */
+.placeholder-version-3 {
+    background: #fff;
+    border: 2px solid #e9ecef;
+    position: relative;
+    overflow: hidden;
+}
+
+.placeholder-version-3::before {
+    content: '';
+    position: absolute;
+    top: -50%;
+    left: -50%;
+    width: 200%;
+    height: 200%;
+    background: repeating-linear-gradient(
+        45deg,
+        transparent,
+        transparent 10px,
+        rgba(0, 123, 255, 0.05) 10px,
+        rgba(0, 123, 255, 0.05) 20px
+    );
+    animation: slidePattern 20s linear infinite;
+}
+
+.placeholder-version-3:hover {
+    border-color: #007bff;
+    box-shadow: 0 5px 20px rgba(0, 123, 255, 0.15);
+}
+
+.placeholder-version-3 i {
+    color: #007bff;
+    position: relative;
+    z-index: 2;
+    font-size: 50px;
+}
+
+.placeholder-version-3 p {
+    color: #495057;
+    position: relative;
+    z-index: 2;
+    font-weight: 600;
+}
+
+.placeholder-version-3 small {
+    color: #6c757d;
+    position: relative;
+    z-index: 2;
+}
+
+@keyframes slidePattern {
+    0% { transform: translate(-50%, -50%) rotate(0deg); }
+    100% { transform: translate(-50%, -50%) rotate(360deg); }
+}
+
+/* 随机占位图通用样式 */
+.placeholder-random {
+    /* 默认使用基础样式，由JavaScript随机分配版本 */
+}
+
+/* 响应式设计 */
+@media (max-width: 768px) {
+    .no-images-placeholder {
+        padding: 30px 15px;
+    }
+
+    .no-images-placeholder i {
+        font-size: 40px;
+    }
+
+    .no-images-placeholder p {
+        font-size: 16px;
+    }
+
+    .placeholder-version-2 i,
+    .placeholder-version-3 i {
+        font-size: 42px;
+    }
+}
+
+/* 加载动画 */
+.placeholder-loading {
+    opacity: 0.7;
+    animation: placeholderPulse 1.5s ease-in-out infinite;
+}
+
+@keyframes placeholderPulse {
+    0% { opacity: 0.7; }
+    50% { opacity: 1; }
+    100% { opacity: 0.7; }
+}
+
+/* 隐藏状态 */
+.hidden {
+    display: none !important;
+}
+
+/* 显示动画 */
+.placeholder-show {
+    animation: placeholderFadeIn 0.5s ease-out;
+}
+
+@keyframes placeholderFadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}

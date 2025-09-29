@@ -1,0 +1,636 @@
+{
+  "summary": {
+    "total_pages": 39,
+    "perfect": 0,
+    "minor_issues": 26,
+    "image_issues": 4,
+    "major_issues": 9,
+    "read_error": 0,
+    "fixes_applied": 0
+  },
+  "results": {
+    "perfect": [],
+    "minor_issues": [
+      {
+        "product_id": "alumina-castable",
+        "analysis": {
+          "status": "minor_issues",
+          "issues": [
+            "缺少主图片标签",
+            "缺少multi-image-gallery.js引用"
+          ],
+          "recommendations": [],
+          "configured_images": [
+            "../images/products/alumina-castable-official-1.png",
+            "../images/products/alumina-castable-official-2.png"
+          ],
+          "image_count": 2
+        }
+      },
+      {
+        "product_id": "alumina-hollow-sphere-brick",
+        "analysis": {
+          "status": "minor_issues",
+          "issues": [
+            "缺少主图片标签",
+            "缺少multi-image-gallery.js引用"
+          ],
+          "recommendations": [],
+          "configured_images": [
+            "../images/products/alumina-hollow-sphere-brick-official-1.png",
+            "../images/products/alumina-hollow-sphere-brick-official-2.png",
+            "../images/products/alumina-hollow-sphere-brick-1.png",
+            "../images/products/alumina-hollow-sphere-brick-2.png"
+          ],
+          "image_count": 4
+        }
+      },
+      {
+        "product_id": "blast-furnace-ceramic-cup",
+        "analysis": {
+          "status": "minor_issues",
+          "issues": [
+            "缺少主图片标签",
+            "缺少multi-image-gallery.js引用"
+          ],
+          "recommendations": [],
+          "configured_images": [
+            "../images/products/blast-furnace-ceramic-cup-official-1.png",
+            "../images/products/blast-furnace-ceramic-cup-official-2.png"
+          ],
+          "image_count": 2
+        }
+      },
+      {
+        "product_id": "chrome-corundum-castable",
+        "analysis": {
+          "status": "minor_issues",
+          "issues": [
+            "缺少主图片标签",
+            "缺少multi-image-gallery.js引用"
+          ],
+          "recommendations": [],
+          "configured_images": [
+            "../images/products/chrome-corundum-castable-official-1.png"
+          ],
+          "image_count": 1
+        }
+      },
+      {
+        "product_id": "corundum-ball",
+        "analysis": {
+          "status": "minor_issues",
+          "issues": [
+            "缺少主图片标签",
+            "缺少multi-image-gallery.js引用"
+          ],
+          "recommendations": [],
+          "configured_images": [
+            "../images/products/corundum-ball-official-1.png",
+            "../images/products/corundum-ball-official-2.png"
+          ],
+          "image_count": 2
+        }
+      },
+      {
+        "product_id": "corundum-brick",
+        "analysis": {
+          "status": "minor_issues",
+          "issues": [
+            "缺少主图片标签",
+            "缺少multi-image-gallery.js引用"
+          ],
+          "recommendations": [],
+          "configured_images": [
+            "../images/products/corundum-brick-official-1.png",
+            "../images/products/corundum-brick-official-2.png"
+          ],
+          "image_count": 2
+        }
+      },
+      {
+        "product_id": "corundum-mullite",
+        "analysis": {
+          "status": "minor_issues",
+          "issues": [
+            "缺少主图片标签",
+            "缺少multi-image-gallery.js引用"
+          ],
+          "recommendations": [],
+          "configured_images": [
+            "../images/products/corundum-mullite-official-1.png",
+            "../images/products/corundum-mullite-official-2.png"
+          ],
+          "image_count": 2
+        }
+      },
+      {
+        "product_id": "general-silica-brick",
+        "analysis": {
+          "status": "minor_issues",
+          "issues": [
+            "缺少主图片标签",
+            "缺少multi-image-gallery.js引用"
+          ],
+          "recommendations": [],
+          "configured_images": [
+            "../images/products/general-silica-brick-official-1.png",
+            "../images/products/general-silica-brick-official-2.png"
+          ],
+          "image_count": 2
+        }
+      },
+      {
+        "product_id": "heavy-clay-brick",
+        "analysis": {
+          "status": "minor_issues",
+          "issues": [
+            "缺少主图片标签",
+            "缺少multi-image-gallery.js引用"
+          ],
+          "recommendations": [],
+          "configured_images": [
+            "../images/products/heavy-clay-brick-official-1.png",
+            "../images/products/heavy-clay-brick-official-2.png"
+          ],
+          "image_count": 2
+        }
+      },
+      {
+        "product_id": "hot-blast-stove-silica-brick",
+        "analysis": {
+          "status": "minor_issues",
+          "issues": [
+            "缺少主图片标签",
+            "缺少multi-image-gallery.js引用"
+          ],
+          "recommendations": [],
+          "configured_images": [
+            "../images/products/hot-blast-stove-silica-brick-official-1.png",
+            "../images/products/hot-blast-stove-silica-brick-official-2.png",
+            "../images/products/hot-blast-stove-silica-brick-official-3.png"
+          ],
+          "image_count": 3
+        }
+      },
+      {
+        "product_id": "lightweight-castable",
+        "analysis": {
+          "status": "minor_issues",
+          "issues": [
+            "缺少主图片标签",
+            "缺少multi-image-gallery.js引用"
+          ],
+          "recommendations": [],
+          "configured_images": [
+            "../images/products/lightweight-castable-official-1.png"
+          ],
+          "image_count": 1
+        }
+      },
+      {
+        "product_id": "lightweight-clay-brick",
+        "analysis": {
+          "status": "minor_issues",
+          "issues": [
+            "缺少主图片标签",
+            "缺少multi-image-gallery.js引用"
+          ],
+          "recommendations": [],
+          "configured_images": [
+            "../images/products/lightweight-clay-brick-official-1.png",
+            "../images/products/lightweight-clay-brick-official-2.png",
+            "../images/products/lightweight-clay-brick-official-3.png",
+            "../images/products/lightweight-clay-brick-2.png"
+          ],
+          "image_count": 4
+        }
+      },
+      {
+        "product_id": "lightweight-high-alumina-brick",
+        "analysis": {
+          "status": "minor_issues",
+          "issues": [
+            "缺少主图片标签",
+            "缺少multi-image-gallery.js引用"
+          ],
+          "recommendations": [],
+          "configured_images": [
+            "../images/products/lightweight-high-alumina-brick-official-1.png",
+            "../images/products/lightweight-high-alumina-brick-official-2.png"
+          ],
+          "image_count": 2
+        }
+      },
+      {
+        "product_id": "lightweight-mullite-brick",
+        "analysis": {
+          "status": "minor_issues",
+          "issues": [
+            "缺少主图片标签",
+            "缺少multi-image-gallery.js引用"
+          ],
+          "recommendations": [],
+          "configured_images": [
+            "../images/products/lightweight-mullite-brick-official-1.png",
+            "../images/products/lightweight-mullite-brick-official-2.png",
+            "../images/products/lightweight-mullite-brick-1.png",
+            "../images/products/lightweight-mullite-brick-2.png"
+          ],
+          "image_count": 4
+        }
+      },
+      {
+        "product_id": "magnesia-chrome-brick",
+        "analysis": {
+          "status": "minor_issues",
+          "issues": [
+            "缺少主图片标签",
+            "缺少multi-image-gallery.js引用"
+          ],
+          "recommendations": [],
+          "configured_images": [
+            "../images/products/magnesia-chrome-brick-official-1.png",
+            "../images/products/magnesia-chrome-brick-official-2.png"
+          ],
+          "image_count": 2
+        }
+      },
+      {
+        "product_id": "mullite-brick",
+        "analysis": {
+          "status": "minor_issues",
+          "issues": [
+            "缺少主图片标签"
+          ],
+          "recommendations": [],
+          "configured_images": [
+            "../images/products/mullite-brick-official-1.png",
+            "../images/products/mullite-brick-official-2.png",
+            "../images/products/mullite-brick-official-3.png"
+          ],
+          "image_count": 3
+        }
+      },
+      {
+        "product_id": "phosphate-brick",
+        "analysis": {
+          "status": "minor_issues",
+          "issues": [
+            "缺少主图片标签",
+            "缺少multi-image-gallery.js引用"
+          ],
+          "recommendations": [],
+          "configured_images": [
+            "../images/products/phosphate-brick-official-1.png",
+            "../images/products/phosphate-brick-1.png"
+          ],
+          "image_count": 2
+        }
+      },
+      {
+        "product_id": "phosphate-wear-resistant-brick",
+        "analysis": {
+          "status": "minor_issues",
+          "issues": [
+            "缺少主图片标签",
+            "缺少multi-image-gallery.js引用"
+          ],
+          "recommendations": [],
+          "configured_images": [
+            "../images/products/phosphate-wear-resistant-brick-official-1.png",
+            "../images/products/phosphate-wear-resistant-brick-official-2.png"
+          ],
+          "image_count": 2
+        }
+      },
+      {
+        "product_id": "plastic-refractory",
+        "analysis": {
+          "status": "minor_issues",
+          "issues": [
+            "缺少主图片标签",
+            "缺少multi-image-gallery.js引用"
+          ],
+          "recommendations": [],
+          "configured_images": [
+            "../images/products/plastic-refractory-official-1.png",
+            "../images/products/plastic-refractory-official-2.png",
+            "../images/products/plastic-refractory-official-3.png"
+          ],
+          "image_count": 3
+        }
+      },
+      {
+        "product_id": "refractory-spray-coating",
+        "analysis": {
+          "status": "minor_issues",
+          "issues": [
+            "缺少主图片标签",
+            "缺少multi-image-gallery.js引用"
+          ],
+          "recommendations": [],
+          "configured_images": [
+            "../images/products/refractory-spray-coating-official-1.png"
+          ],
+          "image_count": 1
+        }
+      },
+      {
+        "product_id": "silica-molybdenum-brick",
+        "analysis": {
+          "status": "minor_issues",
+          "issues": [
+            "缺少主图片标签",
+            "缺少multi-image-gallery.js引用"
+          ],
+          "recommendations": [],
+          "configured_images": [
+            "../images/products/silica-molybdenum-brick-official-1.png",
+            "../images/products/silica-molybdenum-brick-official-2.png"
+          ],
+          "image_count": 2
+        }
+      },
+      {
+        "product_id": "standard-high-alumina-brick",
+        "analysis": {
+          "status": "minor_issues",
+          "issues": [
+            "缺少主图片标签",
+            "缺少multi-image-gallery.js引用"
+          ],
+          "recommendations": [],
+          "configured_images": [
+            "../images/products/standard-high-alumina-brick-official-1.png",
+            "../images/products/standard-high-alumina-brick-official-2.png"
+          ],
+          "image_count": 2
+        }
+      },
+      {
+        "product_id": "steel-fiber-castable",
+        "analysis": {
+          "status": "minor_issues",
+          "issues": [
+            "缺少主图片标签",
+            "缺少multi-image-gallery.js引用"
+          ],
+          "recommendations": [],
+          "configured_images": [
+            "../images/products/steel-fiber-castable-official-1.png"
+          ],
+          "image_count": 1
+        }
+      },
+      {
+        "product_id": "thermal-insulation-brick",
+        "analysis": {
+          "status": "minor_issues",
+          "issues": [
+            "缺少主图片标签",
+            "缺少multi-image-gallery.js引用"
+          ],
+          "recommendations": [],
+          "configured_images": [
+            "../images/products/thermal-insulation-brick-official-1.png",
+            "../images/products/thermal-insulation-brick-official-2.png"
+          ],
+          "image_count": 2
+        }
+      },
+      {
+        "product_id": "unshaped-refractory-material",
+        "analysis": {
+          "status": "minor_issues",
+          "issues": [
+            "缺少主图片标签",
+            "缺少multi-image-gallery.js引用"
+          ],
+          "recommendations": [],
+          "configured_images": [
+            "../images/products/unshaped-refractory-material-20.png"
+          ],
+          "image_count": 1
+        }
+      },
+      {
+        "product_id": "unshaped-refractory",
+        "analysis": {
+          "status": "minor_issues",
+          "issues": [
+            "缺少主图片标签",
+            "缺少multi-image-gallery.js引用"
+          ],
+          "recommendations": [],
+          "configured_images": [
+            "../images/products/unshaped-refractory-material-20.png"
+          ],
+          "image_count": 1
+        }
+      }
+    ],
+    "image_issues": [
+      {
+        "product_id": "clay-brick",
+        "analysis": {
+          "status": "image_issues",
+          "issues": [
+            "缺少主图片标签",
+            "配置的图片不存在: clay-brick-new.jpg, clay-brick-1.png, clay-brick-2.png"
+          ],
+          "recommendations": [],
+          "configured_images": [
+            "../images/products/clay-brick-new.jpg",
+            "../images/products/clay-brick-1.png",
+            "../images/products/clay-brick-2.png",
+            "../images/products/clay-brick-real.png"
+          ],
+          "image_count": 4
+        }
+      },
+      {
+        "product_id": "high-alumina-brick",
+        "analysis": {
+          "status": "image_issues",
+          "issues": [
+            "缺少主图片标签",
+            "配置的图片不存在: high-alumina-brick-new.jpg, high-alumina-brick-1.png, high-alumina-brick-2.png"
+          ],
+          "recommendations": [],
+          "configured_images": [
+            "../images/products/high-alumina-brick-new.jpg",
+            "../images/products/high-alumina-brick-1.png",
+            "../images/products/high-alumina-brick-2.png",
+            "../images/products/high-alumina-brick-real.png"
+          ],
+          "image_count": 4
+        }
+      },
+      {
+        "product_id": "refractory-castable",
+        "analysis": {
+          "status": "image_issues",
+          "issues": [
+            "缺少主图片标签",
+            "配置的图片不存在: refractory-castable-new.png",
+            "缺少multi-image-gallery.js引用"
+          ],
+          "recommendations": [],
+          "configured_images": [
+            "../images/products/refractory-castable-new.png"
+          ],
+          "image_count": 1
+        }
+      },
+      {
+        "product_id": "silica-brick",
+        "analysis": {
+          "status": "image_issues",
+          "issues": [
+            "缺少主图片标签",
+            "配置的图片不存在: silica-brick-1.png, silica-brick-2.png, silica-brick.jpg"
+          ],
+          "recommendations": [],
+          "configured_images": [
+            "../images/products/silica-brick-1.png",
+            "../images/products/silica-brick-2.png",
+            "../images/products/silica-brick-real.png",
+            "../images/products/silica-brick.jpg"
+          ],
+          "image_count": 4
+        }
+      }
+    ],
+    "major_issues": [
+      {
+        "product_id": "coke-oven-brick",
+        "analysis": {
+          "status": "major_issues",
+          "issues": [
+            "缺少主图片标签",
+            "缺少data-images配置",
+            "缺少multi-image-gallery.js引用"
+          ],
+          "recommendations": [],
+          "configured_images": [],
+          "image_count": 0
+        }
+      },
+      {
+        "product_id": "hot-blast-stove-checker-silica-brick",
+        "analysis": {
+          "status": "major_issues",
+          "issues": [
+            "缺少主图片标签",
+            "缺少data-images配置",
+            "缺少multi-image-gallery.js引用"
+          ],
+          "recommendations": [],
+          "configured_images": [],
+          "image_count": 0
+        }
+      },
+      {
+        "product_id": "hot-blast-stove-clay-checker-brick",
+        "analysis": {
+          "status": "major_issues",
+          "issues": [
+            "缺少主图片标签",
+            "缺少data-images配置",
+            "缺少multi-image-gallery.js引用"
+          ],
+          "recommendations": [],
+          "configured_images": [],
+          "image_count": 0
+        }
+      },
+      {
+        "product_id": "insulating-brick",
+        "analysis": {
+          "status": "major_issues",
+          "issues": [
+            "缺少主图片标签",
+            "缺少data-images配置",
+            "缺少multi-image-gallery.js引用"
+          ],
+          "recommendations": [],
+          "configured_images": [],
+          "image_count": 0
+        }
+      },
+      {
+        "product_id": "insulating-material",
+        "analysis": {
+          "status": "major_issues",
+          "issues": [
+            "缺少主图片标签",
+            "缺少data-images配置",
+            "缺少multi-image-gallery.js引用"
+          ],
+          "recommendations": [],
+          "configured_images": [],
+          "image_count": 0
+        }
+      },
+      {
+        "product_id": "lightweight-silica-brick",
+        "analysis": {
+          "status": "major_issues",
+          "issues": [
+            "缺少主图片标签",
+            "缺少data-images配置",
+            "缺少multi-image-gallery.js引用"
+          ],
+          "recommendations": [],
+          "configured_images": [],
+          "image_count": 0
+        }
+      },
+      {
+        "product_id": "semi-silica-brick",
+        "analysis": {
+          "status": "major_issues",
+          "issues": [
+            "缺少主图片标签",
+            "缺少data-images配置",
+            "缺少multi-image-gallery.js引用"
+          ],
+          "recommendations": [],
+          "configured_images": [],
+          "image_count": 0
+        }
+      },
+      {
+        "product_id": "standard-silica-brick",
+        "analysis": {
+          "status": "major_issues",
+          "issues": [
+            "缺少主图片标签",
+            "缺少data-images配置",
+            "缺少multi-image-gallery.js引用"
+          ],
+          "recommendations": [],
+          "configured_images": [],
+          "image_count": 0
+        }
+      },
+      {
+        "product_id": "wear-resistant-ceramic",
+        "analysis": {
+          "status": "major_issues",
+          "issues": [
+            "缺少主图片标签",
+            "缺少data-images配置",
+            "缺少multi-image-gallery.js引用"
+          ],
+          "recommendations": [],
+          "configured_images": [],
+          "image_count": 0
+        }
+      }
+    ],
+    "read_error": []
+  },
+  "fixes_summary": []
+}

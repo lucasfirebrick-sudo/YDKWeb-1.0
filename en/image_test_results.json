@@ -1,0 +1,948 @@
+{
+  "total_pages": 38,
+  "total_images_tested": 152,
+  "working_images": 79,
+  "broken_images": 73,
+  "pages_tested": [
+    {
+      "filename": "alumina-castable.html",
+      "total_images": 8,
+      "working_images": 5,
+      "broken_images": 3,
+      "image_paths": [
+        "../images/products/steel-fiber-castable-official-1.png",
+        "../images/products/unshaped_high_alumina_castable.jpg",
+        "../images/products/high-alumina-brick-real.png",
+        "../images/products/mullite-brick-official-1.png",
+        "../images/products/alumina-castable/alumina-castable-performance.jpg",
+        "../images/products/unshaped_monolithic_refractory.jpg",
+        "../images/products/alumina-castable/alumina-castable-main.jpg",
+        "../images/products/alumina-castable/alumina-castable-purity.jpg"
+      ],
+      "broken_image_paths": [
+        "products/alumina-castable/alumina-castable-performance.jpg",
+        "products/alumina-castable/alumina-castable-main.jpg",
+        "products/alumina-castable/alumina-castable-purity.jpg"
+      ],
+      "missing_files": [
+        "D:\\ai\\新建文件夹\\新建文件夹\\7788-en\\images\\products\\alumina-castable\\alumina-castable-performance.jpg",
+        "D:\\ai\\新建文件夹\\新建文件夹\\7788-en\\images\\products\\alumina-castable\\alumina-castable-main.jpg",
+        "D:\\ai\\新建文件夹\\新建文件夹\\7788-en\\images\\products\\alumina-castable\\alumina-castable-purity.jpg"
+      ]
+    },
+    {
+      "filename": "alumina-hollow-sphere-brick.html",
+      "total_images": 1,
+      "working_images": 0,
+      "broken_images": 1,
+      "image_paths": [
+        "../images/products/alumina-hollow-sphere-brick/alumina-hollow-sphere-brick-main.jpg"
+      ],
+      "broken_image_paths": [
+        "products/alumina-hollow-sphere-brick/alumina-hollow-sphere-brick-main.jpg"
+      ],
+      "missing_files": [
+        "D:\\ai\\新建文件夹\\新建文件夹\\7788-en\\images\\products\\alumina-hollow-sphere-brick\\alumina-hollow-sphere-brick-main.jpg"
+      ]
+    },
+    {
+      "filename": "blast-furnace-ceramic-cup.html",
+      "total_images": 1,
+      "working_images": 0,
+      "broken_images": 1,
+      "image_paths": [
+        "../images/products/blast-furnace-ceramic-cup/blast-furnace-ceramic-cup-main.jpg"
+      ],
+      "broken_image_paths": [
+        "products/blast-furnace-ceramic-cup/blast-furnace-ceramic-cup-main.jpg"
+      ],
+      "missing_files": [
+        "D:\\ai\\新建文件夹\\新建文件夹\\7788-en\\images\\products\\blast-furnace-ceramic-cup\\blast-furnace-ceramic-cup-main.jpg"
+      ]
+    },
+    {
+      "filename": "chrome-corundum-castable.html",
+      "total_images": 1,
+      "working_images": 0,
+      "broken_images": 1,
+      "image_paths": [
+        "../images/products/chrome-corundum-castable/chrome-corundum-castable-main.jpg"
+      ],
+      "broken_image_paths": [
+        "products/chrome-corundum-castable/chrome-corundum-castable-main.jpg"
+      ],
+      "missing_files": [
+        "D:\\ai\\新建文件夹\\新建文件夹\\7788-en\\images\\products\\chrome-corundum-castable\\chrome-corundum-castable-main.jpg"
+      ]
+    },
+    {
+      "filename": "clay-brick.html",
+      "total_images": 8,
+      "working_images": 8,
+      "broken_images": 0,
+      "image_paths": [
+        "../images/products/silica-brick-real.png",
+        "../images/products/insulating-fire-brick.jpg",
+        "../images/products/clay-brick-real.png",
+        "../images/products/heavy-clay-brick-official-2.png",
+        "../images/products/high-alumina-brick-real.png",
+        "../images/products/shaped_clay_brick.jpg",
+        "../images/products/heavy-clay-brick-official-1.png",
+        "../images/products/unshaped_monolithic_refractory.jpg"
+      ],
+      "broken_image_paths": [],
+      "missing_files": []
+    },
+    {
+      "filename": "coke-oven-brick.html",
+      "total_images": 1,
+      "working_images": 0,
+      "broken_images": 1,
+      "image_paths": [
+        "../images/products/coke-oven-brick/coke-oven-brick-main.jpg"
+      ],
+      "broken_image_paths": [
+        "products/coke-oven-brick/coke-oven-brick-main.jpg"
+      ],
+      "missing_files": [
+        "D:\\ai\\新建文件夹\\新建文件夹\\7788-en\\images\\products\\coke-oven-brick\\coke-oven-brick-main.jpg"
+      ]
+    },
+    {
+      "filename": "corundum-ball.html",
+      "total_images": 1,
+      "working_images": 0,
+      "broken_images": 1,
+      "image_paths": [
+        "../images/products/corundum-ball/corundum-ball-main.jpg"
+      ],
+      "broken_image_paths": [
+        "products/corundum-ball/corundum-ball-main.jpg"
+      ],
+      "missing_files": [
+        "D:\\ai\\新建文件夹\\新建文件夹\\7788-en\\images\\products\\corundum-ball\\corundum-ball-main.jpg"
+      ]
+    },
+    {
+      "filename": "corundum-brick.html",
+      "total_images": 1,
+      "working_images": 0,
+      "broken_images": 1,
+      "image_paths": [
+        "../images/products/corundum-brick/corundum-brick-main.jpg"
+      ],
+      "broken_image_paths": [
+        "products/corundum-brick/corundum-brick-main.jpg"
+      ],
+      "missing_files": [
+        "D:\\ai\\新建文件夹\\新建文件夹\\7788-en\\images\\products\\corundum-brick\\corundum-brick-main.jpg"
+      ]
+    },
+    {
+      "filename": "corundum-mullite.html",
+      "total_images": 1,
+      "working_images": 0,
+      "broken_images": 1,
+      "image_paths": [
+        "../images/products/corundum-mullite/corundum-mullite-main.jpg"
+      ],
+      "broken_image_paths": [
+        "products/corundum-mullite/corundum-mullite-main.jpg"
+      ],
+      "missing_files": [
+        "D:\\ai\\新建文件夹\\新建文件夹\\7788-en\\images\\products\\corundum-mullite\\corundum-mullite-main.jpg"
+      ]
+    },
+    {
+      "filename": "general-silica-brick.html",
+      "total_images": 7,
+      "working_images": 3,
+      "broken_images": 4,
+      "image_paths": [
+        "../images/products/general-silica-brick-official-2.png",
+        "../images/products/silica-brick-real.png",
+        "../images/products/general-silica-brick/general-silica-brick-cross-section.jpg",
+        "../images/products/general-silica-brick/general-silica-brick-quality.jpg",
+        "../images/products/general-silica-brick/general-silica-brick-stack.jpg",
+        "../images/products/general-silica-brick/general-silica-brick-main.jpg",
+        "../images/products/shaped_silica_brick.jpg"
+      ],
+      "broken_image_paths": [
+        "products/general-silica-brick/general-silica-brick-cross-section.jpg",
+        "products/general-silica-brick/general-silica-brick-quality.jpg",
+        "products/general-silica-brick/general-silica-brick-stack.jpg",
+        "products/general-silica-brick/general-silica-brick-main.jpg"
+      ],
+      "missing_files": [
+        "D:\\ai\\新建文件夹\\新建文件夹\\7788-en\\images\\products\\general-silica-brick\\general-silica-brick-cross-section.jpg",
+        "D:\\ai\\新建文件夹\\新建文件夹\\7788-en\\images\\products\\general-silica-brick\\general-silica-brick-quality.jpg",
+        "D:\\ai\\新建文件夹\\新建文件夹\\7788-en\\images\\products\\general-silica-brick\\general-silica-brick-stack.jpg",
+        "D:\\ai\\新建文件夹\\新建文件夹\\7788-en\\images\\products\\general-silica-brick\\general-silica-brick-main.jpg"
+      ]
+    },
+    {
+      "filename": "heavy-clay-brick.html",
+      "total_images": 1,
+      "working_images": 0,
+      "broken_images": 1,
+      "image_paths": [
+        "../images/products/heavy-clay-brick/heavy-clay-brick-main.jpg"
+      ],
+      "broken_image_paths": [
+        "products/heavy-clay-brick/heavy-clay-brick-main.jpg"
+      ],
+      "missing_files": [
+        "D:\\ai\\新建文件夹\\新建文件夹\\7788-en\\images\\products\\heavy-clay-brick\\heavy-clay-brick-main.jpg"
+      ]
+    },
+    {
+      "filename": "high-alumina-brick.html",
+      "total_images": 8,
+      "working_images": 7,
+      "broken_images": 1,
+      "image_paths": [
+        "../images/products/standard-high-alumina-brick-official-2.png",
+        "../images/products/clay-brick/clay-brick-thumb.jpg",
+        "../images/products/alumina-castable-official-1.png",
+        "../images/products/standard-high-alumina-brick-official-1.png",
+        "../images/products/high-alumina-brick-real.png",
+        "../images/products/shaped_high_alumina_brick.jpg",
+        "../images/products/mullite-brick-official-1.png",
+        "../images/products/lightweight-clay-brick-official-1.png"
+      ],
+      "broken_image_paths": [
+        "products/clay-brick/clay-brick-thumb.jpg"
+      ],
+      "missing_files": [
+        "D:\\ai\\新建文件夹\\新建文件夹\\7788-en\\images\\products\\clay-brick\\clay-brick-thumb.jpg"
+      ]
+    },
+    {
+      "filename": "hot-blast-stove-checker-silica-brick.html",
+      "total_images": 1,
+      "working_images": 0,
+      "broken_images": 1,
+      "image_paths": [
+        "../images/products/hot-blast-stove-checker-silica-brick/hot-blast-stove-checker-silica-brick-main.jpg"
+      ],
+      "broken_image_paths": [
+        "products/hot-blast-stove-checker-silica-brick/hot-blast-stove-checker-silica-brick-main.jpg"
+      ],
+      "missing_files": [
+        "D:\\ai\\新建文件夹\\新建文件夹\\7788-en\\images\\products\\hot-blast-stove-checker-silica-brick\\hot-blast-stove-checker-silica-brick-main.jpg"
+      ]
+    },
+    {
+      "filename": "hot-blast-stove-clay-checker-brick.html",
+      "total_images": 1,
+      "working_images": 0,
+      "broken_images": 1,
+      "image_paths": [
+        "../images/products/hot-blast-stove-clay-checker-brick/hot-blast-stove-clay-checker-brick-main.jpg"
+      ],
+      "broken_image_paths": [
+        "products/hot-blast-stove-clay-checker-brick/hot-blast-stove-clay-checker-brick-main.jpg"
+      ],
+      "missing_files": [
+        "D:\\ai\\新建文件夹\\新建文件夹\\7788-en\\images\\products\\hot-blast-stove-clay-checker-brick\\hot-blast-stove-clay-checker-brick-main.jpg"
+      ]
+    },
+    {
+      "filename": "hot-blast-stove-silica-brick.html",
+      "total_images": 1,
+      "working_images": 0,
+      "broken_images": 1,
+      "image_paths": [
+        "../images/products/hot-blast-stove-silica-brick/hot-blast-stove-silica-brick-main.jpg"
+      ],
+      "broken_image_paths": [
+        "products/hot-blast-stove-silica-brick/hot-blast-stove-silica-brick-main.jpg"
+      ],
+      "missing_files": [
+        "D:\\ai\\新建文件夹\\新建文件夹\\7788-en\\images\\products\\hot-blast-stove-silica-brick\\hot-blast-stove-silica-brick-main.jpg"
+      ]
+    },
+    {
+      "filename": "insulating-brick.html",
+      "total_images": 8,
+      "working_images": 4,
+      "broken_images": 4,
+      "image_paths": [
+        "../images/products/insulating-brick/insulating-brick-thermal.jpg",
+        "../images/products/insulating-brick/insulating-brick-furnace.jpg",
+        "../images/products/insulating-brick/insulating-brick-installation.jpg",
+        "../images/products/lightweight-castable-official-1.png",
+        "../images/products/high-alumina-brick-real.png",
+        "../images/products/insulating-brick/insulating-brick-main.jpg",
+        "../images/products/unshaped_monolithic_refractory.jpg",
+        "../images/products/lightweight-clay-brick-official-1.png"
+      ],
+      "broken_image_paths": [
+        "products/insulating-brick/insulating-brick-thermal.jpg",
+        "products/insulating-brick/insulating-brick-furnace.jpg",
+        "products/insulating-brick/insulating-brick-installation.jpg",
+        "products/insulating-brick/insulating-brick-main.jpg"
+      ],
+      "missing_files": [
+        "D:\\ai\\新建文件夹\\新建文件夹\\7788-en\\images\\products\\insulating-brick\\insulating-brick-thermal.jpg",
+        "D:\\ai\\新建文件夹\\新建文件夹\\7788-en\\images\\products\\insulating-brick\\insulating-brick-furnace.jpg",
+        "D:\\ai\\新建文件夹\\新建文件夹\\7788-en\\images\\products\\insulating-brick\\insulating-brick-installation.jpg",
+        "D:\\ai\\新建文件夹\\新建文件夹\\7788-en\\images\\products\\insulating-brick\\insulating-brick-main.jpg"
+      ]
+    },
+    {
+      "filename": "insulating-material.html",
+      "total_images": 1,
+      "working_images": 0,
+      "broken_images": 1,
+      "image_paths": [
+        "../images/products/insulating-material/insulating-material-main.jpg"
+      ],
+      "broken_image_paths": [
+        "products/insulating-material/insulating-material-main.jpg"
+      ],
+      "missing_files": [
+        "D:\\ai\\新建文件夹\\新建文件夹\\7788-en\\images\\products\\insulating-material\\insulating-material-main.jpg"
+      ]
+    },
+    {
+      "filename": "lightweight-castable.html",
+      "total_images": 8,
+      "working_images": 4,
+      "broken_images": 4,
+      "image_paths": [
+        "../images/products/steel-fiber-castable-official-1.png",
+        "../images/products/insulating-fire-brick.jpg",
+        "../images/products/lightweight-castable/lightweight-castable-mixing.jpg",
+        "../images/products/lightweight-castable/lightweight-castable-main.jpg",
+        "../images/products/lightweight-castable/lightweight-castable-structure.jpg",
+        "../images/products/unshaped_monolithic_refractory.jpg",
+        "../images/products/lightweight-castable/lightweight-castable-insulation.jpg",
+        "../images/products/lightweight-clay-brick-official-1.png"
+      ],
+      "broken_image_paths": [
+        "products/lightweight-castable/lightweight-castable-mixing.jpg",
+        "products/lightweight-castable/lightweight-castable-main.jpg",
+        "products/lightweight-castable/lightweight-castable-structure.jpg",
+        "products/lightweight-castable/lightweight-castable-insulation.jpg"
+      ],
+      "missing_files": [
+        "D:\\ai\\新建文件夹\\新建文件夹\\7788-en\\images\\products\\lightweight-castable\\lightweight-castable-mixing.jpg",
+        "D:\\ai\\新建文件夹\\新建文件夹\\7788-en\\images\\products\\lightweight-castable\\lightweight-castable-main.jpg",
+        "D:\\ai\\新建文件夹\\新建文件夹\\7788-en\\images\\products\\lightweight-castable\\lightweight-castable-structure.jpg",
+        "D:\\ai\\新建文件夹\\新建文件夹\\7788-en\\images\\products\\lightweight-castable\\lightweight-castable-insulation.jpg"
+      ]
+    },
+    {
+      "filename": "lightweight-clay-brick.html",
+      "total_images": 8,
+      "working_images": 4,
+      "broken_images": 4,
+      "image_paths": [
+        "../images/products/shaped_lightweight_clay_brick.jpg",
+        "../images/products/insulating-fire-brick.jpg",
+        "../images/products/clay-brick/clay-brick-thumb.jpg",
+        "../images/products/lightweight-castable-official-1.png",
+        "../images/products/lightweight-clay-brick/lightweight-clay-brick-structure.jpg",
+        "../images/products/high-alumina-brick-real.png",
+        "../images/products/lightweight-clay-brick/lightweight-clay-brick-main.jpg",
+        "../images/products/lightweight-clay-brick/lightweight-clay-brick-insulation.jpg"
+      ],
+      "broken_image_paths": [
+        "products/clay-brick/clay-brick-thumb.jpg",
+        "products/lightweight-clay-brick/lightweight-clay-brick-structure.jpg",
+        "products/lightweight-clay-brick/lightweight-clay-brick-main.jpg",
+        "products/lightweight-clay-brick/lightweight-clay-brick-insulation.jpg"
+      ],
+      "missing_files": [
+        "D:\\ai\\新建文件夹\\新建文件夹\\7788-en\\images\\products\\clay-brick\\clay-brick-thumb.jpg",
+        "D:\\ai\\新建文件夹\\新建文件夹\\7788-en\\images\\products\\lightweight-clay-brick\\lightweight-clay-brick-structure.jpg",
+        "D:\\ai\\新建文件夹\\新建文件夹\\7788-en\\images\\products\\lightweight-clay-brick\\lightweight-clay-brick-main.jpg",
+        "D:\\ai\\新建文件夹\\新建文件夹\\7788-en\\images\\products\\lightweight-clay-brick\\lightweight-clay-brick-insulation.jpg"
+      ]
+    },
+    {
+      "filename": "lightweight-high-alumina-brick.html",
+      "total_images": 9,
+      "working_images": 6,
+      "broken_images": 3,
+      "image_paths": [
+        "../images/products/lightweight-high-alumina-brick/lightweight-high-alumina-brick-main.jpg",
+        "../images/products/insulating-fire-brick.jpg",
+        "../images/products/lightweight-mullite-brick-official-1.png",
+        "../images/products/lightweight-high-alumina-brick/lightweight-high-alumina-brick-insulation.jpg",
+        "../images/products/lightweight-castable-official-1.png",
+        "../images/products/shaped_high_alumina_light_brick.jpg",
+        "../images/products/high-alumina-brick-real.png",
+        "../images/products/lightweight-high-alumina-brick/lightweight-high-alumina-brick-structure.jpg",
+        "../images/products/lightweight-high-alumina-brick-official-2.png"
+      ],
+      "broken_image_paths": [
+        "products/lightweight-high-alumina-brick/lightweight-high-alumina-brick-main.jpg",
+        "products/lightweight-high-alumina-brick/lightweight-high-alumina-brick-insulation.jpg",
+        "products/lightweight-high-alumina-brick/lightweight-high-alumina-brick-structure.jpg"
+      ],
+      "missing_files": [
+        "D:\\ai\\新建文件夹\\新建文件夹\\7788-en\\images\\products\\lightweight-high-alumina-brick\\lightweight-high-alumina-brick-main.jpg",
+        "D:\\ai\\新建文件夹\\新建文件夹\\7788-en\\images\\products\\lightweight-high-alumina-brick\\lightweight-high-alumina-brick-insulation.jpg",
+        "D:\\ai\\新建文件夹\\新建文件夹\\7788-en\\images\\products\\lightweight-high-alumina-brick\\lightweight-high-alumina-brick-structure.jpg"
+      ]
+    },
+    {
+      "filename": "lightweight-mullite-brick.html",
+      "total_images": 9,
+      "working_images": 4,
+      "broken_images": 5,
+      "image_paths": [
+        "../images/products/insulating-fire-brick.jpg",
+        "../images/products/lightweight-mullite-brick/lightweight-mullite-brick-quality.jpg",
+        "../images/products/lightweight-silica-brick/lightweight-silica-brick-thumb.jpg",
+        "../images/products/lightweight-mullite-brick/lightweight-mullite-brick-microstructure.jpg",
+        "../images/products/lightweight-mullite-brick/lightweight-mullite-brick-main.jpg",
+        "../images/products/shaped_lightweight_mullite_brick.jpg",
+        "../images/products/lightweight-mullite-brick/lightweight-mullite-brick-thermal.jpg",
+        "../images/products/mullite-brick-official-1.png",
+        "../images/products/lightweight-high-alumina-brick-official-1.png"
+      ],
+      "broken_image_paths": [
+        "products/lightweight-mullite-brick/lightweight-mullite-brick-quality.jpg",
+        "products/lightweight-silica-brick/lightweight-silica-brick-thumb.jpg",
+        "products/lightweight-mullite-brick/lightweight-mullite-brick-microstructure.jpg",
+        "products/lightweight-mullite-brick/lightweight-mullite-brick-main.jpg",
+        "products/lightweight-mullite-brick/lightweight-mullite-brick-thermal.jpg"
+      ],
+      "missing_files": [
+        "D:\\ai\\新建文件夹\\新建文件夹\\7788-en\\images\\products\\lightweight-mullite-brick\\lightweight-mullite-brick-quality.jpg",
+        "D:\\ai\\新建文件夹\\新建文件夹\\7788-en\\images\\products\\lightweight-silica-brick\\lightweight-silica-brick-thumb.jpg",
+        "D:\\ai\\新建文件夹\\新建文件夹\\7788-en\\images\\products\\lightweight-mullite-brick\\lightweight-mullite-brick-microstructure.jpg",
+        "D:\\ai\\新建文件夹\\新建文件夹\\7788-en\\images\\products\\lightweight-mullite-brick\\lightweight-mullite-brick-main.jpg",
+        "D:\\ai\\新建文件夹\\新建文件夹\\7788-en\\images\\products\\lightweight-mullite-brick\\lightweight-mullite-brick-thermal.jpg"
+      ]
+    },
+    {
+      "filename": "lightweight-silica-brick.html",
+      "total_images": 9,
+      "working_images": 5,
+      "broken_images": 4,
+      "image_paths": [
+        "../images/products/silica-brick/silica-brick-thumb.jpg",
+        "../images/products/insulating-brick/insulating-brick-thumb.jpg",
+        "../images/products/lightweight-mullite-brick-official-1.png",
+        "../images/products/general-silica-brick/general-silica-brick-thumb.jpg",
+        "../images/products/shaped_lightweight_fireclay_brick.jpg",
+        "../images/products/lightweight-high-alumina-brick/lightweight-high-alumina-brick-thumb.jpg",
+        "../images/products/lightweight-high-alumina-brick-official-1.png",
+        "../images/products/lightweight-mullite-brick-official-2.png",
+        "../images/products/lightweight-clay-brick-official-1.png"
+      ],
+      "broken_image_paths": [
+        "products/silica-brick/silica-brick-thumb.jpg",
+        "products/insulating-brick/insulating-brick-thumb.jpg",
+        "products/general-silica-brick/general-silica-brick-thumb.jpg",
+        "products/lightweight-high-alumina-brick/lightweight-high-alumina-brick-thumb.jpg"
+      ],
+      "missing_files": [
+        "D:\\ai\\新建文件夹\\新建文件夹\\7788-en\\images\\products\\silica-brick\\silica-brick-thumb.jpg",
+        "D:\\ai\\新建文件夹\\新建文件夹\\7788-en\\images\\products\\insulating-brick\\insulating-brick-thumb.jpg",
+        "D:\\ai\\新建文件夹\\新建文件夹\\7788-en\\images\\products\\general-silica-brick\\general-silica-brick-thumb.jpg",
+        "D:\\ai\\新建文件夹\\新建文件夹\\7788-en\\images\\products\\lightweight-high-alumina-brick\\lightweight-high-alumina-brick-thumb.jpg"
+      ]
+    },
+    {
+      "filename": "magnesia-chrome-brick.html",
+      "total_images": 1,
+      "working_images": 0,
+      "broken_images": 1,
+      "image_paths": [
+        "../images/products/magnesia-chrome-brick/magnesia-chrome-brick-main.jpg"
+      ],
+      "broken_image_paths": [
+        "products/magnesia-chrome-brick/magnesia-chrome-brick-main.jpg"
+      ],
+      "missing_files": [
+        "D:\\ai\\新建文件夹\\新建文件夹\\7788-en\\images\\products\\magnesia-chrome-brick\\magnesia-chrome-brick-main.jpg"
+      ]
+    },
+    {
+      "filename": "mullite-brick.html",
+      "total_images": 8,
+      "working_images": 5,
+      "broken_images": 3,
+      "image_paths": [
+        "../images/products/silica-brick-real.png",
+        "../images/products/insulating-fire-brick.jpg",
+        "../images/products/mullite-brick/mullite-brick-microstructure.jpg",
+        "../images/products/mullite-brick-official-2.png",
+        "../images/products/mullite-brick/mullite-brick-blast-furnace.jpg",
+        "../images/products/mullite-brick/mullite-brick-main.jpg",
+        "../images/products/high-alumina-brick-real.png",
+        "../images/products/unshaped_monolithic_refractory.jpg"
+      ],
+      "broken_image_paths": [
+        "products/mullite-brick/mullite-brick-microstructure.jpg",
+        "products/mullite-brick/mullite-brick-blast-furnace.jpg",
+        "products/mullite-brick/mullite-brick-main.jpg"
+      ],
+      "missing_files": [
+        "D:\\ai\\新建文件夹\\新建文件夹\\7788-en\\images\\products\\mullite-brick\\mullite-brick-microstructure.jpg",
+        "D:\\ai\\新建文件夹\\新建文件夹\\7788-en\\images\\products\\mullite-brick\\mullite-brick-blast-furnace.jpg",
+        "D:\\ai\\新建文件夹\\新建文件夹\\7788-en\\images\\products\\mullite-brick\\mullite-brick-main.jpg"
+      ]
+    },
+    {
+      "filename": "phosphate-brick.html",
+      "total_images": 1,
+      "working_images": 0,
+      "broken_images": 1,
+      "image_paths": [
+        "../images/products/phosphate-brick/phosphate-brick-main.jpg"
+      ],
+      "broken_image_paths": [
+        "products/phosphate-brick/phosphate-brick-main.jpg"
+      ],
+      "missing_files": [
+        "D:\\ai\\新建文件夹\\新建文件夹\\7788-en\\images\\products\\phosphate-brick\\phosphate-brick-main.jpg"
+      ]
+    },
+    {
+      "filename": "phosphate-wear-resistant-brick.html",
+      "total_images": 1,
+      "working_images": 0,
+      "broken_images": 1,
+      "image_paths": [
+        "../images/products/phosphate-wear-resistant-brick/phosphate-wear-resistant-brick-main.jpg"
+      ],
+      "broken_image_paths": [
+        "products/phosphate-wear-resistant-brick/phosphate-wear-resistant-brick-main.jpg"
+      ],
+      "missing_files": [
+        "D:\\ai\\新建文件夹\\新建文件夹\\7788-en\\images\\products\\phosphate-wear-resistant-brick\\phosphate-wear-resistant-brick-main.jpg"
+      ]
+    },
+    {
+      "filename": "plastic-refractory.html",
+      "total_images": 1,
+      "working_images": 0,
+      "broken_images": 1,
+      "image_paths": [
+        "../images/products/plastic-refractory/plastic-refractory-main.jpg"
+      ],
+      "broken_image_paths": [
+        "products/plastic-refractory/plastic-refractory-main.jpg"
+      ],
+      "missing_files": [
+        "D:\\ai\\新建文件夹\\新建文件夹\\7788-en\\images\\products\\plastic-refractory\\plastic-refractory-main.jpg"
+      ]
+    },
+    {
+      "filename": "refractory-castable.html",
+      "total_images": 8,
+      "working_images": 5,
+      "broken_images": 3,
+      "image_paths": [
+        "../images/products/steel-fiber-castable-official-1.png",
+        "../images/products/refractory-castable/refractory-castable-cured.jpg",
+        "../images/products/refractory-castable/refractory-castable-mixing.jpg",
+        "../images/products/unshaped_high_alumina_castable.jpg",
+        "../images/products/alumina-castable-official-1.png",
+        "../images/products/lightweight-castable-official-1.png",
+        "../images/products/refractory-castable/refractory-castable-main.jpg",
+        "../images/products/high-alumina-brick-real.png"
+      ],
+      "broken_image_paths": [
+        "products/refractory-castable/refractory-castable-cured.jpg",
+        "products/refractory-castable/refractory-castable-mixing.jpg",
+        "products/refractory-castable/refractory-castable-main.jpg"
+      ],
+      "missing_files": [
+        "D:\\ai\\新建文件夹\\新建文件夹\\7788-en\\images\\products\\refractory-castable\\refractory-castable-cured.jpg",
+        "D:\\ai\\新建文件夹\\新建文件夹\\7788-en\\images\\products\\refractory-castable\\refractory-castable-mixing.jpg",
+        "D:\\ai\\新建文件夹\\新建文件夹\\7788-en\\images\\products\\refractory-castable\\refractory-castable-main.jpg"
+      ]
+    },
+    {
+      "filename": "refractory-spray-coating.html",
+      "total_images": 1,
+      "working_images": 0,
+      "broken_images": 1,
+      "image_paths": [
+        "../images/products/refractory-spray-coating/refractory-spray-coating-main.jpg"
+      ],
+      "broken_image_paths": [
+        "products/refractory-spray-coating/refractory-spray-coating-main.jpg"
+      ],
+      "missing_files": [
+        "D:\\ai\\新建文件夹\\新建文件夹\\7788-en\\images\\products\\refractory-spray-coating\\refractory-spray-coating-main.jpg"
+      ]
+    },
+    {
+      "filename": "semi-silica-brick.html",
+      "total_images": 1,
+      "working_images": 0,
+      "broken_images": 1,
+      "image_paths": [
+        "../images/products/semi-silica-brick/semi-silica-brick-main.jpg"
+      ],
+      "broken_image_paths": [
+        "products/semi-silica-brick/semi-silica-brick-main.jpg"
+      ],
+      "missing_files": [
+        "D:\\ai\\新建文件夹\\新建文件夹\\7788-en\\images\\products\\semi-silica-brick\\semi-silica-brick-main.jpg"
+      ]
+    },
+    {
+      "filename": "silica-brick.html",
+      "total_images": 8,
+      "working_images": 8,
+      "broken_images": 0,
+      "image_paths": [
+        "../images/products/silica-brick-real.png",
+        "../images/products/shaped_mullite_light_brick.jpg",
+        "../images/products/unshaped_high_alumina_castable.jpg",
+        "../images/products/clay-brick-real.png",
+        "../images/products/high-alumina-brick-real.png",
+        "../images/products/general-silica-brick-official-1.png",
+        "../images/products/hot-blast-stove-silica-brick-official-1.png",
+        "../images/products/shaped_silica_brick.jpg"
+      ],
+      "broken_image_paths": [],
+      "missing_files": []
+    },
+    {
+      "filename": "silica-molybdenum-brick.html",
+      "total_images": 1,
+      "working_images": 0,
+      "broken_images": 1,
+      "image_paths": [
+        "../images/products/silica-molybdenum-brick/silica-molybdenum-brick-main.jpg"
+      ],
+      "broken_image_paths": [
+        "products/silica-molybdenum-brick/silica-molybdenum-brick-main.jpg"
+      ],
+      "missing_files": [
+        "D:\\ai\\新建文件夹\\新建文件夹\\7788-en\\images\\products\\silica-molybdenum-brick\\silica-molybdenum-brick-main.jpg"
+      ]
+    },
+    {
+      "filename": "standard-high-alumina-brick.html",
+      "total_images": 9,
+      "working_images": 4,
+      "broken_images": 5,
+      "image_paths": [
+        "../images/products/silica-brick-real.png",
+        "../images/products/standard-high-alumina-brick/standard-high-alumina-brick-production.jpg",
+        "../images/products/standard-high-alumina-brick-official-2.png",
+        "../images/products/clay-brick/clay-brick-thumb.jpg",
+        "../images/products/standard-high-alumina-brick/standard-high-alumina-brick-structure.jpg",
+        "../images/products/high-alumina-brick-real.png",
+        "../images/products/standard-high-alumina-brick/standard-high-alumina-brick-testing.jpg",
+        "../images/products/lightweight-high-alumina-brick-official-1.png",
+        "../images/products/standard-high-alumina-brick/standard-high-alumina-brick-main.jpg"
+      ],
+      "broken_image_paths": [
+        "products/standard-high-alumina-brick/standard-high-alumina-brick-production.jpg",
+        "products/clay-brick/clay-brick-thumb.jpg",
+        "products/standard-high-alumina-brick/standard-high-alumina-brick-structure.jpg",
+        "products/standard-high-alumina-brick/standard-high-alumina-brick-testing.jpg",
+        "products/standard-high-alumina-brick/standard-high-alumina-brick-main.jpg"
+      ],
+      "missing_files": [
+        "D:\\ai\\新建文件夹\\新建文件夹\\7788-en\\images\\products\\standard-high-alumina-brick\\standard-high-alumina-brick-production.jpg",
+        "D:\\ai\\新建文件夹\\新建文件夹\\7788-en\\images\\products\\clay-brick\\clay-brick-thumb.jpg",
+        "D:\\ai\\新建文件夹\\新建文件夹\\7788-en\\images\\products\\standard-high-alumina-brick\\standard-high-alumina-brick-structure.jpg",
+        "D:\\ai\\新建文件夹\\新建文件夹\\7788-en\\images\\products\\standard-high-alumina-brick\\standard-high-alumina-brick-testing.jpg",
+        "D:\\ai\\新建文件夹\\新建文件夹\\7788-en\\images\\products\\standard-high-alumina-brick\\standard-high-alumina-brick-main.jpg"
+      ]
+    },
+    {
+      "filename": "standard-silica-brick.html",
+      "total_images": 7,
+      "working_images": 2,
+      "broken_images": 5,
+      "image_paths": [
+        "../images/products/silica-brick-real.png",
+        "../images/products/standard-silica-brick/standard-silica-brick-structure.jpg",
+        "../images/products/lightweight-silica-brick/lightweight-silica-brick-thumb.jpg",
+        "../images/products/standard-silica-brick/standard-silica-brick-testing.jpg",
+        "../images/products/general-silica-brick-official-1.png",
+        "../images/products/standard-silica-brick/standard-silica-brick-main.jpg",
+        "../images/products/standard-silica-brick/standard-silica-brick-coke-oven.jpg"
+      ],
+      "broken_image_paths": [
+        "products/standard-silica-brick/standard-silica-brick-structure.jpg",
+        "products/lightweight-silica-brick/lightweight-silica-brick-thumb.jpg",
+        "products/standard-silica-brick/standard-silica-brick-testing.jpg",
+        "products/standard-silica-brick/standard-silica-brick-main.jpg",
+        "products/standard-silica-brick/standard-silica-brick-coke-oven.jpg"
+      ],
+      "missing_files": [
+        "D:\\ai\\新建文件夹\\新建文件夹\\7788-en\\images\\products\\standard-silica-brick\\standard-silica-brick-structure.jpg",
+        "D:\\ai\\新建文件夹\\新建文件夹\\7788-en\\images\\products\\lightweight-silica-brick\\lightweight-silica-brick-thumb.jpg",
+        "D:\\ai\\新建文件夹\\新建文件夹\\7788-en\\images\\products\\standard-silica-brick\\standard-silica-brick-testing.jpg",
+        "D:\\ai\\新建文件夹\\新建文件夹\\7788-en\\images\\products\\standard-silica-brick\\standard-silica-brick-main.jpg",
+        "D:\\ai\\新建文件夹\\新建文件夹\\7788-en\\images\\products\\standard-silica-brick\\standard-silica-brick-coke-oven.jpg"
+      ]
+    },
+    {
+      "filename": "steel-fiber-castable.html",
+      "total_images": 8,
+      "working_images": 5,
+      "broken_images": 3,
+      "image_paths": [
+        "../images/products/steel-fiber-castable/steel-fiber-castable-main.jpg",
+        "../images/products/steel-fiber-castable/steel-fiber-castable-fibers.jpg",
+        "../images/products/alumina-castable-official-1.png",
+        "../images/products/unshaped_steel_fiber_castable.jpg",
+        "../images/products/lightweight-castable-official-1.png",
+        "../images/products/steel-fiber-castable/steel-fiber-castable-testing.jpg",
+        "../images/products/mullite-brick-official-1.png",
+        "../images/products/unshaped_monolithic_refractory.jpg"
+      ],
+      "broken_image_paths": [
+        "products/steel-fiber-castable/steel-fiber-castable-main.jpg",
+        "products/steel-fiber-castable/steel-fiber-castable-fibers.jpg",
+        "products/steel-fiber-castable/steel-fiber-castable-testing.jpg"
+      ],
+      "missing_files": [
+        "D:\\ai\\新建文件夹\\新建文件夹\\7788-en\\images\\products\\steel-fiber-castable\\steel-fiber-castable-main.jpg",
+        "D:\\ai\\新建文件夹\\新建文件夹\\7788-en\\images\\products\\steel-fiber-castable\\steel-fiber-castable-fibers.jpg",
+        "D:\\ai\\新建文件夹\\新建文件夹\\7788-en\\images\\products\\steel-fiber-castable\\steel-fiber-castable-testing.jpg"
+      ]
+    },
+    {
+      "filename": "thermal-insulation-brick.html",
+      "total_images": 1,
+      "working_images": 0,
+      "broken_images": 1,
+      "image_paths": [
+        "../images/products/thermal-insulation-brick/thermal-insulation-brick-main.jpg"
+      ],
+      "broken_image_paths": [
+        "products/thermal-insulation-brick/thermal-insulation-brick-main.jpg"
+      ],
+      "missing_files": [
+        "D:\\ai\\新建文件夹\\新建文件夹\\7788-en\\images\\products\\thermal-insulation-brick\\thermal-insulation-brick-main.jpg"
+      ]
+    },
+    {
+      "filename": "unshaped-refractory.html",
+      "total_images": 1,
+      "working_images": 0,
+      "broken_images": 1,
+      "image_paths": [
+        "../images/products/unshaped-refractory/unshaped-refractory-main.jpg"
+      ],
+      "broken_image_paths": [
+        "products/unshaped-refractory/unshaped-refractory-main.jpg"
+      ],
+      "missing_files": [
+        "D:\\ai\\新建文件夹\\新建文件夹\\7788-en\\images\\products\\unshaped-refractory\\unshaped-refractory-main.jpg"
+      ]
+    },
+    {
+      "filename": "wear-resistant-ceramic.html",
+      "total_images": 1,
+      "working_images": 0,
+      "broken_images": 1,
+      "image_paths": [
+        "../images/products/wear-resistant-ceramic/wear-resistant-ceramic-main.jpg"
+      ],
+      "broken_image_paths": [
+        "products/wear-resistant-ceramic/wear-resistant-ceramic-main.jpg"
+      ],
+      "missing_files": [
+        "D:\\ai\\新建文件夹\\新建文件夹\\7788-en\\images\\products\\wear-resistant-ceramic\\wear-resistant-ceramic-main.jpg"
+      ]
+    }
+  ],
+  "broken_image_details": [
+    "alumina-castable.html: products/alumina-castable/alumina-castable-performance.jpg",
+    "alumina-castable.html: products/alumina-castable/alumina-castable-main.jpg",
+    "alumina-castable.html: products/alumina-castable/alumina-castable-purity.jpg",
+    "alumina-hollow-sphere-brick.html: products/alumina-hollow-sphere-brick/alumina-hollow-sphere-brick-main.jpg",
+    "blast-furnace-ceramic-cup.html: products/blast-furnace-ceramic-cup/blast-furnace-ceramic-cup-main.jpg",
+    "chrome-corundum-castable.html: products/chrome-corundum-castable/chrome-corundum-castable-main.jpg",
+    "coke-oven-brick.html: products/coke-oven-brick/coke-oven-brick-main.jpg",
+    "corundum-ball.html: products/corundum-ball/corundum-ball-main.jpg",
+    "corundum-brick.html: products/corundum-brick/corundum-brick-main.jpg",
+    "corundum-mullite.html: products/corundum-mullite/corundum-mullite-main.jpg",
+    "general-silica-brick.html: products/general-silica-brick/general-silica-brick-cross-section.jpg",
+    "general-silica-brick.html: products/general-silica-brick/general-silica-brick-quality.jpg",
+    "general-silica-brick.html: products/general-silica-brick/general-silica-brick-stack.jpg",
+    "general-silica-brick.html: products/general-silica-brick/general-silica-brick-main.jpg",
+    "heavy-clay-brick.html: products/heavy-clay-brick/heavy-clay-brick-main.jpg",
+    "high-alumina-brick.html: products/clay-brick/clay-brick-thumb.jpg",
+    "hot-blast-stove-checker-silica-brick.html: products/hot-blast-stove-checker-silica-brick/hot-blast-stove-checker-silica-brick-main.jpg",
+    "hot-blast-stove-clay-checker-brick.html: products/hot-blast-stove-clay-checker-brick/hot-blast-stove-clay-checker-brick-main.jpg",
+    "hot-blast-stove-silica-brick.html: products/hot-blast-stove-silica-brick/hot-blast-stove-silica-brick-main.jpg",
+    "insulating-brick.html: products/insulating-brick/insulating-brick-thermal.jpg",
+    "insulating-brick.html: products/insulating-brick/insulating-brick-furnace.jpg",
+    "insulating-brick.html: products/insulating-brick/insulating-brick-installation.jpg",
+    "insulating-brick.html: products/insulating-brick/insulating-brick-main.jpg",
+    "insulating-material.html: products/insulating-material/insulating-material-main.jpg",
+    "lightweight-castable.html: products/lightweight-castable/lightweight-castable-mixing.jpg",
+    "lightweight-castable.html: products/lightweight-castable/lightweight-castable-main.jpg",
+    "lightweight-castable.html: products/lightweight-castable/lightweight-castable-structure.jpg",
+    "lightweight-castable.html: products/lightweight-castable/lightweight-castable-insulation.jpg",
+    "lightweight-clay-brick.html: products/clay-brick/clay-brick-thumb.jpg",
+    "lightweight-clay-brick.html: products/lightweight-clay-brick/lightweight-clay-brick-structure.jpg",
+    "lightweight-clay-brick.html: products/lightweight-clay-brick/lightweight-clay-brick-main.jpg",
+    "lightweight-clay-brick.html: products/lightweight-clay-brick/lightweight-clay-brick-insulation.jpg",
+    "lightweight-high-alumina-brick.html: products/lightweight-high-alumina-brick/lightweight-high-alumina-brick-main.jpg",
+    "lightweight-high-alumina-brick.html: products/lightweight-high-alumina-brick/lightweight-high-alumina-brick-insulation.jpg",
+    "lightweight-high-alumina-brick.html: products/lightweight-high-alumina-brick/lightweight-high-alumina-brick-structure.jpg",
+    "lightweight-mullite-brick.html: products/lightweight-mullite-brick/lightweight-mullite-brick-quality.jpg",
+    "lightweight-mullite-brick.html: products/lightweight-silica-brick/lightweight-silica-brick-thumb.jpg",
+    "lightweight-mullite-brick.html: products/lightweight-mullite-brick/lightweight-mullite-brick-microstructure.jpg",
+    "lightweight-mullite-brick.html: products/lightweight-mullite-brick/lightweight-mullite-brick-main.jpg",
+    "lightweight-mullite-brick.html: products/lightweight-mullite-brick/lightweight-mullite-brick-thermal.jpg",
+    "lightweight-silica-brick.html: products/silica-brick/silica-brick-thumb.jpg",
+    "lightweight-silica-brick.html: products/insulating-brick/insulating-brick-thumb.jpg",
+    "lightweight-silica-brick.html: products/general-silica-brick/general-silica-brick-thumb.jpg",
+    "lightweight-silica-brick.html: products/lightweight-high-alumina-brick/lightweight-high-alumina-brick-thumb.jpg",
+    "magnesia-chrome-brick.html: products/magnesia-chrome-brick/magnesia-chrome-brick-main.jpg",
+    "mullite-brick.html: products/mullite-brick/mullite-brick-microstructure.jpg",
+    "mullite-brick.html: products/mullite-brick/mullite-brick-blast-furnace.jpg",
+    "mullite-brick.html: products/mullite-brick/mullite-brick-main.jpg",
+    "phosphate-brick.html: products/phosphate-brick/phosphate-brick-main.jpg",
+    "phosphate-wear-resistant-brick.html: products/phosphate-wear-resistant-brick/phosphate-wear-resistant-brick-main.jpg",
+    "plastic-refractory.html: products/plastic-refractory/plastic-refractory-main.jpg",
+    "refractory-castable.html: products/refractory-castable/refractory-castable-cured.jpg",
+    "refractory-castable.html: products/refractory-castable/refractory-castable-mixing.jpg",
+    "refractory-castable.html: products/refractory-castable/refractory-castable-main.jpg",
+    "refractory-spray-coating.html: products/refractory-spray-coating/refractory-spray-coating-main.jpg",
+    "semi-silica-brick.html: products/semi-silica-brick/semi-silica-brick-main.jpg",
+    "silica-molybdenum-brick.html: products/silica-molybdenum-brick/silica-molybdenum-brick-main.jpg",
+    "standard-high-alumina-brick.html: products/standard-high-alumina-brick/standard-high-alumina-brick-production.jpg",
+    "standard-high-alumina-brick.html: products/clay-brick/clay-brick-thumb.jpg",
+    "standard-high-alumina-brick.html: products/standard-high-alumina-brick/standard-high-alumina-brick-structure.jpg",
+    "standard-high-alumina-brick.html: products/standard-high-alumina-brick/standard-high-alumina-brick-testing.jpg",
+    "standard-high-alumina-brick.html: products/standard-high-alumina-brick/standard-high-alumina-brick-main.jpg",
+    "standard-silica-brick.html: products/standard-silica-brick/standard-silica-brick-structure.jpg",
+    "standard-silica-brick.html: products/lightweight-silica-brick/lightweight-silica-brick-thumb.jpg",
+    "standard-silica-brick.html: products/standard-silica-brick/standard-silica-brick-testing.jpg",
+    "standard-silica-brick.html: products/standard-silica-brick/standard-silica-brick-main.jpg",
+    "standard-silica-brick.html: products/standard-silica-brick/standard-silica-brick-coke-oven.jpg",
+    "steel-fiber-castable.html: products/steel-fiber-castable/steel-fiber-castable-main.jpg",
+    "steel-fiber-castable.html: products/steel-fiber-castable/steel-fiber-castable-fibers.jpg",
+    "steel-fiber-castable.html: products/steel-fiber-castable/steel-fiber-castable-testing.jpg",
+    "thermal-insulation-brick.html: products/thermal-insulation-brick/thermal-insulation-brick-main.jpg",
+    "unshaped-refractory.html: products/unshaped-refractory/unshaped-refractory-main.jpg",
+    "wear-resistant-ceramic.html: products/wear-resistant-ceramic/wear-resistant-ceramic-main.jpg"
+  ],
+  "missing_files": [
+    "D:\\ai\\新建文件夹\\新建文件夹\\7788-en\\images\\products\\alumina-castable\\alumina-castable-performance.jpg",
+    "D:\\ai\\新建文件夹\\新建文件夹\\7788-en\\images\\products\\alumina-castable\\alumina-castable-main.jpg",
+    "D:\\ai\\新建文件夹\\新建文件夹\\7788-en\\images\\products\\alumina-castable\\alumina-castable-purity.jpg",
+    "D:\\ai\\新建文件夹\\新建文件夹\\7788-en\\images\\products\\alumina-hollow-sphere-brick\\alumina-hollow-sphere-brick-main.jpg",
+    "D:\\ai\\新建文件夹\\新建文件夹\\7788-en\\images\\products\\blast-furnace-ceramic-cup\\blast-furnace-ceramic-cup-main.jpg",
+    "D:\\ai\\新建文件夹\\新建文件夹\\7788-en\\images\\products\\chrome-corundum-castable\\chrome-corundum-castable-main.jpg",
+    "D:\\ai\\新建文件夹\\新建文件夹\\7788-en\\images\\products\\coke-oven-brick\\coke-oven-brick-main.jpg",
+    "D:\\ai\\新建文件夹\\新建文件夹\\7788-en\\images\\products\\corundum-ball\\corundum-ball-main.jpg",
+    "D:\\ai\\新建文件夹\\新建文件夹\\7788-en\\images\\products\\corundum-brick\\corundum-brick-main.jpg",
+    "D:\\ai\\新建文件夹\\新建文件夹\\7788-en\\images\\products\\corundum-mullite\\corundum-mullite-main.jpg",
+    "D:\\ai\\新建文件夹\\新建文件夹\\7788-en\\images\\products\\general-silica-brick\\general-silica-brick-cross-section.jpg",
+    "D:\\ai\\新建文件夹\\新建文件夹\\7788-en\\images\\products\\general-silica-brick\\general-silica-brick-quality.jpg",
+    "D:\\ai\\新建文件夹\\新建文件夹\\7788-en\\images\\products\\general-silica-brick\\general-silica-brick-stack.jpg",
+    "D:\\ai\\新建文件夹\\新建文件夹\\7788-en\\images\\products\\general-silica-brick\\general-silica-brick-main.jpg",
+    "D:\\ai\\新建文件夹\\新建文件夹\\7788-en\\images\\products\\heavy-clay-brick\\heavy-clay-brick-main.jpg",
+    "D:\\ai\\新建文件夹\\新建文件夹\\7788-en\\images\\products\\clay-brick\\clay-brick-thumb.jpg",
+    "D:\\ai\\新建文件夹\\新建文件夹\\7788-en\\images\\products\\hot-blast-stove-checker-silica-brick\\hot-blast-stove-checker-silica-brick-main.jpg",
+    "D:\\ai\\新建文件夹\\新建文件夹\\7788-en\\images\\products\\hot-blast-stove-clay-checker-brick\\hot-blast-stove-clay-checker-brick-main.jpg",
+    "D:\\ai\\新建文件夹\\新建文件夹\\7788-en\\images\\products\\hot-blast-stove-silica-brick\\hot-blast-stove-silica-brick-main.jpg",
+    "D:\\ai\\新建文件夹\\新建文件夹\\7788-en\\images\\products\\insulating-brick\\insulating-brick-thermal.jpg",
+    "D:\\ai\\新建文件夹\\新建文件夹\\7788-en\\images\\products\\insulating-brick\\insulating-brick-furnace.jpg",
+    "D:\\ai\\新建文件夹\\新建文件夹\\7788-en\\images\\products\\insulating-brick\\insulating-brick-installation.jpg",
+    "D:\\ai\\新建文件夹\\新建文件夹\\7788-en\\images\\products\\insulating-brick\\insulating-brick-main.jpg",
+    "D:\\ai\\新建文件夹\\新建文件夹\\7788-en\\images\\products\\insulating-material\\insulating-material-main.jpg",
+    "D:\\ai\\新建文件夹\\新建文件夹\\7788-en\\images\\products\\lightweight-castable\\lightweight-castable-mixing.jpg",
+    "D:\\ai\\新建文件夹\\新建文件夹\\7788-en\\images\\products\\lightweight-castable\\lightweight-castable-main.jpg",
+    "D:\\ai\\新建文件夹\\新建文件夹\\7788-en\\images\\products\\lightweight-castable\\lightweight-castable-structure.jpg",
+    "D:\\ai\\新建文件夹\\新建文件夹\\7788-en\\images\\products\\lightweight-castable\\lightweight-castable-insulation.jpg",
+    "D:\\ai\\新建文件夹\\新建文件夹\\7788-en\\images\\products\\clay-brick\\clay-brick-thumb.jpg",
+    "D:\\ai\\新建文件夹\\新建文件夹\\7788-en\\images\\products\\lightweight-clay-brick\\lightweight-clay-brick-structure.jpg",
+    "D:\\ai\\新建文件夹\\新建文件夹\\7788-en\\images\\products\\lightweight-clay-brick\\lightweight-clay-brick-main.jpg",
+    "D:\\ai\\新建文件夹\\新建文件夹\\7788-en\\images\\products\\lightweight-clay-brick\\lightweight-clay-brick-insulation.jpg",
+    "D:\\ai\\新建文件夹\\新建文件夹\\7788-en\\images\\products\\lightweight-high-alumina-brick\\lightweight-high-alumina-brick-main.jpg",
+    "D:\\ai\\新建文件夹\\新建文件夹\\7788-en\\images\\products\\lightweight-high-alumina-brick\\lightweight-high-alumina-brick-insulation.jpg",
+    "D:\\ai\\新建文件夹\\新建文件夹\\7788-en\\images\\products\\lightweight-high-alumina-brick\\lightweight-high-alumina-brick-structure.jpg",
+    "D:\\ai\\新建文件夹\\新建文件夹\\7788-en\\images\\products\\lightweight-mullite-brick\\lightweight-mullite-brick-quality.jpg",
+    "D:\\ai\\新建文件夹\\新建文件夹\\7788-en\\images\\products\\lightweight-silica-brick\\lightweight-silica-brick-thumb.jpg",
+    "D:\\ai\\新建文件夹\\新建文件夹\\7788-en\\images\\products\\lightweight-mullite-brick\\lightweight-mullite-brick-microstructure.jpg",
+    "D:\\ai\\新建文件夹\\新建文件夹\\7788-en\\images\\products\\lightweight-mullite-brick\\lightweight-mullite-brick-main.jpg",
+    "D:\\ai\\新建文件夹\\新建文件夹\\7788-en\\images\\products\\lightweight-mullite-brick\\lightweight-mullite-brick-thermal.jpg",
+    "D:\\ai\\新建文件夹\\新建文件夹\\7788-en\\images\\products\\silica-brick\\silica-brick-thumb.jpg",
+    "D:\\ai\\新建文件夹\\新建文件夹\\7788-en\\images\\products\\insulating-brick\\insulating-brick-thumb.jpg",
+    "D:\\ai\\新建文件夹\\新建文件夹\\7788-en\\images\\products\\general-silica-brick\\general-silica-brick-thumb.jpg",
+    "D:\\ai\\新建文件夹\\新建文件夹\\7788-en\\images\\products\\lightweight-high-alumina-brick\\lightweight-high-alumina-brick-thumb.jpg",
+    "D:\\ai\\新建文件夹\\新建文件夹\\7788-en\\images\\products\\magnesia-chrome-brick\\magnesia-chrome-brick-main.jpg",
+    "D:\\ai\\新建文件夹\\新建文件夹\\7788-en\\images\\products\\mullite-brick\\mullite-brick-microstructure.jpg",
+    "D:\\ai\\新建文件夹\\新建文件夹\\7788-en\\images\\products\\mullite-brick\\mullite-brick-blast-furnace.jpg",
+    "D:\\ai\\新建文件夹\\新建文件夹\\7788-en\\images\\products\\mullite-brick\\mullite-brick-main.jpg",
+    "D:\\ai\\新建文件夹\\新建文件夹\\7788-en\\images\\products\\phosphate-brick\\phosphate-brick-main.jpg",
+    "D:\\ai\\新建文件夹\\新建文件夹\\7788-en\\images\\products\\phosphate-wear-resistant-brick\\phosphate-wear-resistant-brick-main.jpg",
+    "D:\\ai\\新建文件夹\\新建文件夹\\7788-en\\images\\products\\plastic-refractory\\plastic-refractory-main.jpg",
+    "D:\\ai\\新建文件夹\\新建文件夹\\7788-en\\images\\products\\refractory-castable\\refractory-castable-cured.jpg",
+    "D:\\ai\\新建文件夹\\新建文件夹\\7788-en\\images\\products\\refractory-castable\\refractory-castable-mixing.jpg",
+    "D:\\ai\\新建文件夹\\新建文件夹\\7788-en\\images\\products\\refractory-castable\\refractory-castable-main.jpg",
+    "D:\\ai\\新建文件夹\\新建文件夹\\7788-en\\images\\products\\refractory-spray-coating\\refractory-spray-coating-main.jpg",
+    "D:\\ai\\新建文件夹\\新建文件夹\\7788-en\\images\\products\\semi-silica-brick\\semi-silica-brick-main.jpg",
+    "D:\\ai\\新建文件夹\\新建文件夹\\7788-en\\images\\products\\silica-molybdenum-brick\\silica-molybdenum-brick-main.jpg",
+    "D:\\ai\\新建文件夹\\新建文件夹\\7788-en\\images\\products\\standard-high-alumina-brick\\standard-high-alumina-brick-production.jpg",
+    "D:\\ai\\新建文件夹\\新建文件夹\\7788-en\\images\\products\\clay-brick\\clay-brick-thumb.jpg",
+    "D:\\ai\\新建文件夹\\新建文件夹\\7788-en\\images\\products\\standard-high-alumina-brick\\standard-high-alumina-brick-structure.jpg",
+    "D:\\ai\\新建文件夹\\新建文件夹\\7788-en\\images\\products\\standard-high-alumina-brick\\standard-high-alumina-brick-testing.jpg",
+    "D:\\ai\\新建文件夹\\新建文件夹\\7788-en\\images\\products\\standard-high-alumina-brick\\standard-high-alumina-brick-main.jpg",
+    "D:\\ai\\新建文件夹\\新建文件夹\\7788-en\\images\\products\\standard-silica-brick\\standard-silica-brick-structure.jpg",
+    "D:\\ai\\新建文件夹\\新建文件夹\\7788-en\\images\\products\\lightweight-silica-brick\\lightweight-silica-brick-thumb.jpg",
+    "D:\\ai\\新建文件夹\\新建文件夹\\7788-en\\images\\products\\standard-silica-brick\\standard-silica-brick-testing.jpg",
+    "D:\\ai\\新建文件夹\\新建文件夹\\7788-en\\images\\products\\standard-silica-brick\\standard-silica-brick-main.jpg",
+    "D:\\ai\\新建文件夹\\新建文件夹\\7788-en\\images\\products\\standard-silica-brick\\standard-silica-brick-coke-oven.jpg",
+    "D:\\ai\\新建文件夹\\新建文件夹\\7788-en\\images\\products\\steel-fiber-castable\\steel-fiber-castable-main.jpg",
+    "D:\\ai\\新建文件夹\\新建文件夹\\7788-en\\images\\products\\steel-fiber-castable\\steel-fiber-castable-fibers.jpg",
+    "D:\\ai\\新建文件夹\\新建文件夹\\7788-en\\images\\products\\steel-fiber-castable\\steel-fiber-castable-testing.jpg",
+    "D:\\ai\\新建文件夹\\新建文件夹\\7788-en\\images\\products\\thermal-insulation-brick\\thermal-insulation-brick-main.jpg",
+    "D:\\ai\\新建文件夹\\新建文件夹\\7788-en\\images\\products\\unshaped-refractory\\unshaped-refractory-main.jpg",
+    "D:\\ai\\新建文件夹\\新建文件夹\\7788-en\\images\\products\\wear-resistant-ceramic\\wear-resistant-ceramic-main.jpg"
+  ],
+  "pattern_issues": [
+    "alumina-castable.html: Expected 4 images, found 8",
+    "alumina-hollow-sphere-brick.html: Expected 4 images, found 1",
+    "blast-furnace-ceramic-cup.html: Expected 4 images, found 1",
+    "chrome-corundum-castable.html: Expected 4 images, found 1",
+    "clay-brick.html: Expected 4 images, found 8",
+    "coke-oven-brick.html: Expected 4 images, found 1",
+    "corundum-ball.html: Expected 4 images, found 1",
+    "corundum-brick.html: Expected 4 images, found 1",
+    "corundum-mullite.html: Expected 4 images, found 1",
+    "general-silica-brick.html: Expected 4 images, found 7",
+    "heavy-clay-brick.html: Expected 4 images, found 1",
+    "high-alumina-brick.html: Expected 4 images, found 8",
+    "hot-blast-stove-checker-silica-brick.html: Expected 4 images, found 1",
+    "hot-blast-stove-clay-checker-brick.html: Expected 4 images, found 1",
+    "hot-blast-stove-silica-brick.html: Expected 4 images, found 1",
+    "insulating-brick.html: Expected 4 images, found 8",
+    "insulating-material.html: Expected 4 images, found 1",
+    "lightweight-castable.html: Expected 4 images, found 8",
+    "lightweight-clay-brick.html: Expected 4 images, found 8",
+    "lightweight-high-alumina-brick.html: Expected 4 images, found 9",
+    "lightweight-mullite-brick.html: Expected 4 images, found 9",
+    "lightweight-silica-brick.html: Expected 4 images, found 9",
+    "magnesia-chrome-brick.html: Expected 4 images, found 1",
+    "mullite-brick.html: Expected 4 images, found 8",
+    "phosphate-brick.html: Expected 4 images, found 1",
+    "phosphate-wear-resistant-brick.html: Expected 4 images, found 1",
+    "plastic-refractory.html: Expected 4 images, found 1",
+    "refractory-castable.html: Expected 4 images, found 8",
+    "refractory-spray-coating.html: Expected 4 images, found 1",
+    "semi-silica-brick.html: Expected 4 images, found 1",
+    "silica-brick.html: Expected 4 images, found 8",
+    "silica-molybdenum-brick.html: Expected 4 images, found 1",
+    "standard-high-alumina-brick.html: Expected 4 images, found 9",
+    "standard-silica-brick.html: Expected 4 images, found 7",
+    "steel-fiber-castable.html: Expected 4 images, found 8",
+    "thermal-insulation-brick.html: Expected 4 images, found 1",
+    "unshaped-refractory.html: Expected 4 images, found 1",
+    "wear-resistant-ceramic.html: Expected 4 images, found 1"
+  ]
+}

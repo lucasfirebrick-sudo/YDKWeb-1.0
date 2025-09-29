@@ -1,0 +1,636 @@
+/*
+==================================================
+河南元达科耐火材料 - 三代传承严肃横向时间轴
+厚重历史感 | 分层动画 | 视差效果
+==================================================
+*/
+
+/* =============================================================================
+   1. 设计系统变量
+============================================================================= */
+:root {
+    /* 严肃历史色彩体系 */
+    --heritage-dark: #1a1a1a;
+    --heritage-darker: #0f0f0f;
+    --heritage-charcoal: #2a2a2a;
+    --heritage-steel: #3a3a3a;
+
+    /* 企业强调色 */
+    --accent-red: #d42c28;
+    --accent-red-bright: #e74c3c;
+    --accent-red-dark: #b71c1c;
+
+    /* 时间轴专用文字色彩层级 */
+    --timeline-text-primary: #ffffff;
+    --timeline-text-secondary: #e0e0e0;
+    --timeline-text-tertiary: #cccccc;
+    --timeline-text-muted: #999999;
+
+    /* 间距和尺寸 */
+    --timeline-height: 420px;
+    --section-padding: 80px 0;
+    --container-max-width: 1400px;
+    --timeline-line-height: 4px;
+
+    /* 字体大小 - 优化年份大小避免布局冲突 */
+    --font-year: clamp(2.5rem, 4vw, 3.5rem);
+    --font-title: clamp(1.5rem, 3vw, 2.2rem);
+    --font-description: clamp(1rem, 2vw, 1.2rem);
+
+    /* 动画时序 */
+    --animation-duration: 0.8s;
+    --animation-delay-increment: 0.3s;
+    --animation-easing: cubic-bezier(0.25, 0.46, 0.45, 0.94);
+}
+
+/* =============================================================================
+   2. 时间轴主容器
+============================================================================= */
+.heritage-timeline {
+    background: linear-gradient(135deg,
+        var(--heritage-darker) 0%,
+        var(--heritage-dark) 25%,
+        var(--heritage-charcoal) 75%,
+        var(--heritage-dark) 100%);
+    padding: var(--section-padding);
+    position: relative;
+    overflow: hidden;
+    min-height: var(--timeline-height);
+}
+
+/* 深度纹理背景 */
+.heritage-timeline::before {
+    content: '';
+    position: absolute;
+    top: 0; left: 0; right: 0; bottom: 0;
+    background-image:
+        linear-gradient(45deg, transparent 45%, rgba(255,255,255,0.02) 50%, transparent 55%),
+        radial-gradient(circle at 20% 20%, rgba(212,44,40,0.05) 1px, transparent 1px),
+        radial-gradient(circle at 80% 80%, rgba(255,255,255,0.03) 1px, transparent 1px);
+    background-size: 100px 100px, 50px 50px, 30px 30px;
+    pointer-events: none;
+    opacity: 0.6;
+}
+
+/* 顶部装饰线 */
+.heritage-timeline::after {
+    content: '';
+    position: absolute;
+    top: 0; left: 0; right: 0;
+    height: 2px;
+    background: linear-gradient(90deg,
+        transparent 0%,
+        var(--accent-red-dark) 20%,
+        var(--accent-red) 50%,
+        var(--accent-red-dark) 80%,
+        transparent 100%);
+}
+
+/* =============================================================================
+   3. 标题区域
+============================================================================= */
+.timeline-header {
+    text-align: center;
+    margin-bottom: 60px;
+    position: relative;
+    z-index: 10;
+}
+
+.heritage-timeline h3 {
+    font-size: clamp(2.5rem, 5vw, 4rem);
+    font-weight: 700;
+    color: var(--timeline-text-primary);
+    margin-bottom: 20px;
+    font-family: 'Noto Serif SC', serif;
+    letter-spacing: 2px;
+    line-height: 1.2;
+    position: relative;
+}
+
+.heritage-timeline .section-subtitle {
+    font-size: var(--font-description);
+    color: var(--timeline-text-primary);
+    font-weight: 300;
+    max-width: 600px;
+    margin: 0 auto;
+    line-height: 1.6;
+    font-family: 'Noto Sans SC', sans-serif;
+}
+
+/* =============================================================================
+   4. 横向时间轴布局
+============================================================================= */
+.timeline-container {
+    position: relative;
+    max-width: var(--container-max-width);
+    margin: 0 auto;
+    padding: 40px 20px;
+}
+
+/* 主时间线 */
+.timeline-container::before {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 5%;
+    right: 5%;
+    height: var(--timeline-line-height);
+    background: linear-gradient(90deg,
+        transparent 0%,
+        var(--heritage-steel) 5%,
+        var(--accent-red-dark) 15%,
+        var(--accent-red) 50%,
+        var(--accent-red-dark) 85%,
+        var(--heritage-steel) 95%,
+        transparent 100%);
+    transform: translateY(-50%);
+    z-index: 1;
+    border-radius: 2px;
+    box-shadow: 0 0 20px rgba(212,44,40,0.3);
+}
+
+/* 时间轴项目容器 */
+.timeline-items-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 80px;
+    position: relative;
+    z-index: 2;
+    align-items: flex-start; /* 改为顶部对齐确保水平一致 */
+    min-height: 500px;
+    padding: 0 40px; /* 增加左右内边距 */
+}
+
+/* =============================================================================
+   5. 时间轴项目设计
+============================================================================= */
+.timeline-item {
+    position: relative;
+    text-align: center;
+    padding: 20px 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    /* 初始状态 - 隐藏 */
+    opacity: 0;
+    transform: translateY(30px);
+    transition: none; /* 将通过JavaScript控制动画 */
+}
+
+/* 时间节点标记 */
+.timeline-marker {
+    position: relative;
+    z-index: 3;
+    margin-bottom: 25px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 120px; /* 固定高度确保对齐 */
+    justify-content: space-between;
+}
+
+.timeline-dot {
+    width: 20px;
+    height: 20px;
+    background: var(--accent-red);
+    border: 4px solid var(--heritage-dark);
+    border-radius: 50%;
+    box-shadow:
+        0 0 0 4px var(--timeline-text-primary),
+        0 0 20px rgba(212,44,40,0.5);
+    position: relative;
+    margin-bottom: 20px;
+
+    /* 确保完全圆形 */
+    flex-shrink: 0;
+    display: block;
+
+    /* 动画初始状态 */
+    opacity: 0;
+    transform: scale(0);
+}
+
+.timeline-dot::after {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 8px;
+    height: 8px;
+    background: var(--timeline-text-primary);
+    border-radius: 50%;
+    transform: translate(-50%, -50%);
+}
+
+/* =============================================================================
+   6. 文字内容层级设计
+============================================================================= */
+
+/* 代际标识 - 放大字体 */
+.generation-number {
+    font-size: clamp(1.2rem, 2.5vw, 1.8rem);
+    font-weight: 700;
+    color: var(--accent-red-bright);
+    font-family: 'Noto Sans SC', sans-serif;
+    margin-bottom: 15px;
+    letter-spacing: 1px;
+}
+
+/* 强力移除任何可能的emoji和视觉干扰元素 */
+.generation-number::before,
+.generation-number::after,
+.timeline-marker::before,
+.timeline-marker::after,
+.timeline-item::before,
+.timeline-item::after,
+.timeline-dot::before,
+.timeline-year::before,
+.timeline-year::after,
+.generation-title::before,
+.generation-title::after,
+.description-line::before,
+.description-line::after {
+    content: "" !important;
+    display: none !important;
+    visibility: hidden !important;
+}
+
+/* 保持timeline-dot内部圆点正常显示 */
+.timeline-dot::after {
+    content: '' !important;
+    display: block !important;
+    visibility: visible !important;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 8px;
+    height: 8px;
+    background: var(--timeline-text-primary);
+    border-radius: 50%;
+    transform: translate(-50%, -50%);
+}
+
+/* 移除可能的Font Awesome图标和伪元素 */
+.generation-number i,
+.timeline-marker i,
+.timeline-item i,
+.timeline-dot i,
+.timeline-year i,
+.generation-title i,
+.description-line i {
+    display: none !important;
+    visibility: hidden !important;
+}
+
+/* 强制字体设置，避免emoji回退显示 */
+.heritage-timeline,
+.heritage-timeline * {
+    font-family: 'Noto Sans SC', 'Microsoft YaHei', 'PingFang SC', sans-serif !important;
+    text-rendering: optimizeLegibility !important;
+    -webkit-font-feature-settings: "kern" 1, "liga" 0, "calt" 0 !important;
+    font-feature-settings: "kern" 1, "liga" 0, "calt" 0 !important;
+    font-variant-emoji: text !important;
+}
+
+/* 禁用任何可能的Unicode emoji显示 */
+.heritage-timeline {
+    font-variant-emoji: text !important;
+    -webkit-font-variant-emoji: text !important;
+}
+
+/* 年代 - 大字 */
+.timeline-year {
+    font-size: var(--font-year);
+    font-weight: 900;
+    color: var(--timeline-text-primary);
+    font-family: 'Noto Serif SC', serif;
+    letter-spacing: 3px;
+    margin-bottom: 10px;
+    line-height: 0.9;
+    text-shadow: 0 4px 8px rgba(0,0,0,0.8);
+
+    /* 动画初始状态 */
+    opacity: 0;
+    transform: translateY(20px);
+}
+
+/* 标题 - 中字 */
+.generation-title {
+    font-size: var(--font-title);
+    font-weight: 600;
+    color: var(--timeline-text-primary);
+    font-family: 'Noto Sans SC', sans-serif;
+    margin-bottom: 15px;
+    line-height: 1.2;
+    letter-spacing: 0.5px;
+    max-width: 200px;
+    word-wrap: break-word;
+
+    /* 动画初始状态 */
+    opacity: 0;
+    transform: translateY(15px);
+}
+
+/* 重点词红色突出 */
+.generation-title .highlight {
+    color: var(--accent-red-bright);
+    font-weight: 700;
+}
+
+/* 说明文字容器 */
+.timeline-description {
+    max-width: 250px;
+    margin: 0 auto;
+    line-height: 1.4;
+}
+
+/* 说明文字 - 小字 */
+.description-line {
+    font-size: var(--font-description);
+    color: var(--timeline-text-primary);
+    font-family: 'Noto Sans SC', sans-serif;
+    line-height: 1.5;
+    margin-bottom: 8px;
+    font-weight: 300;
+    letter-spacing: 0.3px;
+
+    /* 动画初始状态 */
+    opacity: 0;
+    transform: translateY(10px);
+}
+
+.description-line:last-child {
+    margin-bottom: 0;
+}
+
+/* 关键词突出 */
+.description-line .keyword {
+    color: var(--accent-red);
+    font-weight: 500;
+}
+
+/* =============================================================================
+   7. 动画状态类
+============================================================================= */
+
+/* 时间轴项目激活状态 */
+.timeline-item.animate {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+/* 各元素激活状态 */
+.timeline-dot.animate {
+    opacity: 1;
+    transform: scale(1);
+    transition: all var(--animation-duration) var(--animation-easing);
+}
+
+.timeline-year.animate {
+    opacity: 1;
+    transform: translateY(0);
+    transition: all var(--animation-duration) var(--animation-easing);
+}
+
+.generation-title.animate {
+    opacity: 1;
+    transform: translateY(0);
+    transition: all var(--animation-duration) var(--animation-easing);
+}
+
+.description-line.animate {
+    opacity: 1;
+    transform: translateY(0);
+    transition: all var(--animation-duration) var(--animation-easing);
+}
+
+/* =============================================================================
+   8. 结论区域
+============================================================================= */
+.heritage-conclusion {
+    margin-top: 80px;
+    text-align: center;
+    position: relative;
+    z-index: 10;
+}
+
+.conclusion-text {
+    font-size: clamp(1.4rem, 3vw, 1.8rem) !important;
+    color: var(--timeline-text-primary);
+    font-family: 'Noto Serif SC', serif;
+    font-weight: 400;
+    max-width: 800px;
+    margin: 0 auto;
+    line-height: 1.8;
+    letter-spacing: 1px;
+    padding: 40px;
+    background: rgba(255,255,255,0.05);
+    backdrop-filter: blur(10px);
+    border-radius: 8px;
+    border: 1px solid rgba(255,255,255,0.1);
+    position: relative;
+
+    /* 动画初始状态 */
+    opacity: 0;
+    transform: translateY(30px);
+}
+
+.conclusion-text.animate {
+    opacity: 1;
+    transform: translateY(0);
+    transition: all 1s var(--animation-easing);
+}
+
+.conclusion-text::before {
+    content: '';
+    position: absolute;
+    top: 0; left: 50%;
+    width: 80px;
+    height: 2px;
+    background: var(--accent-red);
+    transform: translateX(-50%);
+}
+
+/* 结论文字中的关键词 - 增强优先级 */
+.heritage-timeline .conclusion-text .highlight {
+    color: var(--accent-red-bright) !important;
+    font-weight: 600 !important;
+    font-size: clamp(1.4rem, 3vw, 1.8rem) !important; /* 与主文字完全相同 */
+    line-height: inherit !important;
+}
+
+/* =============================================================================
+   9. 响应式设计
+============================================================================= */
+@media (max-width: 1200px) {
+    .timeline-items-container {
+        gap: 40px;
+    }
+
+    .timeline-description {
+        max-width: 240px;
+    }
+}
+
+@media (max-width: 992px) {
+    .heritage-timeline {
+        padding: 60px 0;
+    }
+
+    .timeline-items-container {
+        grid-template-columns: 1fr;
+        gap: 80px;
+        max-width: 500px;
+        margin: 0 auto;
+    }
+
+    .timeline-container::before {
+        top: 0;
+        left: 50%;
+        right: auto;
+        bottom: 0;
+        width: var(--timeline-line-height);
+        height: auto;
+        background: linear-gradient(180deg,
+            transparent 0%,
+            var(--heritage-steel) 5%,
+            var(--accent-red-dark) 15%,
+            var(--accent-red) 50%,
+            var(--accent-red-dark) 85%,
+            var(--heritage-steel) 95%,
+            transparent 100%);
+        transform: translateX(-50%);
+    }
+
+    .timeline-item {
+        padding: 30px;
+    }
+
+    .timeline-description {
+        max-width: 320px;
+    }
+}
+
+@media (max-width: 768px) {
+    .heritage-timeline {
+        padding: 40px 0;
+    }
+
+    .timeline-header {
+        margin-bottom: 40px;
+    }
+
+    .timeline-container {
+        padding: 20px 15px;
+    }
+
+    .timeline-items-container {
+        gap: 60px;
+    }
+
+    .timeline-item {
+        padding: 20px 15px;
+    }
+
+    .timeline-description {
+        max-width: 280px;
+    }
+
+    .heritage-conclusion {
+        margin-top: 60px;
+    }
+
+    .conclusion-text {
+        padding: 30px 20px;
+    }
+}
+
+/* 中等屏幕优化 */
+@media (max-width: 992px) {
+    :root {
+        --font-year: clamp(2rem, 5vw, 2.8rem);
+        --font-title: clamp(1.3rem, 3.5vw, 1.8rem);
+        --font-description: clamp(0.9rem, 2.5vw, 1.1rem);
+    }
+}
+
+@media (max-width: 768px) {
+    :root {
+        --font-year: clamp(1.8rem, 6vw, 2.4rem);
+        --font-title: clamp(1.2rem, 4vw, 1.6rem);
+        --font-description: clamp(0.85rem, 3vw, 1rem);
+    }
+}
+
+@media (max-width: 480px) {
+    :root {
+        --font-year: clamp(1.6rem, 8vw, 2rem);
+        --font-title: clamp(1rem, 4.5vw, 1.4rem);
+        --font-description: clamp(0.8rem, 3.5vw, 0.95rem);
+    }
+
+    .timeline-items-container {
+        gap: 50px;
+    }
+
+    .timeline-marker {
+        margin-bottom: 20px;
+    }
+
+    .timeline-year {
+        margin-bottom: 10px;
+        letter-spacing: 2px;
+    }
+
+    .generation-title {
+        margin-bottom: 15px;
+    }
+}
+
+/* =============================================================================
+   10. 视差效果和性能优化
+============================================================================= */
+
+/* 为视差效果准备的变换层 */
+.timeline-parallax-layer {
+    will-change: transform;
+    transform: translateZ(0); /* 硬件加速 */
+}
+
+/* 减少动画偏好支持 */
+@media (prefers-reduced-motion: reduce) {
+    .timeline-item,
+    .timeline-dot,
+    .timeline-year,
+    .generation-title,
+    .description-line,
+    .conclusion-text {
+        transition: none !important;
+        animation: none !important;
+    }
+
+    .heritage-timeline::before {
+        animation: none !important;
+    }
+}
+
+/* 高对比度模式支持 */
+@media (prefers-contrast: high) {
+    :root {
+        --timeline-text-primary: #ffffff;
+        --timeline-text-secondary: #ffffff;
+        --timeline-text-tertiary: #ffffff;
+        --accent-red: #ff0000;
+        --accent-red-bright: #ff0000;
+        --heritage-dark: #000000;
+    }
+
+    .heritage-timeline {
+        background: #000000;
+    }
+
+    .timeline-container::before {
+        background: #ffffff;
+    }
+}

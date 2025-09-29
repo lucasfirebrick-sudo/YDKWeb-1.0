@@ -1,0 +1,221 @@
+{
+  "navigation": {
+    "logo": {
+      "src": "images/logo-new.jpg",
+      "alt": "YDK元达科耐火材料",
+      "tagline": "GLOBAL ONE-STOP REFRACTORY SOLUTIONS",
+      "href": "index.html"
+    },
+    "mainMenu": [
+      {
+        "id": "home",
+        "title": "首页",
+        "href": "index.html",
+        "type": "simple"
+      },
+      {
+        "id": "products",
+        "title": "产品中心",
+        "href": "products.html",
+        "type": "mega-dropdown",
+        "categories": [
+          {
+            "id": "shaped",
+            "title": "定型耐火制品",
+            "icon": "fas fa-cube",
+            "products": "auto"
+          },
+          {
+            "id": "unshaped",
+            "title": "不定型耐火材料",
+            "icon": "fas fa-droplet",
+            "products": "auto"
+          },
+          {
+            "id": "special",
+            "title": "特种耐火制品",
+            "icon": "fas fa-shield-alt",
+            "products": "auto"
+          },
+          {
+            "id": "lightweight",
+            "title": "轻质保温制品",
+            "icon": "fas fa-feather-alt",
+            "products": "auto"
+          }
+        ],
+        "footer": {
+          "text": "查看全部产品",
+          "icon": "fas fa-arrow-right",
+          "href": "products.html"
+        }
+      },
+      {
+        "id": "applications",
+        "title": "应用领域",
+        "href": "applications.html",
+        "type": "mega-dropdown",
+        "categories": [
+          {
+            "id": "steel",
+            "title": "钢铁工业",
+            "icon": "fas fa-industry",
+            "items": [
+              {"title": "高炉炼铁", "href": "applications/blast-furnace.html"},
+              {"title": "转炉炼钢", "href": "applications/steel-making.html"},
+              {"title": "连铸系统", "href": "applications/continuous-casting.html"},
+              {"title": "轧钢设备", "href": "applications/rolling-mill.html"}
+            ]
+          },
+          {
+            "id": "cement",
+            "title": "水泥工业",
+            "icon": "fas fa-hammer",
+            "items": [
+              {"title": "水泥窑炉", "href": "applications/cement-kiln.html"},
+              {"title": "预热器", "href": "applications/preheater.html"},
+              {"title": "冷却机", "href": "applications/cooler.html"}
+            ]
+          },
+          {
+            "id": "glass",
+            "title": "玻璃工业",
+            "icon": "fas fa-eye",
+            "items": [
+              {"title": "玻璃熔窑", "href": "applications/glass-furnace.html"},
+              {"title": "供料道", "href": "applications/glass-feeder.html"}
+            ]
+          },
+          {
+            "id": "power",
+            "title": "电力工业",
+            "icon": "fas fa-bolt",
+            "items": [
+              {"title": "火力发电", "href": "applications/power-plant.html"},
+              {"title": "垃圾焚烧", "href": "applications/waste-incineration.html"}
+            ]
+          }
+        ],
+        "footer": {
+          "text": "查看全部应用",
+          "icon": "fas fa-arrow-right",
+          "href": "applications.html"
+        }
+      },
+      {
+        "id": "about",
+        "title": "关于我们",
+        "href": "about.html",
+        "type": "simple"
+      },
+      {
+        "id": "quality",
+        "title": "质量认证",
+        "href": "quality.html",
+        "type": "simple"
+      },
+      {
+        "id": "contact",
+        "title": "联系我们",
+        "href": "contact.html",
+        "type": "simple"
+      }
+    ]
+  },
+  "footer": {
+    "companyInfo": {
+      "logo": {
+        "src": "images/logo-new.jpg",
+        "alt": "YDK元达科耐火材料"
+      },
+      "name": "河南元达科高铝砖耐火材料有限公司",
+      "tagline": "GLOBAL ONE-STOP REFRACTORY SOLUTIONS",
+      "description": "专业生产各类耐火材料，包括高铝砖、粘土砖、浇注料等产品。拥有完善的质量管理体系和专业的技术团队，为客户提供优质的产品和服务。",
+      "certifications": [
+        {"name": "ISO 9001", "class": "cert-badge"},
+        {"name": "质量认证", "class": "cert-badge"},
+        {"name": "环保认证", "class": "cert-badge"}
+      ]
+    },
+    "sections": [
+      {
+        "id": "products",
+        "title": "产品中心",
+        "links": "auto",
+        "maxItems": 6
+      },
+      {
+        "id": "applications",
+        "title": "应用领域",
+        "links": [
+          {"title": "钢铁工业", "href": "applications.html#steel"},
+          {"title": "水泥工业", "href": "applications.html#cement"},
+          {"title": "玻璃工业", "href": "applications.html#glass"},
+          {"title": "电力工业", "href": "applications.html#power"},
+          {"title": "石化工业", "href": "applications.html#petrochemical"},
+          {"title": "查看全部应用", "href": "applications.html"}
+        ]
+      },
+      {
+        "id": "company",
+        "title": "公司信息",
+        "links": [
+          {"title": "关于我们", "href": "about.html"},
+          {"title": "质量认证", "href": "quality.html"},
+          {"title": "生产设备", "href": "about.html#factory"},
+          {"title": "技术团队", "href": "about.html#team"},
+          {"title": "发展历程", "href": "about.html#history"},
+          {"title": "联系我们", "href": "contact.html"}
+        ]
+      },
+      {
+        "id": "contact",
+        "title": "联系方式",
+        "contacts": [
+          {
+            "icon": "fas fa-phone",
+            "label": "销售热线",
+            "value": "+86-371-56777921",
+            "href": "tel:+86-371-56777921"
+          },
+          {
+            "icon": "fas fa-mobile-alt",
+            "label": "移动电话",
+            "value": "+86-138-3801-7678",
+            "href": "tel:+86-13838017678"
+          },
+          {
+            "icon": "fas fa-envelope",
+            "label": "邮箱地址",
+            "value": "info@yuandake-refractory.com",
+            "href": "mailto:info@yuandake-refractory.com"
+          },
+          {
+            "icon": "fas fa-map-marker-alt",
+            "label": "公司地址",
+            "value": "河南省郑州市新密市来集镇宋楼工业园区"
+          }
+        ]
+      }
+    ],
+    "bottom": {
+      "copyright": "© 2024 河南元达科高铝砖耐火材料有限公司. 版权所有",
+      "legalLinks": [
+        {"title": "隐私政策", "href": "privacy.html"},
+        {"title": "使用条款", "href": "terms.html"},
+        {"title": "网站地图", "href": "sitemap.html"}
+      ],
+      "badges": [
+        {"icon": "fas fa-award", "text": "质量认证"},
+        {"icon": "fas fa-leaf", "text": "环保认证"},
+        {"icon": "fas fa-shield-alt", "text": "安全认证"}
+      ]
+    }
+  },
+  "categoryMapping": {
+    "定型耐火制品": "shaped",
+    "不定型耐火材料": "unshaped",
+    "特种耐火制品": "special",
+    "轻质保温制品": "lightweight"
+  }
+}

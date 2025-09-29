@@ -1,0 +1,188 @@
+{
+  "javascript_issues": [],
+  "working_products": {
+    "chrome-corundum-castable": {
+      "status": "has_issues",
+      "issues": [
+        "缺少multi-image-gallery.js引用"
+      ]
+    },
+    "lightweight-castable": {
+      "status": "has_issues",
+      "issues": [
+        "缺少multi-image-gallery.js引用"
+      ]
+    },
+    "refractory-spray-coating": {
+      "status": "has_issues",
+      "issues": [
+        "缺少multi-image-gallery.js引用"
+      ]
+    },
+    "steel-fiber-castable": {
+      "status": "has_issues",
+      "issues": [
+        "缺少multi-image-gallery.js引用"
+      ]
+    },
+    "unshaped-refractory-material": {
+      "status": "has_issues",
+      "issues": [
+        "缺少multi-image-gallery.js引用"
+      ]
+    },
+    "unshaped-refractory": {
+      "status": "has_issues",
+      "issues": [
+        "缺少multi-image-gallery.js引用"
+      ]
+    }
+  },
+  "display_issue_products": {
+    "alumina-castable": {
+      "status": "structure_fixed",
+      "structure_fixed": true,
+      "issues": [
+        "缺少multi-image-gallery.js引用"
+      ]
+    },
+    "alumina-hollow-sphere-brick": {
+      "status": "structure_fixed",
+      "structure_fixed": true,
+      "issues": [
+        "缺少multi-image-gallery.js引用"
+      ]
+    },
+    "blast-furnace-ceramic-cup": {
+      "status": "structure_fixed",
+      "structure_fixed": true,
+      "issues": [
+        "缺少multi-image-gallery.js引用"
+      ]
+    },
+    "corundum-ball": {
+      "status": "structure_fixed",
+      "structure_fixed": true,
+      "issues": [
+        "缺少multi-image-gallery.js引用"
+      ]
+    },
+    "corundum-brick": {
+      "status": "structure_fixed",
+      "structure_fixed": true,
+      "issues": [
+        "缺少multi-image-gallery.js引用"
+      ]
+    },
+    "corundum-mullite": {
+      "status": "structure_fixed",
+      "structure_fixed": true,
+      "issues": [
+        "缺少multi-image-gallery.js引用"
+      ]
+    },
+    "general-silica-brick": {
+      "status": "structure_fixed",
+      "structure_fixed": true,
+      "issues": [
+        "缺少multi-image-gallery.js引用"
+      ]
+    },
+    "heavy-clay-brick": {
+      "status": "structure_fixed",
+      "structure_fixed": true,
+      "issues": [
+        "缺少multi-image-gallery.js引用"
+      ]
+    },
+    "hot-blast-stove-silica-brick": {
+      "status": "structure_fixed",
+      "structure_fixed": true,
+      "issues": [
+        "缺少multi-image-gallery.js引用"
+      ]
+    },
+    "lightweight-clay-brick": {
+      "status": "structure_fixed",
+      "structure_fixed": true,
+      "issues": [
+        "缺少multi-image-gallery.js引用"
+      ]
+    },
+    "lightweight-high-alumina-brick": {
+      "status": "structure_fixed",
+      "structure_fixed": true,
+      "issues": [
+        "缺少multi-image-gallery.js引用"
+      ]
+    },
+    "lightweight-mullite-brick": {
+      "status": "structure_fixed",
+      "structure_fixed": true,
+      "issues": [
+        "缺少multi-image-gallery.js引用"
+      ]
+    },
+    "magnesia-chrome-brick": {
+      "status": "structure_fixed",
+      "structure_fixed": true,
+      "issues": [
+        "缺少multi-image-gallery.js引用"
+      ]
+    },
+    "mullite-brick": {
+      "status": "structure_fixed",
+      "structure_fixed": true,
+      "issues": []
+    },
+    "phosphate-brick": {
+      "status": "structure_fixed",
+      "structure_fixed": true,
+      "issues": [
+        "缺少multi-image-gallery.js引用"
+      ]
+    },
+    "phosphate-wear-resistant-brick": {
+      "status": "structure_fixed",
+      "structure_fixed": true,
+      "issues": [
+        "缺少multi-image-gallery.js引用"
+      ]
+    },
+    "plastic-refractory": {
+      "status": "structure_fixed",
+      "structure_fixed": true,
+      "issues": [
+        "缺少multi-image-gallery.js引用"
+      ]
+    },
+    "silica-molybdenum-brick": {
+      "status": "structure_fixed",
+      "structure_fixed": true,
+      "issues": [
+        "缺少multi-image-gallery.js引用"
+      ]
+    },
+    "standard-high-alumina-brick": {
+      "status": "structure_fixed",
+      "structure_fixed": true,
+      "issues": [
+        "缺少multi-image-gallery.js引用"
+      ]
+    },
+    "thermal-insulation-brick": {
+      "status": "structure_fixed",
+      "structure_fixed": true,
+      "issues": [
+        "缺少multi-image-gallery.js引用"
+      ]
+    }
+  },
+  "summary": {
+    "total_products": 26,
+    "working_count": 0,
+    "structure_fixed_count": 20,
+    "total_working": 20,
+    "success_rate": 76.92307692307693
+  }
+}

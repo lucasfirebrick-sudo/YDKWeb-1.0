@@ -1,0 +1,518 @@
+/* ========== Hero轮播组件样式 - 从style.css完整提取 ========== */
+
+/* ========== HERO ENHANCED CONTAINER ========== */
+.hero-enhanced {
+    position: relative;
+    height: 600px;
+    overflow: hidden;
+    background: var(--background-light);
+}
+
+.hero-slider {
+    height: 100%;
+    position: relative;
+}
+
+/* ========== SLIDE STYLES ========== */
+.slide {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    visibility: hidden;
+    transition: all 0.5s ease;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+
+.slide.active {
+    opacity: 1;
+    visibility: visible;
+}
+
+.slide[data-bg] {
+    background-image: var(--bg-url);
+}
+
+/* Default gradient background for slides */
+.slide {
+    background: linear-gradient(135deg, var(--primary-color) 0%, var(--primary-dark) 100%);
+}
+
+/* ========== SLIDE CONTENT ========== */
+.slide-content {
+    text-align: center;
+    max-width: 800px;
+    padding: 0 var(--spacing-lg);
+    width: 100%;
+    z-index: 2;
+}
+
+.slide-title {
+    font-size: 3rem;
+    margin-bottom: var(--spacing-md);
+    font-weight: 700;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+.slide-subtitle {
+    font-size: 1.25rem;
+    margin-bottom: var(--spacing-lg);
+    opacity: 0.9;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3);
+}
+
+/* ========== SLIDE FEATURES ========== */
+.slide-features {
+    display: flex;
+    justify-content: center;
+    gap: var(--spacing-lg);
+    margin-bottom: var(--spacing-xl);
+    flex-wrap: wrap;
+}
+
+.feature-badge {
+    background: rgba(255, 255, 255, 0.1);
+    padding: var(--spacing-md);
+    border-radius: var(--radius-lg);
+    text-align: center;
+    min-width: 150px;
+    backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.feature-badge h4 {
+    font-size: 1.1rem;
+    margin-bottom: 0.5rem;
+    color: white;
+}
+
+.feature-badge p {
+    font-size: 0.9rem;
+    margin: 0;
+    opacity: 0.8;
+}
+
+/* ========== SLIDE ACTIONS ========== */
+.slide-actions {
+    display: flex;
+    gap: var(--spacing-md);
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.hero-btn {
+    padding: 15px 30px;
+    border-radius: var(--radius-md);
+    font-weight: 600;
+    text-decoration: none;
+    transition: all 0.3s ease;
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    font-size: 1rem;
+    border: none;
+    cursor: pointer;
+}
+
+.hero-btn-primary {
+    background: rgba(255, 255, 255, 0.2);
+    color: white;
+    border: 2px solid rgba(255, 255, 255, 0.3);
+    backdrop-filter: blur(10px);
+}
+
+.hero-btn-primary:hover {
+    background: rgba(255, 255, 255, 0.3);
+    border-color: rgba(255, 255, 255, 0.5);
+    transform: translateY(-2px);
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.2);
+}
+
+.hero-btn-secondary {
+    background: white;
+    color: var(--primary-color);
+    border: 2px solid white;
+}
+
+.hero-btn-secondary:hover {
+    background: var(--background-light);
+    transform: translateY(-2px);
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.2);
+}
+
+/* ========== HERO CONTROLS ========== */
+.hero-controls {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 3;
+}
+
+.hero-nav {
+    background: rgba(255, 255, 255, 0.8);
+    border: none;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.3s ease;
+    backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+.hero-nav:hover {
+    background: rgba(255, 255, 255, 0.9);
+    transform: scale(1.1);
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+}
+
+.hero-nav.prev {
+    left: 20px;
+}
+
+.hero-nav.next {
+    right: 20px;
+}
+
+.hero-nav i {
+    font-size: 1.2rem;
+    color: var(--primary-color);
+}
+
+/* ========== HERO INDICATORS ========== */
+.hero-indicators {
+    position: absolute;
+    bottom: 30px;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    gap: 10px;
+    z-index: 3;
+}
+
+.indicator {
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    background: rgba(255, 255, 255, 0.5);
+    cursor: pointer;
+    transition: all 0.3s ease;
+    border: 2px solid rgba(255, 255, 255, 0.3);
+}
+
+.indicator.active {
+    background: rgba(255, 255, 255, 0.9);
+    transform: scale(1.2);
+    border-color: rgba(255, 255, 255, 0.8);
+}
+
+.indicator:hover {
+    background: rgba(255, 255, 255, 0.7);
+    transform: scale(1.1);
+}
+
+/* ========== HERO OVERLAY EFFECTS ========== */
+.hero-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: linear-gradient(
+        135deg,
+        rgba(0, 0, 0, 0.3) 0%,
+        rgba(0, 0, 0, 0.1) 50%,
+        rgba(0, 0, 0, 0.3) 100%
+    );
+    z-index: 1;
+}
+
+/* ========== HERO CONTENT ANIMATIONS ========== */
+@keyframes fadeInUp {
+    from {
+        opacity: 0;
+        transform: translateY(30px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@keyframes fadeInScale {
+    from {
+        opacity: 0;
+        transform: scale(0.9);
+    }
+    to {
+        opacity: 1;
+        transform: scale(1);
+    }
+}
+
+.slide.active .slide-title {
+    animation: fadeInUp 0.8s ease-out 0.2s both;
+}
+
+.slide.active .slide-subtitle {
+    animation: fadeInUp 0.8s ease-out 0.4s both;
+}
+
+.slide.active .slide-features {
+    animation: fadeInScale 0.8s ease-out 0.6s both;
+}
+
+.slide.active .slide-actions {
+    animation: fadeInUp 0.8s ease-out 0.8s both;
+}
+
+/* ========== HERO RESPONSIVE DESIGN ========== */
+
+/* Large Desktop */
+@media (min-width: 1200px) {
+    .hero-enhanced {
+        height: 700px;
+    }
+
+    .slide-title {
+        font-size: 3.5rem;
+    }
+
+    .slide-subtitle {
+        font-size: 1.4rem;
+    }
+
+    .slide-content {
+        max-width: 900px;
+    }
+
+    .hero-nav {
+        width: 60px;
+        height: 60px;
+    }
+
+    .hero-nav.prev {
+        left: 30px;
+    }
+
+    .hero-nav.next {
+        right: 30px;
+    }
+}
+
+/* Medium Desktop */
+@media (max-width: 1024px) {
+    .hero-enhanced {
+        height: 550px;
+    }
+
+    .slide-title {
+        font-size: 2.5rem;
+    }
+
+    .slide-subtitle {
+        font-size: 1.1rem;
+    }
+
+    .slide-content {
+        max-width: 700px;
+    }
+}
+
+/* Tablet */
+@media (max-width: 768px) {
+    .hero-enhanced {
+        height: 500px;
+    }
+
+    .slide-title {
+        font-size: 2rem;
+        margin-bottom: var(--spacing-sm);
+    }
+
+    .slide-subtitle {
+        font-size: 1rem;
+        margin-bottom: var(--spacing-md);
+    }
+
+    .slide-content {
+        padding: 0 var(--spacing-md);
+        max-width: 100%;
+    }
+
+    .slide-features {
+        gap: var(--spacing-md);
+        margin-bottom: var(--spacing-lg);
+    }
+
+    .feature-badge {
+        min-width: 120px;
+        padding: var(--spacing-sm);
+    }
+
+    .slide-actions {
+        gap: var(--spacing-sm);
+    }
+
+    .hero-btn {
+        padding: 12px 24px;
+        font-size: 0.9rem;
+    }
+
+    .hero-nav {
+        width: 40px;
+        height: 40px;
+    }
+
+    .hero-nav.prev {
+        left: 15px;
+    }
+
+    .hero-nav.next {
+        right: 15px;
+    }
+
+    .hero-indicators {
+        bottom: 20px;
+        gap: 8px;
+    }
+
+    .indicator {
+        width: 10px;
+        height: 10px;
+    }
+}
+
+/* Mobile */
+@media (max-width: 480px) {
+    .hero-enhanced {
+        height: 450px;
+    }
+
+    .slide-title {
+        font-size: 1.8rem;
+    }
+
+    .slide-subtitle {
+        font-size: 0.9rem;
+    }
+
+    .slide-content {
+        padding: 0 var(--spacing-sm);
+    }
+
+    .slide-features {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .feature-badge {
+        min-width: 100px;
+        padding: var(--spacing-xs);
+    }
+
+    .slide-actions {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .hero-btn {
+        width: 200px;
+        justify-content: center;
+        padding: 10px 20px;
+        font-size: 0.85rem;
+    }
+
+    .hero-nav {
+        width: 35px;
+        height: 35px;
+    }
+
+    .hero-nav.prev {
+        left: 10px;
+    }
+
+    .hero-nav.next {
+        right: 10px;
+    }
+
+    .hero-nav i {
+        font-size: 1rem;
+    }
+}
+
+/* Extra Small Mobile */
+@media (max-width: 360px) {
+    .hero-enhanced {
+        height: 400px;
+    }
+
+    .slide-title {
+        font-size: 1.5rem;
+    }
+
+    .slide-subtitle {
+        font-size: 0.8rem;
+    }
+
+    .hero-btn {
+        width: 180px;
+        padding: 8px 16px;
+        font-size: 0.8rem;
+    }
+}
+
+/* ========== ACCESSIBILITY ========== */
+@media (prefers-reduced-motion: reduce) {
+    .slide,
+    .hero-nav,
+    .indicator,
+    .hero-btn {
+        transition: none;
+    }
+
+    .slide.active .slide-title,
+    .slide.active .slide-subtitle,
+    .slide.active .slide-features,
+    .slide.active .slide-actions {
+        animation: none;
+    }
+}
+
+/* ========== PRINT STYLES ========== */
+@media print {
+    .hero-enhanced {
+        height: auto;
+        background: white !important;
+    }
+
+    .slide {
+        position: static;
+        opacity: 1 !important;
+        visibility: visible !important;
+        background: white !important;
+        color: black !important;
+        page-break-inside: avoid;
+    }
+
+    .hero-controls,
+    .hero-indicators {
+        display: none !important;
+    }
+
+    .slide-title,
+    .slide-subtitle {
+        color: black !important;
+        text-shadow: none !important;
+    }
+}

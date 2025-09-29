@@ -1,0 +1,63 @@
+<!-- ========== 全站统一浮动按钮组件 ========== -->
+<div class="floating-buttons-container">
+    <!-- 回到顶部按钮 -->
+    <a href="#top" class="float-btn back-to-top" title="回到顶部" aria-label="回到页面顶部" onclick="floatingButtons.scrollToTop(event)">
+        <i class="fas fa-arrow-up" aria-hidden="true"></i>
+        <span class="sr-only">回到顶部</span>
+    </a>
+
+    <!-- 快速报价按钮 -->
+    <a href="javascript:void(0)" class="float-btn quick-quote" title="快速报价" aria-label="获取快速报价" onclick="floatingButtons.openQuickQuoteModal()">
+        <i class="fas fa-calculator" aria-hidden="true"></i>
+        <span class="sr-only">快速报价</span>
+    </a>
+
+    <!-- WhatsApp按钮 -->
+    <a href="https://wa.me/8613503976002" class="float-btn whatsapp" title="WhatsApp" target="_blank" aria-label="通过WhatsApp联系我们">
+        <i class="fab fa-whatsapp" aria-hidden="true"></i>
+        <span class="sr-only">WhatsApp</span>
+    </a>
+</div>
+
+<!-- 快速报价模态框 -->
+<div id="quickQuoteModal" class="modal-overlay">
+    <div class="modal-content quick-quote-modal">
+        <div class="modal-header">
+            <div class="modal-title-icon">
+                <i class="fas fa-calculator"></i>
+                <h3>快速询价</h3>
+            </div>
+            <button class="modal-close" onclick="floatingButtons.closeQuickQuoteModal()" type="button" aria-label="关闭">&times;</button>
+        </div>
+        <div class="modal-subtitle">
+            描述您的需求，我们将快速为您报价
+        </div>
+        <form class="quick-quote-form" id="quickQuoteForm">
+            <div class="form-group">
+                <textarea id="requirements" name="requirements" rows="4"
+                          placeholder="请详细描述您的需求，包括产品类型、使用温度、应用场景等信息，支持任何语言输入..."
+                          required></textarea>
+                <div class="char-counter">
+                    <span id="charCount">0</span>
+                    <span class="char-limit">*</span>
+                </div>
+            </div>
+            <div class="form-group">
+                <input type="email" id="contactEmail" name="contactEmail"
+                       placeholder="请输入您的邮箱地址" required>
+            </div>
+            <div class="form-group">
+                <input type="tel" id="contactPhone" name="contactPhone"
+                       placeholder="请输入您的电话号码（可选）">
+            </div>
+            <div class="form-group">
+                <input type="text" id="companyName" name="companyName"
+                       placeholder="请输入您的公司名称（可选）">
+            </div>
+            <button type="submit" class="submit-quote-btn">
+                <i class="fas fa-paper-plane"></i>
+                提交询价
+            </button>
+        </form>
+    </div>
+</div>

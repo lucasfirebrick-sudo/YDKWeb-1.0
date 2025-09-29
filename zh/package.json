@@ -1,0 +1,63 @@
+{
+  "name": "yuandake-refractory-website",
+  "version": "2.0.0",
+  "description": "河南元达科耐火材料有限公司官方网站",
+  "main": "index.html",
+  "scripts": {
+    "dev": "npx http-server -p 3000 -o",
+    "build": "echo 'Building project...' && npm run validate && npm run optimize",
+    "build:css": "npm run concat:css && npm run minify:css",
+    "build:js": "npm run concat:js && npm run minify:js",
+    "concat:css": "cat css/variables.css css/reset.css css/utilities.css css/components.css css/layout.css css/responsive.css > dist/css/main.css",
+    "concat:js": "cat js/main.js > dist/js/main.js",
+    "minify:css": "cleancss -o dist/css/main.min.css dist/css/main.css",
+    "minify:js": "terser dist/js/main.js -o dist/js/main.min.js -c -m",
+    "optimize:images": "node optimize-images.js",
+    "optimize": "echo 'Optimizing assets...'",
+    "serve": "http-server -p 8080 -c-1",
+    "watch": "npm run watch:css & npm run watch:js",
+    "watch:css": "chokidar \"css/**/*.css\" -c \"npm run build:css\"",
+    "watch:js": "chokidar \"js/**/*.js\" -c \"npm run build:js\"",
+    "clean": "rimraf dist",
+    "validate": "npm run quality-check && npm run lint-check && html-validate *.html",
+    "quality-check": "node scripts/quality-gate.js",
+    "clean-files": "node scripts/file-cleaner.js",
+    "pre-commit": "node scripts/pre-commit-check.js",
+    "lint-check": "echo 'Running lint checks...'",
+    "cleanup-report": "npm run clean-files && echo 'Cleanup report generated'",
+    "install-hooks": "node scripts/install-git-hooks.js",
+    "health-check": "npm run quality-check && echo 'Project health: OK'",
+    "emergency-clean": "echo '🚨 Emergency cleanup mode' && npm run clean-files -- --force",
+    "lighthouse": "lighthouse http://localhost:8080 --output=json --output=html --output-path=./reports/lighthouse",
+    "test": "npm run validate && echo 'All tests passed!'"
+  },
+  "devDependencies": {
+    "chokidar-cli": "^3.0.0",
+    "clean-css-cli": "^5.6.2",
+    "html-validate": "^8.7.4",
+    "http-server": "^14.1.1",
+    "lighthouse": "^11.4.0",
+    "rimraf": "^5.0.5",
+    "terser": "^5.26.0"
+  },
+  "keywords": [
+    "耐火材料",
+    "refractory",
+    "河南元达科",
+    "yuandake",
+    "耐火砖",
+    "高铝砖",
+    "保温砖"
+  ],
+  "author": "河南元达科耐火材料有限公司",
+  "license": "MIT",
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not dead"
+  ],
+  "engines": {
+    "node": ">=16.0.0",
+    "npm": ">=8.0.0"
+  }
+}

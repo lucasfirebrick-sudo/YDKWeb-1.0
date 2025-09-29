@@ -1,0 +1,75 @@
+产品图片资源核查清单
+====================
+
+📊 总体数据：
+- 产品总数：40个
+- 图片资源完整产品：1个 (2.5%)
+- 部分缺失产品：35个 (87.5%)
+- 完全无图产品：4个 (10.0%)
+
+✅ 图片完整的产品：
+1. silica-brick - 3张图片 (完全正常)
+
+⚠️ 需要修复文件名的产品：
+1. clay-brick - 引用 "黏土砖-new.jpg" → 应为 "clay-brick-new.jpg"
+2. high-alumina-brick - 引用 "高铝砖-new.jpg" → 应为 "high-alumina-brick-new.jpg"
+3. high-alumina-brick - 引用 "硅砖.jpg" → 应为 "silica-brick.jpg"
+4. high-alumina-brick - 引用 "烧结莫来石砖.jpg" → 应为 "sintered-mullite-brick.jpg"
+
+❌ 完全无可用图片的产品：
+1. thermal-insulation-brick - 引用不存在的 "insulating_brick.jpg"
+2. wear-resistant-ceramic - 引用不存在的 "alumina_ceramic.jpg"
+3. insulating-material - 引用不存在的 "lightweight_castable.jpg"
+4. (部分产品实际有备用图片但主图缺失)
+
+🔥 高频使用的备用图片：
+- shaped_high_alumina_brick.jpg - 被35个产品使用 (87.5%)
+- shaped_silica_brick.jpg - 被6个产品使用
+- unshaped_refractory_material.jpg - 被4个产品使用
+
+📈 未被使用的可用图片资源：
+1. clay-brick-new.jpg ⭐ (应该替换clay-brick中的中文引用)
+2. high-alumina-brick-new.jpg ⭐ (应该替换high-alumina-brick中的中文引用)
+3. sintered-mullite-brick.jpg ⭐ (应该替换相应的中文引用)
+4. lightweight_ceramic_honeycomb_regenerator.jpg
+5. shaped_combination_brick.jpg
+6. shaped_high_alumina_light_brick.jpg
+7. shaped_lightweight_fireclay_brick.jpg
+8. shaped_mullite_light_brick.jpg
+9. shaped_silica_mullite_brick.jpg
+10. shaped_sintered_mullite_brick.jpg
+11. special_regenerator_ball.jpg
+12. unshaped_corundum_castable.jpg
+13. unshaped_monolithic_refractory.jpg
+
+🚀 缺失的主图文件 (需要创建或重命名)：
+alumina-castable.jpg, alumina-hollow-sphere-brick.jpg, blast-furnace-ceramic-cup.jpg,
+chrome-corundum-castable.jpg, coke-oven-brick.jpg, corundum-ball.jpg, corundum-brick.jpg,
+corundum-mullite.jpg, general-silica-brick.jpg, hot-blast-stove-checker-silica-brick.jpg,
+hot-blast-stove-clay-checker-brick.jpg, hot-blast-stove-silica-brick.jpg,
+lightweight-castable.jpg, lightweight-clay-brick.jpg, lightweight-high-alumina-brick.jpg,
+lightweight-mullite-brick.jpg, lightweight-silica-brick.jpg, magnesia-chrome-brick.jpg,
+phosphate-brick.jpg, phosphate-wear-resistant-brick.jpg, plastic-refractory.jpg,
+refractory-castable.jpg, refractory-spray-coating.jpg, semi-silica-brick.jpg,
+silica-molybdenum-brick.jpg, steel-fiber-castable.jpg, unshaped-refractory.jpg,
+unshaped-refractory-material.jpg
+
+📋 占位符文件模式 (这些是预期不存在的)：
+insulating-brick-placeholder.jpg, heavy-clay-brick-placeholder.jpg,
+clay-brick-placeholder.jpg, high-alumina-brick-placeholder.jpg,
+silica-brick-placeholder.jpg, lightweight-clay-brick-placeholder.jpg,
+lightweight-mullite-brick-placeholder.jpg, ceramic-honeycomb-placeholder.jpg,
+mullite-brick-placeholder.jpg, standard-high-alumina-brick-placeholder.jpg,
+standard-silica-brick-placeholder.jpg
+
+🎯 立即行动建议：
+1. 修改HTML文件中的中文图片引用为英文文件名
+2. 确保shaped_high_alumina_brick.jpg文件始终存在并优化
+3. 为完全无图的4个产品添加合适的占位图或实际图片
+4. 考虑将未使用的图片资源分配给相应的产品
+
+💡 自适应展示系统关键点：
+- 单图产品 (4个): 需要专门的单图布局
+- 多图产品 (32个): 需要轮播或网格展示
+- 无图产品 (4个): 需要优雅的占位符处理
+- 备用机制: 依赖shaped_high_alumina_brick.jpg作为最终备用

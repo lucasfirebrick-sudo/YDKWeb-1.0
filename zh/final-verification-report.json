@@ -1,0 +1,633 @@
+{
+  "total_products": 39,
+  "perfect_products": [],
+  "good_products": [
+    [
+      "alumina-castable",
+      {
+        "product_id": "alumina-castable",
+        "score": 90,
+        "checks": {
+          "html_structure": 20,
+          "image_config": 15,
+          "javascript": 20,
+          "carousel": 20,
+          "quote_function": 15
+        },
+        "issues": [],
+        "status": "good"
+      }
+    ],
+    [
+      "alumina-hollow-sphere-brick",
+      {
+        "product_id": "alumina-hollow-sphere-brick",
+        "score": 90,
+        "checks": {
+          "html_structure": 20,
+          "image_config": 15,
+          "javascript": 20,
+          "carousel": 20,
+          "quote_function": 15
+        },
+        "issues": [],
+        "status": "good"
+      }
+    ],
+    [
+      "blast-furnace-ceramic-cup",
+      {
+        "product_id": "blast-furnace-ceramic-cup",
+        "score": 90,
+        "checks": {
+          "html_structure": 20,
+          "image_config": 15,
+          "javascript": 20,
+          "carousel": 20,
+          "quote_function": 15
+        },
+        "issues": [],
+        "status": "good"
+      }
+    ],
+    [
+      "chrome-corundum-castable",
+      {
+        "product_id": "chrome-corundum-castable",
+        "score": 90,
+        "checks": {
+          "html_structure": 20,
+          "image_config": 15,
+          "javascript": 20,
+          "carousel": 20,
+          "quote_function": 15
+        },
+        "issues": [],
+        "status": "good"
+      }
+    ],
+    [
+      "clay-brick",
+      {
+        "product_id": "clay-brick",
+        "score": 90,
+        "checks": {
+          "html_structure": 20,
+          "image_config": 15,
+          "javascript": 20,
+          "carousel": 20,
+          "quote_function": 15
+        },
+        "issues": [],
+        "status": "good"
+      }
+    ],
+    [
+      "coke-oven-brick",
+      {
+        "product_id": "coke-oven-brick",
+        "score": 90,
+        "checks": {
+          "html_structure": 20,
+          "image_config": 15,
+          "javascript": 20,
+          "carousel": 20,
+          "quote_function": 15
+        },
+        "issues": [],
+        "status": "good"
+      }
+    ],
+    [
+      "corundum-ball",
+      {
+        "product_id": "corundum-ball",
+        "score": 90,
+        "checks": {
+          "html_structure": 20,
+          "image_config": 15,
+          "javascript": 20,
+          "carousel": 20,
+          "quote_function": 15
+        },
+        "issues": [],
+        "status": "good"
+      }
+    ],
+    [
+      "corundum-brick",
+      {
+        "product_id": "corundum-brick",
+        "score": 90,
+        "checks": {
+          "html_structure": 20,
+          "image_config": 15,
+          "javascript": 20,
+          "carousel": 20,
+          "quote_function": 15
+        },
+        "issues": [],
+        "status": "good"
+      }
+    ],
+    [
+      "corundum-mullite",
+      {
+        "product_id": "corundum-mullite",
+        "score": 90,
+        "checks": {
+          "html_structure": 20,
+          "image_config": 15,
+          "javascript": 20,
+          "carousel": 20,
+          "quote_function": 15
+        },
+        "issues": [],
+        "status": "good"
+      }
+    ],
+    [
+      "general-silica-brick",
+      {
+        "product_id": "general-silica-brick",
+        "score": 90,
+        "checks": {
+          "html_structure": 20,
+          "image_config": 15,
+          "javascript": 20,
+          "carousel": 20,
+          "quote_function": 15
+        },
+        "issues": [],
+        "status": "good"
+      }
+    ],
+    [
+      "heavy-clay-brick",
+      {
+        "product_id": "heavy-clay-brick",
+        "score": 90,
+        "checks": {
+          "html_structure": 20,
+          "image_config": 15,
+          "javascript": 20,
+          "carousel": 20,
+          "quote_function": 15
+        },
+        "issues": [],
+        "status": "good"
+      }
+    ],
+    [
+      "high-alumina-brick",
+      {
+        "product_id": "high-alumina-brick",
+        "score": 90,
+        "checks": {
+          "html_structure": 20,
+          "image_config": 15,
+          "javascript": 20,
+          "carousel": 20,
+          "quote_function": 15
+        },
+        "issues": [],
+        "status": "good"
+      }
+    ],
+    [
+      "hot-blast-stove-checker-silica-brick",
+      {
+        "product_id": "hot-blast-stove-checker-silica-brick",
+        "score": 90,
+        "checks": {
+          "html_structure": 20,
+          "image_config": 15,
+          "javascript": 20,
+          "carousel": 20,
+          "quote_function": 15
+        },
+        "issues": [],
+        "status": "good"
+      }
+    ],
+    [
+      "hot-blast-stove-clay-checker-brick",
+      {
+        "product_id": "hot-blast-stove-clay-checker-brick",
+        "score": 90,
+        "checks": {
+          "html_structure": 20,
+          "image_config": 15,
+          "javascript": 20,
+          "carousel": 20,
+          "quote_function": 15
+        },
+        "issues": [],
+        "status": "good"
+      }
+    ],
+    [
+      "hot-blast-stove-silica-brick",
+      {
+        "product_id": "hot-blast-stove-silica-brick",
+        "score": 90,
+        "checks": {
+          "html_structure": 20,
+          "image_config": 15,
+          "javascript": 20,
+          "carousel": 20,
+          "quote_function": 15
+        },
+        "issues": [],
+        "status": "good"
+      }
+    ],
+    [
+      "insulating-brick",
+      {
+        "product_id": "insulating-brick",
+        "score": 90,
+        "checks": {
+          "html_structure": 20,
+          "image_config": 15,
+          "javascript": 20,
+          "carousel": 20,
+          "quote_function": 15
+        },
+        "issues": [],
+        "status": "good"
+      }
+    ],
+    [
+      "insulating-material",
+      {
+        "product_id": "insulating-material",
+        "score": 90,
+        "checks": {
+          "html_structure": 20,
+          "image_config": 15,
+          "javascript": 20,
+          "carousel": 20,
+          "quote_function": 15
+        },
+        "issues": [],
+        "status": "good"
+      }
+    ],
+    [
+      "lightweight-castable",
+      {
+        "product_id": "lightweight-castable",
+        "score": 90,
+        "checks": {
+          "html_structure": 20,
+          "image_config": 15,
+          "javascript": 20,
+          "carousel": 20,
+          "quote_function": 15
+        },
+        "issues": [],
+        "status": "good"
+      }
+    ],
+    [
+      "lightweight-clay-brick",
+      {
+        "product_id": "lightweight-clay-brick",
+        "score": 90,
+        "checks": {
+          "html_structure": 20,
+          "image_config": 15,
+          "javascript": 20,
+          "carousel": 20,
+          "quote_function": 15
+        },
+        "issues": [],
+        "status": "good"
+      }
+    ],
+    [
+      "lightweight-high-alumina-brick",
+      {
+        "product_id": "lightweight-high-alumina-brick",
+        "score": 90,
+        "checks": {
+          "html_structure": 20,
+          "image_config": 15,
+          "javascript": 20,
+          "carousel": 20,
+          "quote_function": 15
+        },
+        "issues": [],
+        "status": "good"
+      }
+    ],
+    [
+      "lightweight-mullite-brick",
+      {
+        "product_id": "lightweight-mullite-brick",
+        "score": 90,
+        "checks": {
+          "html_structure": 20,
+          "image_config": 15,
+          "javascript": 20,
+          "carousel": 20,
+          "quote_function": 15
+        },
+        "issues": [],
+        "status": "good"
+      }
+    ],
+    [
+      "lightweight-silica-brick",
+      {
+        "product_id": "lightweight-silica-brick",
+        "score": 90,
+        "checks": {
+          "html_structure": 20,
+          "image_config": 15,
+          "javascript": 20,
+          "carousel": 20,
+          "quote_function": 15
+        },
+        "issues": [],
+        "status": "good"
+      }
+    ],
+    [
+      "magnesia-chrome-brick",
+      {
+        "product_id": "magnesia-chrome-brick",
+        "score": 90,
+        "checks": {
+          "html_structure": 20,
+          "image_config": 15,
+          "javascript": 20,
+          "carousel": 20,
+          "quote_function": 15
+        },
+        "issues": [],
+        "status": "good"
+      }
+    ],
+    [
+      "mullite-brick",
+      {
+        "product_id": "mullite-brick",
+        "score": 90,
+        "checks": {
+          "html_structure": 20,
+          "image_config": 15,
+          "javascript": 20,
+          "carousel": 20,
+          "quote_function": 15
+        },
+        "issues": [],
+        "status": "good"
+      }
+    ],
+    [
+      "phosphate-brick",
+      {
+        "product_id": "phosphate-brick",
+        "score": 90,
+        "checks": {
+          "html_structure": 20,
+          "image_config": 15,
+          "javascript": 20,
+          "carousel": 20,
+          "quote_function": 15
+        },
+        "issues": [],
+        "status": "good"
+      }
+    ],
+    [
+      "phosphate-wear-resistant-brick",
+      {
+        "product_id": "phosphate-wear-resistant-brick",
+        "score": 90,
+        "checks": {
+          "html_structure": 20,
+          "image_config": 15,
+          "javascript": 20,
+          "carousel": 20,
+          "quote_function": 15
+        },
+        "issues": [],
+        "status": "good"
+      }
+    ],
+    [
+      "plastic-refractory",
+      {
+        "product_id": "plastic-refractory",
+        "score": 90,
+        "checks": {
+          "html_structure": 20,
+          "image_config": 15,
+          "javascript": 20,
+          "carousel": 20,
+          "quote_function": 15
+        },
+        "issues": [],
+        "status": "good"
+      }
+    ],
+    [
+      "refractory-castable",
+      {
+        "product_id": "refractory-castable",
+        "score": 90,
+        "checks": {
+          "html_structure": 20,
+          "image_config": 15,
+          "javascript": 20,
+          "carousel": 20,
+          "quote_function": 15
+        },
+        "issues": [],
+        "status": "good"
+      }
+    ],
+    [
+      "refractory-spray-coating",
+      {
+        "product_id": "refractory-spray-coating",
+        "score": 90,
+        "checks": {
+          "html_structure": 20,
+          "image_config": 15,
+          "javascript": 20,
+          "carousel": 20,
+          "quote_function": 15
+        },
+        "issues": [],
+        "status": "good"
+      }
+    ],
+    [
+      "semi-silica-brick",
+      {
+        "product_id": "semi-silica-brick",
+        "score": 90,
+        "checks": {
+          "html_structure": 20,
+          "image_config": 15,
+          "javascript": 20,
+          "carousel": 20,
+          "quote_function": 15
+        },
+        "issues": [],
+        "status": "good"
+      }
+    ],
+    [
+      "silica-brick",
+      {
+        "product_id": "silica-brick",
+        "score": 90,
+        "checks": {
+          "html_structure": 20,
+          "image_config": 15,
+          "javascript": 20,
+          "carousel": 20,
+          "quote_function": 15
+        },
+        "issues": [],
+        "status": "good"
+      }
+    ],
+    [
+      "silica-molybdenum-brick",
+      {
+        "product_id": "silica-molybdenum-brick",
+        "score": 90,
+        "checks": {
+          "html_structure": 20,
+          "image_config": 15,
+          "javascript": 20,
+          "carousel": 20,
+          "quote_function": 15
+        },
+        "issues": [],
+        "status": "good"
+      }
+    ],
+    [
+      "standard-high-alumina-brick",
+      {
+        "product_id": "standard-high-alumina-brick",
+        "score": 90,
+        "checks": {
+          "html_structure": 20,
+          "image_config": 15,
+          "javascript": 20,
+          "carousel": 20,
+          "quote_function": 15
+        },
+        "issues": [],
+        "status": "good"
+      }
+    ],
+    [
+      "standard-silica-brick",
+      {
+        "product_id": "standard-silica-brick",
+        "score": 90,
+        "checks": {
+          "html_structure": 20,
+          "image_config": 15,
+          "javascript": 20,
+          "carousel": 20,
+          "quote_function": 15
+        },
+        "issues": [],
+        "status": "good"
+      }
+    ],
+    [
+      "steel-fiber-castable",
+      {
+        "product_id": "steel-fiber-castable",
+        "score": 90,
+        "checks": {
+          "html_structure": 20,
+          "image_config": 15,
+          "javascript": 20,
+          "carousel": 20,
+          "quote_function": 15
+        },
+        "issues": [],
+        "status": "good"
+      }
+    ],
+    [
+      "thermal-insulation-brick",
+      {
+        "product_id": "thermal-insulation-brick",
+        "score": 90,
+        "checks": {
+          "html_structure": 20,
+          "image_config": 15,
+          "javascript": 20,
+          "carousel": 20,
+          "quote_function": 15
+        },
+        "issues": [],
+        "status": "good"
+      }
+    ],
+    [
+      "unshaped-refractory-material",
+      {
+        "product_id": "unshaped-refractory-material",
+        "score": 90,
+        "checks": {
+          "html_structure": 20,
+          "image_config": 15,
+          "javascript": 20,
+          "carousel": 20,
+          "quote_function": 15
+        },
+        "issues": [],
+        "status": "good"
+      }
+    ],
+    [
+      "unshaped-refractory",
+      {
+        "product_id": "unshaped-refractory",
+        "score": 90,
+        "checks": {
+          "html_structure": 20,
+          "image_config": 15,
+          "javascript": 20,
+          "carousel": 20,
+          "quote_function": 15
+        },
+        "issues": [],
+        "status": "good"
+      }
+    ],
+    [
+      "wear-resistant-ceramic",
+      {
+        "product_id": "wear-resistant-ceramic",
+        "score": 90,
+        "checks": {
+          "html_structure": 20,
+          "image_config": 15,
+          "javascript": 20,
+          "carousel": 20,
+          "quote_function": 15
+        },
+        "issues": [],
+        "status": "good"
+      }
+    ]
+  ],
+  "minor_issues": [],
+  "critical_issues": [],
+  "verification_summary": {}
+}

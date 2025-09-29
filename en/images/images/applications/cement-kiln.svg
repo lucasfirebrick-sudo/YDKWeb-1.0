@@ -1,0 +1,44 @@
+<svg width="400" height="300" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="skyGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#34495e;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#8e44ad;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="groundGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#2c3e50;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#1a1a1a;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+
+  <!-- Sky background -->
+  <rect width="100%" height="70%" fill="url(#skyGrad)"/>
+
+  <!-- Ground -->
+  <rect x="0" y="70%" width="100%" height="30%" fill="url(#groundGrad)"/>
+
+  <!-- Industrial scene -->
+  
+                <!-- Rotary kiln -->
+                <ellipse cx="200" cy="180" rx="150" ry="30" fill="#34495e"/>
+                <rect x="50" y="165" width="300" height="30" fill="#2c3e50"/>
+
+                <!-- Support structures -->
+                <rect x="80" y="195" width="8" height="40" fill="#95a5a6"/>
+                <rect x="160" y="195" width="8" height="40" fill="#95a5a6"/>
+                <rect x="240" y="195" width="8" height="40" fill="#95a5a6"/>
+                <rect x="320" y="195" width="8" height="40" fill="#95a5a6"/>
+
+                <!-- Kiln fire -->
+                <ellipse cx="350" cy="180" rx="25" ry="15" fill="#e74c3c" opacity="0.8"/>
+                <ellipse cx="350" cy="180" rx="15" ry="10" fill="#f39c12"/>
+
+                <!-- Preheater tower -->
+                <rect x="30" y="80" width="40" height="120" fill="#7f8c8d"/>
+                <rect x="35" y="75" width="30" height="10" fill="#95a5a6"/>
+
+  <!-- Atmospheric effects -->
+  <rect x="0" y="0" width="100%" height="100%" fill="rgba(0,0,0,0.1)"/>
+
+  <!-- Subtle lighting -->
+  <ellipse cx="100" cy="50" rx="80" ry="20" fill="rgba(255,255,255,0.05)"/>
+</svg>

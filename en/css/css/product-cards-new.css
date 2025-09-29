@@ -1,0 +1,517 @@
+/* ========================================
+   🎨 Product Cards Design System - Official Version (English)
+   ======================================== */
+
+/* Product Display Area */
+.products-section {
+    background: var(--bg-light);
+    padding: 2rem 0;
+    min-height: 400px;
+}
+
+/* Product Grid Layout - Unified 4-Column Design */
+.products-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 2rem;
+    padding: 1rem 0;
+}
+
+/* ========================================
+   New Product Card Design
+   ======================================== */
+
+.product-card {
+    background: var(--bg-white);
+    border-radius: 16px;
+    overflow: hidden;
+    box-shadow: 0 6px 24px rgba(0, 0, 0, 0.08);
+    transition: all 0.4s cubic-bezier(0.4, 0.0, 0.2, 1);
+    position: relative;
+    border: 1px solid rgba(0, 0, 0, 0.05);
+    cursor: pointer;
+    text-decoration: none;
+    color: inherit;
+    display: block;
+}
+
+.product-card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.15);
+    border-color: rgba(var(--primary-color-rgb), 0.3);
+}
+
+/* Product Image Area */
+.product-image {
+    position: relative;
+    height: 240px;
+    overflow: hidden;
+    background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%);
+}
+
+.product-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+    transition: transform 0.6s ease;
+}
+
+.product-card:hover .product-image img {
+    transform: scale(1.02);
+}
+
+/* Product Badges */
+.product-badges {
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    z-index: 2;
+}
+
+.product-badge {
+    padding: 0.3rem 0.8rem;
+    border-radius: 20px;
+    font-size: 0.75rem;
+    font-weight: var(--font-weight-medium);
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    backdrop-filter: blur(8px);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    transition: all 0.3s ease;
+}
+
+.badge-hot {
+    background: linear-gradient(135deg, #ff4757 0%, #ff3838 100%);
+    color: white;
+    box-shadow: 0 4px 15px rgba(255, 71, 87, 0.4);
+}
+
+.badge-premium {
+    background: linear-gradient(135deg, #ffa726 0%, #fb8c00 100%);
+    color: white;
+    box-shadow: 0 4px 15px rgba(255, 167, 38, 0.4);
+}
+
+.badge-classic {
+    background: linear-gradient(135deg, #42a5f5 0%, #1e88e5 100%);
+    color: white;
+    box-shadow: 0 4px 15px rgba(66, 165, 245, 0.4);
+}
+
+.badge-new {
+    background: linear-gradient(135deg, #26c6da 0%, #00acc1 100%);
+    color: white;
+    box-shadow: 0 4px 15px rgba(38, 198, 218, 0.4);
+}
+
+.badge-versatile {
+    background: linear-gradient(135deg, #ab47bc 0%, #8e24aa 100%);
+    color: white;
+    box-shadow: 0 4px 15px rgba(171, 71, 188, 0.4);
+}
+
+.badge-high-temp {
+    background: linear-gradient(135deg, #ff6f00 0%, #e65100 100%);
+    color: white;
+    box-shadow: 0 4px 15px rgba(255, 111, 0, 0.4);
+}
+
+.badge-lightweight {
+    background: linear-gradient(135deg, #66bb6a 0%, #43a047 100%);
+    color: white;
+    box-shadow: 0 4px 15px rgba(102, 187, 106, 0.4);
+}
+
+.badge-special {
+    background: linear-gradient(135deg, #7e57c2 0%, #5e35b1 100%);
+    color: white;
+    box-shadow: 0 4px 15px rgba(126, 87, 194, 0.4);
+}
+
+/* Additional English Badge Types */
+.badge-bestseller {
+    background: linear-gradient(135deg, #ff4757 0%, #ff3838 100%);
+    color: white;
+    box-shadow: 0 4px 15px rgba(255, 71, 87, 0.4);
+}
+
+.badge-industrial {
+    background: linear-gradient(135deg, #546e7a 0%, #37474f 100%);
+    color: white;
+    box-shadow: 0 4px 15px rgba(84, 110, 122, 0.4);
+}
+
+.badge-performance {
+    background: linear-gradient(135deg, #9c27b0 0%, #6a1b9a 100%);
+    color: white;
+    box-shadow: 0 4px 15px rgba(156, 39, 176, 0.4);
+}
+
+.badge-energy {
+    background: linear-gradient(135deg, #4caf50 0%, #388e3c 100%);
+    color: white;
+    box-shadow: 0 4px 15px rgba(76, 175, 80, 0.4);
+}
+
+.badge-export {
+    background: linear-gradient(135deg, #ff9800 0%, #f57c00 100%);
+    color: white;
+    box-shadow: 0 4px 15px rgba(255, 152, 0, 0.4);
+}
+
+.badge-flexible {
+    background: linear-gradient(135deg, #00bcd4 0%, #0097a7 100%);
+    color: white;
+    box-shadow: 0 4px 15px rgba(0, 188, 212, 0.4);
+}
+
+.badge-advanced {
+    background: linear-gradient(135deg, #795548 0%, #5d4037 100%);
+    color: white;
+    box-shadow: 0 4px 15px rgba(121, 85, 72, 0.4);
+}
+
+.badge-precision {
+    background: linear-gradient(135deg, #607d8b 0%, #455a64 100%);
+    color: white;
+    box-shadow: 0 4px 15px rgba(96, 125, 139, 0.4);
+}
+
+.badge-durable {
+    background: linear-gradient(135deg, #3f51b5 0%, #303f9f 100%);
+    color: white;
+    box-shadow: 0 4px 15px rgba(63, 81, 181, 0.4);
+}
+
+/* Product Content Area */
+.product-content {
+    padding: 1.5rem;
+    position: relative;
+    z-index: 1;
+}
+
+.product-title {
+    font-size: 1.25rem;
+    font-weight: var(--font-weight-semibold);
+    color: var(--text-primary);
+    margin-bottom: 0.75rem;
+    line-height: 1.3;
+    transition: color 0.3s ease;
+}
+
+.product-card:hover .product-title {
+    color: var(--primary-color);
+}
+
+.product-description {
+    font-size: 0.95rem;
+    color: var(--text-secondary);
+    line-height: 1.5;
+    margin-bottom: 1rem;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}
+
+/* Application Tags */
+.product-applications {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+}
+
+.app-tag {
+    padding: 0.25rem 0.75rem;
+    background: linear-gradient(135deg, rgba(var(--primary-color-rgb), 0.1), rgba(var(--primary-color-rgb), 0.05));
+    color: var(--primary-color);
+    font-size: 0.8rem;
+    font-weight: var(--font-weight-medium);
+    border-radius: 12px;
+    border: 1px solid rgba(var(--primary-color-rgb), 0.2);
+    transition: all 0.3s ease;
+}
+
+.app-tag:hover {
+    background: var(--primary-color);
+    color: white;
+    transform: translateY(-1px);
+}
+
+/* ========================================
+   Hover Overlay Design
+   ======================================== */
+
+.hover-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: linear-gradient(
+        135deg,
+        rgba(0, 0, 0, 0.45) 0%,
+        rgba(0, 0, 0, 0.35) 50%,
+        rgba(0, 0, 0, 0.45) 100%
+    );
+    backdrop-filter: blur(1px);
+    opacity: 0;
+    visibility: hidden;
+    transition: all 0.4s cubic-bezier(0.4, 0.0, 0.2, 1);
+    z-index: 5;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 2rem;
+}
+
+.product-card:hover .hover-overlay {
+    opacity: 1;
+    visibility: visible;
+}
+
+.overlay-content {
+    text-align: center;
+    color: white;
+    transform: translateY(20px);
+    transition: transform 0.4s cubic-bezier(0.4, 0.0, 0.2, 1);
+    width: 100%;
+}
+
+.product-card:hover .overlay-content {
+    transform: translateY(0);
+}
+
+.overlay-title {
+    font-size: 1.1rem;
+    font-weight: var(--font-weight-semibold);
+    margin-bottom: 1.5rem;
+    color: white;
+    text-shadow: 0 2px 8px rgba(0, 0, 0, 0.8), 0 1px 3px rgba(0, 0, 0, 0.9);
+}
+
+/* Technical Specifications Display */
+.tech-specs {
+    margin-bottom: 2rem;
+    background: rgba(0, 0, 0, 0.4);
+    border-radius: 12px;
+    padding: 1.5rem;
+    backdrop-filter: blur(8px);
+    border: 1px solid rgba(255, 255, 255, 0.4);
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.4);
+}
+
+.spec-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.5rem 0;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+    font-size: 0.9rem;
+}
+
+.spec-item:last-child {
+    border-bottom: none;
+}
+
+.spec-label {
+    color: rgba(255, 255, 255, 0.9);
+    font-weight: var(--font-weight-medium);
+    text-shadow: 0 1px 3px rgba(0, 0, 0, 0.8);
+}
+
+.spec-value {
+    color: white;
+    font-weight: var(--font-weight-semibold);
+    text-shadow: 0 1px 3px rgba(0, 0, 0, 0.8);
+}
+
+/* Action Buttons */
+.overlay-actions {
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+}
+
+.overlay-actions .btn {
+    padding: 0.75rem 1.5rem;
+    border-radius: 25px;
+    font-size: 0.9rem;
+    font-weight: var(--font-weight-medium);
+    text-decoration: none;
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+    transition: all 0.3s ease;
+    border: 2px solid transparent;
+    cursor: pointer;
+    min-width: 120px;
+    justify-content: center;
+}
+
+.btn-primary {
+    background: linear-gradient(135deg, #4CAF50 0%, #2E7D32 100%);
+    color: white;
+    box-shadow: 0 6px 20px rgba(76, 175, 80, 0.4);
+    border: 2px solid rgba(255, 255, 255, 0.3);
+    text-shadow: 0 1px 3px rgba(0, 0, 0, 0.5);
+}
+
+.btn-primary:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 12px 35px rgba(76, 175, 80, 0.6);
+    background: linear-gradient(135deg, #388E3C 0%, #1B5E20 100%);
+    border-color: rgba(255, 255, 255, 0.5);
+}
+
+.btn-secondary {
+    background: linear-gradient(135deg, #2196F3 0%, #1565C0 100%);
+    color: white;
+    border: 2px solid rgba(255, 255, 255, 0.3);
+    backdrop-filter: blur(10px);
+    box-shadow: 0 6px 20px rgba(33, 150, 243, 0.4);
+    text-shadow: 0 1px 3px rgba(0, 0, 0, 0.5);
+}
+
+.btn-secondary:hover {
+    background: linear-gradient(135deg, #1976D2 0%, #0D47A1 100%);
+    border-color: rgba(255, 255, 255, 0.5);
+    transform: translateY(-3px);
+    color: white;
+    box-shadow: 0 12px 35px rgba(33, 150, 243, 0.6);
+}
+
+/* ========================================
+   Responsive Design
+   ======================================== */
+
+@media (max-width: 1024px) {
+    .products-grid {
+        grid-template-columns: repeat(3, 1fr);
+        gap: 1.5rem;
+    }
+
+    .product-image {
+        height: 220px;
+    }
+}
+
+@media (max-width: 768px) {
+    .products-grid {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 1.5rem;
+    }
+
+    .product-image {
+        height: 200px;
+    }
+
+    .product-content {
+        padding: 1.25rem;
+    }
+
+    .hover-overlay {
+        padding: 1.5rem;
+    }
+
+    .overlay-actions {
+        flex-direction: column;
+        gap: 0.75rem;
+    }
+
+    .overlay-actions .btn {
+        width: 100%;
+    }
+
+    /* Mobile optimization: reduce animation complexity */
+    .product-card:hover .product-image img {
+        transform: scale(1.02);
+    }
+}
+
+@media (max-width: 480px) {
+    .products-grid {
+        grid-template-columns: 1fr;
+        gap: 1rem;
+    }
+
+    .product-title {
+        font-size: 1.1rem;
+    }
+
+    .product-description {
+        font-size: 0.9rem;
+    }
+
+    .tech-specs {
+        padding: 1rem;
+    }
+
+    .spec-item {
+        font-size: 0.85rem;
+    }
+}
+
+/* ========================================
+   Animation Enhancements
+   ======================================== */
+
+@keyframes slideInUp {
+    from {
+        opacity: 0;
+        transform: translateY(30px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.product-card {
+    animation: slideInUp 0.6s ease forwards;
+}
+
+.product-card:nth-child(1) { animation-delay: 0.1s; }
+.product-card:nth-child(2) { animation-delay: 0.2s; }
+.product-card:nth-child(3) { animation-delay: 0.3s; }
+.product-card:nth-child(4) { animation-delay: 0.4s; }
+.product-card:nth-child(5) { animation-delay: 0.5s; }
+.product-card:nth-child(6) { animation-delay: 0.6s; }
+
+/* Loading States */
+.product-card {
+    opacity: 0;
+}
+
+.product-card.loaded {
+    opacity: 1;
+}
+
+/* Focus States (Keyboard Navigation Support) */
+.product-card:focus-within {
+    outline: 2px solid var(--primary-color);
+    outline-offset: 4px;
+}
+
+.overlay-actions .btn:focus {
+    outline: 2px solid rgba(255, 255, 255, 0.5);
+    outline-offset: 2px;
+}
+
+/* ========================================
+   Compatibility Styles
+   ======================================== */
+
+/* Hide old product specs, use tech-specs in overlay */
+.product-specs {
+    display: none;
+}
+
+/* Hide static product actions, use overlay-actions */
+.product-actions {
+    display: none;
+}

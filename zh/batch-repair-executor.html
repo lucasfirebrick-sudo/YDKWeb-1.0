@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>产品页面批量修复执行器</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            max-width: 800px;
+            margin: 50px auto;
+            padding: 20px;
+            background: #f5f5f5;
+        }
+        .container {
+            background: white;
+            padding: 30px;
+            border-radius: 12px;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+        }
+        .title {
+            text-align: center;
+            color: #333;
+            margin-bottom: 30px;
+        }
+        .execute-btn {
+            display: block;
+            width: 100%;
+            padding: 15px 30px;
+            background: linear-gradient(135deg, #007bff, #0056b3);
+            color: white;
+            border: none;
+            border-radius: 8px;
+            font-size: 18px;
+            font-weight: bold;
+            cursor: pointer;
+            margin-bottom: 20px;
+            transition: all 0.3s ease;
+        }
+        .execute-btn:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 6px 20px rgba(0,123,255,0.3);
+        }
+        .execute-btn:disabled {
+            background: #ccc;
+            cursor: not-allowed;
+            transform: none;
+        }
+        .status {
+            background: #f8f9fa;
+            padding: 15px;
+            border-radius: 8px;
+            border-left: 4px solid #007bff;
+            margin: 20px 0;
+        }
+        .log {
+            background: #1a1a1a;
+            color: #00ff00;
+            padding: 20px;
+            border-radius: 8px;
+            font-family: 'Courier New', monospace;
+            font-size: 14px;
+            max-height: 400px;
+            overflow-y: auto;
+            white-space: pre-wrap;
+            margin: 20px 0;
+        }
+        .progress {
+            background: #e9ecef;
+            border-radius: 10px;
+            height: 20px;
+            margin: 20px 0;
+            overflow: hidden;
+        }
+        .progress-bar {
+            background: linear-gradient(90deg, #28a745, #20c997);
+            height: 100%;
+            width: 0%;
+            transition: width 0.5s ease;
+            border-radius: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1 class="title">🚀 产品页面批量修复执行器</h1>
+
+        <div class="status">
+            <h3>修复功能列表：</h3>
+            <ul>
+                <li>✅ Navbar LOGO动态路径修复</li>
+                <li>✅ PDF下载功能集成</li>
+                <li>✅ 询价模态框功能</li>
+                <li>✅ 自适应图片系统</li>
+                <li>✅ 图片验证系统</li>
+                <li>✅ 移动端响应式设计</li>
+            </ul>
+        </div>
+
+        <button id="executeBtn" class="execute-btn">
+            🔧 开始批量修复所有39个产品页面
+        </button>
+
+        <div class="progress" id="progressContainer" style="display: none;">
+            <div class="progress-bar" id="progressBar"></div>
+        </div>
+
+        <div id="status" class="status" style="display: none;">
+            <h4>执行状态：</h4>
+            <p id="statusText">准备中...</p>
+        </div>
+
+        <div class="log" id="logContainer" style="display: none;"></div>
+    </div>
+
+    <!-- 引入所有必需的JavaScript组件 -->
+    <script src="js/product-database.js"></script>
+    <script src="js/pdf-generator.js"></script>
+    <script src="js/modal-components.js"></script>
+    <script src="js/adaptive-images.js"></script>
+    <script src="js/image-validator.js"></script>
+    <script src="js/ydk-navbar.js"></script>
+    <script src="js/ydk-footer.js"></script>
+    <script src="js/page-generator.js"></script>
+
+    <script>
+        // 批量修复执行器
+        class BatchRepairExecutor {
+            constructor() {
+                this.logContainer = document.getElementById('logContainer');
+                this.statusContainer = document.getElementById('status');
+                this.statusText = document.getElementById('statusText');
+                this.progressContainer = document.getElementById('progressContainer');
+                this.progressBar = document.getElementById('progressBar');
+                this.executeBtn = document.getElementById('executeBtn');
+
+                this.bindEvents();
+            }
+
+            bindEvents() {
+                this.executeBtn.addEventListener('click', () => this.startBatchRepair());
+            }
+
+            log(message) {
+                console.log(message);
+                this.logContainer.textContent += message + '\\n';
+                this.logContainer.scrollTop = this.logContainer.scrollHeight;
+            }
+
+            updateStatus(text) {
+                this.statusText.textContent = text;
+            }
+
+            updateProgress(percent) {
+                this.progressBar.style.width = percent + '%';
+            }
+
+            showProgress() {
+                this.statusContainer.style.display = 'block';
+                this.progressContainer.style.display = 'block';
+                this.logContainer.style.display = 'block';
+            }
+
+            async startBatchRepair() {
+                this.executeBtn.disabled = true;
+                this.executeBtn.textContent = '🔄 批量修复进行中...';
+
+                this.showProgress();
+                this.updateStatus('初始化批量修复系统...');
+                this.updateProgress(10);
+
+                try {
+                    // 等待所有组件加载完成
+                    await this.waitForComponents();
+                    this.updateProgress(20);
+
+                    // 执行批量修复
+                    this.updateStatus('开始批量生成和修复...');
+                    this.log('🚀 开始批量修复所有产品页面...');
+
+                    const results = await window.executeFullBatchRepair();
+
+                    this.updateProgress(100);
+                    this.updateStatus('批量修复完成！');
+                    this.log('\\n🎉 批量修复完成！');
+                    this.log(`✅ 成功修复: ${results.success.length} 个页面`);
+                    this.log(`❌ 修复失败: ${results.errors.length} 个页面`);
+
+                    this.executeBtn.textContent = '✅ 批量修复完成';
+                    this.executeBtn.style.background = '#28a745';
+
+                } catch (error) {
+                    this.log('❌ 批量修复失败: ' + error.message);
+                    this.updateStatus('修复失败，请查看错误信息');
+
+                    this.executeBtn.disabled = false;
+                    this.executeBtn.textContent = '🔄 重新执行修复';
+                    this.executeBtn.style.background = '#dc3545';
+                }
+            }
+
+            async waitForComponents() {
+                return new Promise((resolve) => {
+                    const checkComponents = () => {
+                        if (window.PageGenerator &&
+                            window.ProductDatabase &&
+                            window.generateTechnicalPDF &&
+                            window.openInquiryModal) {
+                            this.log('✅ 所有组件已加载');
+                            resolve();
+                        } else {
+                            this.log('⏳ 等待组件加载...');
+                            setTimeout(checkComponents, 500);
+                        }
+                    };
+                    checkComponents();
+                });
+            }
+        }
+
+        // 页面加载完成后初始化
+        document.addEventListener('DOMContentLoaded', () => {
+            new BatchRepairExecutor();
+        });
+    </script>
+
+    <!-- 语言切换器组件 -->
+    <script src="js/language-switcher.js"></script>
+
+</body>
+</html>

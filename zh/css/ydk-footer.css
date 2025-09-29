@@ -1,0 +1,250 @@
+/**
+ * YDK Footer Component - 完全按照截图复刻
+ * 独立组件，不与任何其他样式冲突
+ */
+
+/* 重置和基础样式 - 仅限footer */
+.ydk-footer * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* 主footer容器 */
+.ydk-footer {
+    background: #3a4a5c;
+    color: #ffffff;
+    padding: 40px 0 20px;
+    margin-top: 50px;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+
+.ydk-footer-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+/* 主要内容区域 - 三栏布局 */
+.ydk-footer-main {
+    display: grid;
+    grid-template-columns: 2fr 1.2fr 1fr;
+    gap: 40px;
+    margin-bottom: 30px;
+    align-items: flex-start;
+}
+
+/* 第一栏：公司信息 */
+.ydk-company-section h3 {
+    font-size: 18px;
+    font-weight: 600;
+    color: #ffffff;
+    margin-bottom: 15px;
+    line-height: 1.4;
+}
+
+.ydk-company-tagline {
+    font-size: 16px;
+    color: #f39c12;
+    margin-bottom: 15px;
+    font-weight: 500;
+    line-height: 1.4;
+}
+
+.ydk-company-description {
+    font-size: 14px;
+    color: #bdc3c7;
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+/* 第二栏：Newsletter订阅 */
+.ydk-newsletter-section h4 {
+    font-size: 16px;
+    font-weight: 600;
+    color: #ffffff;
+    margin-bottom: 12px;
+}
+
+.ydk-newsletter-intro {
+    font-size: 13px;
+    color: #bdc3c7;
+    line-height: 1.5;
+    margin-bottom: 15px;
+}
+
+.ydk-newsletter-form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.ydk-email-input {
+    padding: 12px 15px;
+    border: 1px solid #52626f;
+    border-radius: 5px;
+    background: rgba(255, 255, 255, 0.1);
+    color: #fff;
+    font-size: 14px;
+    font-family: inherit;
+}
+
+.ydk-email-input::placeholder {
+    color: #95a5a6;
+    font-size: 13px;
+}
+
+.ydk-email-input:focus {
+    outline: 2px solid #d32f2f;
+    background: rgba(255, 255, 255, 0.15);
+    border-color: #d32f2f;
+}
+
+.ydk-subscribe-btn {
+    padding: 12px 20px;
+    background: #d32f2f;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    font-size: 14px;
+    font-weight: 500;
+    cursor: pointer;
+    transition: background 0.3s ease;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    font-family: inherit;
+}
+
+.ydk-subscribe-btn:hover {
+    background: #b71c1c;
+}
+
+.ydk-subscribe-btn i {
+    font-size: 14px;
+}
+
+.ydk-privacy-note {
+    font-size: 12px;
+    color: #95a5a6;
+    font-style: italic;
+    margin-top: 8px;
+}
+
+.ydk-form-message {
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 13px;
+    margin-top: 10px;
+    display: none;
+}
+
+.ydk-form-message.success {
+    background: rgba(76, 175, 80, 0.2);
+    color: #4caf50;
+    border: 1px solid rgba(76, 175, 80, 0.4);
+}
+
+.ydk-form-message.error {
+    background: rgba(244, 67, 54, 0.2);
+    color: #f44336;
+    border: 1px solid rgba(244, 67, 54, 0.4);
+}
+
+/* 第三栏：联系信息 */
+.ydk-contact-section h4 {
+    font-size: 16px;
+    font-weight: 600;
+    color: #ffffff;
+    margin-bottom: 12px;
+}
+
+.ydk-contact-description {
+    font-size: 13px;
+    color: #bdc3c7;
+    margin-bottom: 15px;
+    line-height: 1.4;
+}
+
+.ydk-contact-info {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.ydk-contact-item {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 14px;
+    color: #ecf0f1;
+}
+
+.ydk-contact-icon {
+    font-size: 16px;
+    color: #d32f2f;
+    width: 20px;
+    text-align: center;
+    flex-shrink: 0;
+}
+
+/* Footer底部 */
+.ydk-footer-bottom {
+    border-top: 1px solid rgba(255, 255, 255, 0.15);
+    padding-top: 20px;
+    text-align: center;
+}
+
+.ydk-footer-copyright {
+    font-size: 13px;
+    color: #bdc3c7;
+    line-height: 1.6;
+}
+
+.ydk-copyright-main {
+    margin-bottom: 8px;
+}
+
+.ydk-copyright-main a {
+    color: #d32f2f;
+    text-decoration: none;
+}
+
+.ydk-copyright-main a:hover {
+    text-decoration: underline;
+}
+
+.ydk-copyright-slogan {
+    font-size: 12px;
+    color: #95a5a6;
+    font-style: italic;
+}
+
+/* 响应式设计 */
+@media (max-width: 768px) {
+    .ydk-footer-main {
+        grid-template-columns: 1fr;
+        gap: 30px;
+    }
+
+    .ydk-footer {
+        padding: 30px 0 15px;
+    }
+}
+
+@media (max-width: 480px) {
+    .ydk-footer-container {
+        padding: 0 15px;
+    }
+
+    .ydk-footer-main {
+        gap: 25px;
+    }
+
+    .ydk-email-input,
+    .ydk-subscribe-btn {
+        padding: 10px 12px;
+        font-size: 13px;
+    }
+}

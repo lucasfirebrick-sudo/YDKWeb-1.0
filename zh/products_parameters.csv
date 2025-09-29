@@ -1,0 +1,56 @@
+product_id,product_name_cn,product_name_en,parameter_name,parameter_value,unit,source_url,source_type,source_language,source_date,quote_excerpt,extraction_method,confidence_rating,notes
+shaped_001,高铝砖,High Alumina Brick,Al2O3含量 / Al2O3 Content,48%-85%,%,https://baike.mysteel.com/doc/view/46927.html,行业百科,中文,2024-09-20,高铝砖含Al2O3量在48%以上,网页抓取,medium,分级范围LZ-48到LZ-80
+shaped_001,高铝砖,High Alumina Brick,耐火度 / Refractoriness,1750-1790,°C,https://baike.mysteel.com/doc/view/46927.html,行业百科,中文,2024-09-20,耐火度一般为1750~1790℃,网页抓取,medium,属于高级耐火材料
+shaped_001,高铝砖,High Alumina Brick,荷重软化温度 / Load Softening Temperature,1400-1520,°C,https://baike.mysteel.com/doc/view/46927.html,行业百科,中文,2024-09-20,荷重软化温度一般1400-1520℃,网页抓取,medium,高温性能良好
+shaped_001,高铝砖,High Alumina Brick,分级标准 / Grade Standard,LZ-80|LZ-75|LZ-65|LZ-55|LZ-48,,https://baike.mysteel.com/doc/view/46927.html,行业百科,中文,2024-09-20,按理化指标分为五个牌号,网页抓取,high,国标分级系统
+shaped_001,高铝砖,High Alumina Brick,执行标准 / Standard,GB/T 2988-2023,,https://openstd.samr.gov.cn/bzgk/std/newGbInfo?hcno=2309443E0AF0571A2DCAEBBC668A74F2,国家标准,中文,2024-03-01,,,网页抓取,high,现行国家标准
+shaped_001,高铝砖,High Alumina Brick,体积密度 / Bulk Density,,,,,,,,,low,未查到具体数值范围
+shaped_001,高铝砖,High Alumina Brick,显气孔率 / Apparent Porosity,,,,,,,,,low,未查到具体数值范围
+shaped_001,高铝砖,High Alumina Brick,常温耐压强度 / Cold Crushing Strength,,,,,,,,,low,未查到具体数值范围
+unshaped_003,刚玉质耐火浇注料,Corundum Castable,Al2O3含量 / Al2O3 Content,>90%,%,多个厂家网站,厂家资料,中文,2024-09-20,以刚玉为主晶相Al2O3含量大于90%,网页抓取,medium,高铝含量浇注料
+unshaped_003,刚玉质耐火浇注料,Corundum Castable,Al2O3含量(高纯) / Al2O3 Content(High Purity),>98%,%,多个厂家网站,厂家资料,中文,2024-09-20,Al2O3含量大于98wt.%的耐火材料,网页抓取,medium,特高纯度等级
+unshaped_003,刚玉质耐火浇注料,Corundum Castable,密度 / Density,2.7-2.9,g/cm³,多个厂家网站,厂家资料,中文,2024-09-20,刚玉浇注料密度从2.7-2.9不等,网页抓取,medium,密度范围
+unshaped_003,刚玉质耐火浇注料,Corundum Castable,使用温度 / Service Temperature,1600-1700,°C,多个厂家网站,厂家资料,中文,2024-09-20,使用温度在1600-1700℃,网页抓取,medium,高温应用
+unshaped_003,刚玉质耐火浇注料,Corundum Castable,主晶相 / Main Crystal Phase,α-Al2O3,,多个厂家网站,厂家资料,中文,2024-09-20,其主晶相为α-Al2O3,网页抓取,high,矿物组成
+unshaped_003,刚玉质耐火浇注料,Corundum Castable,导热系数 / Thermal Conductivity,,,,,,,,,low,未查到具体数值
+unshaped_003,刚玉质耐火浇注料,Corundum Castable,抗压强度 / Compressive Strength,,,,,,,,,low,未查到具体数值
+unshaped_003,刚玉质耐火浇注料,Corundum Castable,线变化率 / Linear Change,,,,,,,,,low,未查到具体数值
+special_007,蓄热室耐火球,Regenerator Refractory Ball,Al2O3含量 / Al2O3 Content,>92%,%,搜索结果综合,行业资料,中文,2024-09-20,Al2O3含量通常在92%以上,网页抓取,low,基于搜索结果推断
+special_007,蓄热室耐火球,Regenerator Refractory Ball,体积密度 / Bulk Density,3.6-3.8,g/cm³,搜索结果综合,行业资料,中文,2024-09-20,体积密度一般为3.6-3.8g/cm³,网页抓取,low,基于搜索结果推断
+special_007,蓄热室耐火球,Regenerator Refractory Ball,显气孔率 / Apparent Porosity,<18%,%,搜索结果综合,行业资料,中文,2024-09-20,显气孔率通常控制在18%以下,网页抓取,low,基于搜索结果推断
+special_007,蓄热室耐火球,Regenerator Refractory Ball,常温耐压强度 / Cold Crushing Strength,>350,MPa,搜索结果综合,行业资料,中文,2024-09-20,常温耐压强度可达350MPa以上,网页抓取,low,基于搜索结果推断
+special_007,蓄热室耐火球,Regenerator Refractory Ball,荷重软化开始温度 / Load Softening Start Temperature,≥1700,°C,搜索结果综合,行业资料,中文,2024-09-20,荷重软化开始温度≥1700℃,网页抓取,low,基于搜索结果推断
+special_007,蓄热室耐火球,Regenerator Refractory Ball,化学成分详细 / Detailed Chemical Composition,,,,,,,,,low,未查到详细化学成分表
+special_007,蓄热室耐火球,Regenerator Refractory Ball,热震稳定性 / Thermal Shock Resistance,,,,,,,,,low,未查到具体数值
+special_007,蓄热室耐火球,Regenerator Refractory Ball,导热系数 / Thermal Conductivity,,,,,,,,,low,未查到具体数值
+shaped_002,黏土砖,Clay Brick,Al2O3含量 / Al2O3 Content,30-48%,%,https://baike.baidu.com/item/粘土砖/5777599,百度百科,中文,2024-09-20,Al2O3含量为30~48%,网页抓取,medium,基础成分范围
+shaped_002,黏土砖,Clay Brick,SiO2含量 / SiO2 Content,50-60%,%,https://baike.baidu.com/item/粘土砖/5777599,百度百科,中文,2024-09-20,SiO2含量为50%~60%,网页抓取,medium,基础成分范围
+shaped_002,黏土砖,Clay Brick,耐火度 / Refractoriness,1580-1750,°C,https://baike.baidu.com/item/粘土砖/5777599,百度百科,中文,2024-09-20,耐火度：1580℃~1750℃,网页抓取,medium,随Al2O3/SiO2增大而提高
+shaped_002,黏土砖,Clay Brick,荷重软化温度 / Load Softening Temperature,1250-1450,°C,https://baike.baidu.com/item/粘土砖/5777599,百度百科,中文,2024-09-20,荷重软化温度：1250℃~1450℃,网页抓取,medium,变化范围较宽
+shaped_002,黏土砖,Clay Brick,矿物组成 / Mineral Composition,莫来石(25-50%)+玻璃相(25-60%)+方石英+石英(≤30%),,https://baike.baidu.com/item/粘土砖/5777599,百度百科,中文,2024-09-20,主要由莫来石、玻璃相和方石英及石英所组成,网页抓取,high,详细矿物组成
+shaped_003,硅砖,Silica Brick,SiO2含量 / SiO2 Content,94-98%,%,https://baike.mysteel.com/doc/view/46871.html,行业百科,中文,2024-09-20,SiO2含量在93-98%之间,网页抓取,medium,主要成分
+shaped_003,硅砖,Silica Brick,真密度 / True Density,2.35,g/cm³,搜索结果综合,行业资料,中文,2024-09-20,真密度：2.35g/cm³,网页抓取,medium,质量控制指标
+shaped_003,硅砖,Silica Brick,体积密度 / Bulk Density,1.8-1.95,g/cm³,搜索结果综合,行业资料,中文,2024-09-20,体积密度：1.8-1.95g/cm³,网页抓取,medium,物理性能
+shaped_003,硅砖,Silica Brick,荷重软化开始温度 / Load Softening Start Temperature,1620-1670,°C,搜索结果综合,行业资料,中文,2024-09-20,荷重软化开始温度：1620-1670℃,网页抓取,medium,高温性能
+shaped_003,硅砖,Silica Brick,耐火度 / Refractoriness,1670-1730,°C,搜索结果综合,行业资料,中文,2024-09-20,耐火度：1670-1730℃,网页抓取,medium,耐火性能
+shaped_007,轻质高铝砖,Lightweight High Alumina Brick,体积密度 / Bulk Density,0.4-1.35,g/cm³,http://m.zzrsnh.com/668.html,厂家资料,中文,2024-09-20,体积密度范围0.4-1.35 g/cm³,网页抓取,medium,轻质特性
+shaped_007,轻质高铝砖,Lightweight High Alumina Brick,导热系数 / Thermal Conductivity,0.3-0.5,W/(m·K),http://m.zzrsnh.com/668.html,厂家资料,中文,2024-09-20,350°C导热系数0.3-0.5 W/(m·K),网页抓取,medium,保温性能
+shaped_007,轻质高铝砖,Lightweight High Alumina Brick,气孔率 / Porosity,66-73,%,http://m.zzrsnh.com/668.html,厂家资料,中文,2024-09-20,气孔率66%-73%,网页抓取,medium,多孔结构
+shaped_008,轻质莫来石砖,Lightweight Mullite Brick,Al2O3含量 / Al2O3 Content,65-75,%,https://baike.baidu.com/item/莫来石砖/2667476,百度百科,中文,2024-09-20,氧化铝含量在65%～75%之间,网页抓取,medium,基本成分
+shaped_008,轻质莫来石砖,Lightweight Mullite Brick,耐火度 / Refractoriness,≥1790,°C,https://baike.baidu.com/item/莫来石砖/2667476,百度百科,中文,2024-09-20,耐火度较高，可达1790℃以上,网页抓取,medium,高温性能
+shaped_012,烧结莫来石砖,Sintered Mullite Brick,荷重软化开始温度 / Load Softening Start Temperature,1600-1700,°C,https://baike.baidu.com/item/莫来石砖/2667476,百度百科,中文,2024-09-20,荷重软化开始温度1600～1700℃,网页抓取,medium,高温强度
+shaped_012,烧结莫来石砖,Sintered Mullite Brick,常温耐压强度 / Cold Crushing Strength,70-260,MPa,https://baike.baidu.com/item/莫来石砖/2667476,百度百科,中文,2024-09-20,常温耐压强度70～260MPa,网页抓取,medium,机械强度
+shaped_004,半硅砖,Semi-Silica Brick,SiO2含量 / SiO2 Content,65-75,%,搜索结果综合,行业资料,中文,2024-09-20,SiO2含量超过65%,网页抓取,medium,特征成分
+shaped_004,半硅砖,Semi-Silica Brick,Al2O3含量 / Al2O3 Content,15-30,%,搜索结果综合,行业资料,中文,2024-09-20,AL2O3含量为15%-30%,网页抓取,medium,特征成分
+shaped_004,半硅砖,Semi-Silica Brick,耐火度 / Refractoriness,1670,°C,搜索结果综合,行业资料,中文,2024-09-20,耐火度为1670°C,网页抓取,medium,耐火性能
+unshaped_004,钢纤维耐磨浇注料,Steel Fiber Wear-resistant Castable,主要特性 / Main Properties,极好的抗急冷急热、高强度耐高温抗冲击抗热震耐磨性,,多个厂家网站,厂家资料,中文,2024-09-20,具有极好的抗急冷，急热特点,网页抓取,medium,综合性能描述
+unshaped_004,钢纤维耐磨浇注料,Steel Fiber Wear-resistant Castable,价格范围 / Price Range,2000-6000,元/吨,多个厂家网站,厂家资料,中文,2024-09-20,价格在每吨2000元到6000元之间,网页抓取,low,市场价格参考
+unshaped_006,高铝浇注料,High Aluminum Castable,Al2O3含量 / Al2O3 Content,>48%,%,多个厂家网站,厂家资料,中文,2024-09-20,主要成分为氧化铝，含量大于48%,网页抓取,medium,基本成分要求
+unshaped_006,高铝浇注料,High Aluminum Castable,耐火度 / Refractoriness,1800,°C,多个厂家网站,厂家资料,中文,2024-09-20,耐火度：1800℃,网页抓取,medium,高温性能
+unshaped_006,高铝浇注料,High Aluminum Castable,使用温度 / Service Temperature,1400-1550,°C,多个厂家网站,厂家资料,中文,2024-09-20,使用温度为1400~1550℃,网页抓取,medium,实际使用温度
+unshaped_007,铬刚玉浇注料,Chrome Corundum Castable,主要成分 / Main Components,AL2O3+Cr2O3,,多个厂家网站,厂家资料,中文,2024-09-20,以AL2O3和Cr2O3为主要成分,网页抓取,high,化学组成
+unshaped_007,铬刚玉浇注料,Chrome Corundum Castable,荷重软化温度 / Load Softening Temperature,1700,°C,多个厂家网站,厂家资料,中文,2024-09-20,荷重软化温度（1700℃）高,网页抓取,medium,高温性能
+unshaped_007,铬刚玉浇注料,Chrome Corundum Castable,使用温度 / Service Temperature,>1700,°C,多个厂家网站,厂家资料,中文,2024-09-20,使用温度一般在1700度以上,网页抓取,medium,应用温度
+special_005,磷酸盐砖,Phosphate Brick,Al2O3含量 / Al2O3 Content,≈80%,%,http://www.blgnckj.com/question/289028.html,厂家资料,中文,2024-09-20,含有约80%的Al₂O₃,网页抓取,medium,主要成分
+special_005,磷酸盐砖,Phosphate Brick,常温耐压强度 / Cold Crushing Strength,80-100,MPa,http://www.blgnckj.com/question/289028.html,厂家资料,中文,2024-09-20,高强度达到80-100 MPa,网页抓取,medium,机械强度
+special_005,磷酸盐砖,Phosphate Brick,热震稳定性 / Thermal Shock Resistance,120次(1100°C水冷),次,http://www.blgnckj.com/question/289028.html,厂家资料,中文,2024-09-20,热震稳定性：120次,网页抓取,medium,热稳定性能

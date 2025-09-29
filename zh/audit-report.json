@@ -1,0 +1,4122 @@
+{
+  "audit_summary": {
+    "total_products": 39,
+    "critical_issues": 1,
+    "high_priority": 11,
+    "audit_time": "2025-09-27T22:35:05.012611"
+  },
+  "detailed_results": {
+    "alumina-castable": {
+      "product_id": "alumina-castable",
+      "audit_time": "2025-09-27T22:35:04.660490",
+      "file_exists": true,
+      "html_structure": {
+        "has_main_image": true,
+        "has_product_title": true,
+        "has_product_info": true,
+        "has_tabs_section": true,
+        "has_cta_buttons": true,
+        "unclosed_tags": [
+          "<img src=\"../images/products/unshaped_high_alumina...",
+          "<img src=\"../images/products/shaped_clay_brick.jpg...",
+          "<img src=\"../images/products/shaped_silica_brick.j...",
+          "<img src=\"../images/products/shaped_lightweight_hi..."
+        ],
+        "nested_issues": []
+      },
+      "image_analysis": {
+        "main_image_src": "../images/products/unshaped_high_alumina_castable.jpg",
+        "data_images_config": "../images/products/unshaped_high_alumina_castable.jpg,../images/products/alumina-castable-official-1.png,../images/products/alumina-castable-official-2.png",
+        "total_images_found": 3,
+        "existing_images": [
+          "unshaped_high_alumina_castable.jpg",
+          "alumina-castable-official-1.png",
+          "alumina-castable-official-2.png"
+        ],
+        "missing_images": [],
+        "duplicate_images": [],
+        "placeholder_issues": []
+      },
+      "javascript_check": {
+        "required_scripts": [
+          "multi-image-gallery.js",
+          "product-database.js",
+          "modal-components.js",
+          "placeholder-randomizer.js"
+        ],
+        "found_scripts": [
+          "jspdf.umd.min.js",
+          "html2canvas.min.js",
+          "product-database.js",
+          "pdf-generator.js",
+          "modal-components.js",
+          "ydk-navbar.js",
+          "ydk-footer.js",
+          "placeholder-randomizer.js",
+          "quote-wizard.js",
+          "multi-image-gallery.js"
+        ],
+        "missing_scripts": [],
+        "duplicate_scripts": []
+      },
+      "carousel_analysis": {
+        "has_data_images": true,
+        "images_count": 3,
+        "should_have_carousel": true,
+        "has_carousel_class": true,
+        "has_thumbnails_container": true,
+        "config_issues": []
+      },
+      "quote_function": {
+        "has_quote_button": true,
+        "button_onclick": "openInquiryModal('alumina-castable')",
+        "product_id_correct": true,
+        "has_modal_script": true,
+        "potential_image_issues": [
+          "图片路径可能影响报价显示"
+        ]
+      },
+      "css_references": {
+        "required_css": [
+          "multi-image-gallery.css",
+          "product-detail-modern.css",
+          "product-placeholder.css"
+        ],
+        "found_css": [
+          "ydk-navbar.css",
+          "ydk-footer.css",
+          "floating-buttons.css",
+          "quote-wizard.css",
+          "product-detail-modern.css",
+          "product-placeholder.css",
+          "all.min.css"
+        ],
+        "missing_css": [
+          "multi-image-gallery.css"
+        ]
+      },
+      "issues": [
+        {
+          "type": "warning",
+          "category": "html",
+          "message": "发现4个未闭合的img标签"
+        },
+        {
+          "type": "warning",
+          "category": "quote",
+          "message": "报价功能可能存在图片显示问题"
+        }
+      ],
+      "severity": "medium",
+      "fix_priority": 3
+    },
+    "alumina-hollow-sphere-brick": {
+      "product_id": "alumina-hollow-sphere-brick",
+      "audit_time": "2025-09-27T22:35:04.671042",
+      "file_exists": true,
+      "html_structure": {
+        "has_main_image": true,
+        "has_product_title": true,
+        "has_product_info": true,
+        "has_tabs_section": true,
+        "has_cta_buttons": true,
+        "unclosed_tags": [
+          "<img src=\"../images/products/special_alumina_hollo...",
+          "<img src=\"../images/products/shaped_clay_brick.jpg...",
+          "<img src=\"../images/products/shaped_silica_brick.j...",
+          "<img src=\"../images/products/shaped_lightweight_hi..."
+        ],
+        "nested_issues": []
+      },
+      "image_analysis": {
+        "main_image_src": "../images/products/special_alumina_hollow_sphere_brick.jpg",
+        "data_images_config": "../images/products/special_alumina_hollow_sphere_brick.jpg,../images/products/alumina-hollow-sphere-brick-official-1.png,../images/products/alumina-hollow-sphere-brick-official-2.png,../images/products/alumina-hollow-sphere-brick-1.png,../images/products/alumina-hollow-sphere-brick-2.png",
+        "total_images_found": 5,
+        "existing_images": [
+          "special_alumina_hollow_sphere_brick.jpg",
+          "alumina-hollow-sphere-brick-official-1.png",
+          "alumina-hollow-sphere-brick-official-2.png",
+          "alumina-hollow-sphere-brick-1.png",
+          "alumina-hollow-sphere-brick-2.png"
+        ],
+        "missing_images": [],
+        "duplicate_images": [],
+        "placeholder_issues": []
+      },
+      "javascript_check": {
+        "required_scripts": [
+          "multi-image-gallery.js",
+          "product-database.js",
+          "modal-components.js",
+          "placeholder-randomizer.js"
+        ],
+        "found_scripts": [
+          "jspdf.umd.min.js",
+          "html2canvas.min.js",
+          "product-database.js",
+          "pdf-generator.js",
+          "modal-components.js",
+          "ydk-navbar.js",
+          "ydk-footer.js",
+          "placeholder-randomizer.js",
+          "quote-wizard.js",
+          "multi-image-gallery.js"
+        ],
+        "missing_scripts": [],
+        "duplicate_scripts": []
+      },
+      "carousel_analysis": {
+        "has_data_images": true,
+        "images_count": 5,
+        "should_have_carousel": true,
+        "has_carousel_class": true,
+        "has_thumbnails_container": true,
+        "config_issues": []
+      },
+      "quote_function": {
+        "has_quote_button": true,
+        "button_onclick": "openInquiryModal('alumina-hollow-sphere-brick')",
+        "product_id_correct": true,
+        "has_modal_script": true,
+        "potential_image_issues": [
+          "图片路径可能影响报价显示"
+        ]
+      },
+      "css_references": {
+        "required_css": [
+          "multi-image-gallery.css",
+          "product-detail-modern.css",
+          "product-placeholder.css"
+        ],
+        "found_css": [
+          "ydk-navbar.css",
+          "ydk-footer.css",
+          "floating-buttons.css",
+          "quote-wizard.css",
+          "product-detail-modern.css",
+          "product-placeholder.css",
+          "all.min.css"
+        ],
+        "missing_css": [
+          "multi-image-gallery.css"
+        ]
+      },
+      "issues": [
+        {
+          "type": "warning",
+          "category": "html",
+          "message": "发现4个未闭合的img标签"
+        },
+        {
+          "type": "warning",
+          "category": "quote",
+          "message": "报价功能可能存在图片显示问题"
+        }
+      ],
+      "severity": "medium",
+      "fix_priority": 3
+    },
+    "blast-furnace-ceramic-cup": {
+      "product_id": "blast-furnace-ceramic-cup",
+      "audit_time": "2025-09-27T22:35:04.678502",
+      "file_exists": true,
+      "html_structure": {
+        "has_main_image": true,
+        "has_product_title": true,
+        "has_product_info": true,
+        "has_tabs_section": true,
+        "has_cta_buttons": true,
+        "unclosed_tags": [
+          "<img src=\"../images/products/unshaped_blast_furnac...",
+          "<img src=\"../images/products/shaped_clay_brick.jpg...",
+          "<img src=\"../images/products/shaped_silica_brick.j...",
+          "<img src=\"../images/products/shaped_lightweight_hi..."
+        ],
+        "nested_issues": []
+      },
+      "image_analysis": {
+        "main_image_src": "../images/products/unshaped_blast_furnace_ceramic_cup.jpg",
+        "data_images_config": "../images/products/unshaped_blast_furnace_ceramic_cup.jpg,../images/products/blast-furnace-ceramic-cup-official-1.png,../images/products/blast-furnace-ceramic-cup-official-2.png",
+        "total_images_found": 3,
+        "existing_images": [
+          "unshaped_blast_furnace_ceramic_cup.jpg",
+          "blast-furnace-ceramic-cup-official-1.png",
+          "blast-furnace-ceramic-cup-official-2.png"
+        ],
+        "missing_images": [],
+        "duplicate_images": [],
+        "placeholder_issues": []
+      },
+      "javascript_check": {
+        "required_scripts": [
+          "multi-image-gallery.js",
+          "product-database.js",
+          "modal-components.js",
+          "placeholder-randomizer.js"
+        ],
+        "found_scripts": [
+          "jspdf.umd.min.js",
+          "html2canvas.min.js",
+          "product-database.js",
+          "pdf-generator.js",
+          "modal-components.js",
+          "ydk-navbar.js",
+          "ydk-footer.js",
+          "placeholder-randomizer.js",
+          "quote-wizard.js",
+          "multi-image-gallery.js"
+        ],
+        "missing_scripts": [],
+        "duplicate_scripts": []
+      },
+      "carousel_analysis": {
+        "has_data_images": true,
+        "images_count": 3,
+        "should_have_carousel": true,
+        "has_carousel_class": true,
+        "has_thumbnails_container": true,
+        "config_issues": []
+      },
+      "quote_function": {
+        "has_quote_button": true,
+        "button_onclick": "openInquiryModal('blast-furnace-ceramic-cup')",
+        "product_id_correct": true,
+        "has_modal_script": true,
+        "potential_image_issues": [
+          "图片路径可能影响报价显示"
+        ]
+      },
+      "css_references": {
+        "required_css": [
+          "multi-image-gallery.css",
+          "product-detail-modern.css",
+          "product-placeholder.css"
+        ],
+        "found_css": [
+          "ydk-navbar.css",
+          "ydk-footer.css",
+          "floating-buttons.css",
+          "quote-wizard.css",
+          "product-detail-modern.css",
+          "product-placeholder.css",
+          "multi-image-carousel.css",
+          "all.min.css"
+        ],
+        "missing_css": [
+          "multi-image-gallery.css"
+        ]
+      },
+      "issues": [
+        {
+          "type": "warning",
+          "category": "html",
+          "message": "发现4个未闭合的img标签"
+        },
+        {
+          "type": "warning",
+          "category": "quote",
+          "message": "报价功能可能存在图片显示问题"
+        }
+      ],
+      "severity": "medium",
+      "fix_priority": 3
+    },
+    "chrome-corundum-castable": {
+      "product_id": "chrome-corundum-castable",
+      "audit_time": "2025-09-27T22:35:04.686592",
+      "file_exists": true,
+      "html_structure": {
+        "has_main_image": true,
+        "has_product_title": true,
+        "has_product_info": true,
+        "has_tabs_section": true,
+        "has_cta_buttons": true,
+        "unclosed_tags": [
+          "<img src=\"../images/products/unshaped_chrome_corun...",
+          "<img src=\"../images/products/shaped_clay_brick.jpg...",
+          "<img src=\"../images/products/shaped_silica_brick.j...",
+          "<img src=\"../images/products/shaped_lightweight_hi..."
+        ],
+        "nested_issues": []
+      },
+      "image_analysis": {
+        "main_image_src": "../images/products/unshaped_chrome_corundum_castable.jpg",
+        "data_images_config": "../images/products/unshaped_chrome_corundum_castable.jpg,../images/products/chrome-corundum-castable-official-1.png",
+        "total_images_found": 2,
+        "existing_images": [
+          "unshaped_chrome_corundum_castable.jpg",
+          "chrome-corundum-castable-official-1.png"
+        ],
+        "missing_images": [],
+        "duplicate_images": [],
+        "placeholder_issues": []
+      },
+      "javascript_check": {
+        "required_scripts": [
+          "multi-image-gallery.js",
+          "product-database.js",
+          "modal-components.js",
+          "placeholder-randomizer.js"
+        ],
+        "found_scripts": [
+          "jspdf.umd.min.js",
+          "html2canvas.min.js",
+          "product-database.js",
+          "pdf-generator.js",
+          "modal-components.js",
+          "ydk-navbar.js",
+          "ydk-footer.js",
+          "placeholder-randomizer.js",
+          "quote-wizard.js",
+          "multi-image-gallery.js"
+        ],
+        "missing_scripts": [],
+        "duplicate_scripts": []
+      },
+      "carousel_analysis": {
+        "has_data_images": true,
+        "images_count": 2,
+        "should_have_carousel": true,
+        "has_carousel_class": true,
+        "has_thumbnails_container": true,
+        "config_issues": []
+      },
+      "quote_function": {
+        "has_quote_button": true,
+        "button_onclick": "openInquiryModal('chrome-corundum-castable')",
+        "product_id_correct": true,
+        "has_modal_script": true,
+        "potential_image_issues": [
+          "图片路径可能影响报价显示"
+        ]
+      },
+      "css_references": {
+        "required_css": [
+          "multi-image-gallery.css",
+          "product-detail-modern.css",
+          "product-placeholder.css"
+        ],
+        "found_css": [
+          "ydk-navbar.css",
+          "ydk-footer.css",
+          "floating-buttons.css",
+          "quote-wizard.css",
+          "product-detail-modern.css",
+          "product-placeholder.css",
+          "all.min.css"
+        ],
+        "missing_css": [
+          "multi-image-gallery.css"
+        ]
+      },
+      "issues": [
+        {
+          "type": "warning",
+          "category": "html",
+          "message": "发现4个未闭合的img标签"
+        },
+        {
+          "type": "warning",
+          "category": "quote",
+          "message": "报价功能可能存在图片显示问题"
+        }
+      ],
+      "severity": "medium",
+      "fix_priority": 3
+    },
+    "clay-brick": {
+      "product_id": "clay-brick",
+      "audit_time": "2025-09-27T22:35:04.693520",
+      "file_exists": true,
+      "html_structure": {
+        "has_main_image": true,
+        "has_product_title": true,
+        "has_product_info": true,
+        "has_tabs_section": true,
+        "has_cta_buttons": true,
+        "unclosed_tags": [
+          "<img src=\"../images/products/clay-brick-real.png\" ...",
+          "<img src=\"../images/products/shaped_clay_brick.jpg...",
+          "<img src=\"../images/products/shaped_silica_brick.j...",
+          "<img src=\"../images/products/shaped_lightweight_hi..."
+        ],
+        "nested_issues": []
+      },
+      "image_analysis": {
+        "main_image_src": "../images/products/clay-brick-real.png",
+        "data_images_config": "../images/products/clay-brick-real.png",
+        "total_images_found": 1,
+        "existing_images": [
+          "clay-brick-real.png"
+        ],
+        "missing_images": [],
+        "duplicate_images": [],
+        "placeholder_issues": []
+      },
+      "javascript_check": {
+        "required_scripts": [
+          "multi-image-gallery.js",
+          "product-database.js",
+          "modal-components.js",
+          "placeholder-randomizer.js"
+        ],
+        "found_scripts": [
+          "jspdf.umd.min.js",
+          "html2canvas.min.js",
+          "product-database.js",
+          "pdf-generator.js",
+          "modal-components.js",
+          "ydk-navbar.js",
+          "ydk-footer.js",
+          "placeholder-randomizer.js",
+          "multi-image-gallery.js",
+          "quote-wizard.js"
+        ],
+        "missing_scripts": [],
+        "duplicate_scripts": []
+      },
+      "carousel_analysis": {
+        "has_data_images": true,
+        "images_count": 1,
+        "should_have_carousel": false,
+        "has_carousel_class": true,
+        "has_thumbnails_container": true,
+        "config_issues": [
+          "单图片不应启用轮播"
+        ]
+      },
+      "quote_function": {
+        "has_quote_button": true,
+        "button_onclick": "openInquiryModal('clay-brick')",
+        "product_id_correct": true,
+        "has_modal_script": true,
+        "potential_image_issues": [
+          "图片路径可能影响报价显示"
+        ]
+      },
+      "css_references": {
+        "required_css": [
+          "multi-image-gallery.css",
+          "product-detail-modern.css",
+          "product-placeholder.css"
+        ],
+        "found_css": [
+          "ydk-navbar.css",
+          "ydk-footer.css",
+          "floating-buttons.css",
+          "quote-wizard.css",
+          "product-detail-modern.css",
+          "product-placeholder.css",
+          "multi-image-gallery.css",
+          "all.min.css"
+        ],
+        "missing_css": []
+      },
+      "issues": [
+        {
+          "type": "warning",
+          "category": "html",
+          "message": "发现4个未闭合的img标签"
+        },
+        {
+          "type": "warning",
+          "category": "carousel",
+          "message": "单图片不应启用轮播"
+        },
+        {
+          "type": "warning",
+          "category": "quote",
+          "message": "报价功能可能存在图片显示问题"
+        }
+      ],
+      "severity": "high",
+      "fix_priority": 2
+    },
+    "coke-oven-brick": {
+      "product_id": "coke-oven-brick",
+      "audit_time": "2025-09-27T22:35:04.701956",
+      "file_exists": true,
+      "html_structure": {
+        "has_main_image": true,
+        "has_product_title": true,
+        "has_product_info": true,
+        "has_tabs_section": true,
+        "has_cta_buttons": true,
+        "unclosed_tags": [
+          "<img src=\"../images/products/shaped_high_alumina_l...",
+          "<img src=\"../images/products/shaped_clay_brick.jpg...",
+          "<img src=\"../images/products/shaped_silica_brick.j...",
+          "<img src=\"../images/products/shaped_lightweight_hi..."
+        ],
+        "nested_issues": []
+      },
+      "image_analysis": {
+        "main_image_src": "../images/products/shaped_high_alumina_light_brick.jpg",
+        "data_images_config": "../images/products/shaped_high_alumina_light_brick.jpg",
+        "total_images_found": 1,
+        "existing_images": [
+          "shaped_high_alumina_light_brick.jpg"
+        ],
+        "missing_images": [],
+        "duplicate_images": [],
+        "placeholder_issues": []
+      },
+      "javascript_check": {
+        "required_scripts": [
+          "multi-image-gallery.js",
+          "product-database.js",
+          "modal-components.js",
+          "placeholder-randomizer.js"
+        ],
+        "found_scripts": [
+          "jspdf.umd.min.js",
+          "html2canvas.min.js",
+          "product-database.js",
+          "pdf-generator.js",
+          "modal-components.js",
+          "ydk-navbar.js",
+          "ydk-footer.js",
+          "placeholder-randomizer.js",
+          "quote-wizard.js",
+          "multi-image-gallery.js"
+        ],
+        "missing_scripts": [],
+        "duplicate_scripts": []
+      },
+      "carousel_analysis": {
+        "has_data_images": true,
+        "images_count": 1,
+        "should_have_carousel": false,
+        "has_carousel_class": true,
+        "has_thumbnails_container": true,
+        "config_issues": [
+          "单图片不应启用轮播"
+        ]
+      },
+      "quote_function": {
+        "has_quote_button": true,
+        "button_onclick": "openInquiryModal('coke-oven-brick')",
+        "product_id_correct": true,
+        "has_modal_script": true,
+        "potential_image_issues": [
+          "图片路径可能影响报价显示"
+        ]
+      },
+      "css_references": {
+        "required_css": [
+          "multi-image-gallery.css",
+          "product-detail-modern.css",
+          "product-placeholder.css"
+        ],
+        "found_css": [
+          "ydk-navbar.css",
+          "ydk-footer.css",
+          "floating-buttons.css",
+          "quote-wizard.css",
+          "product-detail-modern.css",
+          "product-placeholder.css",
+          "all.min.css"
+        ],
+        "missing_css": [
+          "multi-image-gallery.css"
+        ]
+      },
+      "issues": [
+        {
+          "type": "warning",
+          "category": "html",
+          "message": "发现4个未闭合的img标签"
+        },
+        {
+          "type": "warning",
+          "category": "carousel",
+          "message": "单图片不应启用轮播"
+        },
+        {
+          "type": "warning",
+          "category": "quote",
+          "message": "报价功能可能存在图片显示问题"
+        }
+      ],
+      "severity": "high",
+      "fix_priority": 2
+    },
+    "corundum-ball": {
+      "product_id": "corundum-ball",
+      "audit_time": "2025-09-27T22:35:04.711207",
+      "file_exists": true,
+      "html_structure": {
+        "has_main_image": true,
+        "has_product_title": true,
+        "has_product_info": true,
+        "has_tabs_section": true,
+        "has_cta_buttons": true,
+        "unclosed_tags": [
+          "<img src=\"../images/products/special_corundum_ball...",
+          "<img src=\"../images/products/shaped_clay_brick.jpg...",
+          "<img src=\"../images/products/shaped_silica_brick.j...",
+          "<img src=\"../images/products/shaped_lightweight_hi..."
+        ],
+        "nested_issues": []
+      },
+      "image_analysis": {
+        "main_image_src": "../images/products/special_corundum_ball.jpg",
+        "data_images_config": "../images/products/special_corundum_ball.jpg,../images/products/corundum-ball-official-1.png,../images/products/corundum-ball-official-2.png",
+        "total_images_found": 3,
+        "existing_images": [
+          "special_corundum_ball.jpg",
+          "corundum-ball-official-1.png",
+          "corundum-ball-official-2.png"
+        ],
+        "missing_images": [],
+        "duplicate_images": [],
+        "placeholder_issues": []
+      },
+      "javascript_check": {
+        "required_scripts": [
+          "multi-image-gallery.js",
+          "product-database.js",
+          "modal-components.js",
+          "placeholder-randomizer.js"
+        ],
+        "found_scripts": [
+          "jspdf.umd.min.js",
+          "html2canvas.min.js",
+          "product-database.js",
+          "pdf-generator.js",
+          "modal-components.js",
+          "ydk-navbar.js",
+          "ydk-footer.js",
+          "placeholder-randomizer.js",
+          "quote-wizard.js",
+          "multi-image-gallery.js"
+        ],
+        "missing_scripts": [],
+        "duplicate_scripts": []
+      },
+      "carousel_analysis": {
+        "has_data_images": true,
+        "images_count": 3,
+        "should_have_carousel": true,
+        "has_carousel_class": true,
+        "has_thumbnails_container": true,
+        "config_issues": []
+      },
+      "quote_function": {
+        "has_quote_button": true,
+        "button_onclick": "openInquiryModal('corundum-ball')",
+        "product_id_correct": true,
+        "has_modal_script": true,
+        "potential_image_issues": [
+          "图片路径可能影响报价显示"
+        ]
+      },
+      "css_references": {
+        "required_css": [
+          "multi-image-gallery.css",
+          "product-detail-modern.css",
+          "product-placeholder.css"
+        ],
+        "found_css": [
+          "ydk-navbar.css",
+          "ydk-footer.css",
+          "floating-buttons.css",
+          "quote-wizard.css",
+          "product-detail-modern.css",
+          "product-placeholder.css",
+          "multi-image-carousel.css",
+          "all.min.css"
+        ],
+        "missing_css": [
+          "multi-image-gallery.css"
+        ]
+      },
+      "issues": [
+        {
+          "type": "warning",
+          "category": "html",
+          "message": "发现4个未闭合的img标签"
+        },
+        {
+          "type": "warning",
+          "category": "quote",
+          "message": "报价功能可能存在图片显示问题"
+        }
+      ],
+      "severity": "medium",
+      "fix_priority": 3
+    },
+    "corundum-brick": {
+      "product_id": "corundum-brick",
+      "audit_time": "2025-09-27T22:35:04.719698",
+      "file_exists": true,
+      "html_structure": {
+        "has_main_image": true,
+        "has_product_title": true,
+        "has_product_info": true,
+        "has_tabs_section": true,
+        "has_cta_buttons": true,
+        "unclosed_tags": [
+          "<img src=\"../images/products/special_corundum_bric...",
+          "<img src=\"../images/products/shaped_clay_brick.jpg...",
+          "<img src=\"../images/products/shaped_silica_brick.j...",
+          "<img src=\"../images/products/shaped_lightweight_hi..."
+        ],
+        "nested_issues": []
+      },
+      "image_analysis": {
+        "main_image_src": "../images/products/special_corundum_brick.jpg",
+        "data_images_config": "../images/products/special_corundum_brick.jpg,../images/products/corundum-brick-official-1.png,../images/products/corundum-brick-official-2.png",
+        "total_images_found": 3,
+        "existing_images": [
+          "special_corundum_brick.jpg",
+          "corundum-brick-official-1.png",
+          "corundum-brick-official-2.png"
+        ],
+        "missing_images": [],
+        "duplicate_images": [],
+        "placeholder_issues": []
+      },
+      "javascript_check": {
+        "required_scripts": [
+          "multi-image-gallery.js",
+          "product-database.js",
+          "modal-components.js",
+          "placeholder-randomizer.js"
+        ],
+        "found_scripts": [
+          "jspdf.umd.min.js",
+          "html2canvas.min.js",
+          "product-database.js",
+          "pdf-generator.js",
+          "modal-components.js",
+          "ydk-navbar.js",
+          "ydk-footer.js",
+          "placeholder-randomizer.js",
+          "quote-wizard.js",
+          "multi-image-gallery.js"
+        ],
+        "missing_scripts": [],
+        "duplicate_scripts": []
+      },
+      "carousel_analysis": {
+        "has_data_images": true,
+        "images_count": 3,
+        "should_have_carousel": true,
+        "has_carousel_class": true,
+        "has_thumbnails_container": true,
+        "config_issues": []
+      },
+      "quote_function": {
+        "has_quote_button": true,
+        "button_onclick": "openInquiryModal('corundum-brick')",
+        "product_id_correct": true,
+        "has_modal_script": true,
+        "potential_image_issues": [
+          "图片路径可能影响报价显示"
+        ]
+      },
+      "css_references": {
+        "required_css": [
+          "multi-image-gallery.css",
+          "product-detail-modern.css",
+          "product-placeholder.css"
+        ],
+        "found_css": [
+          "ydk-navbar.css",
+          "ydk-footer.css",
+          "floating-buttons.css",
+          "quote-wizard.css",
+          "product-detail-modern.css",
+          "product-placeholder.css",
+          "product-placeholder.css",
+          "all.min.css"
+        ],
+        "missing_css": [
+          "multi-image-gallery.css"
+        ]
+      },
+      "issues": [
+        {
+          "type": "warning",
+          "category": "html",
+          "message": "发现4个未闭合的img标签"
+        },
+        {
+          "type": "warning",
+          "category": "quote",
+          "message": "报价功能可能存在图片显示问题"
+        }
+      ],
+      "severity": "medium",
+      "fix_priority": 3
+    },
+    "corundum-mullite": {
+      "product_id": "corundum-mullite",
+      "audit_time": "2025-09-27T22:35:04.729232",
+      "file_exists": true,
+      "html_structure": {
+        "has_main_image": true,
+        "has_product_title": true,
+        "has_product_info": true,
+        "has_tabs_section": true,
+        "has_cta_buttons": true,
+        "unclosed_tags": [
+          "<img src=\"../images/products/special_corundum_mull...",
+          "<img src=\"../images/products/shaped_clay_brick.jpg...",
+          "<img src=\"../images/products/shaped_silica_brick.j...",
+          "<img src=\"../images/products/shaped_lightweight_hi..."
+        ],
+        "nested_issues": []
+      },
+      "image_analysis": {
+        "main_image_src": "../images/products/special_corundum_mullite.jpg",
+        "data_images_config": "../images/products/special_corundum_mullite.jpg,../images/products/corundum-mullite-official-1.png,../images/products/corundum-mullite-official-2.png",
+        "total_images_found": 3,
+        "existing_images": [
+          "special_corundum_mullite.jpg",
+          "corundum-mullite-official-1.png",
+          "corundum-mullite-official-2.png"
+        ],
+        "missing_images": [],
+        "duplicate_images": [],
+        "placeholder_issues": []
+      },
+      "javascript_check": {
+        "required_scripts": [
+          "multi-image-gallery.js",
+          "product-database.js",
+          "modal-components.js",
+          "placeholder-randomizer.js"
+        ],
+        "found_scripts": [
+          "jspdf.umd.min.js",
+          "html2canvas.min.js",
+          "product-database.js",
+          "pdf-generator.js",
+          "modal-components.js",
+          "ydk-navbar.js",
+          "ydk-footer.js",
+          "placeholder-randomizer.js",
+          "quote-wizard.js",
+          "multi-image-gallery.js"
+        ],
+        "missing_scripts": [],
+        "duplicate_scripts": []
+      },
+      "carousel_analysis": {
+        "has_data_images": true,
+        "images_count": 3,
+        "should_have_carousel": true,
+        "has_carousel_class": true,
+        "has_thumbnails_container": true,
+        "config_issues": []
+      },
+      "quote_function": {
+        "has_quote_button": true,
+        "button_onclick": "openInquiryModal('corundum-mullite')",
+        "product_id_correct": true,
+        "has_modal_script": true,
+        "potential_image_issues": [
+          "图片路径可能影响报价显示"
+        ]
+      },
+      "css_references": {
+        "required_css": [
+          "multi-image-gallery.css",
+          "product-detail-modern.css",
+          "product-placeholder.css"
+        ],
+        "found_css": [
+          "ydk-navbar.css",
+          "ydk-footer.css",
+          "floating-buttons.css",
+          "quote-wizard.css",
+          "product-detail-modern.css",
+          "product-placeholder.css",
+          "all.min.css"
+        ],
+        "missing_css": [
+          "multi-image-gallery.css"
+        ]
+      },
+      "issues": [
+        {
+          "type": "warning",
+          "category": "html",
+          "message": "发现4个未闭合的img标签"
+        },
+        {
+          "type": "warning",
+          "category": "quote",
+          "message": "报价功能可能存在图片显示问题"
+        }
+      ],
+      "severity": "medium",
+      "fix_priority": 3
+    },
+    "general-silica-brick": {
+      "product_id": "general-silica-brick",
+      "audit_time": "2025-09-27T22:35:04.737741",
+      "file_exists": true,
+      "html_structure": {
+        "has_main_image": true,
+        "has_product_title": true,
+        "has_product_info": true,
+        "has_tabs_section": true,
+        "has_cta_buttons": true,
+        "unclosed_tags": [
+          "<img src=\"../images/products/shaped_silica_brick.j...",
+          "<img src=\"../images/products/shaped_clay_brick.jpg...",
+          "<img src=\"../images/products/shaped_silica_brick.j...",
+          "<img src=\"../images/products/shaped_lightweight_hi..."
+        ],
+        "nested_issues": []
+      },
+      "image_analysis": {
+        "main_image_src": "../images/products/shaped_silica_brick.jpg",
+        "data_images_config": "../images/products/shaped_silica_brick.jpg,../images/products/general-silica-brick-official-1.png,../images/products/general-silica-brick-official-2.png",
+        "total_images_found": 3,
+        "existing_images": [
+          "shaped_silica_brick.jpg",
+          "general-silica-brick-official-1.png",
+          "general-silica-brick-official-2.png"
+        ],
+        "missing_images": [],
+        "duplicate_images": [],
+        "placeholder_issues": []
+      },
+      "javascript_check": {
+        "required_scripts": [
+          "multi-image-gallery.js",
+          "product-database.js",
+          "modal-components.js",
+          "placeholder-randomizer.js"
+        ],
+        "found_scripts": [
+          "jspdf.umd.min.js",
+          "html2canvas.min.js",
+          "product-database.js",
+          "pdf-generator.js",
+          "modal-components.js",
+          "ydk-navbar.js",
+          "ydk-footer.js",
+          "placeholder-randomizer.js",
+          "quote-wizard.js",
+          "multi-image-gallery.js"
+        ],
+        "missing_scripts": [],
+        "duplicate_scripts": []
+      },
+      "carousel_analysis": {
+        "has_data_images": true,
+        "images_count": 3,
+        "should_have_carousel": true,
+        "has_carousel_class": true,
+        "has_thumbnails_container": true,
+        "config_issues": []
+      },
+      "quote_function": {
+        "has_quote_button": true,
+        "button_onclick": "openInquiryModal('general-silica-brick')",
+        "product_id_correct": true,
+        "has_modal_script": true,
+        "potential_image_issues": [
+          "图片路径可能影响报价显示"
+        ]
+      },
+      "css_references": {
+        "required_css": [
+          "multi-image-gallery.css",
+          "product-detail-modern.css",
+          "product-placeholder.css"
+        ],
+        "found_css": [
+          "ydk-navbar.css",
+          "ydk-footer.css",
+          "floating-buttons.css",
+          "quote-wizard.css",
+          "product-detail-modern.css",
+          "product-placeholder.css",
+          "all.min.css"
+        ],
+        "missing_css": [
+          "multi-image-gallery.css"
+        ]
+      },
+      "issues": [
+        {
+          "type": "warning",
+          "category": "html",
+          "message": "发现4个未闭合的img标签"
+        },
+        {
+          "type": "warning",
+          "category": "quote",
+          "message": "报价功能可能存在图片显示问题"
+        }
+      ],
+      "severity": "medium",
+      "fix_priority": 3
+    },
+    "heavy-clay-brick": {
+      "product_id": "heavy-clay-brick",
+      "audit_time": "2025-09-27T22:35:04.744863",
+      "file_exists": true,
+      "html_structure": {
+        "has_main_image": true,
+        "has_product_title": true,
+        "has_product_info": true,
+        "has_tabs_section": true,
+        "has_cta_buttons": true,
+        "unclosed_tags": [
+          "<img src=\"../images/products/shaped_clay_brick.jpg...",
+          "<img src=\"../images/products/shaped_clay_brick.jpg...",
+          "<img src=\"../images/products/shaped_silica_brick.j...",
+          "<img src=\"../images/products/shaped_lightweight_hi..."
+        ],
+        "nested_issues": []
+      },
+      "image_analysis": {
+        "main_image_src": "../images/products/shaped_clay_brick.jpg",
+        "data_images_config": "../images/products/shaped_clay_brick.jpg,../images/products/heavy-clay-brick-official-1.png,../images/products/heavy-clay-brick-official-2.png",
+        "total_images_found": 3,
+        "existing_images": [
+          "shaped_clay_brick.jpg",
+          "heavy-clay-brick-official-1.png",
+          "heavy-clay-brick-official-2.png"
+        ],
+        "missing_images": [],
+        "duplicate_images": [],
+        "placeholder_issues": []
+      },
+      "javascript_check": {
+        "required_scripts": [
+          "multi-image-gallery.js",
+          "product-database.js",
+          "modal-components.js",
+          "placeholder-randomizer.js"
+        ],
+        "found_scripts": [
+          "jspdf.umd.min.js",
+          "html2canvas.min.js",
+          "product-database.js",
+          "pdf-generator.js",
+          "modal-components.js",
+          "ydk-navbar.js",
+          "ydk-footer.js",
+          "placeholder-randomizer.js",
+          "quote-wizard.js",
+          "multi-image-gallery.js"
+        ],
+        "missing_scripts": [],
+        "duplicate_scripts": []
+      },
+      "carousel_analysis": {
+        "has_data_images": true,
+        "images_count": 3,
+        "should_have_carousel": true,
+        "has_carousel_class": true,
+        "has_thumbnails_container": true,
+        "config_issues": []
+      },
+      "quote_function": {
+        "has_quote_button": true,
+        "button_onclick": "openInquiryModal('heavy-clay-brick')",
+        "product_id_correct": true,
+        "has_modal_script": true,
+        "potential_image_issues": [
+          "图片路径可能影响报价显示"
+        ]
+      },
+      "css_references": {
+        "required_css": [
+          "multi-image-gallery.css",
+          "product-detail-modern.css",
+          "product-placeholder.css"
+        ],
+        "found_css": [
+          "ydk-navbar.css",
+          "ydk-footer.css",
+          "floating-buttons.css",
+          "quote-wizard.css",
+          "product-detail-modern.css",
+          "product-placeholder.css",
+          "all.min.css"
+        ],
+        "missing_css": [
+          "multi-image-gallery.css"
+        ]
+      },
+      "issues": [
+        {
+          "type": "warning",
+          "category": "html",
+          "message": "发现4个未闭合的img标签"
+        },
+        {
+          "type": "warning",
+          "category": "quote",
+          "message": "报价功能可能存在图片显示问题"
+        }
+      ],
+      "severity": "medium",
+      "fix_priority": 3
+    },
+    "high-alumina-brick": {
+      "product_id": "high-alumina-brick",
+      "audit_time": "2025-09-27T22:35:04.753593",
+      "file_exists": true,
+      "html_structure": {
+        "has_main_image": true,
+        "has_product_title": true,
+        "has_product_info": true,
+        "has_tabs_section": true,
+        "has_cta_buttons": true,
+        "unclosed_tags": [
+          "<img src=\"../images/products/high-alumina-brick-re...",
+          "<img src=\"../images/products/shaped_clay_brick.jpg...",
+          "<img src=\"../images/products/shaped_silica_brick.j...",
+          "<img src=\"../images/products/shaped_lightweight_hi..."
+        ],
+        "nested_issues": []
+      },
+      "image_analysis": {
+        "main_image_src": "../images/products/high-alumina-brick-real.png",
+        "data_images_config": "../images/products/high-alumina-brick-real.png,../images/products/high-alumina-brick.jpg",
+        "total_images_found": 2,
+        "existing_images": [
+          "high-alumina-brick-real.png",
+          "high-alumina-brick.jpg"
+        ],
+        "missing_images": [],
+        "duplicate_images": [],
+        "placeholder_issues": []
+      },
+      "javascript_check": {
+        "required_scripts": [
+          "multi-image-gallery.js",
+          "product-database.js",
+          "modal-components.js",
+          "placeholder-randomizer.js"
+        ],
+        "found_scripts": [
+          "jspdf.umd.min.js",
+          "html2canvas.min.js",
+          "product-database.js",
+          "pdf-generator.js",
+          "modal-components.js",
+          "ydk-navbar.js",
+          "ydk-footer.js",
+          "placeholder-randomizer.js",
+          "multi-image-gallery.js",
+          "quote-wizard.js"
+        ],
+        "missing_scripts": [],
+        "duplicate_scripts": []
+      },
+      "carousel_analysis": {
+        "has_data_images": true,
+        "images_count": 2,
+        "should_have_carousel": true,
+        "has_carousel_class": true,
+        "has_thumbnails_container": true,
+        "config_issues": []
+      },
+      "quote_function": {
+        "has_quote_button": true,
+        "button_onclick": "openInquiryModal('high-alumina-brick')",
+        "product_id_correct": true,
+        "has_modal_script": true,
+        "potential_image_issues": [
+          "图片路径可能影响报价显示"
+        ]
+      },
+      "css_references": {
+        "required_css": [
+          "multi-image-gallery.css",
+          "product-detail-modern.css",
+          "product-placeholder.css"
+        ],
+        "found_css": [
+          "ydk-navbar.css",
+          "ydk-footer.css",
+          "floating-buttons.css",
+          "quote-wizard.css",
+          "product-detail-modern.css",
+          "product-placeholder.css",
+          "multi-image-gallery.css",
+          "all.min.css"
+        ],
+        "missing_css": []
+      },
+      "issues": [
+        {
+          "type": "warning",
+          "category": "html",
+          "message": "发现4个未闭合的img标签"
+        },
+        {
+          "type": "warning",
+          "category": "quote",
+          "message": "报价功能可能存在图片显示问题"
+        }
+      ],
+      "severity": "medium",
+      "fix_priority": 3
+    },
+    "hot-blast-stove-checker-silica-brick": {
+      "product_id": "hot-blast-stove-checker-silica-brick",
+      "audit_time": "2025-09-27T22:35:04.760855",
+      "file_exists": true,
+      "html_structure": {
+        "has_main_image": true,
+        "has_product_title": true,
+        "has_product_info": true,
+        "has_tabs_section": true,
+        "has_cta_buttons": true,
+        "unclosed_tags": [
+          "<img src=\"../images/products/shaped_hot_blast_furn...",
+          "<img src=\"../images/products/shaped_clay_brick.jpg...",
+          "<img src=\"../images/products/shaped_silica_brick.j...",
+          "<img src=\"../images/products/shaped_lightweight_hi..."
+        ],
+        "nested_issues": []
+      },
+      "image_analysis": {
+        "main_image_src": "../images/products/shaped_hot_blast_furnace_silica_brick.jpg",
+        "data_images_config": "../images/products/shaped_silica_mullite_brick.jpg",
+        "total_images_found": 1,
+        "existing_images": [
+          "shaped_silica_mullite_brick.jpg"
+        ],
+        "missing_images": [],
+        "duplicate_images": [],
+        "placeholder_issues": []
+      },
+      "javascript_check": {
+        "required_scripts": [
+          "multi-image-gallery.js",
+          "product-database.js",
+          "modal-components.js",
+          "placeholder-randomizer.js"
+        ],
+        "found_scripts": [
+          "jspdf.umd.min.js",
+          "html2canvas.min.js",
+          "product-database.js",
+          "pdf-generator.js",
+          "modal-components.js",
+          "ydk-navbar.js",
+          "ydk-footer.js",
+          "placeholder-randomizer.js",
+          "quote-wizard.js",
+          "multi-image-gallery.js"
+        ],
+        "missing_scripts": [],
+        "duplicate_scripts": []
+      },
+      "carousel_analysis": {
+        "has_data_images": true,
+        "images_count": 1,
+        "should_have_carousel": false,
+        "has_carousel_class": true,
+        "has_thumbnails_container": true,
+        "config_issues": [
+          "单图片不应启用轮播"
+        ]
+      },
+      "quote_function": {
+        "has_quote_button": true,
+        "button_onclick": "openInquiryModal('hot-blast-stove-checker-silica-brick')",
+        "product_id_correct": true,
+        "has_modal_script": true,
+        "potential_image_issues": [
+          "图片路径可能影响报价显示"
+        ]
+      },
+      "css_references": {
+        "required_css": [
+          "multi-image-gallery.css",
+          "product-detail-modern.css",
+          "product-placeholder.css"
+        ],
+        "found_css": [
+          "ydk-navbar.css",
+          "ydk-footer.css",
+          "floating-buttons.css",
+          "quote-wizard.css",
+          "product-detail-modern.css",
+          "product-placeholder.css",
+          "all.min.css"
+        ],
+        "missing_css": [
+          "multi-image-gallery.css"
+        ]
+      },
+      "issues": [
+        {
+          "type": "warning",
+          "category": "html",
+          "message": "发现4个未闭合的img标签"
+        },
+        {
+          "type": "warning",
+          "category": "carousel",
+          "message": "单图片不应启用轮播"
+        },
+        {
+          "type": "warning",
+          "category": "quote",
+          "message": "报价功能可能存在图片显示问题"
+        }
+      ],
+      "severity": "high",
+      "fix_priority": 2
+    },
+    "hot-blast-stove-clay-checker-brick": {
+      "product_id": "hot-blast-stove-clay-checker-brick",
+      "audit_time": "2025-09-27T22:35:04.772547",
+      "file_exists": true,
+      "html_structure": {
+        "has_main_image": true,
+        "has_product_title": true,
+        "has_product_info": true,
+        "has_tabs_section": true,
+        "has_cta_buttons": true,
+        "unclosed_tags": [
+          "<img src=\"../images/products/placeholder.jpg\" alt=...",
+          "<img src=\"../images/products/shaped_clay_brick.jpg...",
+          "<img src=\"../images/products/shaped_silica_brick.j...",
+          "<img src=\"../images/products/shaped_lightweight_hi..."
+        ],
+        "nested_issues": []
+      },
+      "image_analysis": {
+        "main_image_src": "../images/products/placeholder.jpg",
+        "data_images_config": "",
+        "total_images_found": 0,
+        "existing_images": [],
+        "missing_images": [],
+        "duplicate_images": [],
+        "placeholder_issues": []
+      },
+      "javascript_check": {
+        "required_scripts": [
+          "multi-image-gallery.js",
+          "product-database.js",
+          "modal-components.js",
+          "placeholder-randomizer.js"
+        ],
+        "found_scripts": [
+          "jspdf.umd.min.js",
+          "html2canvas.min.js",
+          "product-database.js",
+          "pdf-generator.js",
+          "modal-components.js",
+          "ydk-navbar.js",
+          "ydk-footer.js",
+          "placeholder-randomizer.js",
+          "quote-wizard.js",
+          "multi-image-gallery.js"
+        ],
+        "missing_scripts": [],
+        "duplicate_scripts": []
+      },
+      "carousel_analysis": {
+        "has_data_images": false,
+        "images_count": 0,
+        "should_have_carousel": false,
+        "has_carousel_class": true,
+        "has_thumbnails_container": true,
+        "config_issues": [
+          "配置为占位符产品"
+        ]
+      },
+      "quote_function": {
+        "has_quote_button": true,
+        "button_onclick": "openInquiryModal('hot-blast-stove-clay-checker-brick')",
+        "product_id_correct": true,
+        "has_modal_script": true,
+        "potential_image_issues": [
+          "图片路径可能影响报价显示"
+        ]
+      },
+      "css_references": {
+        "required_css": [
+          "multi-image-gallery.css",
+          "product-detail-modern.css",
+          "product-placeholder.css"
+        ],
+        "found_css": [
+          "ydk-navbar.css",
+          "ydk-footer.css",
+          "floating-buttons.css",
+          "quote-wizard.css",
+          "product-detail-modern.css",
+          "product-placeholder.css",
+          "product-placeholder.css",
+          "all.min.css"
+        ],
+        "missing_css": [
+          "multi-image-gallery.css"
+        ]
+      },
+      "issues": [
+        {
+          "type": "warning",
+          "category": "html",
+          "message": "发现4个未闭合的img标签"
+        },
+        {
+          "type": "warning",
+          "category": "carousel",
+          "message": "配置为占位符产品"
+        },
+        {
+          "type": "warning",
+          "category": "quote",
+          "message": "报价功能可能存在图片显示问题"
+        }
+      ],
+      "severity": "high",
+      "fix_priority": 2
+    },
+    "hot-blast-stove-silica-brick": {
+      "product_id": "hot-blast-stove-silica-brick",
+      "audit_time": "2025-09-27T22:35:04.784513",
+      "file_exists": true,
+      "html_structure": {
+        "has_main_image": true,
+        "has_product_title": true,
+        "has_product_info": true,
+        "has_tabs_section": true,
+        "has_cta_buttons": true,
+        "unclosed_tags": [
+          "<img src=\"../images/products/hot-blast-stove-silic...",
+          "<img src=\"../images/products/shaped_clay_brick.jpg...",
+          "<img src=\"../images/products/shaped_silica_brick.j...",
+          "<img src=\"../images/products/shaped_lightweight_hi..."
+        ],
+        "nested_issues": []
+      },
+      "image_analysis": {
+        "main_image_src": "../images/products/hot-blast-stove-silica-brick-official-1.png",
+        "data_images_config": "../images/products/hot-blast-stove-silica-brick-official-1.png,../images/products/hot-blast-stove-silica-brick-official-2.png,../images/products/hot-blast-stove-silica-brick-official-3.png",
+        "total_images_found": 3,
+        "existing_images": [
+          "hot-blast-stove-silica-brick-official-1.png",
+          "hot-blast-stove-silica-brick-official-2.png",
+          "hot-blast-stove-silica-brick-official-3.png"
+        ],
+        "missing_images": [],
+        "duplicate_images": [],
+        "placeholder_issues": []
+      },
+      "javascript_check": {
+        "required_scripts": [
+          "multi-image-gallery.js",
+          "product-database.js",
+          "modal-components.js",
+          "placeholder-randomizer.js"
+        ],
+        "found_scripts": [
+          "jspdf.umd.min.js",
+          "html2canvas.min.js",
+          "product-database.js",
+          "pdf-generator.js",
+          "modal-components.js",
+          "ydk-navbar.js",
+          "ydk-footer.js",
+          "placeholder-randomizer.js",
+          "quote-wizard.js",
+          "multi-image-gallery.js"
+        ],
+        "missing_scripts": [],
+        "duplicate_scripts": []
+      },
+      "carousel_analysis": {
+        "has_data_images": true,
+        "images_count": 3,
+        "should_have_carousel": true,
+        "has_carousel_class": true,
+        "has_thumbnails_container": true,
+        "config_issues": []
+      },
+      "quote_function": {
+        "has_quote_button": true,
+        "button_onclick": "openInquiryModal('hot-blast-stove-silica-brick')",
+        "product_id_correct": true,
+        "has_modal_script": true,
+        "potential_image_issues": [
+          "图片路径可能影响报价显示"
+        ]
+      },
+      "css_references": {
+        "required_css": [
+          "multi-image-gallery.css",
+          "product-detail-modern.css",
+          "product-placeholder.css"
+        ],
+        "found_css": [
+          "ydk-navbar.css",
+          "ydk-footer.css",
+          "floating-buttons.css",
+          "quote-wizard.css",
+          "product-detail-modern.css",
+          "product-placeholder.css",
+          "all.min.css"
+        ],
+        "missing_css": [
+          "multi-image-gallery.css"
+        ]
+      },
+      "issues": [
+        {
+          "type": "warning",
+          "category": "html",
+          "message": "发现4个未闭合的img标签"
+        },
+        {
+          "type": "warning",
+          "category": "quote",
+          "message": "报价功能可能存在图片显示问题"
+        }
+      ],
+      "severity": "medium",
+      "fix_priority": 3
+    },
+    "insulating-brick": {
+      "product_id": "insulating-brick",
+      "audit_time": "2025-09-27T22:35:04.794738",
+      "file_exists": true,
+      "html_structure": {
+        "has_main_image": true,
+        "has_product_title": true,
+        "has_product_info": true,
+        "has_tabs_section": true,
+        "has_cta_buttons": true,
+        "unclosed_tags": [
+          "<img src=\"../images/products/shaped_mullite_light_...",
+          "<img src=\"../images/products/shaped_clay_brick.jpg...",
+          "<img src=\"../images/products/shaped_silica_brick.j...",
+          "<img src=\"../images/products/shaped_lightweight_hi..."
+        ],
+        "nested_issues": []
+      },
+      "image_analysis": {
+        "main_image_src": "../images/products/shaped_mullite_light_brick.jpg",
+        "data_images_config": "../images/products/shaped_mullite_light_brick.jpg",
+        "total_images_found": 1,
+        "existing_images": [
+          "shaped_mullite_light_brick.jpg"
+        ],
+        "missing_images": [],
+        "duplicate_images": [],
+        "placeholder_issues": []
+      },
+      "javascript_check": {
+        "required_scripts": [
+          "multi-image-gallery.js",
+          "product-database.js",
+          "modal-components.js",
+          "placeholder-randomizer.js"
+        ],
+        "found_scripts": [
+          "jspdf.umd.min.js",
+          "html2canvas.min.js",
+          "product-database.js",
+          "pdf-generator.js",
+          "modal-components.js",
+          "ydk-navbar.js",
+          "ydk-footer.js",
+          "placeholder-randomizer.js",
+          "quote-wizard.js",
+          "multi-image-gallery.js"
+        ],
+        "missing_scripts": [],
+        "duplicate_scripts": []
+      },
+      "carousel_analysis": {
+        "has_data_images": true,
+        "images_count": 1,
+        "should_have_carousel": false,
+        "has_carousel_class": true,
+        "has_thumbnails_container": true,
+        "config_issues": [
+          "单图片不应启用轮播"
+        ]
+      },
+      "quote_function": {
+        "has_quote_button": true,
+        "button_onclick": "openInquiryModal('insulating-brick')",
+        "product_id_correct": true,
+        "has_modal_script": true,
+        "potential_image_issues": [
+          "图片路径可能影响报价显示"
+        ]
+      },
+      "css_references": {
+        "required_css": [
+          "multi-image-gallery.css",
+          "product-detail-modern.css",
+          "product-placeholder.css"
+        ],
+        "found_css": [
+          "ydk-navbar.css",
+          "ydk-footer.css",
+          "floating-buttons.css",
+          "quote-wizard.css",
+          "product-detail-modern.css",
+          "product-placeholder.css",
+          "all.min.css"
+        ],
+        "missing_css": [
+          "multi-image-gallery.css"
+        ]
+      },
+      "issues": [
+        {
+          "type": "warning",
+          "category": "html",
+          "message": "发现4个未闭合的img标签"
+        },
+        {
+          "type": "warning",
+          "category": "carousel",
+          "message": "单图片不应启用轮播"
+        },
+        {
+          "type": "warning",
+          "category": "quote",
+          "message": "报价功能可能存在图片显示问题"
+        }
+      ],
+      "severity": "high",
+      "fix_priority": 2
+    },
+    "insulating-material": {
+      "product_id": "insulating-material",
+      "audit_time": "2025-09-27T22:35:04.805573",
+      "file_exists": true,
+      "html_structure": {
+        "has_main_image": true,
+        "has_product_title": true,
+        "has_product_info": true,
+        "has_tabs_section": true,
+        "has_cta_buttons": true,
+        "unclosed_tags": [
+          "<img src=\"../images/products/thermal-insulation-br...",
+          "<img src=\"../images/products/shaped_clay_brick.jpg...",
+          "<img src=\"../images/products/shaped_silica_brick.j...",
+          "<img src=\"../images/products/shaped_lightweight_hi..."
+        ],
+        "nested_issues": []
+      },
+      "image_analysis": {
+        "main_image_src": "../images/products/thermal-insulation-brick-official-1.png",
+        "data_images_config": "../images/products/thermal-insulation-brick-official-1.png,../images/products/thermal-insulation-brick-official-2.png",
+        "total_images_found": 2,
+        "existing_images": [
+          "thermal-insulation-brick-official-1.png",
+          "thermal-insulation-brick-official-2.png"
+        ],
+        "missing_images": [],
+        "duplicate_images": [],
+        "placeholder_issues": []
+      },
+      "javascript_check": {
+        "required_scripts": [
+          "multi-image-gallery.js",
+          "product-database.js",
+          "modal-components.js",
+          "placeholder-randomizer.js"
+        ],
+        "found_scripts": [
+          "jspdf.umd.min.js",
+          "html2canvas.min.js",
+          "product-database.js",
+          "pdf-generator.js",
+          "modal-components.js",
+          "ydk-navbar.js",
+          "ydk-footer.js",
+          "placeholder-randomizer.js",
+          "quote-wizard.js",
+          "multi-image-gallery.js"
+        ],
+        "missing_scripts": [],
+        "duplicate_scripts": []
+      },
+      "carousel_analysis": {
+        "has_data_images": true,
+        "images_count": 2,
+        "should_have_carousel": true,
+        "has_carousel_class": true,
+        "has_thumbnails_container": true,
+        "config_issues": []
+      },
+      "quote_function": {
+        "has_quote_button": true,
+        "button_onclick": "openInquiryModal('insulating-material')",
+        "product_id_correct": true,
+        "has_modal_script": true,
+        "potential_image_issues": [
+          "图片路径可能影响报价显示"
+        ]
+      },
+      "css_references": {
+        "required_css": [
+          "multi-image-gallery.css",
+          "product-detail-modern.css",
+          "product-placeholder.css"
+        ],
+        "found_css": [
+          "ydk-navbar.css",
+          "ydk-footer.css",
+          "floating-buttons.css",
+          "quote-wizard.css",
+          "product-detail-modern.css",
+          "product-placeholder.css",
+          "all.min.css"
+        ],
+        "missing_css": [
+          "multi-image-gallery.css"
+        ]
+      },
+      "issues": [
+        {
+          "type": "warning",
+          "category": "html",
+          "message": "发现4个未闭合的img标签"
+        },
+        {
+          "type": "warning",
+          "category": "quote",
+          "message": "报价功能可能存在图片显示问题"
+        }
+      ],
+      "severity": "medium",
+      "fix_priority": 3
+    },
+    "lightweight-castable": {
+      "product_id": "lightweight-castable",
+      "audit_time": "2025-09-27T22:35:04.819673",
+      "file_exists": true,
+      "html_structure": {
+        "has_main_image": true,
+        "has_product_title": true,
+        "has_product_info": true,
+        "has_tabs_section": true,
+        "has_cta_buttons": true,
+        "unclosed_tags": [
+          "<img src=\"../images/products/lightweight-castable-...",
+          "<img src=\"../images/products/shaped_clay_brick.jpg...",
+          "<img src=\"../images/products/shaped_silica_brick.j...",
+          "<img src=\"../images/products/shaped_lightweight_hi..."
+        ],
+        "nested_issues": []
+      },
+      "image_analysis": {
+        "main_image_src": "../images/products/lightweight-castable-official-1.png",
+        "data_images_config": "../images/products/lightweight-castable-official-1.png",
+        "total_images_found": 1,
+        "existing_images": [
+          "lightweight-castable-official-1.png"
+        ],
+        "missing_images": [],
+        "duplicate_images": [],
+        "placeholder_issues": []
+      },
+      "javascript_check": {
+        "required_scripts": [
+          "multi-image-gallery.js",
+          "product-database.js",
+          "modal-components.js",
+          "placeholder-randomizer.js"
+        ],
+        "found_scripts": [
+          "jspdf.umd.min.js",
+          "html2canvas.min.js",
+          "product-database.js",
+          "pdf-generator.js",
+          "modal-components.js",
+          "ydk-navbar.js",
+          "ydk-footer.js",
+          "placeholder-randomizer.js",
+          "quote-wizard.js",
+          "multi-image-gallery.js"
+        ],
+        "missing_scripts": [],
+        "duplicate_scripts": []
+      },
+      "carousel_analysis": {
+        "has_data_images": true,
+        "images_count": 1,
+        "should_have_carousel": false,
+        "has_carousel_class": true,
+        "has_thumbnails_container": true,
+        "config_issues": [
+          "单图片不应启用轮播"
+        ]
+      },
+      "quote_function": {
+        "has_quote_button": true,
+        "button_onclick": "openInquiryModal('lightweight-castable')",
+        "product_id_correct": true,
+        "has_modal_script": true,
+        "potential_image_issues": [
+          "图片路径可能影响报价显示"
+        ]
+      },
+      "css_references": {
+        "required_css": [
+          "multi-image-gallery.css",
+          "product-detail-modern.css",
+          "product-placeholder.css"
+        ],
+        "found_css": [
+          "ydk-navbar.css",
+          "ydk-footer.css",
+          "floating-buttons.css",
+          "quote-wizard.css",
+          "product-detail-modern.css",
+          "product-placeholder.css",
+          "product-placeholder.css",
+          "all.min.css"
+        ],
+        "missing_css": [
+          "multi-image-gallery.css"
+        ]
+      },
+      "issues": [
+        {
+          "type": "warning",
+          "category": "html",
+          "message": "发现4个未闭合的img标签"
+        },
+        {
+          "type": "warning",
+          "category": "carousel",
+          "message": "单图片不应启用轮播"
+        },
+        {
+          "type": "warning",
+          "category": "quote",
+          "message": "报价功能可能存在图片显示问题"
+        }
+      ],
+      "severity": "high",
+      "fix_priority": 2
+    },
+    "lightweight-clay-brick": {
+      "product_id": "lightweight-clay-brick",
+      "audit_time": "2025-09-27T22:35:04.828714",
+      "file_exists": true,
+      "html_structure": {
+        "has_main_image": true,
+        "has_product_title": true,
+        "has_product_info": true,
+        "has_tabs_section": true,
+        "has_cta_buttons": true,
+        "unclosed_tags": [
+          "<img src=\"../images/products/shaped_lightweight_cl...",
+          "<img src=\"../images/products/shaped_clay_brick.jpg...",
+          "<img src=\"../images/products/shaped_silica_brick.j...",
+          "<img src=\"../images/products/shaped_lightweight_hi..."
+        ],
+        "nested_issues": []
+      },
+      "image_analysis": {
+        "main_image_src": "../images/products/shaped_lightweight_clay_brick.jpg",
+        "data_images_config": "../images/products/shaped_lightweight_clay_brick.jpg,../images/products/lightweight-clay-brick-official-1.png,../images/products/lightweight-clay-brick-official-2.png,../images/products/lightweight-clay-brick-official-3.png,../images/products/lightweight-clay-brick-2.png",
+        "total_images_found": 5,
+        "existing_images": [
+          "shaped_lightweight_clay_brick.jpg",
+          "lightweight-clay-brick-official-1.png",
+          "lightweight-clay-brick-official-2.png",
+          "lightweight-clay-brick-official-3.png",
+          "lightweight-clay-brick-2.png"
+        ],
+        "missing_images": [],
+        "duplicate_images": [],
+        "placeholder_issues": []
+      },
+      "javascript_check": {
+        "required_scripts": [
+          "multi-image-gallery.js",
+          "product-database.js",
+          "modal-components.js",
+          "placeholder-randomizer.js"
+        ],
+        "found_scripts": [
+          "jspdf.umd.min.js",
+          "html2canvas.min.js",
+          "product-database.js",
+          "pdf-generator.js",
+          "modal-components.js",
+          "ydk-navbar.js",
+          "ydk-footer.js",
+          "placeholder-randomizer.js",
+          "quote-wizard.js",
+          "multi-image-gallery.js"
+        ],
+        "missing_scripts": [],
+        "duplicate_scripts": []
+      },
+      "carousel_analysis": {
+        "has_data_images": true,
+        "images_count": 5,
+        "should_have_carousel": true,
+        "has_carousel_class": true,
+        "has_thumbnails_container": true,
+        "config_issues": []
+      },
+      "quote_function": {
+        "has_quote_button": true,
+        "button_onclick": "openInquiryModal('lightweight-clay-brick')",
+        "product_id_correct": true,
+        "has_modal_script": true,
+        "potential_image_issues": [
+          "图片路径可能影响报价显示"
+        ]
+      },
+      "css_references": {
+        "required_css": [
+          "multi-image-gallery.css",
+          "product-detail-modern.css",
+          "product-placeholder.css"
+        ],
+        "found_css": [
+          "ydk-navbar.css",
+          "ydk-footer.css",
+          "floating-buttons.css",
+          "quote-wizard.css",
+          "product-detail-modern.css",
+          "product-placeholder.css",
+          "all.min.css"
+        ],
+        "missing_css": [
+          "multi-image-gallery.css"
+        ]
+      },
+      "issues": [
+        {
+          "type": "warning",
+          "category": "html",
+          "message": "发现4个未闭合的img标签"
+        },
+        {
+          "type": "warning",
+          "category": "quote",
+          "message": "报价功能可能存在图片显示问题"
+        }
+      ],
+      "severity": "medium",
+      "fix_priority": 3
+    },
+    "lightweight-high-alumina-brick": {
+      "product_id": "lightweight-high-alumina-brick",
+      "audit_time": "2025-09-27T22:35:04.838154",
+      "file_exists": true,
+      "html_structure": {
+        "has_main_image": true,
+        "has_product_title": true,
+        "has_product_info": true,
+        "has_tabs_section": true,
+        "has_cta_buttons": true,
+        "unclosed_tags": [
+          "<img src=\"../images/products/lightweight-high-alum...",
+          "<img src=\"../images/products/shaped_clay_brick.jpg...",
+          "<img src=\"../images/products/shaped_silica_brick.j...",
+          "<img src=\"../images/products/shaped_lightweight_hi..."
+        ],
+        "nested_issues": []
+      },
+      "image_analysis": {
+        "main_image_src": "../images/products/lightweight-high-alumina-brick-official-1.png",
+        "data_images_config": "../images/products/lightweight-high-alumina-brick-official-1.png,../images/products/lightweight-high-alumina-brick-official-2.png",
+        "total_images_found": 2,
+        "existing_images": [
+          "lightweight-high-alumina-brick-official-1.png",
+          "lightweight-high-alumina-brick-official-2.png"
+        ],
+        "missing_images": [],
+        "duplicate_images": [],
+        "placeholder_issues": []
+      },
+      "javascript_check": {
+        "required_scripts": [
+          "multi-image-gallery.js",
+          "product-database.js",
+          "modal-components.js",
+          "placeholder-randomizer.js"
+        ],
+        "found_scripts": [
+          "jspdf.umd.min.js",
+          "html2canvas.min.js",
+          "product-database.js",
+          "pdf-generator.js",
+          "modal-components.js",
+          "ydk-navbar.js",
+          "ydk-footer.js",
+          "placeholder-randomizer.js",
+          "quote-wizard.js",
+          "multi-image-gallery.js"
+        ],
+        "missing_scripts": [],
+        "duplicate_scripts": []
+      },
+      "carousel_analysis": {
+        "has_data_images": true,
+        "images_count": 2,
+        "should_have_carousel": true,
+        "has_carousel_class": true,
+        "has_thumbnails_container": true,
+        "config_issues": []
+      },
+      "quote_function": {
+        "has_quote_button": true,
+        "button_onclick": "openInquiryModal('lightweight-high-alumina-brick')",
+        "product_id_correct": true,
+        "has_modal_script": true,
+        "potential_image_issues": [
+          "图片路径可能影响报价显示"
+        ]
+      },
+      "css_references": {
+        "required_css": [
+          "multi-image-gallery.css",
+          "product-detail-modern.css",
+          "product-placeholder.css"
+        ],
+        "found_css": [
+          "ydk-navbar.css",
+          "ydk-footer.css",
+          "floating-buttons.css",
+          "quote-wizard.css",
+          "product-detail-modern.css",
+          "product-placeholder.css",
+          "all.min.css"
+        ],
+        "missing_css": [
+          "multi-image-gallery.css"
+        ]
+      },
+      "issues": [
+        {
+          "type": "warning",
+          "category": "html",
+          "message": "发现4个未闭合的img标签"
+        },
+        {
+          "type": "warning",
+          "category": "quote",
+          "message": "报价功能可能存在图片显示问题"
+        }
+      ],
+      "severity": "medium",
+      "fix_priority": 3
+    },
+    "lightweight-mullite-brick": {
+      "product_id": "lightweight-mullite-brick",
+      "audit_time": "2025-09-27T22:35:04.845549",
+      "file_exists": true,
+      "html_structure": {
+        "has_main_image": true,
+        "has_product_title": true,
+        "has_product_info": true,
+        "has_tabs_section": true,
+        "has_cta_buttons": true,
+        "unclosed_tags": [
+          "<img src=\"../images/products/shaped_lightweight_mu...",
+          "<img src=\"../images/products/shaped_clay_brick.jpg...",
+          "<img src=\"../images/products/shaped_silica_brick.j...",
+          "<img src=\"../images/products/shaped_lightweight_hi..."
+        ],
+        "nested_issues": []
+      },
+      "image_analysis": {
+        "main_image_src": "../images/products/shaped_lightweight_mullite_brick.jpg",
+        "data_images_config": "../images/products/shaped_lightweight_mullite_brick.jpg,../images/products/lightweight-mullite-brick-official-1.png,../images/products/lightweight-mullite-brick-official-2.png,../images/products/lightweight-mullite-brick-1.png,../images/products/lightweight-mullite-brick-2.png",
+        "total_images_found": 5,
+        "existing_images": [
+          "shaped_lightweight_mullite_brick.jpg",
+          "lightweight-mullite-brick-official-1.png",
+          "lightweight-mullite-brick-official-2.png",
+          "lightweight-mullite-brick-1.png",
+          "lightweight-mullite-brick-2.png"
+        ],
+        "missing_images": [],
+        "duplicate_images": [],
+        "placeholder_issues": []
+      },
+      "javascript_check": {
+        "required_scripts": [
+          "multi-image-gallery.js",
+          "product-database.js",
+          "modal-components.js",
+          "placeholder-randomizer.js"
+        ],
+        "found_scripts": [
+          "jspdf.umd.min.js",
+          "html2canvas.min.js",
+          "product-database.js",
+          "pdf-generator.js",
+          "modal-components.js",
+          "ydk-navbar.js",
+          "ydk-footer.js",
+          "placeholder-randomizer.js",
+          "quote-wizard.js",
+          "multi-image-gallery.js"
+        ],
+        "missing_scripts": [],
+        "duplicate_scripts": []
+      },
+      "carousel_analysis": {
+        "has_data_images": true,
+        "images_count": 5,
+        "should_have_carousel": true,
+        "has_carousel_class": true,
+        "has_thumbnails_container": true,
+        "config_issues": []
+      },
+      "quote_function": {
+        "has_quote_button": true,
+        "button_onclick": "openInquiryModal('lightweight-mullite-brick')",
+        "product_id_correct": true,
+        "has_modal_script": true,
+        "potential_image_issues": [
+          "图片路径可能影响报价显示"
+        ]
+      },
+      "css_references": {
+        "required_css": [
+          "multi-image-gallery.css",
+          "product-detail-modern.css",
+          "product-placeholder.css"
+        ],
+        "found_css": [
+          "ydk-navbar.css",
+          "ydk-footer.css",
+          "floating-buttons.css",
+          "quote-wizard.css",
+          "product-detail-modern.css",
+          "product-placeholder.css",
+          "all.min.css"
+        ],
+        "missing_css": [
+          "multi-image-gallery.css"
+        ]
+      },
+      "issues": [
+        {
+          "type": "warning",
+          "category": "html",
+          "message": "发现4个未闭合的img标签"
+        },
+        {
+          "type": "warning",
+          "category": "quote",
+          "message": "报价功能可能存在图片显示问题"
+        }
+      ],
+      "severity": "medium",
+      "fix_priority": 3
+    },
+    "lightweight-silica-brick": {
+      "product_id": "lightweight-silica-brick",
+      "audit_time": "2025-09-27T22:35:04.856538",
+      "file_exists": true,
+      "html_structure": {
+        "has_main_image": true,
+        "has_product_title": true,
+        "has_product_info": true,
+        "has_tabs_section": true,
+        "has_cta_buttons": true,
+        "unclosed_tags": [
+          "<img src=\"../images/products/shaped_lightweight_fi...",
+          "<img src=\"../images/products/shaped_clay_brick.jpg...",
+          "<img src=\"../images/products/shaped_silica_brick.j...",
+          "<img src=\"../images/products/shaped_lightweight_hi..."
+        ],
+        "nested_issues": []
+      },
+      "image_analysis": {
+        "main_image_src": "../images/products/shaped_lightweight_fireclay_brick.jpg",
+        "data_images_config": "",
+        "total_images_found": 0,
+        "existing_images": [],
+        "missing_images": [],
+        "duplicate_images": [],
+        "placeholder_issues": []
+      },
+      "javascript_check": {
+        "required_scripts": [
+          "multi-image-gallery.js",
+          "product-database.js",
+          "modal-components.js",
+          "placeholder-randomizer.js"
+        ],
+        "found_scripts": [
+          "jspdf.umd.min.js",
+          "html2canvas.min.js",
+          "product-database.js",
+          "pdf-generator.js",
+          "modal-components.js",
+          "ydk-navbar.js",
+          "ydk-footer.js",
+          "placeholder-randomizer.js",
+          "quote-wizard.js",
+          "multi-image-gallery.js"
+        ],
+        "missing_scripts": [],
+        "duplicate_scripts": []
+      },
+      "carousel_analysis": {
+        "has_data_images": false,
+        "images_count": 0,
+        "should_have_carousel": false,
+        "has_carousel_class": true,
+        "has_thumbnails_container": true,
+        "config_issues": []
+      },
+      "quote_function": {
+        "has_quote_button": true,
+        "button_onclick": "openInquiryModal('lightweight-silica-brick')",
+        "product_id_correct": true,
+        "has_modal_script": true,
+        "potential_image_issues": [
+          "图片路径可能影响报价显示"
+        ]
+      },
+      "css_references": {
+        "required_css": [
+          "multi-image-gallery.css",
+          "product-detail-modern.css",
+          "product-placeholder.css"
+        ],
+        "found_css": [
+          "ydk-navbar.css",
+          "ydk-footer.css",
+          "floating-buttons.css",
+          "quote-wizard.css",
+          "product-detail-modern.css",
+          "product-placeholder.css",
+          "all.min.css"
+        ],
+        "missing_css": [
+          "multi-image-gallery.css"
+        ]
+      },
+      "issues": [
+        {
+          "type": "warning",
+          "category": "html",
+          "message": "发现4个未闭合的img标签"
+        },
+        {
+          "type": "warning",
+          "category": "quote",
+          "message": "报价功能可能存在图片显示问题"
+        }
+      ],
+      "severity": "medium",
+      "fix_priority": 3
+    },
+    "magnesia-chrome-brick": {
+      "product_id": "magnesia-chrome-brick",
+      "audit_time": "2025-09-27T22:35:04.863415",
+      "file_exists": true,
+      "html_structure": {
+        "has_main_image": true,
+        "has_product_title": true,
+        "has_product_info": true,
+        "has_tabs_section": true,
+        "has_cta_buttons": true,
+        "unclosed_tags": [
+          "<img src=\"../images/products/special_magnesia_chro...",
+          "<img src=\"../images/products/shaped_clay_brick.jpg...",
+          "<img src=\"../images/products/shaped_silica_brick.j...",
+          "<img src=\"../images/products/shaped_lightweight_hi..."
+        ],
+        "nested_issues": []
+      },
+      "image_analysis": {
+        "main_image_src": "../images/products/special_magnesia_chrome_brick.jpg",
+        "data_images_config": "../images/products/special_magnesia_chrome_brick.jpg,../images/products/magnesia-chrome-brick-official-1.png,../images/products/magnesia-chrome-brick-official-2.png",
+        "total_images_found": 3,
+        "existing_images": [
+          "special_magnesia_chrome_brick.jpg",
+          "magnesia-chrome-brick-official-1.png",
+          "magnesia-chrome-brick-official-2.png"
+        ],
+        "missing_images": [],
+        "duplicate_images": [],
+        "placeholder_issues": []
+      },
+      "javascript_check": {
+        "required_scripts": [
+          "multi-image-gallery.js",
+          "product-database.js",
+          "modal-components.js",
+          "placeholder-randomizer.js"
+        ],
+        "found_scripts": [
+          "jspdf.umd.min.js",
+          "html2canvas.min.js",
+          "product-database.js",
+          "pdf-generator.js",
+          "modal-components.js",
+          "ydk-navbar.js",
+          "ydk-footer.js",
+          "placeholder-randomizer.js",
+          "quote-wizard.js",
+          "multi-image-gallery.js"
+        ],
+        "missing_scripts": [],
+        "duplicate_scripts": []
+      },
+      "carousel_analysis": {
+        "has_data_images": true,
+        "images_count": 3,
+        "should_have_carousel": true,
+        "has_carousel_class": true,
+        "has_thumbnails_container": true,
+        "config_issues": []
+      },
+      "quote_function": {
+        "has_quote_button": true,
+        "button_onclick": "openInquiryModal('magnesia-chrome-brick')",
+        "product_id_correct": true,
+        "has_modal_script": true,
+        "potential_image_issues": [
+          "图片路径可能影响报价显示"
+        ]
+      },
+      "css_references": {
+        "required_css": [
+          "multi-image-gallery.css",
+          "product-detail-modern.css",
+          "product-placeholder.css"
+        ],
+        "found_css": [
+          "ydk-navbar.css",
+          "ydk-footer.css",
+          "floating-buttons.css",
+          "quote-wizard.css",
+          "product-detail-modern.css",
+          "product-placeholder.css",
+          "multi-image-carousel.css",
+          "all.min.css"
+        ],
+        "missing_css": [
+          "multi-image-gallery.css"
+        ]
+      },
+      "issues": [
+        {
+          "type": "warning",
+          "category": "html",
+          "message": "发现4个未闭合的img标签"
+        },
+        {
+          "type": "warning",
+          "category": "quote",
+          "message": "报价功能可能存在图片显示问题"
+        }
+      ],
+      "severity": "medium",
+      "fix_priority": 3
+    },
+    "mullite-brick": {
+      "product_id": "mullite-brick",
+      "audit_time": "2025-09-27T22:35:04.870702",
+      "file_exists": true,
+      "html_structure": {
+        "has_main_image": true,
+        "has_product_title": true,
+        "has_product_info": true,
+        "has_tabs_section": true,
+        "has_cta_buttons": true,
+        "unclosed_tags": [
+          "<img src=\"../images/products/sintered-mullite-bric...",
+          "<img src=\"../images/products/shaped_clay_brick.jpg...",
+          "<img src=\"../images/products/shaped_silica_brick.j...",
+          "<img src=\"../images/products/shaped_lightweight_hi..."
+        ],
+        "nested_issues": []
+      },
+      "image_analysis": {
+        "main_image_src": "../images/products/sintered-mullite-brick-real.png",
+        "data_images_config": "../images/products/sintered-mullite-brick-real.png,../images/products/mullite-brick-official-1.png,../images/products/mullite-brick-official-2.png,../images/products/mullite-brick-official-3.png,../images/products/mullite-brick.jpg",
+        "total_images_found": 5,
+        "existing_images": [
+          "sintered-mullite-brick-real.png",
+          "mullite-brick-official-1.png",
+          "mullite-brick-official-2.png",
+          "mullite-brick-official-3.png",
+          "mullite-brick.jpg"
+        ],
+        "missing_images": [],
+        "duplicate_images": [],
+        "placeholder_issues": []
+      },
+      "javascript_check": {
+        "required_scripts": [
+          "multi-image-gallery.js",
+          "product-database.js",
+          "modal-components.js",
+          "placeholder-randomizer.js"
+        ],
+        "found_scripts": [
+          "jspdf.umd.min.js",
+          "html2canvas.min.js",
+          "product-database.js",
+          "pdf-generator.js",
+          "modal-components.js",
+          "ydk-navbar.js",
+          "ydk-footer.js",
+          "placeholder-randomizer.js",
+          "multi-image-gallery.js",
+          "quote-wizard.js"
+        ],
+        "missing_scripts": [],
+        "duplicate_scripts": []
+      },
+      "carousel_analysis": {
+        "has_data_images": true,
+        "images_count": 5,
+        "should_have_carousel": true,
+        "has_carousel_class": true,
+        "has_thumbnails_container": true,
+        "config_issues": []
+      },
+      "quote_function": {
+        "has_quote_button": true,
+        "button_onclick": "openInquiryModal('mullite-brick')",
+        "product_id_correct": true,
+        "has_modal_script": true,
+        "potential_image_issues": [
+          "图片路径可能影响报价显示"
+        ]
+      },
+      "css_references": {
+        "required_css": [
+          "multi-image-gallery.css",
+          "product-detail-modern.css",
+          "product-placeholder.css"
+        ],
+        "found_css": [
+          "ydk-navbar.css",
+          "ydk-footer.css",
+          "floating-buttons.css",
+          "quote-wizard.css",
+          "product-detail-modern.css",
+          "product-placeholder.css",
+          "multi-image-gallery.css",
+          "all.min.css"
+        ],
+        "missing_css": []
+      },
+      "issues": [
+        {
+          "type": "warning",
+          "category": "html",
+          "message": "发现4个未闭合的img标签"
+        },
+        {
+          "type": "warning",
+          "category": "quote",
+          "message": "报价功能可能存在图片显示问题"
+        }
+      ],
+      "severity": "medium",
+      "fix_priority": 3
+    },
+    "phosphate-brick": {
+      "product_id": "phosphate-brick",
+      "audit_time": "2025-09-27T22:35:04.877578",
+      "file_exists": true,
+      "html_structure": {
+        "has_main_image": true,
+        "has_product_title": true,
+        "has_product_info": true,
+        "has_tabs_section": true,
+        "has_cta_buttons": true,
+        "unclosed_tags": [
+          "<img src=\"../images/products/special_phosphate_bri...",
+          "<img src=\"../images/products/shaped_clay_brick.jpg...",
+          "<img src=\"../images/products/shaped_silica_brick.j...",
+          "<img src=\"../images/products/shaped_lightweight_hi..."
+        ],
+        "nested_issues": []
+      },
+      "image_analysis": {
+        "main_image_src": "../images/products/special_phosphate_brick.jpg",
+        "data_images_config": "../images/products/special_phosphate_brick.jpg,../images/products/phosphate-brick-official-1.png,../images/products/phosphate-brick-1.png",
+        "total_images_found": 3,
+        "existing_images": [
+          "special_phosphate_brick.jpg",
+          "phosphate-brick-official-1.png",
+          "phosphate-brick-1.png"
+        ],
+        "missing_images": [],
+        "duplicate_images": [],
+        "placeholder_issues": []
+      },
+      "javascript_check": {
+        "required_scripts": [
+          "multi-image-gallery.js",
+          "product-database.js",
+          "modal-components.js",
+          "placeholder-randomizer.js"
+        ],
+        "found_scripts": [
+          "jspdf.umd.min.js",
+          "html2canvas.min.js",
+          "product-database.js",
+          "pdf-generator.js",
+          "modal-components.js",
+          "ydk-navbar.js",
+          "ydk-footer.js",
+          "placeholder-randomizer.js",
+          "quote-wizard.js",
+          "multi-image-gallery.js"
+        ],
+        "missing_scripts": [],
+        "duplicate_scripts": []
+      },
+      "carousel_analysis": {
+        "has_data_images": true,
+        "images_count": 3,
+        "should_have_carousel": true,
+        "has_carousel_class": true,
+        "has_thumbnails_container": true,
+        "config_issues": []
+      },
+      "quote_function": {
+        "has_quote_button": true,
+        "button_onclick": "openInquiryModal('phosphate-brick')",
+        "product_id_correct": true,
+        "has_modal_script": true,
+        "potential_image_issues": [
+          "图片路径可能影响报价显示"
+        ]
+      },
+      "css_references": {
+        "required_css": [
+          "multi-image-gallery.css",
+          "product-detail-modern.css",
+          "product-placeholder.css"
+        ],
+        "found_css": [
+          "ydk-navbar.css",
+          "ydk-footer.css",
+          "floating-buttons.css",
+          "quote-wizard.css",
+          "product-detail-modern.css",
+          "product-placeholder.css",
+          "product-placeholder.css",
+          "all.min.css"
+        ],
+        "missing_css": [
+          "multi-image-gallery.css"
+        ]
+      },
+      "issues": [
+        {
+          "type": "warning",
+          "category": "html",
+          "message": "发现4个未闭合的img标签"
+        },
+        {
+          "type": "warning",
+          "category": "quote",
+          "message": "报价功能可能存在图片显示问题"
+        }
+      ],
+      "severity": "medium",
+      "fix_priority": 3
+    },
+    "phosphate-wear-resistant-brick": {
+      "product_id": "phosphate-wear-resistant-brick",
+      "audit_time": "2025-09-27T22:35:04.886872",
+      "file_exists": true,
+      "html_structure": {
+        "has_main_image": true,
+        "has_product_title": true,
+        "has_product_info": true,
+        "has_tabs_section": true,
+        "has_cta_buttons": true,
+        "unclosed_tags": [
+          "<img src=\"../images/products/special_phosphate_wea...",
+          "<img src=\"../images/products/shaped_clay_brick.jpg...",
+          "<img src=\"../images/products/shaped_silica_brick.j...",
+          "<img src=\"../images/products/shaped_lightweight_hi..."
+        ],
+        "nested_issues": []
+      },
+      "image_analysis": {
+        "main_image_src": "../images/products/special_phosphate_wear_resistant_brick.jpg",
+        "data_images_config": "../images/products/special_phosphate_wear_resistant_brick.jpg,../images/products/phosphate-wear-resistant-brick-official-1.png,../images/products/phosphate-wear-resistant-brick-official-2.png",
+        "total_images_found": 3,
+        "existing_images": [
+          "special_phosphate_wear_resistant_brick.jpg",
+          "phosphate-wear-resistant-brick-official-1.png",
+          "phosphate-wear-resistant-brick-official-2.png"
+        ],
+        "missing_images": [],
+        "duplicate_images": [],
+        "placeholder_issues": []
+      },
+      "javascript_check": {
+        "required_scripts": [
+          "multi-image-gallery.js",
+          "product-database.js",
+          "modal-components.js",
+          "placeholder-randomizer.js"
+        ],
+        "found_scripts": [
+          "jspdf.umd.min.js",
+          "html2canvas.min.js",
+          "product-database.js",
+          "pdf-generator.js",
+          "modal-components.js",
+          "ydk-navbar.js",
+          "ydk-footer.js",
+          "placeholder-randomizer.js",
+          "quote-wizard.js",
+          "multi-image-gallery.js"
+        ],
+        "missing_scripts": [],
+        "duplicate_scripts": []
+      },
+      "carousel_analysis": {
+        "has_data_images": true,
+        "images_count": 3,
+        "should_have_carousel": true,
+        "has_carousel_class": true,
+        "has_thumbnails_container": true,
+        "config_issues": []
+      },
+      "quote_function": {
+        "has_quote_button": true,
+        "button_onclick": "openInquiryModal('phosphate-wear-resistant-brick')",
+        "product_id_correct": true,
+        "has_modal_script": true,
+        "potential_image_issues": [
+          "图片路径可能影响报价显示"
+        ]
+      },
+      "css_references": {
+        "required_css": [
+          "multi-image-gallery.css",
+          "product-detail-modern.css",
+          "product-placeholder.css"
+        ],
+        "found_css": [
+          "ydk-navbar.css",
+          "ydk-footer.css",
+          "floating-buttons.css",
+          "quote-wizard.css",
+          "product-detail-modern.css",
+          "product-placeholder.css",
+          "all.min.css"
+        ],
+        "missing_css": [
+          "multi-image-gallery.css"
+        ]
+      },
+      "issues": [
+        {
+          "type": "warning",
+          "category": "html",
+          "message": "发现4个未闭合的img标签"
+        },
+        {
+          "type": "warning",
+          "category": "quote",
+          "message": "报价功能可能存在图片显示问题"
+        }
+      ],
+      "severity": "medium",
+      "fix_priority": 3
+    },
+    "plastic-refractory": {
+      "product_id": "plastic-refractory",
+      "audit_time": "2025-09-27T22:35:04.893727",
+      "file_exists": true,
+      "html_structure": {
+        "has_main_image": true,
+        "has_product_title": true,
+        "has_product_info": true,
+        "has_tabs_section": true,
+        "has_cta_buttons": true,
+        "unclosed_tags": [
+          "<img src=\"../images/products/plastic-refractory-of...",
+          "<img src=\"../images/products/shaped_clay_brick.jpg...",
+          "<img src=\"../images/products/shaped_silica_brick.j...",
+          "<img src=\"../images/products/shaped_lightweight_hi..."
+        ],
+        "nested_issues": []
+      },
+      "image_analysis": {
+        "main_image_src": "../images/products/plastic-refractory-official-1.png",
+        "data_images_config": "../images/products/plastic-refractory-official-1.png,../images/products/plastic-refractory-official-2.png,../images/products/plastic-refractory-official-3.png",
+        "total_images_found": 3,
+        "existing_images": [
+          "plastic-refractory-official-1.png",
+          "plastic-refractory-official-2.png",
+          "plastic-refractory-official-3.png"
+        ],
+        "missing_images": [],
+        "duplicate_images": [],
+        "placeholder_issues": []
+      },
+      "javascript_check": {
+        "required_scripts": [
+          "multi-image-gallery.js",
+          "product-database.js",
+          "modal-components.js",
+          "placeholder-randomizer.js"
+        ],
+        "found_scripts": [
+          "jspdf.umd.min.js",
+          "html2canvas.min.js",
+          "product-database.js",
+          "pdf-generator.js",
+          "modal-components.js",
+          "ydk-navbar.js",
+          "ydk-footer.js",
+          "placeholder-randomizer.js",
+          "quote-wizard.js",
+          "multi-image-gallery.js"
+        ],
+        "missing_scripts": [],
+        "duplicate_scripts": []
+      },
+      "carousel_analysis": {
+        "has_data_images": true,
+        "images_count": 3,
+        "should_have_carousel": true,
+        "has_carousel_class": true,
+        "has_thumbnails_container": true,
+        "config_issues": []
+      },
+      "quote_function": {
+        "has_quote_button": true,
+        "button_onclick": "openInquiryModal('plastic-refractory')",
+        "product_id_correct": true,
+        "has_modal_script": true,
+        "potential_image_issues": [
+          "图片路径可能影响报价显示"
+        ]
+      },
+      "css_references": {
+        "required_css": [
+          "multi-image-gallery.css",
+          "product-detail-modern.css",
+          "product-placeholder.css"
+        ],
+        "found_css": [
+          "ydk-navbar.css",
+          "ydk-footer.css",
+          "floating-buttons.css",
+          "quote-wizard.css",
+          "product-detail-modern.css",
+          "product-placeholder.css",
+          "all.min.css"
+        ],
+        "missing_css": [
+          "multi-image-gallery.css"
+        ]
+      },
+      "issues": [
+        {
+          "type": "warning",
+          "category": "html",
+          "message": "发现4个未闭合的img标签"
+        },
+        {
+          "type": "warning",
+          "category": "quote",
+          "message": "报价功能可能存在图片显示问题"
+        }
+      ],
+      "severity": "medium",
+      "fix_priority": 3
+    },
+    "refractory-castable": {
+      "product_id": "refractory-castable",
+      "audit_time": "2025-09-27T22:35:04.904005",
+      "file_exists": true,
+      "html_structure": {
+        "has_main_image": true,
+        "has_product_title": true,
+        "has_product_info": true,
+        "has_tabs_section": true,
+        "has_cta_buttons": true,
+        "unclosed_tags": [
+          "<img src=\"../images/products/unshaped_corundum_cas...",
+          "<img src=\"../images/products/shaped_clay_brick.jpg...",
+          "<img src=\"../images/products/shaped_silica_brick.j...",
+          "<img src=\"../images/products/shaped_lightweight_hi..."
+        ],
+        "nested_issues": []
+      },
+      "image_analysis": {
+        "main_image_src": "../images/products/unshaped_corundum_castable.jpg",
+        "data_images_config": "../images/products/unshaped_corundum_castable.jpg,../images/products/refractory-castable-new.png",
+        "total_images_found": 2,
+        "existing_images": [
+          "unshaped_corundum_castable.jpg"
+        ],
+        "missing_images": [
+          "refractory-castable-new.png"
+        ],
+        "duplicate_images": [],
+        "placeholder_issues": []
+      },
+      "javascript_check": {
+        "required_scripts": [
+          "multi-image-gallery.js",
+          "product-database.js",
+          "modal-components.js",
+          "placeholder-randomizer.js"
+        ],
+        "found_scripts": [
+          "jspdf.umd.min.js",
+          "html2canvas.min.js",
+          "product-database.js",
+          "pdf-generator.js",
+          "modal-components.js",
+          "ydk-navbar.js",
+          "ydk-footer.js",
+          "placeholder-randomizer.js",
+          "quote-wizard.js",
+          "multi-image-gallery.js"
+        ],
+        "missing_scripts": [],
+        "duplicate_scripts": []
+      },
+      "carousel_analysis": {
+        "has_data_images": true,
+        "images_count": 2,
+        "should_have_carousel": true,
+        "has_carousel_class": true,
+        "has_thumbnails_container": true,
+        "config_issues": []
+      },
+      "quote_function": {
+        "has_quote_button": true,
+        "button_onclick": "openInquiryModal('refractory-castable')",
+        "product_id_correct": true,
+        "has_modal_script": true,
+        "potential_image_issues": [
+          "图片路径可能影响报价显示"
+        ]
+      },
+      "css_references": {
+        "required_css": [
+          "multi-image-gallery.css",
+          "product-detail-modern.css",
+          "product-placeholder.css"
+        ],
+        "found_css": [
+          "ydk-navbar.css",
+          "ydk-footer.css",
+          "floating-buttons.css",
+          "quote-wizard.css",
+          "product-detail-modern.css",
+          "product-placeholder.css",
+          "all.min.css"
+        ],
+        "missing_css": [
+          "multi-image-gallery.css"
+        ]
+      },
+      "issues": [
+        {
+          "type": "warning",
+          "category": "html",
+          "message": "发现4个未闭合的img标签"
+        },
+        {
+          "type": "critical",
+          "category": "images",
+          "message": "缺失图片文件: refractory-castable-new.png"
+        },
+        {
+          "type": "warning",
+          "category": "quote",
+          "message": "报价功能可能存在图片显示问题"
+        }
+      ],
+      "severity": "critical",
+      "fix_priority": 1
+    },
+    "refractory-spray-coating": {
+      "product_id": "refractory-spray-coating",
+      "audit_time": "2025-09-27T22:35:04.911948",
+      "file_exists": true,
+      "html_structure": {
+        "has_main_image": true,
+        "has_product_title": true,
+        "has_product_info": true,
+        "has_tabs_section": true,
+        "has_cta_buttons": true,
+        "unclosed_tags": [
+          "<img src=\"../images/products/refractory-spray-coat...",
+          "<img src=\"../images/products/shaped_clay_brick.jpg...",
+          "<img src=\"../images/products/shaped_silica_brick.j...",
+          "<img src=\"../images/products/shaped_lightweight_hi..."
+        ],
+        "nested_issues": []
+      },
+      "image_analysis": {
+        "main_image_src": "../images/products/refractory-spray-coating-official-1.png",
+        "data_images_config": "../images/products/refractory-spray-coating-official-1.png",
+        "total_images_found": 1,
+        "existing_images": [
+          "refractory-spray-coating-official-1.png"
+        ],
+        "missing_images": [],
+        "duplicate_images": [],
+        "placeholder_issues": []
+      },
+      "javascript_check": {
+        "required_scripts": [
+          "multi-image-gallery.js",
+          "product-database.js",
+          "modal-components.js",
+          "placeholder-randomizer.js"
+        ],
+        "found_scripts": [
+          "jspdf.umd.min.js",
+          "html2canvas.min.js",
+          "product-database.js",
+          "pdf-generator.js",
+          "modal-components.js",
+          "ydk-navbar.js",
+          "ydk-footer.js",
+          "placeholder-randomizer.js",
+          "quote-wizard.js",
+          "multi-image-gallery.js"
+        ],
+        "missing_scripts": [],
+        "duplicate_scripts": []
+      },
+      "carousel_analysis": {
+        "has_data_images": true,
+        "images_count": 1,
+        "should_have_carousel": false,
+        "has_carousel_class": true,
+        "has_thumbnails_container": true,
+        "config_issues": [
+          "单图片不应启用轮播"
+        ]
+      },
+      "quote_function": {
+        "has_quote_button": true,
+        "button_onclick": "openInquiryModal('refractory-spray-coating')",
+        "product_id_correct": true,
+        "has_modal_script": true,
+        "potential_image_issues": [
+          "图片路径可能影响报价显示"
+        ]
+      },
+      "css_references": {
+        "required_css": [
+          "multi-image-gallery.css",
+          "product-detail-modern.css",
+          "product-placeholder.css"
+        ],
+        "found_css": [
+          "ydk-navbar.css",
+          "ydk-footer.css",
+          "floating-buttons.css",
+          "quote-wizard.css",
+          "product-detail-modern.css",
+          "product-placeholder.css",
+          "all.min.css"
+        ],
+        "missing_css": [
+          "multi-image-gallery.css"
+        ]
+      },
+      "issues": [
+        {
+          "type": "warning",
+          "category": "html",
+          "message": "发现4个未闭合的img标签"
+        },
+        {
+          "type": "warning",
+          "category": "carousel",
+          "message": "单图片不应启用轮播"
+        },
+        {
+          "type": "warning",
+          "category": "quote",
+          "message": "报价功能可能存在图片显示问题"
+        }
+      ],
+      "severity": "high",
+      "fix_priority": 2
+    },
+    "semi-silica-brick": {
+      "product_id": "semi-silica-brick",
+      "audit_time": "2025-09-27T22:35:04.920089",
+      "file_exists": true,
+      "html_structure": {
+        "has_main_image": true,
+        "has_product_title": true,
+        "has_product_info": true,
+        "has_tabs_section": true,
+        "has_cta_buttons": true,
+        "unclosed_tags": [
+          "<img src=\"../images/products/shaped_combination_br...",
+          "<img src=\"../images/products/shaped_clay_brick.jpg...",
+          "<img src=\"../images/products/shaped_silica_brick.j...",
+          "<img src=\"../images/products/shaped_lightweight_hi..."
+        ],
+        "nested_issues": []
+      },
+      "image_analysis": {
+        "main_image_src": "../images/products/shaped_combination_brick.jpg",
+        "data_images_config": "../images/products/shaped_combination_brick.jpg",
+        "total_images_found": 1,
+        "existing_images": [
+          "shaped_combination_brick.jpg"
+        ],
+        "missing_images": [],
+        "duplicate_images": [],
+        "placeholder_issues": []
+      },
+      "javascript_check": {
+        "required_scripts": [
+          "multi-image-gallery.js",
+          "product-database.js",
+          "modal-components.js",
+          "placeholder-randomizer.js"
+        ],
+        "found_scripts": [
+          "jspdf.umd.min.js",
+          "html2canvas.min.js",
+          "product-database.js",
+          "pdf-generator.js",
+          "modal-components.js",
+          "ydk-navbar.js",
+          "ydk-footer.js",
+          "placeholder-randomizer.js",
+          "quote-wizard.js",
+          "multi-image-gallery.js"
+        ],
+        "missing_scripts": [],
+        "duplicate_scripts": []
+      },
+      "carousel_analysis": {
+        "has_data_images": true,
+        "images_count": 1,
+        "should_have_carousel": false,
+        "has_carousel_class": true,
+        "has_thumbnails_container": true,
+        "config_issues": [
+          "单图片不应启用轮播"
+        ]
+      },
+      "quote_function": {
+        "has_quote_button": true,
+        "button_onclick": "openInquiryModal('semi-silica-brick')",
+        "product_id_correct": true,
+        "has_modal_script": true,
+        "potential_image_issues": [
+          "图片路径可能影响报价显示"
+        ]
+      },
+      "css_references": {
+        "required_css": [
+          "multi-image-gallery.css",
+          "product-detail-modern.css",
+          "product-placeholder.css"
+        ],
+        "found_css": [
+          "ydk-navbar.css",
+          "ydk-footer.css",
+          "floating-buttons.css",
+          "quote-wizard.css",
+          "product-detail-modern.css",
+          "product-placeholder.css",
+          "all.min.css"
+        ],
+        "missing_css": [
+          "multi-image-gallery.css"
+        ]
+      },
+      "issues": [
+        {
+          "type": "warning",
+          "category": "html",
+          "message": "发现4个未闭合的img标签"
+        },
+        {
+          "type": "warning",
+          "category": "carousel",
+          "message": "单图片不应启用轮播"
+        },
+        {
+          "type": "warning",
+          "category": "quote",
+          "message": "报价功能可能存在图片显示问题"
+        }
+      ],
+      "severity": "high",
+      "fix_priority": 2
+    },
+    "silica-brick": {
+      "product_id": "silica-brick",
+      "audit_time": "2025-09-27T22:35:04.928370",
+      "file_exists": true,
+      "html_structure": {
+        "has_main_image": true,
+        "has_product_title": true,
+        "has_product_info": true,
+        "has_tabs_section": true,
+        "has_cta_buttons": true,
+        "unclosed_tags": [
+          "<img src=\"../images/products/silica-brick-real.png...",
+          "<img src=\"../images/products/shaped_clay_brick.jpg...",
+          "<img src=\"../images/products/shaped_silica_brick.j...",
+          "<img src=\"../images/products/shaped_lightweight_hi..."
+        ],
+        "nested_issues": []
+      },
+      "image_analysis": {
+        "main_image_src": "../images/products/silica-brick-real.png",
+        "data_images_config": "../images/products/silica-brick-real.png",
+        "total_images_found": 1,
+        "existing_images": [
+          "silica-brick-real.png"
+        ],
+        "missing_images": [],
+        "duplicate_images": [],
+        "placeholder_issues": []
+      },
+      "javascript_check": {
+        "required_scripts": [
+          "multi-image-gallery.js",
+          "product-database.js",
+          "modal-components.js",
+          "placeholder-randomizer.js"
+        ],
+        "found_scripts": [
+          "jspdf.umd.min.js",
+          "html2canvas.min.js",
+          "product-database.js",
+          "pdf-generator.js",
+          "modal-components.js",
+          "ydk-navbar.js",
+          "ydk-footer.js",
+          "placeholder-randomizer.js",
+          "multi-image-gallery.js",
+          "quote-wizard.js"
+        ],
+        "missing_scripts": [],
+        "duplicate_scripts": []
+      },
+      "carousel_analysis": {
+        "has_data_images": true,
+        "images_count": 1,
+        "should_have_carousel": false,
+        "has_carousel_class": true,
+        "has_thumbnails_container": true,
+        "config_issues": [
+          "单图片不应启用轮播"
+        ]
+      },
+      "quote_function": {
+        "has_quote_button": true,
+        "button_onclick": "openInquiryModal('silica-brick')",
+        "product_id_correct": true,
+        "has_modal_script": true,
+        "potential_image_issues": [
+          "图片路径可能影响报价显示"
+        ]
+      },
+      "css_references": {
+        "required_css": [
+          "multi-image-gallery.css",
+          "product-detail-modern.css",
+          "product-placeholder.css"
+        ],
+        "found_css": [
+          "ydk-navbar.css",
+          "ydk-footer.css",
+          "floating-buttons.css",
+          "quote-wizard.css",
+          "product-detail-modern.css",
+          "product-placeholder.css",
+          "multi-image-gallery.css",
+          "all.min.css"
+        ],
+        "missing_css": []
+      },
+      "issues": [
+        {
+          "type": "warning",
+          "category": "html",
+          "message": "发现4个未闭合的img标签"
+        },
+        {
+          "type": "warning",
+          "category": "carousel",
+          "message": "单图片不应启用轮播"
+        },
+        {
+          "type": "warning",
+          "category": "quote",
+          "message": "报价功能可能存在图片显示问题"
+        }
+      ],
+      "severity": "high",
+      "fix_priority": 2
+    },
+    "silica-molybdenum-brick": {
+      "product_id": "silica-molybdenum-brick",
+      "audit_time": "2025-09-27T22:35:04.938282",
+      "file_exists": true,
+      "html_structure": {
+        "has_main_image": true,
+        "has_product_title": true,
+        "has_product_info": true,
+        "has_tabs_section": true,
+        "has_cta_buttons": true,
+        "unclosed_tags": [
+          "<img src=\"../images/products/shaped_lightweight_hi...",
+          "<img src=\"../images/products/shaped_clay_brick.jpg...",
+          "<img src=\"../images/products/shaped_silica_brick.j...",
+          "<img src=\"../images/products/shaped_lightweight_hi..."
+        ],
+        "nested_issues": []
+      },
+      "image_analysis": {
+        "main_image_src": "../images/products/shaped_lightweight_high_alumina_brick.jpg",
+        "data_images_config": "../images/products/shaped_lightweight_high_alumina_brick.jpg,../images/products/silica-molybdenum-brick-official-1.png,../images/products/silica-molybdenum-brick-official-2.png",
+        "total_images_found": 3,
+        "existing_images": [
+          "shaped_lightweight_high_alumina_brick.jpg",
+          "silica-molybdenum-brick-official-1.png",
+          "silica-molybdenum-brick-official-2.png"
+        ],
+        "missing_images": [],
+        "duplicate_images": [],
+        "placeholder_issues": []
+      },
+      "javascript_check": {
+        "required_scripts": [
+          "multi-image-gallery.js",
+          "product-database.js",
+          "modal-components.js",
+          "placeholder-randomizer.js"
+        ],
+        "found_scripts": [
+          "jspdf.umd.min.js",
+          "html2canvas.min.js",
+          "product-database.js",
+          "pdf-generator.js",
+          "modal-components.js",
+          "ydk-navbar.js",
+          "ydk-footer.js",
+          "placeholder-randomizer.js",
+          "quote-wizard.js",
+          "multi-image-gallery.js"
+        ],
+        "missing_scripts": [],
+        "duplicate_scripts": []
+      },
+      "carousel_analysis": {
+        "has_data_images": true,
+        "images_count": 3,
+        "should_have_carousel": true,
+        "has_carousel_class": true,
+        "has_thumbnails_container": true,
+        "config_issues": []
+      },
+      "quote_function": {
+        "has_quote_button": true,
+        "button_onclick": "openInquiryModal('silica-molybdenum-brick')",
+        "product_id_correct": true,
+        "has_modal_script": true,
+        "potential_image_issues": [
+          "图片路径可能影响报价显示"
+        ]
+      },
+      "css_references": {
+        "required_css": [
+          "multi-image-gallery.css",
+          "product-detail-modern.css",
+          "product-placeholder.css"
+        ],
+        "found_css": [
+          "ydk-navbar.css",
+          "ydk-footer.css",
+          "floating-buttons.css",
+          "quote-wizard.css",
+          "product-detail-modern.css",
+          "product-placeholder.css",
+          "all.min.css"
+        ],
+        "missing_css": [
+          "multi-image-gallery.css"
+        ]
+      },
+      "issues": [
+        {
+          "type": "warning",
+          "category": "html",
+          "message": "发现4个未闭合的img标签"
+        },
+        {
+          "type": "warning",
+          "category": "quote",
+          "message": "报价功能可能存在图片显示问题"
+        }
+      ],
+      "severity": "medium",
+      "fix_priority": 3
+    },
+    "standard-high-alumina-brick": {
+      "product_id": "standard-high-alumina-brick",
+      "audit_time": "2025-09-27T22:35:04.946472",
+      "file_exists": true,
+      "html_structure": {
+        "has_main_image": true,
+        "has_product_title": true,
+        "has_product_info": true,
+        "has_tabs_section": true,
+        "has_cta_buttons": true,
+        "unclosed_tags": [
+          "<img src=\"../images/products/shaped_high_alumina_b...",
+          "<img src=\"../images/products/shaped_clay_brick.jpg...",
+          "<img src=\"../images/products/shaped_silica_brick.j...",
+          "<img src=\"../images/products/shaped_lightweight_hi..."
+        ],
+        "nested_issues": []
+      },
+      "image_analysis": {
+        "main_image_src": "../images/products/shaped_high_alumina_brick.jpg",
+        "data_images_config": "../images/products/shaped_high_alumina_brick.jpg,../images/products/standard-high-alumina-brick-official-1.png,../images/products/standard-high-alumina-brick-official-2.png",
+        "total_images_found": 3,
+        "existing_images": [
+          "shaped_high_alumina_brick.jpg",
+          "standard-high-alumina-brick-official-1.png",
+          "standard-high-alumina-brick-official-2.png"
+        ],
+        "missing_images": [],
+        "duplicate_images": [],
+        "placeholder_issues": []
+      },
+      "javascript_check": {
+        "required_scripts": [
+          "multi-image-gallery.js",
+          "product-database.js",
+          "modal-components.js",
+          "placeholder-randomizer.js"
+        ],
+        "found_scripts": [
+          "jspdf.umd.min.js",
+          "html2canvas.min.js",
+          "product-database.js",
+          "pdf-generator.js",
+          "modal-components.js",
+          "ydk-navbar.js",
+          "ydk-footer.js",
+          "placeholder-randomizer.js",
+          "quote-wizard.js",
+          "multi-image-gallery.js"
+        ],
+        "missing_scripts": [],
+        "duplicate_scripts": []
+      },
+      "carousel_analysis": {
+        "has_data_images": true,
+        "images_count": 3,
+        "should_have_carousel": true,
+        "has_carousel_class": true,
+        "has_thumbnails_container": true,
+        "config_issues": []
+      },
+      "quote_function": {
+        "has_quote_button": true,
+        "button_onclick": "openInquiryModal('standard-high-alumina-brick')",
+        "product_id_correct": true,
+        "has_modal_script": true,
+        "potential_image_issues": [
+          "图片路径可能影响报价显示"
+        ]
+      },
+      "css_references": {
+        "required_css": [
+          "multi-image-gallery.css",
+          "product-detail-modern.css",
+          "product-placeholder.css"
+        ],
+        "found_css": [
+          "ydk-navbar.css",
+          "ydk-footer.css",
+          "floating-buttons.css",
+          "quote-wizard.css",
+          "product-detail-modern.css",
+          "product-placeholder.css",
+          "all.min.css"
+        ],
+        "missing_css": [
+          "multi-image-gallery.css"
+        ]
+      },
+      "issues": [
+        {
+          "type": "warning",
+          "category": "html",
+          "message": "发现4个未闭合的img标签"
+        },
+        {
+          "type": "warning",
+          "category": "quote",
+          "message": "报价功能可能存在图片显示问题"
+        }
+      ],
+      "severity": "medium",
+      "fix_priority": 3
+    },
+    "standard-silica-brick": {
+      "product_id": "standard-silica-brick",
+      "audit_time": "2025-09-27T22:35:04.956150",
+      "file_exists": true,
+      "html_structure": {
+        "has_main_image": true,
+        "has_product_title": true,
+        "has_product_info": true,
+        "has_tabs_section": true,
+        "has_cta_buttons": true,
+        "unclosed_tags": [
+          "<img src=\"../images/products/shaped_hot_blast_furn...",
+          "<img src=\"../images/products/shaped_clay_brick.jpg...",
+          "<img src=\"../images/products/shaped_silica_brick.j...",
+          "<img src=\"../images/products/shaped_lightweight_hi..."
+        ],
+        "nested_issues": []
+      },
+      "image_analysis": {
+        "main_image_src": "../images/products/shaped_hot_blast_furnace_silica_brick.jpg",
+        "data_images_config": "../images/products/shaped_hot_blast_furnace_silica_brick.jpg",
+        "total_images_found": 1,
+        "existing_images": [
+          "shaped_hot_blast_furnace_silica_brick.jpg"
+        ],
+        "missing_images": [],
+        "duplicate_images": [],
+        "placeholder_issues": []
+      },
+      "javascript_check": {
+        "required_scripts": [
+          "multi-image-gallery.js",
+          "product-database.js",
+          "modal-components.js",
+          "placeholder-randomizer.js"
+        ],
+        "found_scripts": [
+          "jspdf.umd.min.js",
+          "html2canvas.min.js",
+          "product-database.js",
+          "pdf-generator.js",
+          "modal-components.js",
+          "ydk-navbar.js",
+          "ydk-footer.js",
+          "placeholder-randomizer.js",
+          "quote-wizard.js",
+          "multi-image-gallery.js"
+        ],
+        "missing_scripts": [],
+        "duplicate_scripts": []
+      },
+      "carousel_analysis": {
+        "has_data_images": true,
+        "images_count": 1,
+        "should_have_carousel": false,
+        "has_carousel_class": true,
+        "has_thumbnails_container": true,
+        "config_issues": [
+          "单图片不应启用轮播"
+        ]
+      },
+      "quote_function": {
+        "has_quote_button": true,
+        "button_onclick": "openInquiryModal('standard-silica-brick')",
+        "product_id_correct": true,
+        "has_modal_script": true,
+        "potential_image_issues": [
+          "图片路径可能影响报价显示"
+        ]
+      },
+      "css_references": {
+        "required_css": [
+          "multi-image-gallery.css",
+          "product-detail-modern.css",
+          "product-placeholder.css"
+        ],
+        "found_css": [
+          "ydk-navbar.css",
+          "ydk-footer.css",
+          "floating-buttons.css",
+          "quote-wizard.css",
+          "product-detail-modern.css",
+          "product-placeholder.css",
+          "all.min.css"
+        ],
+        "missing_css": [
+          "multi-image-gallery.css"
+        ]
+      },
+      "issues": [
+        {
+          "type": "warning",
+          "category": "html",
+          "message": "发现4个未闭合的img标签"
+        },
+        {
+          "type": "warning",
+          "category": "carousel",
+          "message": "单图片不应启用轮播"
+        },
+        {
+          "type": "warning",
+          "category": "quote",
+          "message": "报价功能可能存在图片显示问题"
+        }
+      ],
+      "severity": "high",
+      "fix_priority": 2
+    },
+    "steel-fiber-castable": {
+      "product_id": "steel-fiber-castable",
+      "audit_time": "2025-09-27T22:35:04.966989",
+      "file_exists": true,
+      "html_structure": {
+        "has_main_image": true,
+        "has_product_title": true,
+        "has_product_info": true,
+        "has_tabs_section": true,
+        "has_cta_buttons": true,
+        "unclosed_tags": [
+          "<img src=\"../images/products/unshaped_steel_fiber_...",
+          "<img src=\"../images/products/shaped_clay_brick.jpg...",
+          "<img src=\"../images/products/shaped_silica_brick.j...",
+          "<img src=\"../images/products/shaped_lightweight_hi..."
+        ],
+        "nested_issues": []
+      },
+      "image_analysis": {
+        "main_image_src": "../images/products/unshaped_steel_fiber_castable.jpg",
+        "data_images_config": "../images/products/unshaped_steel_fiber_castable.jpg,../images/products/steel-fiber-castable-official-1.png",
+        "total_images_found": 2,
+        "existing_images": [
+          "unshaped_steel_fiber_castable.jpg",
+          "steel-fiber-castable-official-1.png"
+        ],
+        "missing_images": [],
+        "duplicate_images": [],
+        "placeholder_issues": []
+      },
+      "javascript_check": {
+        "required_scripts": [
+          "multi-image-gallery.js",
+          "product-database.js",
+          "modal-components.js",
+          "placeholder-randomizer.js"
+        ],
+        "found_scripts": [
+          "jspdf.umd.min.js",
+          "html2canvas.min.js",
+          "product-database.js",
+          "pdf-generator.js",
+          "modal-components.js",
+          "ydk-navbar.js",
+          "ydk-footer.js",
+          "placeholder-randomizer.js",
+          "quote-wizard.js",
+          "multi-image-gallery.js"
+        ],
+        "missing_scripts": [],
+        "duplicate_scripts": []
+      },
+      "carousel_analysis": {
+        "has_data_images": true,
+        "images_count": 2,
+        "should_have_carousel": true,
+        "has_carousel_class": true,
+        "has_thumbnails_container": true,
+        "config_issues": []
+      },
+      "quote_function": {
+        "has_quote_button": true,
+        "button_onclick": "openInquiryModal('steel-fiber-castable')",
+        "product_id_correct": true,
+        "has_modal_script": true,
+        "potential_image_issues": [
+          "图片路径可能影响报价显示"
+        ]
+      },
+      "css_references": {
+        "required_css": [
+          "multi-image-gallery.css",
+          "product-detail-modern.css",
+          "product-placeholder.css"
+        ],
+        "found_css": [
+          "ydk-navbar.css",
+          "ydk-footer.css",
+          "floating-buttons.css",
+          "quote-wizard.css",
+          "product-detail-modern.css",
+          "product-placeholder.css",
+          "all.min.css"
+        ],
+        "missing_css": [
+          "multi-image-gallery.css"
+        ]
+      },
+      "issues": [
+        {
+          "type": "warning",
+          "category": "html",
+          "message": "发现4个未闭合的img标签"
+        },
+        {
+          "type": "warning",
+          "category": "quote",
+          "message": "报价功能可能存在图片显示问题"
+        }
+      ],
+      "severity": "medium",
+      "fix_priority": 3
+    },
+    "thermal-insulation-brick": {
+      "product_id": "thermal-insulation-brick",
+      "audit_time": "2025-09-27T22:35:04.976836",
+      "file_exists": true,
+      "html_structure": {
+        "has_main_image": true,
+        "has_product_title": true,
+        "has_product_info": true,
+        "has_tabs_section": true,
+        "has_cta_buttons": true,
+        "unclosed_tags": [
+          "<img src=\"../images/products/thermal-insulation-br...",
+          "<img src=\"../images/products/shaped_clay_brick.jpg...",
+          "<img src=\"../images/products/shaped_silica_brick.j...",
+          "<img src=\"../images/products/shaped_lightweight_hi..."
+        ],
+        "nested_issues": []
+      },
+      "image_analysis": {
+        "main_image_src": "../images/products/thermal-insulation-brick-official-1.png",
+        "data_images_config": "../images/products/thermal-insulation-brick-official-1.png,../images/products/thermal-insulation-brick-official-2.png",
+        "total_images_found": 2,
+        "existing_images": [
+          "thermal-insulation-brick-official-1.png",
+          "thermal-insulation-brick-official-2.png"
+        ],
+        "missing_images": [],
+        "duplicate_images": [],
+        "placeholder_issues": []
+      },
+      "javascript_check": {
+        "required_scripts": [
+          "multi-image-gallery.js",
+          "product-database.js",
+          "modal-components.js",
+          "placeholder-randomizer.js"
+        ],
+        "found_scripts": [
+          "jspdf.umd.min.js",
+          "html2canvas.min.js",
+          "product-database.js",
+          "pdf-generator.js",
+          "modal-components.js",
+          "ydk-navbar.js",
+          "ydk-footer.js",
+          "placeholder-randomizer.js",
+          "quote-wizard.js",
+          "multi-image-gallery.js"
+        ],
+        "missing_scripts": [],
+        "duplicate_scripts": []
+      },
+      "carousel_analysis": {
+        "has_data_images": true,
+        "images_count": 2,
+        "should_have_carousel": true,
+        "has_carousel_class": true,
+        "has_thumbnails_container": true,
+        "config_issues": []
+      },
+      "quote_function": {
+        "has_quote_button": true,
+        "button_onclick": "openInquiryModal('thermal-insulation-brick')",
+        "product_id_correct": true,
+        "has_modal_script": true,
+        "potential_image_issues": [
+          "图片路径可能影响报价显示"
+        ]
+      },
+      "css_references": {
+        "required_css": [
+          "multi-image-gallery.css",
+          "product-detail-modern.css",
+          "product-placeholder.css"
+        ],
+        "found_css": [
+          "ydk-navbar.css",
+          "ydk-footer.css",
+          "floating-buttons.css",
+          "quote-wizard.css",
+          "product-detail-modern.css",
+          "product-placeholder.css",
+          "all.min.css"
+        ],
+        "missing_css": [
+          "multi-image-gallery.css"
+        ]
+      },
+      "issues": [
+        {
+          "type": "warning",
+          "category": "html",
+          "message": "发现4个未闭合的img标签"
+        },
+        {
+          "type": "warning",
+          "category": "quote",
+          "message": "报价功能可能存在图片显示问题"
+        }
+      ],
+      "severity": "medium",
+      "fix_priority": 3
+    },
+    "unshaped-refractory-material": {
+      "product_id": "unshaped-refractory-material",
+      "audit_time": "2025-09-27T22:35:04.986105",
+      "file_exists": true,
+      "html_structure": {
+        "has_main_image": true,
+        "has_product_title": true,
+        "has_product_info": true,
+        "has_tabs_section": true,
+        "has_cta_buttons": true,
+        "unclosed_tags": [
+          "<img src=\"../images/products/unshaped_monolithic_r...",
+          "<img src=\"../images/products/shaped_clay_brick.jpg...",
+          "<img src=\"../images/products/shaped_silica_brick.j...",
+          "<img src=\"../images/products/shaped_lightweight_hi..."
+        ],
+        "nested_issues": []
+      },
+      "image_analysis": {
+        "main_image_src": "../images/products/unshaped_monolithic_refractory.jpg",
+        "data_images_config": "../images/products/unshaped_monolithic_refractory.jpg,../images/products/unshaped-refractory-material-20.png",
+        "total_images_found": 2,
+        "existing_images": [
+          "unshaped_monolithic_refractory.jpg",
+          "unshaped-refractory-material-20.png"
+        ],
+        "missing_images": [],
+        "duplicate_images": [],
+        "placeholder_issues": []
+      },
+      "javascript_check": {
+        "required_scripts": [
+          "multi-image-gallery.js",
+          "product-database.js",
+          "modal-components.js",
+          "placeholder-randomizer.js"
+        ],
+        "found_scripts": [
+          "jspdf.umd.min.js",
+          "html2canvas.min.js",
+          "product-database.js",
+          "pdf-generator.js",
+          "modal-components.js",
+          "ydk-navbar.js",
+          "ydk-footer.js",
+          "placeholder-randomizer.js",
+          "quote-wizard.js",
+          "multi-image-gallery.js"
+        ],
+        "missing_scripts": [],
+        "duplicate_scripts": []
+      },
+      "carousel_analysis": {
+        "has_data_images": true,
+        "images_count": 2,
+        "should_have_carousel": true,
+        "has_carousel_class": true,
+        "has_thumbnails_container": true,
+        "config_issues": []
+      },
+      "quote_function": {
+        "has_quote_button": true,
+        "button_onclick": "openInquiryModal('unshaped-refractory-material')",
+        "product_id_correct": true,
+        "has_modal_script": true,
+        "potential_image_issues": [
+          "图片路径可能影响报价显示"
+        ]
+      },
+      "css_references": {
+        "required_css": [
+          "multi-image-gallery.css",
+          "product-detail-modern.css",
+          "product-placeholder.css"
+        ],
+        "found_css": [
+          "ydk-navbar.css",
+          "ydk-footer.css",
+          "floating-buttons.css",
+          "quote-wizard.css",
+          "product-detail-modern.css",
+          "product-placeholder.css",
+          "all.min.css"
+        ],
+        "missing_css": [
+          "multi-image-gallery.css"
+        ]
+      },
+      "issues": [
+        {
+          "type": "warning",
+          "category": "html",
+          "message": "发现4个未闭合的img标签"
+        },
+        {
+          "type": "warning",
+          "category": "quote",
+          "message": "报价功能可能存在图片显示问题"
+        }
+      ],
+      "severity": "medium",
+      "fix_priority": 3
+    },
+    "unshaped-refractory": {
+      "product_id": "unshaped-refractory",
+      "audit_time": "2025-09-27T22:35:04.993797",
+      "file_exists": true,
+      "html_structure": {
+        "has_main_image": true,
+        "has_product_title": true,
+        "has_product_info": true,
+        "has_tabs_section": true,
+        "has_cta_buttons": true,
+        "unclosed_tags": [
+          "<img src=\"../images/products/unshaped-refractory-m...",
+          "<img src=\"../images/products/shaped_clay_brick.jpg...",
+          "<img src=\"../images/products/shaped_silica_brick.j...",
+          "<img src=\"../images/products/shaped_lightweight_hi..."
+        ],
+        "nested_issues": []
+      },
+      "image_analysis": {
+        "main_image_src": "../images/products/unshaped-refractory-material-20.png",
+        "data_images_config": "../images/products/unshaped-refractory-material-20.png,../images/products/unshaped_monolithic_refractory.jpg",
+        "total_images_found": 2,
+        "existing_images": [
+          "unshaped-refractory-material-20.png",
+          "unshaped_monolithic_refractory.jpg"
+        ],
+        "missing_images": [],
+        "duplicate_images": [],
+        "placeholder_issues": []
+      },
+      "javascript_check": {
+        "required_scripts": [
+          "multi-image-gallery.js",
+          "product-database.js",
+          "modal-components.js",
+          "placeholder-randomizer.js"
+        ],
+        "found_scripts": [
+          "jspdf.umd.min.js",
+          "html2canvas.min.js",
+          "product-database.js",
+          "pdf-generator.js",
+          "modal-components.js",
+          "ydk-navbar.js",
+          "ydk-footer.js",
+          "placeholder-randomizer.js",
+          "quote-wizard.js",
+          "multi-image-gallery.js"
+        ],
+        "missing_scripts": [],
+        "duplicate_scripts": []
+      },
+      "carousel_analysis": {
+        "has_data_images": true,
+        "images_count": 2,
+        "should_have_carousel": true,
+        "has_carousel_class": true,
+        "has_thumbnails_container": true,
+        "config_issues": []
+      },
+      "quote_function": {
+        "has_quote_button": true,
+        "button_onclick": "openInquiryModal('unshaped-refractory')",
+        "product_id_correct": true,
+        "has_modal_script": true,
+        "potential_image_issues": [
+          "图片路径可能影响报价显示"
+        ]
+      },
+      "css_references": {
+        "required_css": [
+          "multi-image-gallery.css",
+          "product-detail-modern.css",
+          "product-placeholder.css"
+        ],
+        "found_css": [
+          "ydk-navbar.css",
+          "ydk-footer.css",
+          "floating-buttons.css",
+          "quote-wizard.css",
+          "product-detail-modern.css",
+          "product-placeholder.css",
+          "all.min.css"
+        ],
+        "missing_css": [
+          "multi-image-gallery.css"
+        ]
+      },
+      "issues": [
+        {
+          "type": "warning",
+          "category": "html",
+          "message": "发现4个未闭合的img标签"
+        },
+        {
+          "type": "warning",
+          "category": "quote",
+          "message": "报价功能可能存在图片显示问题"
+        }
+      ],
+      "severity": "medium",
+      "fix_priority": 3
+    },
+    "wear-resistant-ceramic": {
+      "product_id": "wear-resistant-ceramic",
+      "audit_time": "2025-09-27T22:35:05.005989",
+      "file_exists": true,
+      "html_structure": {
+        "has_main_image": true,
+        "has_product_title": true,
+        "has_product_info": true,
+        "has_tabs_section": true,
+        "has_cta_buttons": true,
+        "unclosed_tags": [
+          "<img src=\"../images/products/placeholder.jpg\"\n    ...",
+          "<img src=\"../images/products/shaped_clay_brick.jpg...",
+          "<img src=\"../images/products/shaped_silica_brick.j...",
+          "<img src=\"../images/products/shaped_lightweight_hi..."
+        ],
+        "nested_issues": []
+      },
+      "image_analysis": {
+        "main_image_src": "../images/products/placeholder.jpg",
+        "data_images_config": "",
+        "total_images_found": 0,
+        "existing_images": [],
+        "missing_images": [],
+        "duplicate_images": [],
+        "placeholder_issues": []
+      },
+      "javascript_check": {
+        "required_scripts": [
+          "multi-image-gallery.js",
+          "product-database.js",
+          "modal-components.js",
+          "placeholder-randomizer.js"
+        ],
+        "found_scripts": [
+          "jspdf.umd.min.js",
+          "html2canvas.min.js",
+          "product-database.js",
+          "pdf-generator.js",
+          "modal-components.js",
+          "ydk-navbar.js",
+          "ydk-footer.js",
+          "placeholder-randomizer.js",
+          "quote-wizard.js",
+          "multi-image-gallery.js"
+        ],
+        "missing_scripts": [],
+        "duplicate_scripts": []
+      },
+      "carousel_analysis": {
+        "has_data_images": false,
+        "images_count": 0,
+        "should_have_carousel": false,
+        "has_carousel_class": true,
+        "has_thumbnails_container": true,
+        "config_issues": [
+          "配置为占位符产品"
+        ]
+      },
+      "quote_function": {
+        "has_quote_button": true,
+        "button_onclick": "openInquiryModal('wear-resistant-ceramic')",
+        "product_id_correct": true,
+        "has_modal_script": true,
+        "potential_image_issues": [
+          "图片路径可能影响报价显示"
+        ]
+      },
+      "css_references": {
+        "required_css": [
+          "multi-image-gallery.css",
+          "product-detail-modern.css",
+          "product-placeholder.css"
+        ],
+        "found_css": [
+          "ydk-navbar.css",
+          "ydk-footer.css",
+          "floating-buttons.css",
+          "quote-wizard.css",
+          "product-detail-modern.css",
+          "product-placeholder.css",
+          "multi-image-carousel.css",
+          "all.min.css"
+        ],
+        "missing_css": [
+          "multi-image-gallery.css"
+        ]
+      },
+      "issues": [
+        {
+          "type": "warning",
+          "category": "html",
+          "message": "发现4个未闭合的img标签"
+        },
+        {
+          "type": "warning",
+          "category": "carousel",
+          "message": "配置为占位符产品"
+        },
+        {
+          "type": "warning",
+          "category": "quote",
+          "message": "报价功能可能存在图片显示问题"
+        }
+      ],
+      "severity": "high",
+      "fix_priority": 2
+    }
+  }
+}

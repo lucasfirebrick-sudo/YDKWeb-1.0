@@ -1,0 +1,643 @@
+{
+  "products": {
+    "alumina-castable-official-1.png": {
+      "path": "images/products/alumina-castable-official-1.png",
+      "category": "unshaped",
+      "pattern": "official",
+      "size": 124552
+    },
+    "alumina-castable-official-2.png": {
+      "path": "images/products/alumina-castable-official-2.png",
+      "category": "unshaped",
+      "pattern": "official",
+      "size": 124737
+    },
+    "alumina-hollow-sphere-brick-1.png": {
+      "path": "images/products/alumina-hollow-sphere-brick-1.png",
+      "category": "shaped",
+      "pattern": "numbered",
+      "size": 164862
+    },
+    "alumina-hollow-sphere-brick-2.png": {
+      "path": "images/products/alumina-hollow-sphere-brick-2.png",
+      "category": "shaped",
+      "pattern": "numbered",
+      "size": 122920
+    },
+    "alumina-hollow-sphere-brick-official-1.png": {
+      "path": "images/products/alumina-hollow-sphere-brick-official-1.png",
+      "category": "shaped",
+      "pattern": "official",
+      "size": 393442
+    },
+    "alumina-hollow-sphere-brick-official-2.png": {
+      "path": "images/products/alumina-hollow-sphere-brick-official-2.png",
+      "category": "shaped",
+      "pattern": "official",
+      "size": 351798
+    },
+    "blast-furnace-ceramic-cup-official-1.png": {
+      "path": "images/products/blast-furnace-ceramic-cup-official-1.png",
+      "category": "shaped",
+      "pattern": "official",
+      "size": 311802
+    },
+    "blast-furnace-ceramic-cup-official-2.png": {
+      "path": "images/products/blast-furnace-ceramic-cup-official-2.png",
+      "category": "shaped",
+      "pattern": "official",
+      "size": 231701
+    },
+    "chrome-corundum-castable-official-1.png": {
+      "path": "images/products/chrome-corundum-castable-official-1.png",
+      "category": "unshaped",
+      "pattern": "official",
+      "size": 191727
+    },
+    "clay-brick-real.png": {
+      "path": "images/products/clay-brick-real.png",
+      "category": "shaped",
+      "pattern": "real",
+      "size": 120836
+    },
+    "corundum-ball-official-1.png": {
+      "path": "images/products/corundum-ball-official-1.png",
+      "category": "special",
+      "pattern": "official",
+      "size": 111917
+    },
+    "corundum-ball-official-2.png": {
+      "path": "images/products/corundum-ball-official-2.png",
+      "category": "special",
+      "pattern": "official",
+      "size": 120860
+    },
+    "corundum-brick-official-1.png": {
+      "path": "images/products/corundum-brick-official-1.png",
+      "category": "special",
+      "pattern": "official",
+      "size": 139451
+    },
+    "corundum-brick-official-2.png": {
+      "path": "images/products/corundum-brick-official-2.png",
+      "category": "special",
+      "pattern": "official",
+      "size": 209010
+    },
+    "corundum-mullite-official-1.png": {
+      "path": "images/products/corundum-mullite-official-1.png",
+      "category": "special",
+      "pattern": "official",
+      "size": 183188
+    },
+    "corundum-mullite-official-2.png": {
+      "path": "images/products/corundum-mullite-official-2.png",
+      "category": "special",
+      "pattern": "official",
+      "size": 176959
+    },
+    "general-silica-brick-official-1.png": {
+      "path": "images/products/general-silica-brick-official-1.png",
+      "category": "shaped",
+      "pattern": "official",
+      "size": 252841
+    },
+    "general-silica-brick-official-2.png": {
+      "path": "images/products/general-silica-brick-official-2.png",
+      "category": "shaped",
+      "pattern": "official",
+      "size": 266585
+    },
+    "heavy-clay-brick-official-1.png": {
+      "path": "images/products/heavy-clay-brick-official-1.png",
+      "category": "shaped",
+      "pattern": "official",
+      "size": 120836
+    },
+    "heavy-clay-brick-official-2.png": {
+      "path": "images/products/heavy-clay-brick-official-2.png",
+      "category": "shaped",
+      "pattern": "official",
+      "size": 130588
+    },
+    "high-alumina-brick-real.png": {
+      "path": "images/products/high-alumina-brick-real.png",
+      "category": "shaped",
+      "pattern": "real",
+      "size": 198494
+    },
+    "hot-blast-stove-silica-brick-official-1.png": {
+      "path": "images/products/hot-blast-stove-silica-brick-official-1.png",
+      "category": "shaped",
+      "pattern": "official",
+      "size": 106716
+    },
+    "hot-blast-stove-silica-brick-official-2.png": {
+      "path": "images/products/hot-blast-stove-silica-brick-official-2.png",
+      "category": "shaped",
+      "pattern": "official",
+      "size": 216673
+    },
+    "hot-blast-stove-silica-brick-official-3.png": {
+      "path": "images/products/hot-blast-stove-silica-brick-official-3.png",
+      "category": "shaped",
+      "pattern": "official",
+      "size": 137047
+    },
+    "lightweight-castable-official-1.png": {
+      "path": "images/products/lightweight-castable-official-1.png",
+      "category": "lightweight",
+      "pattern": "official",
+      "size": 148692
+    },
+    "lightweight-clay-brick-2.png": {
+      "path": "images/products/lightweight-clay-brick-2.png",
+      "category": "lightweight",
+      "pattern": "numbered",
+      "size": 163825
+    },
+    "lightweight-clay-brick-official-1.png": {
+      "path": "images/products/lightweight-clay-brick-official-1.png",
+      "category": "lightweight",
+      "pattern": "official",
+      "size": 256560
+    },
+    "lightweight-clay-brick-official-2.png": {
+      "path": "images/products/lightweight-clay-brick-official-2.png",
+      "category": "lightweight",
+      "pattern": "official",
+      "size": 270879
+    },
+    "lightweight-clay-brick-official-3.png": {
+      "path": "images/products/lightweight-clay-brick-official-3.png",
+      "category": "lightweight",
+      "pattern": "official",
+      "size": 122577
+    },
+    "lightweight-high-alumina-brick-official-1.png": {
+      "path": "images/products/lightweight-high-alumina-brick-official-1.png",
+      "category": "lightweight",
+      "pattern": "official",
+      "size": 120774
+    },
+    "lightweight-high-alumina-brick-official-2.png": {
+      "path": "images/products/lightweight-high-alumina-brick-official-2.png",
+      "category": "lightweight",
+      "pattern": "official",
+      "size": 201437
+    },
+    "lightweight-mullite-brick-1.png": {
+      "path": "images/products/lightweight-mullite-brick-1.png",
+      "category": "lightweight",
+      "pattern": "numbered",
+      "size": 234230
+    },
+    "lightweight-mullite-brick-2.png": {
+      "path": "images/products/lightweight-mullite-brick-2.png",
+      "category": "lightweight",
+      "pattern": "numbered",
+      "size": 254518
+    },
+    "lightweight-mullite-brick-official-1.png": {
+      "path": "images/products/lightweight-mullite-brick-official-1.png",
+      "category": "lightweight",
+      "pattern": "official",
+      "size": 204645
+    },
+    "lightweight-mullite-brick-official-2.png": {
+      "path": "images/products/lightweight-mullite-brick-official-2.png",
+      "category": "lightweight",
+      "pattern": "official",
+      "size": 146749
+    },
+    "magnesia-chrome-brick-official-1.png": {
+      "path": "images/products/magnesia-chrome-brick-official-1.png",
+      "category": "special",
+      "pattern": "official",
+      "size": 187465
+    },
+    "magnesia-chrome-brick-official-2.png": {
+      "path": "images/products/magnesia-chrome-brick-official-2.png",
+      "category": "special",
+      "pattern": "official",
+      "size": 181929
+    },
+    "mullite-brick-official-1.png": {
+      "path": "images/products/mullite-brick-official-1.png",
+      "category": "shaped",
+      "pattern": "official",
+      "size": 161541
+    },
+    "mullite-brick-official-2.png": {
+      "path": "images/products/mullite-brick-official-2.png",
+      "category": "shaped",
+      "pattern": "official",
+      "size": 151095
+    },
+    "mullite-brick-official-3.png": {
+      "path": "images/products/mullite-brick-official-3.png",
+      "category": "shaped",
+      "pattern": "official",
+      "size": 136157
+    },
+    "phosphate-brick-1.png": {
+      "path": "images/products/phosphate-brick-1.png",
+      "category": "special",
+      "pattern": "numbered",
+      "size": 150017
+    },
+    "phosphate-brick-official-1.png": {
+      "path": "images/products/phosphate-brick-official-1.png",
+      "category": "special",
+      "pattern": "official",
+      "size": 256979
+    },
+    "phosphate-wear-resistant-brick-official-1.png": {
+      "path": "images/products/phosphate-wear-resistant-brick-official-1.png",
+      "category": "special",
+      "pattern": "official",
+      "size": 313785
+    },
+    "phosphate-wear-resistant-brick-official-2.png": {
+      "path": "images/products/phosphate-wear-resistant-brick-official-2.png",
+      "category": "special",
+      "pattern": "official",
+      "size": 321355
+    },
+    "plastic-refractory-official-1.png": {
+      "path": "images/products/plastic-refractory-official-1.png",
+      "category": "unshaped",
+      "pattern": "official",
+      "size": 78188
+    },
+    "plastic-refractory-official-2.png": {
+      "path": "images/products/plastic-refractory-official-2.png",
+      "category": "unshaped",
+      "pattern": "official",
+      "size": 103475
+    },
+    "plastic-refractory-official-3.png": {
+      "path": "images/products/plastic-refractory-official-3.png",
+      "category": "unshaped",
+      "pattern": "official",
+      "size": 119156
+    },
+    "refractory-spray-coating-official-1.png": {
+      "path": "images/products/refractory-spray-coating-official-1.png",
+      "category": "unshaped",
+      "pattern": "official",
+      "size": 190379
+    },
+    "silica-brick-real.png": {
+      "path": "images/products/silica-brick-real.png",
+      "category": "shaped",
+      "pattern": "real",
+      "size": 252841
+    },
+    "silica-molybdenum-brick-official-1.png": {
+      "path": "images/products/silica-molybdenum-brick-official-1.png",
+      "category": "shaped",
+      "pattern": "official",
+      "size": 326322
+    },
+    "silica-molybdenum-brick-official-2.png": {
+      "path": "images/products/silica-molybdenum-brick-official-2.png",
+      "category": "shaped",
+      "pattern": "official",
+      "size": 541290
+    },
+    "sintered-mullite-brick-real.png": {
+      "path": "images/products/sintered-mullite-brick-real.png",
+      "category": "shaped",
+      "pattern": "real",
+      "size": 161541
+    },
+    "standard-high-alumina-brick-official-1.png": {
+      "path": "images/products/standard-high-alumina-brick-official-1.png",
+      "category": "shaped",
+      "pattern": "official",
+      "size": 198494
+    },
+    "standard-high-alumina-brick-official-2.png": {
+      "path": "images/products/standard-high-alumina-brick-official-2.png",
+      "category": "shaped",
+      "pattern": "official",
+      "size": 342318
+    },
+    "steel-fiber-castable-official-1.png": {
+      "path": "images/products/steel-fiber-castable-official-1.png",
+      "category": "unshaped",
+      "pattern": "official",
+      "size": 95353
+    },
+    "thermal-insulation-brick-official-1.png": {
+      "path": "images/products/thermal-insulation-brick-official-1.png",
+      "category": "shaped",
+      "pattern": "official",
+      "size": 288298
+    },
+    "thermal-insulation-brick-official-2.png": {
+      "path": "images/products/thermal-insulation-brick-official-2.png",
+      "category": "shaped",
+      "pattern": "official",
+      "size": 256934
+    },
+    "unshaped-refractory-material-20.png": {
+      "path": "images/products/unshaped-refractory-material-20.png",
+      "category": "unshaped",
+      "pattern": "numbered",
+      "size": 127493
+    },
+    "fireclay-brick.jpg": {
+      "path": "images/products/fireclay-brick.jpg",
+      "category": "shaped",
+      "pattern": "legacy",
+      "size": 227824
+    },
+    "high-alumina-brick.jpg": {
+      "path": "images/products/high-alumina-brick.jpg",
+      "category": "shaped",
+      "pattern": "legacy",
+      "size": 227824
+    },
+    "insulating-fire-brick.jpg": {
+      "path": "images/products/insulating-fire-brick.jpg",
+      "category": "shaped",
+      "pattern": "legacy",
+      "size": 227824
+    },
+    "mullite-brick.jpg": {
+      "path": "images/products/mullite-brick.jpg",
+      "category": "shaped",
+      "pattern": "legacy",
+      "size": 227824
+    },
+    "shaped_clay_brick.jpg": {
+      "path": "images/products/shaped_clay_brick.jpg",
+      "category": "shaped",
+      "pattern": "legacy",
+      "size": 120836
+    },
+    "shaped_combination_brick.jpg": {
+      "path": "images/products/shaped_combination_brick.jpg",
+      "category": "shaped",
+      "pattern": "legacy",
+      "size": 256979
+    },
+    "shaped_high_alumina_brick.jpg": {
+      "path": "images/products/shaped_high_alumina_brick.jpg",
+      "category": "shaped",
+      "pattern": "legacy",
+      "size": 198494
+    },
+    "shaped_high_alumina_light_brick.jpg": {
+      "path": "images/products/shaped_high_alumina_light_brick.jpg",
+      "category": "lightweight",
+      "pattern": "legacy",
+      "size": 393442
+    },
+    "shaped_hot_blast_furnace_silica_brick.jpg": {
+      "path": "images/products/shaped_hot_blast_furnace_silica_brick.jpg",
+      "category": "shaped",
+      "pattern": "legacy",
+      "size": 106716
+    },
+    "shaped_lightweight_clay_brick.jpg": {
+      "path": "images/products/shaped_lightweight_clay_brick.jpg",
+      "category": "lightweight",
+      "pattern": "legacy",
+      "size": 78348
+    },
+    "shaped_lightweight_fireclay_brick.jpg": {
+      "path": "images/products/shaped_lightweight_fireclay_brick.jpg",
+      "category": "lightweight",
+      "pattern": "legacy",
+      "size": 256560
+    },
+    "shaped_lightweight_high_alumina_brick.jpg": {
+      "path": "images/products/shaped_lightweight_high_alumina_brick.jpg",
+      "category": "lightweight",
+      "pattern": "legacy",
+      "size": 120774
+    },
+    "shaped_lightweight_mullite_brick.jpg": {
+      "path": "images/products/shaped_lightweight_mullite_brick.jpg",
+      "category": "lightweight",
+      "pattern": "legacy",
+      "size": 234230
+    },
+    "shaped_mullite_light_brick.jpg": {
+      "path": "images/products/shaped_mullite_light_brick.jpg",
+      "category": "lightweight",
+      "pattern": "legacy",
+      "size": 204645
+    },
+    "shaped_silica_brick.jpg": {
+      "path": "images/products/shaped_silica_brick.jpg",
+      "category": "shaped",
+      "pattern": "legacy",
+      "size": 252841
+    },
+    "shaped_silica_mullite_brick.jpg": {
+      "path": "images/products/shaped_silica_mullite_brick.jpg",
+      "category": "shaped",
+      "pattern": "legacy",
+      "size": 326322
+    },
+    "shaped_sintered_mullite_brick.jpg": {
+      "path": "images/products/shaped_sintered_mullite_brick.jpg",
+      "category": "shaped",
+      "pattern": "legacy",
+      "size": 161541
+    },
+    "special_alumina_hollow_sphere_brick.jpg": {
+      "path": "images/products/special_alumina_hollow_sphere_brick.jpg",
+      "category": "special",
+      "pattern": "legacy",
+      "size": 164862
+    },
+    "special_corundum_ball.jpg": {
+      "path": "images/products/special_corundum_ball.jpg",
+      "category": "special",
+      "pattern": "legacy",
+      "size": 111917
+    },
+    "special_corundum_brick.jpg": {
+      "path": "images/products/special_corundum_brick.jpg",
+      "category": "special",
+      "pattern": "legacy",
+      "size": 139451
+    },
+    "special_corundum_mullite.jpg": {
+      "path": "images/products/special_corundum_mullite.jpg",
+      "category": "special",
+      "pattern": "legacy",
+      "size": 183188
+    },
+    "special_magnesia_chrome_brick.jpg": {
+      "path": "images/products/special_magnesia_chrome_brick.jpg",
+      "category": "special",
+      "pattern": "legacy",
+      "size": 187465
+    },
+    "special_phosphate_brick.jpg": {
+      "path": "images/products/special_phosphate_brick.jpg",
+      "category": "special",
+      "pattern": "legacy",
+      "size": 150017
+    },
+    "special_phosphate_wear_resistant_brick.jpg": {
+      "path": "images/products/special_phosphate_wear_resistant_brick.jpg",
+      "category": "special",
+      "pattern": "legacy",
+      "size": 313785
+    },
+    "special_regenerator_ball.jpg": {
+      "path": "images/products/special_regenerator_ball.jpg",
+      "category": "special",
+      "pattern": "legacy",
+      "size": 96357
+    },
+    "unshaped_blast_furnace_ceramic_cup.jpg": {
+      "path": "images/products/unshaped_blast_furnace_ceramic_cup.jpg",
+      "category": "unshaped",
+      "pattern": "legacy",
+      "size": 311802
+    },
+    "unshaped_chrome_corundum_castable.jpg": {
+      "path": "images/products/unshaped_chrome_corundum_castable.jpg",
+      "category": "unshaped",
+      "pattern": "legacy",
+      "size": 191727
+    },
+    "unshaped_corundum_castable.jpg": {
+      "path": "images/products/unshaped_corundum_castable.jpg",
+      "category": "unshaped",
+      "pattern": "legacy",
+      "size": 124552
+    },
+    "unshaped_high_alumina_castable.jpg": {
+      "path": "images/products/unshaped_high_alumina_castable.jpg",
+      "category": "unshaped",
+      "pattern": "legacy",
+      "size": 148692
+    },
+    "unshaped_monolithic_refractory.jpg": {
+      "path": "images/products/unshaped_monolithic_refractory.jpg",
+      "category": "unshaped",
+      "pattern": "legacy",
+      "size": 190379
+    },
+    "unshaped_steel_fiber_castable.jpg": {
+      "path": "images/products/unshaped_steel_fiber_castable.jpg",
+      "category": "unshaped",
+      "pattern": "legacy",
+      "size": 95353
+    }
+  },
+  "categories": {
+    "shaped": [
+      "alumina-hollow-sphere-brick-1.png",
+      "alumina-hollow-sphere-brick-2.png",
+      "alumina-hollow-sphere-brick-official-1.png",
+      "alumina-hollow-sphere-brick-official-2.png",
+      "blast-furnace-ceramic-cup-official-1.png",
+      "blast-furnace-ceramic-cup-official-2.png",
+      "clay-brick-real.png",
+      "general-silica-brick-official-1.png",
+      "general-silica-brick-official-2.png",
+      "heavy-clay-brick-official-1.png",
+      "heavy-clay-brick-official-2.png",
+      "high-alumina-brick-real.png",
+      "hot-blast-stove-silica-brick-official-1.png",
+      "hot-blast-stove-silica-brick-official-2.png",
+      "hot-blast-stove-silica-brick-official-3.png",
+      "mullite-brick-official-1.png",
+      "mullite-brick-official-2.png",
+      "mullite-brick-official-3.png",
+      "silica-brick-real.png",
+      "silica-molybdenum-brick-official-1.png",
+      "silica-molybdenum-brick-official-2.png",
+      "sintered-mullite-brick-real.png",
+      "standard-high-alumina-brick-official-1.png",
+      "standard-high-alumina-brick-official-2.png",
+      "thermal-insulation-brick-official-1.png",
+      "thermal-insulation-brick-official-2.png",
+      "fireclay-brick.jpg",
+      "high-alumina-brick.jpg",
+      "insulating-fire-brick.jpg",
+      "mullite-brick.jpg",
+      "shaped_clay_brick.jpg",
+      "shaped_combination_brick.jpg",
+      "shaped_high_alumina_brick.jpg",
+      "shaped_hot_blast_furnace_silica_brick.jpg",
+      "shaped_silica_brick.jpg",
+      "shaped_silica_mullite_brick.jpg",
+      "shaped_sintered_mullite_brick.jpg"
+    ],
+    "unshaped": [
+      "alumina-castable-official-1.png",
+      "alumina-castable-official-2.png",
+      "chrome-corundum-castable-official-1.png",
+      "plastic-refractory-official-1.png",
+      "plastic-refractory-official-2.png",
+      "plastic-refractory-official-3.png",
+      "refractory-spray-coating-official-1.png",
+      "steel-fiber-castable-official-1.png",
+      "unshaped-refractory-material-20.png",
+      "unshaped_blast_furnace_ceramic_cup.jpg",
+      "unshaped_chrome_corundum_castable.jpg",
+      "unshaped_corundum_castable.jpg",
+      "unshaped_high_alumina_castable.jpg",
+      "unshaped_monolithic_refractory.jpg",
+      "unshaped_steel_fiber_castable.jpg"
+    ],
+    "special": [
+      "corundum-ball-official-1.png",
+      "corundum-ball-official-2.png",
+      "corundum-brick-official-1.png",
+      "corundum-brick-official-2.png",
+      "corundum-mullite-official-1.png",
+      "corundum-mullite-official-2.png",
+      "magnesia-chrome-brick-official-1.png",
+      "magnesia-chrome-brick-official-2.png",
+      "phosphate-brick-1.png",
+      "phosphate-brick-official-1.png",
+      "phosphate-wear-resistant-brick-official-1.png",
+      "phosphate-wear-resistant-brick-official-2.png",
+      "special_alumina_hollow_sphere_brick.jpg",
+      "special_corundum_ball.jpg",
+      "special_corundum_brick.jpg",
+      "special_corundum_mullite.jpg",
+      "special_magnesia_chrome_brick.jpg",
+      "special_phosphate_brick.jpg",
+      "special_phosphate_wear_resistant_brick.jpg",
+      "special_regenerator_ball.jpg"
+    ],
+    "lightweight": [
+      "lightweight-castable-official-1.png",
+      "lightweight-clay-brick-2.png",
+      "lightweight-clay-brick-official-1.png",
+      "lightweight-clay-brick-official-2.png",
+      "lightweight-clay-brick-official-3.png",
+      "lightweight-high-alumina-brick-official-1.png",
+      "lightweight-high-alumina-brick-official-2.png",
+      "lightweight-mullite-brick-1.png",
+      "lightweight-mullite-brick-2.png",
+      "lightweight-mullite-brick-official-1.png",
+      "lightweight-mullite-brick-official-2.png",
+      "shaped_high_alumina_light_brick.jpg",
+      "shaped_lightweight_clay_brick.jpg",
+      "shaped_lightweight_fireclay_brick.jpg",
+      "shaped_lightweight_high_alumina_brick.jpg",
+      "shaped_lightweight_mullite_brick.jpg",
+      "shaped_mullite_light_brick.jpg"
+    ]
+  },
+  "naming_patterns": {
+    "official": 47,
+    "numbered": 7,
+    "real": 4,
+    "legacy": 31
+  }
+}

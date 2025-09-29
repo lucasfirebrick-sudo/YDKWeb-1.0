@@ -1,0 +1,952 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>多步骤报价向导测试</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            background: #f8f9fa;
+            color: #333;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        .header {
+            text-align: center;
+            margin-bottom: 40px;
+            background: white;
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+        }
+
+        .header h1 {
+            color: #2c3e50;
+            margin-bottom: 10px;
+        }
+
+        .header p {
+            color: #7f8c8d;
+        }
+
+        .products-demo {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 20px;
+            margin-bottom: 40px;
+        }
+
+        .product-card {
+            background: white;
+            border-radius: 10px;
+            overflow: hidden;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+            transition: transform 0.3s ease;
+        }
+
+        .product-card:hover {
+            transform: translateY(-2px);
+        }
+
+        .product-image {
+            height: 200px;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            font-size: 3em;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .product-image img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+
+        .product-info {
+            padding: 20px;
+        }
+
+        .product-title {
+            font-size: 1.2em;
+            margin-bottom: 8px;
+            color: #2c3e50;
+        }
+
+        .product-description {
+            color: #7f8c8d;
+            margin-bottom: 10px;
+            font-size: 0.9em;
+        }
+
+        .product-specs {
+            margin-bottom: 15px;
+        }
+
+        .spec-item {
+            display: inline-block;
+            background: #ecf0f1;
+            padding: 4px 8px;
+            border-radius: 4px;
+            font-size: 0.8em;
+            margin-right: 5px;
+            margin-bottom: 5px;
+        }
+
+        .product-price {
+            font-size: 1.3em;
+            font-weight: bold;
+            color: #e74c3c;
+            margin-bottom: 15px;
+        }
+
+        .btn {
+            padding: 12px 24px;
+            border: none;
+            border-radius: 6px;
+            cursor: pointer;
+            text-decoration: none;
+            font-size: 0.95em;
+            transition: all 0.3s ease;
+            display: inline-flex;
+            align-items: center;
+            gap: 8px;
+            font-weight: 500;
+        }
+
+        .btn-primary {
+            background: linear-gradient(135deg, #ff6b35, #f7931e);
+            color: white;
+            border: none;
+        }
+
+        .btn-primary:hover {
+            background: linear-gradient(135deg, #f7931e, #e67e22);
+            transform: translateY(-1px);
+        }
+
+        /* 报价向导模态框 */
+        .quote-modal {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(0,0,0,0.6);
+            display: none;
+            align-items: center;
+            justify-content: center;
+            z-index: 1000;
+            opacity: 0;
+            transition: opacity 0.3s ease;
+        }
+
+        .quote-modal.show {
+            display: flex;
+            opacity: 1;
+        }
+
+        .quote-wizard {
+            background: white;
+            border-radius: 12px;
+            width: 90%;
+            max-width: 600px;
+            max-height: 90vh;
+            overflow: hidden;
+            transform: scale(0.9);
+            transition: transform 0.3s ease;
+        }
+
+        .quote-modal.show .quote-wizard {
+            transform: scale(1);
+        }
+
+        .wizard-header {
+            background: linear-gradient(135deg, #ff6b35, #f7931e);
+            color: white;
+            padding: 25px;
+            position: relative;
+        }
+
+        .wizard-close {
+            position: absolute;
+            top: 15px;
+            right: 20px;
+            background: none;
+            border: none;
+            color: white;
+            font-size: 1.5em;
+            cursor: pointer;
+            opacity: 0.8;
+            transition: opacity 0.3s ease;
+        }
+
+        .wizard-close:hover {
+            opacity: 1;
+        }
+
+        .wizard-title {
+            font-size: 1.4em;
+            margin-bottom: 8px;
+        }
+
+        .wizard-subtitle {
+            opacity: 0.9;
+            font-size: 0.95em;
+        }
+
+        /* 步骤指示器 */
+        .step-indicator {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 20px;
+            background: #f8f9fa;
+            border-bottom: 1px solid #e9ecef;
+        }
+
+        .step {
+            display: flex;
+            align-items: center;
+            position: relative;
+        }
+
+        .step-number {
+            width: 40px;
+            height: 40px;
+            border-radius: 50%;
+            background: #dee2e6;
+            color: #6c757d;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-weight: bold;
+            transition: all 0.3s ease;
+        }
+
+        .step.active .step-number {
+            background: #ff6b35;
+            color: white;
+        }
+
+        .step.completed .step-number {
+            background: #28a745;
+            color: white;
+        }
+
+        .step-label {
+            margin-left: 10px;
+            font-weight: 500;
+            color: #6c757d;
+            transition: color 0.3s ease;
+        }
+
+        .step.active .step-label {
+            color: #ff6b35;
+        }
+
+        .step.completed .step-label {
+            color: #28a745;
+        }
+
+        .step-line {
+            width: 60px;
+            height: 2px;
+            background: #dee2e6;
+            margin: 0 15px;
+            transition: background 0.3s ease;
+        }
+
+        .step.completed + .step .step-line {
+            background: #28a745;
+        }
+
+        /* 步骤内容 */
+        .wizard-content {
+            padding: 30px;
+            min-height: 400px;
+            overflow-y: auto;
+        }
+
+        .step-content {
+            display: none;
+        }
+
+        .step-content.active {
+            display: block;
+        }
+
+        /* 第一步：产品配置 */
+        .product-summary {
+            background: #f8f9fa;
+            border-radius: 8px;
+            padding: 20px;
+            margin-bottom: 25px;
+            border-left: 4px solid #ff6b35;
+        }
+
+        .product-summary h3 {
+            margin-bottom: 10px;
+            color: #2c3e50;
+        }
+
+        .form-group {
+            margin-bottom: 20px;
+        }
+
+        .form-group label {
+            display: block;
+            margin-bottom: 8px;
+            font-weight: 500;
+            color: #2c3e50;
+        }
+
+        .form-group input,
+        .form-group select,
+        .form-group textarea {
+            width: 100%;
+            padding: 12px;
+            border: 2px solid #e9ecef;
+            border-radius: 6px;
+            font-size: 14px;
+            transition: border-color 0.3s ease;
+        }
+
+        .form-group input:focus,
+        .form-group select:focus,
+        .form-group textarea:focus {
+            outline: none;
+            border-color: #ff6b35;
+        }
+
+        .quantity-input {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+
+        .quantity-btn {
+            width: 40px;
+            height: 40px;
+            border: 2px solid #e9ecef;
+            background: white;
+            border-radius: 6px;
+            cursor: pointer;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            transition: all 0.3s ease;
+        }
+
+        .quantity-btn:hover {
+            border-color: #ff6b35;
+            color: #ff6b35;
+        }
+
+        .quantity-value {
+            min-width: 60px;
+            text-align: center;
+            font-weight: bold;
+            font-size: 1.1em;
+        }
+
+        /* 第二步：客户信息 */
+        .form-row {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 15px;
+        }
+
+        .required {
+            color: #ff6b35;
+        }
+
+        /* 第三步：成功页面 */
+        .success-content {
+            text-align: center;
+            padding: 40px 20px;
+        }
+
+        .success-icon {
+            font-size: 4em;
+            color: #28a745;
+            margin-bottom: 20px;
+        }
+
+        .success-title {
+            font-size: 1.8em;
+            color: #2c3e50;
+            margin-bottom: 15px;
+        }
+
+        .success-message {
+            color: #7f8c8d;
+            margin-bottom: 25px;
+            line-height: 1.6;
+        }
+
+        .quote-number {
+            background: #f8f9fa;
+            border: 2px dashed #dee2e6;
+            border-radius: 8px;
+            padding: 20px;
+            margin-bottom: 25px;
+        }
+
+        .quote-number strong {
+            color: #ff6b35;
+            font-size: 1.2em;
+        }
+
+        /* 导航按钮 */
+        .wizard-navigation {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 20px 30px;
+            background: #f8f9fa;
+            border-top: 1px solid #e9ecef;
+        }
+
+        .btn-secondary {
+            background: #6c757d;
+            color: white;
+        }
+
+        .btn-secondary:hover {
+            background: #5a6268;
+        }
+
+        .btn-success {
+            background: #28a745;
+            color: white;
+        }
+
+        .btn-success:hover {
+            background: #218838;
+        }
+
+        /* 响应式设计 */
+        @media (max-width: 768px) {
+            .products-demo {
+                grid-template-columns: 1fr;
+            }
+
+            .quote-wizard {
+                width: 95%;
+                margin: 10px;
+            }
+
+            .wizard-content {
+                padding: 20px;
+            }
+
+            .form-row {
+                grid-template-columns: 1fr;
+            }
+
+            .step-indicator {
+                flex-direction: column;
+                gap: 10px;
+            }
+
+            .step-line {
+                display: none;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <!-- 页面标题 -->
+        <div class="header">
+            <h1><i class="fas fa-magic"></i> 多步骤报价向导测试</h1>
+            <p>点击产品的"获取报价"按钮，体验完整的报价流程</p>
+        </div>
+
+        <!-- 示例产品 -->
+        <div class="products-demo">
+            <!-- 产品1 -->
+            <div class="product-card">
+                <div class="product-image">
+                    <img src="https://via.placeholder.com/300x200/667eea/ffffff?text=高铝砖" alt="高铝砖 AL75" loading="lazy">
+                </div>
+                <div class="product-info">
+                    <h3 class="product-title">高铝砖 AL75</h3>
+                    <p class="product-description">优质高铝砖，耐火度高，适用于高温工业炉窑</p>
+                    <div class="product-specs">
+                        <span class="spec-item">Al₂O₃ ≥75%</span>
+                        <span class="spec-item">耐火度 1790°C</span>
+                        <span class="spec-item">230×114×65mm</span>
+                    </div>
+                    <button class="btn btn-primary" onclick="openQuoteWizard('high-alumina-brick', '高铝砖 AL75', 'images/products/high-alumina-brick.jpg')">
+                        <i class="fas fa-calculator"></i> 获取报价
+                    </button>
+                </div>
+            </div>
+
+            <!-- 产品2 -->
+            <div class="product-card">
+                <div class="product-image">
+                    <img src="https://via.placeholder.com/300x200/764ba2/ffffff?text=硅砖" alt="硅砖 SiO₂95" loading="lazy">
+                </div>
+                <div class="product-info">
+                    <h3 class="product-title">硅砖 SiO₂95</h3>
+                    <p class="product-description">高品质硅砖，热稳定性优异，热风炉专用</p>
+                    <div class="product-specs">
+                        <span class="spec-item">SiO₂ ≥95%</span>
+                        <span class="spec-item">耐火度 1690°C</span>
+                        <span class="spec-item">230×114×65mm</span>
+                    </div>
+                    <button class="btn btn-primary" onclick="openQuoteWizard('silica-brick', '硅砖 SiO₂95', 'images/products/silica-brick.jpg')">
+                        <i class="fas fa-calculator"></i> 获取报价
+                    </button>
+                </div>
+            </div>
+
+            <!-- 产品3 -->
+            <div class="product-card">
+                <div class="product-image">
+                    <img src="https://via.placeholder.com/300x200/667eea/ffffff?text=莫来石砖" alt="莫来石砖 MU70" loading="lazy">
+                </div>
+                <div class="product-info">
+                    <h3 class="product-title">莫来石砖 MU70</h3>
+                    <p class="product-description">优质莫来石砖，抗热震性能卓越，使用寿命长</p>
+                    <div class="product-specs">
+                        <span class="spec-item">Al₂O₃ 70-80%</span>
+                        <span class="spec-item">耐火度 1850°C</span>
+                        <span class="spec-item">230×114×65mm</span>
+                    </div>
+                    <button class="btn btn-primary" onclick="openQuoteWizard('mullite-brick', '莫来石砖 MU70', 'images/products/mullite-brick.jpg')">
+                        <i class="fas fa-calculator"></i> 获取报价
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- 报价向导模态框 -->
+    <div id="quoteModal" class="quote-modal">
+        <div class="quote-wizard">
+            <!-- 向导头部 -->
+            <div class="wizard-header">
+                <button class="wizard-close" onclick="closeQuoteWizard()">&times;</button>
+                <h2 class="wizard-title">产品报价申请</h2>
+                <p class="wizard-subtitle">请按照步骤填写相关信息，我们将为您提供专业报价</p>
+            </div>
+
+            <!-- 步骤指示器 -->
+            <div class="step-indicator">
+                <div class="step active" data-step="1">
+                    <div class="step-number">1</div>
+                    <div class="step-label">产品配置</div>
+                </div>
+                <div class="step-line"></div>
+                <div class="step" data-step="2">
+                    <div class="step-number">2</div>
+                    <div class="step-label">客户信息</div>
+                </div>
+                <div class="step-line"></div>
+                <div class="step" data-step="3">
+                    <div class="step-number">3</div>
+                    <div class="step-label">提交成功</div>
+                </div>
+            </div>
+
+            <!-- 向导内容 -->
+            <div class="wizard-content">
+                <!-- 第一步：产品配置 -->
+                <div class="step-content active" data-step="1">
+                    <div class="product-summary">
+                        <div style="display: flex; gap: 15px; align-items: flex-start;">
+                            <img id="selectedProductImage" src="" alt="" style="width: 80px; height: 60px; object-fit: cover; border-radius: 6px; display: none;">
+                            <div style="flex: 1;">
+                                <h3 id="selectedProductName">产品名称</h3>
+                                <div id="selectedProductSpecs" style="margin-top: 8px; color: #666; font-size: 0.9em;"></div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <label>产品数量 <span class="required">*</span></label>
+                        <div class="quantity-input">
+                            <button type="button" class="quantity-btn" onclick="updateQuantity(-1)">
+                                <i class="fas fa-minus"></i>
+                            </button>
+                            <input type="number" id="productQuantity" class="quantity-value" value="1" min="1" readonly>
+                            <button type="button" class="quantity-btn" onclick="updateQuantity(1)">
+                                <i class="fas fa-plus"></i>
+                            </button>
+                            <span style="margin-left: 10px; color: #7f8c8d;">块</span>
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <label>应用行业</label>
+                        <select id="industry">
+                            <option value="">请选择应用行业（可选）</option>
+                            <option value="steel">钢铁冶炼</option>
+                            <option value="cement">水泥建材</option>
+                            <option value="glass">玻璃制造</option>
+                            <option value="petrochemical">石油化工</option>
+                            <option value="power">电力能源</option>
+                            <option value="nonferrous">有色金属</option>
+                            <option value="ceramic">陶瓷工业</option>
+                            <option value="other">其他行业</option>
+                        </select>
+                    </div>
+
+                    <div class="form-group">
+                        <label>备注信息</label>
+                        <textarea id="remarks" rows="4" placeholder="请描述您的具体需求、使用场景、技术要求等信息..."></textarea>
+                    </div>
+                </div>
+
+                <!-- 第二步：客户信息 -->
+                <div class="step-content" data-step="2">
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label>姓名 <span class="required">*</span></label>
+                            <input type="text" id="customerName" required placeholder="请输入您的姓名">
+                        </div>
+                        <div class="form-group">
+                            <label>邮箱地址 <span class="required">*</span></label>
+                            <input type="email" id="customerEmail" required placeholder="请输入邮箱地址">
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <label>公司名称</label>
+                        <input type="text" id="companyName" placeholder="请输入公司名称（可选）">
+                    </div>
+
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label>国家/地区</label>
+                            <select id="country">
+                                <option value="">请选择国家/地区</option>
+                                <option value="china">中国</option>
+                                <option value="usa">美国</option>
+                                <option value="germany">德国</option>
+                                <option value="japan">日本</option>
+                                <option value="korea">韩国</option>
+                                <option value="india">印度</option>
+                                <option value="uk">英国</option>
+                                <option value="france">法国</option>
+                                <option value="brazil">巴西</option>
+                                <option value="russia">俄罗斯</option>
+                                <option value="other">其他国家</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label>城市</label>
+                            <input type="text" id="city" placeholder="请输入城市（可选）">
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <label>电话号码</label>
+                        <input type="tel" id="customerPhone" placeholder="请输入电话号码（可选）">
+                    </div>
+                </div>
+
+                <!-- 第三步：提交成功 -->
+                <div class="step-content" data-step="3">
+                    <div class="success-content">
+                        <div class="success-icon">
+                            <i class="fas fa-check-circle"></i>
+                        </div>
+                        <h3 class="success-title">报价申请提交成功！</h3>
+                        <p class="success-message">
+                            感谢您选择我们的产品！您的报价申请已经成功提交，我们的专业团队将在 <strong>24小时内</strong> 为您提供详细的产品报价和技术方案。
+                        </p>
+                        <div class="quote-number">
+                            <p>您的申请编号为：</p>
+                            <strong id="quoteNumber">QT-20241227-001</strong>
+                        </div>
+                        <p style="color: #7f8c8d; margin-bottom: 25px;">
+                            我们将通过您提供的联系方式与您联系，请保持通讯畅通。
+                        </p>
+                        <button class="btn btn-primary" onclick="closeQuoteWizard()">
+                            <i class="fas fa-check"></i> 完成
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- 导航按钮 -->
+            <div class="wizard-navigation">
+                <button class="btn btn-secondary" id="prevBtn" onclick="prevStep()" style="display: none;">
+                    <i class="fas fa-arrow-left"></i> 上一步
+                </button>
+                <div style="flex: 1;"></div>
+                <button class="btn btn-primary" id="nextBtn" onclick="nextStep()">
+                    下一步 <i class="fas fa-arrow-right"></i>
+                </button>
+                <button class="btn btn-success" id="submitBtn" onclick="submitQuote()" style="display: none;">
+                    <i class="fas fa-paper-plane"></i> 提交报价申请
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // 全局变量
+        let currentStep = 1;
+        let selectedProduct = {};
+
+        // 打开报价向导
+        function openQuoteWizard(productId, productName, image) {
+            // 获取产品规格信息
+            const productSpecs = getProductSpecs(productId);
+
+            selectedProduct = {
+                id: productId,
+                name: productName,
+                image: image,
+                specs: productSpecs
+            };
+
+            // 填充产品信息
+            document.getElementById('selectedProductName').textContent = productName;
+            document.getElementById('selectedProductSpecs').textContent = productSpecs;
+
+            // 显示产品图片
+            const productImage = document.getElementById('selectedProductImage');
+            productImage.src = `https://via.placeholder.com/80x60/667eea/ffffff?text=${encodeURIComponent(productName)}`;
+            productImage.alt = productName;
+            productImage.style.display = 'block';
+
+            // 重置向导
+            currentStep = 1;
+            updateStepDisplay();
+            resetForm();
+
+            // 显示模态框
+            const modal = document.getElementById('quoteModal');
+            modal.classList.add('show');
+        }
+
+        // 关闭报价向导
+        function closeQuoteWizard() {
+            const modal = document.getElementById('quoteModal');
+            modal.classList.remove('show');
+            setTimeout(() => {
+                resetForm();
+                currentStep = 1;
+                updateStepDisplay();
+            }, 300);
+        }
+
+        // 重置表单
+        function resetForm() {
+            document.getElementById('productQuantity').value = 1;
+            document.getElementById('industry').value = '';
+            document.getElementById('remarks').value = '';
+            document.getElementById('customerName').value = '';
+            document.getElementById('customerEmail').value = '';
+            document.getElementById('companyName').value = '';
+            document.getElementById('country').value = '';
+            document.getElementById('city').value = '';
+            document.getElementById('customerPhone').value = '';
+        }
+
+        // 更新数量
+        function updateQuantity(change) {
+            const quantityInput = document.getElementById('productQuantity');
+            let currentValue = parseInt(quantityInput.value) || 1;
+            const newValue = Math.max(1, currentValue + change);
+            quantityInput.value = newValue;
+        }
+
+        // 下一步
+        function nextStep() {
+            if (validateCurrentStep()) {
+                currentStep++;
+                updateStepDisplay();
+            }
+        }
+
+        // 上一步
+        function prevStep() {
+            if (currentStep > 1) {
+                currentStep--;
+                updateStepDisplay();
+            }
+        }
+
+        // 更新步骤显示
+        function updateStepDisplay() {
+            // 更新步骤指示器
+            const steps = document.querySelectorAll('.step');
+            const stepContents = document.querySelectorAll('.step-content');
+
+            steps.forEach((step, index) => {
+                const stepNumber = index + 1;
+                step.classList.remove('active', 'completed');
+
+                if (stepNumber < currentStep) {
+                    step.classList.add('completed');
+                } else if (stepNumber === currentStep) {
+                    step.classList.add('active');
+                }
+            });
+
+            // 更新内容显示
+            stepContents.forEach((content, index) => {
+                content.classList.remove('active');
+                if (index + 1 === currentStep) {
+                    content.classList.add('active');
+                }
+            });
+
+            // 更新导航按钮
+            const prevBtn = document.getElementById('prevBtn');
+            const nextBtn = document.getElementById('nextBtn');
+            const submitBtn = document.getElementById('submitBtn');
+
+            prevBtn.style.display = currentStep > 1 ? 'flex' : 'none';
+
+            if (currentStep === 3) {
+                nextBtn.style.display = 'none';
+                submitBtn.style.display = 'none';
+            } else if (currentStep === 2) {
+                nextBtn.style.display = 'none';
+                submitBtn.style.display = 'flex';
+            } else {
+                nextBtn.style.display = 'flex';
+                submitBtn.style.display = 'none';
+            }
+        }
+
+        // 验证当前步骤
+        function validateCurrentStep() {
+            if (currentStep === 1) {
+                const quantity = document.getElementById('productQuantity').value;
+
+                if (!quantity || parseInt(quantity) < 1) {
+                    alert('请输入有效的产品数量！');
+                    return false;
+                }
+
+                return true;
+            } else if (currentStep === 2) {
+                const name = document.getElementById('customerName').value.trim();
+                const email = document.getElementById('customerEmail').value.trim();
+
+                if (!name) {
+                    alert('请输入您的姓名！');
+                    return false;
+                }
+
+                if (!email) {
+                    alert('请输入邮箱地址！');
+                    return false;
+                }
+
+                // 简单的邮箱格式验证
+                const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+                if (!emailRegex.test(email)) {
+                    alert('请输入有效的邮箱地址！');
+                    return false;
+                }
+
+                return true;
+            }
+
+            return true;
+        }
+
+        // 提交报价申请
+        function submitQuote() {
+            if (validateCurrentStep()) {
+                // 收集所有表单数据
+                const quoteData = {
+                    product: selectedProduct,
+                    quantity: document.getElementById('productQuantity').value,
+                    industry: document.getElementById('industry').value,
+                    remarks: document.getElementById('remarks').value,
+                    customer: {
+                        name: document.getElementById('customerName').value,
+                        email: document.getElementById('customerEmail').value,
+                        company: document.getElementById('companyName').value,
+                        country: document.getElementById('country').value,
+                        city: document.getElementById('city').value,
+                        phone: document.getElementById('customerPhone').value
+                    },
+                    submittedAt: new Date().toISOString()
+                };
+
+                // 模拟提交过程
+                console.log('提交的报价数据：', quoteData);
+
+                // 生成报价编号
+                const quoteNumber = generateQuoteNumber();
+                document.getElementById('quoteNumber').textContent = quoteNumber;
+
+                // 进入成功页面
+                currentStep = 3;
+                updateStepDisplay();
+
+                // 这里可以调用实际的API提交数据
+                // submitQuoteToServer(quoteData);
+            }
+        }
+
+        // 获取产品规格信息
+        function getProductSpecs(productId) {
+            const specs = {
+                'high-alumina-brick': 'Al₂O₃ ≥75% | 耐火度 1790°C | 230×114×65mm',
+                'silica-brick': 'SiO₂ ≥95% | 耐火度 1690°C | 230×114×65mm',
+                'mullite-brick': 'Al₂O₃ 70-80% | 耐火度 1850°C | 230×114×65mm'
+            };
+            return specs[productId] || '标准规格耐火砖';
+        }
+
+        // 生成报价编号
+        function generateQuoteNumber() {
+            const now = new Date();
+            const date = now.toISOString().slice(0, 10).replace(/-/g, '');
+            const time = now.getTime().toString().slice(-3);
+            return `QT-${date}-${time}`;
+        }
+
+        // 点击模态框背景关闭
+        document.getElementById('quoteModal').addEventListener('click', function(e) {
+            if (e.target === this) {
+                closeQuoteWizard();
+            }
+        });
+
+        // ESC键关闭
+        document.addEventListener('keydown', function(e) {
+            if (e.key === 'Escape') {
+                const modal = document.getElementById('quoteModal');
+                if (modal.classList.contains('show')) {
+                    closeQuoteWizard();
+                }
+            }
+        });
+    </script>
+
+    <!-- 语言切换器组件 -->
+    <script src="js/language-switcher.js"></script>
+
+</body>
+</html>

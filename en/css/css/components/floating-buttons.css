@@ -1,0 +1,404 @@
+/* ========== 全站统一浮动按钮组件样式 ========== */
+
+/* 浮动按钮容器 */
+.floating-buttons-container {
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    z-index: 1002;
+    pointer-events: none;
+}
+
+/* 基础浮动按钮样式 */
+.float-btn {
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    width: 50px !important;
+    height: 50px !important;
+    border-radius: 50% !important;
+    color: white !important;
+    text-decoration: none !important;
+    font-size: 18px !important;
+    transition: all 0.3s ease !important;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15) !important;
+    position: relative !important;
+    overflow: hidden !important;
+    border: none;
+    cursor: pointer;
+    pointer-events: auto;
+}
+
+.float-btn:hover {
+    transform: scale(1.1) translateY(-2px) !important;
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.2) !important;
+    color: white !important;
+}
+
+.float-btn i {
+    font-size: 1.1rem;
+    z-index: 1;
+}
+
+/* 回到顶部按钮 */
+.float-btn.back-to-top {
+    background: linear-gradient(135deg, #6c757d, #495057) !important;
+}
+
+.float-btn.back-to-top:hover {
+    background: linear-gradient(135deg, #495057, #343a40) !important;
+}
+
+/* 快速报价按钮 */
+.float-btn.quick-quote {
+    background: linear-gradient(135deg, #ff6b35, #f7931e) !important;
+}
+
+.float-btn.quick-quote:hover {
+    background: linear-gradient(135deg, #f7931e, #e67e22) !important;
+}
+
+/* WhatsApp按钮 */
+.float-btn.whatsapp {
+    background: linear-gradient(135deg, #25d366, #128c7e) !important;
+}
+
+.float-btn.whatsapp:hover {
+    background: linear-gradient(135deg, #128c7e, #0d7377) !important;
+}
+
+/* 屏幕阅读器文本 */
+.sr-only {
+    position: absolute !important;
+    width: 1px !important;
+    height: 1px !important;
+    padding: 0 !important;
+    margin: -1px !important;
+    overflow: hidden !important;
+    clip: rect(0, 0, 0, 0) !important;
+    white-space: nowrap !important;
+    border: 0 !important;
+}
+
+/* ========== 快速报价模态框样式 ========== */
+
+.modal-overlay {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.6);
+    z-index: 10000;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+}
+
+.modal-overlay.show {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 1;
+}
+
+.modal-content {
+    background: white;
+    border-radius: 16px;
+    box-shadow: 0 20px 60px rgba(0, 0, 0, 0.2);
+    max-width: 500px;
+    width: 90%;
+    max-height: 90vh;
+    overflow-y: auto;
+    transform: scale(0.7) translateY(50px);
+    transition: transform 0.3s ease;
+    position: relative;
+}
+
+.modal-overlay.show .modal-content {
+    transform: scale(1) translateY(0);
+}
+
+/* 快速询价模态框特定样式 */
+.quick-quote-modal {
+    padding: 0;
+}
+
+.modal-header {
+    background: linear-gradient(135deg, #ff6b35, #f7931e);
+    color: white;
+    padding: 20px 24px;
+    border-radius: 16px 16px 0 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.modal-title-icon {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.modal-title-icon i {
+    font-size: 24px;
+    opacity: 0.9;
+}
+
+.modal-title-icon h3 {
+    margin: 0;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.modal-close {
+    background: none;
+    border: none;
+    color: white;
+    font-size: 28px;
+    cursor: pointer;
+    padding: 0;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: background-color 0.2s ease;
+}
+
+.modal-close:hover {
+    background-color: rgba(255, 255, 255, 0.2);
+}
+
+.modal-subtitle {
+    padding: 20px 24px 0;
+    color: #666;
+    font-size: 14px;
+    text-align: center;
+    margin-bottom: 4px;
+}
+
+.quick-quote-form {
+    padding: 16px 24px 32px;
+}
+
+.form-group {
+    margin-bottom: 20px;
+    position: relative;
+}
+
+.form-group textarea,
+.form-group input {
+    width: 100%;
+    padding: 14px 16px;
+    border: 2px solid #e8ecef;
+    border-radius: 10px;
+    font-size: 14px;
+    color: #333;
+    transition: all 0.2s ease;
+    box-sizing: border-box;
+    background: #fafbfc;
+}
+
+.form-group textarea:focus,
+.form-group input:focus {
+    outline: none;
+    border-color: #ff6b35;
+    background: white;
+    box-shadow: 0 0 0 3px rgba(255, 107, 53, 0.1);
+}
+
+.form-group textarea {
+    resize: vertical;
+    min-height: 100px;
+    font-family: inherit;
+    line-height: 1.5;
+}
+
+.char-counter {
+    position: absolute;
+    bottom: 8px;
+    right: 12px;
+    font-size: 12px;
+    color: #999;
+    background: rgba(255, 255, 255, 0.9);
+    padding: 2px 6px;
+    border-radius: 4px;
+}
+
+.char-limit {
+    color: #ff6b35;
+    margin-left: 4px;
+}
+
+.submit-quote-btn {
+    width: 100%;
+    background: linear-gradient(135deg, #ff6b35, #f7931e);
+    color: white;
+    border: none;
+    padding: 16px 24px;
+    border-radius: 10px;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.2s ease;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    margin-top: 8px;
+}
+
+.submit-quote-btn:hover {
+    background: linear-gradient(135deg, #f7931e, #e67e22);
+    transform: translateY(-2px);
+    box-shadow: 0 8px 25px rgba(255, 107, 53, 0.3);
+}
+
+.submit-quote-btn:active {
+    transform: translateY(0);
+}
+
+.submit-quote-btn i {
+    font-size: 14px;
+}
+
+/* 表单验证样式 */
+.form-group.error input,
+.form-group.error textarea {
+    border-color: #dc3545;
+    background-color: #fff5f5;
+}
+
+.form-group.success input,
+.form-group.success textarea {
+    border-color: #28a745;
+    background-color: #f8fff8;
+}
+
+.error-message {
+    color: #dc3545;
+    font-size: 12px;
+    margin-top: 4px;
+}
+
+/* 加载状态 */
+.submit-quote-btn.loading {
+    opacity: 0.7;
+    pointer-events: none;
+}
+
+.submit-quote-btn.loading::after {
+    content: '';
+    width: 16px;
+    height: 16px;
+    border: 2px solid transparent;
+    border-top: 2px solid white;
+    border-radius: 50%;
+    animation: spin 1s linear infinite;
+    margin-left: 8px;
+}
+
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
+
+/* 动画效果 */
+@keyframes modalSlideIn {
+    from {
+        transform: scale(0.7) translateY(50px);
+        opacity: 0;
+    }
+    to {
+        transform: scale(1) translateY(0);
+        opacity: 1;
+    }
+}
+
+@keyframes modalSlideOut {
+    from {
+        transform: scale(1) translateY(0);
+        opacity: 1;
+    }
+    to {
+        transform: scale(0.7) translateY(50px);
+        opacity: 0;
+    }
+}
+
+.modal-overlay.closing .modal-content {
+    animation: modalSlideOut 0.3s ease forwards;
+}
+
+/* ========== 响应式设计 ========== */
+@media (max-width: 768px) {
+    .floating-buttons-container {
+        right: 15px;
+        bottom: 15px;
+        gap: 8px;
+    }
+
+    .float-btn {
+        width: 45px !important;
+        height: 45px !important;
+        font-size: 16px !important;
+    }
+
+    .modal-content {
+        width: 95%;
+        max-width: none;
+        margin: 20px;
+        border-radius: 12px;
+    }
+
+    .modal-header {
+        padding: 16px 20px;
+        border-radius: 12px 12px 0 0;
+    }
+
+    .modal-title-icon h3 {
+        font-size: 18px;
+    }
+
+    .modal-title-icon i {
+        font-size: 20px;
+    }
+
+    .modal-subtitle {
+        padding: 16px 20px 0;
+        font-size: 13px;
+    }
+
+    .quick-quote-form {
+        padding: 12px 20px 24px;
+    }
+
+    .form-group textarea,
+    .form-group input {
+        padding: 12px 14px;
+        font-size: 14px;
+    }
+
+    .submit-quote-btn {
+        padding: 14px 20px;
+        font-size: 15px;
+    }
+}
+
+@media (max-width: 480px) {
+    .floating-buttons-container {
+        right: 10px;
+        bottom: 10px;
+    }
+
+    .float-btn {
+        width: 42px !important;
+        height: 42px !important;
+        font-size: 14px !important;
+    }
+}

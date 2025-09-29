@@ -1,0 +1,804 @@
+*{
+margin:0;padding:0;
+box-sizing:border-box;}
+
+html{
+font-size:16px;
+scroll-behavior:smooth;}
+
+body{
+font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', 'PingFang SC', 'Hiragino Sans GB', 'Microsoft YaHei', sans-serif;
+line-height:1.6;color:#333;
+background-color:#fff;}
+
+/* ========== DESIGN SYSTEM VARIABLES ========== */:root{
+--primary-color:#d32f2f;--primary-dark:#b71c1c;--secondary-color:#666;--text-dark:#333;--text-light:#555;--border-light:#e0e0e0;--background-light:#f8f9fa;--white:#fff;--spacing-xs:.5rem;--spacing-sm:1rem;--spacing-md:1.5rem;--spacing-lg:2rem;--spacing-xl:3rem;
+--spacing-2xl:4rem;
+--section-padding:50px;/* 统一的section间距 */
+--radius-sm:4px;--radius-md:8px;--radius-lg:12px;--shadow-sm:0 1px 3px rgba(0,0,0,.1);--shadow-md:0 4px 6px rgba(0,0,0,.1);--shadow-lg:0 10px 15px rgba(0,0,0,.1);
+--transition:all .3s ease;}
+
+.sr-only{
+position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0, 0, 0, 0);white-space:nowrap;
+border:0;}
+
+/* ========== TYPOGRAPHY ========== */ h1, h2, h3, h4, h5, h6{
+font-weight:600;line-height:1.2;margin-bottom:var(--spacing-sm);
+color:var(--text-dark);}
+
+h1{
+font-size:2.5rem;}
+
+h2{
+font-size:2rem;}
+
+h3{
+font-size:1.5rem;}
+
+h4{
+font-size:1.25rem;}
+
+p{
+margin-bottom:var(--spacing-sm);line-height:1.6;
+color:var(--text-light);}
+
+a{
+color:var(--primary-color);text-decoration:none;
+transition:var(--transition);}
+
+a:hover{
+color:var(--primary-dark);}
+
+/* ========== LAYOUT ========== */ .container{
+max-width:1200px;margin:0 auto;
+padding:0 var(--spacing-sm);}
+
+.row{
+display:flex;flex-wrap:wrap;
+margin:0 -var(--spacing-sm);}
+
+.col-md-6{
+flex:0 0 50%;
+padding:0 var(--spacing-sm);}
+
+/* ========== NAVIGATION ========== */
+
+.nav-container{
+display:flex;align-items:center;justify-content:space-between;max-width:1200px;margin:0 auto;padding:0 24px;height:auto;
+min-height:90px;}
+
+.nav-logo a{
+display:flex;align-items:center;text-decoration:none;
+color:inherit;}
+
+img
+
+.nav-logo,
+.nav-logo a{
+background:transparent ;
+background-color:transparent ;}
+
+.logo-img:hover{
+transform:scale(1.05) ;
+filter:drop-shadow(0 4px 12px rgba(0, 0, 0, .2)) ;}
+
+.nav-logo a{
+display:flex ;align-items:center ;
+gap:12px ;}
+
+text-shadow:3px 3px 6px rgba(0,0,0,.15);}
+/* 为将来替换成图片预留的样式 */ #logo-placeholder{
+min-width:120px;
+height:auto;
+display:flex;
+align-items:center;
+justify-content:flex-start;}
+
+.brand-info .company-names{
+display:flex;
+align-items:baseline;
+gap:var(--spacing-xs);}
+
+/* Brand info container */
+
+.company-name{
+font-size:.9rem;
+font-weight:600;
+color:var(--text-dark);
+line-height:1.2;}
+
+.company-tagline{
+font-size:.75rem;
+color:var(--text-light);
+line-height:1.2;}
+
+.nav-link:hover,
+
+.nav-item:hover .dropdown-menu,
+.has-dropdown:hover
+
+.dropdown-menu li{
+list-style:none ;
+margin:0 ;
+padding:0 ;}
+
+.dropdown-menu a{
+display:block ;
+padding:8px 16px ;
+border-radius:var(--radius-sm) ;
+transition:all .3s ease ;
+color:var(--text-dark) ;
+text-decoration:none ;
+font-size:14px ;}
+
+.dropdown-menu a:hover{
+background:var(--background-light);
+color:var(--primary-color);}
+
+.has-dropdown >
+
+.has-dropdown > .nav-link i{
+font-size:.8rem;
+transition:transform .3s ease;}
+
+.has-dropdown:hover > .nav-link i{
+transform:rotate(180deg);}
+
+.dropdown-submenu:hover
+
+/* Multi-column dropdown menu styles */
+
+.dropdown-menu .menu-section{
+flex:1;
+min-width:180px;}
+
+.dropdown-menu .menu-section h4{
+font-size:.9rem;
+font-weight:600;
+color:var(--primary-color);
+margin-bottom:var(--spacing-sm);
+padding:var(--spacing-xs) 0;
+border-bottom:2px solid var(--primary-color);
+text-transform:uppercase;
+letter-spacing:.5px;}
+
+.dropdown-menu
+
+.dropdown-menu .submenu li{
+margin-bottom:2px;}
+
+.dropdown-menu .submenu a{
+padding:var(--spacing-xs) var(--spacing-sm);
+font-size:.85rem;
+color:var(--text-light);
+border-radius:var(--radius-sm);
+transition:all .2s ease;}
+
+.dropdown-menu .submenu a:hover{
+background:var(--background-light);
+color:var(--primary-color);
+transform:translateX(3px);}
+
+/* Product detail page enhancements */
+
+.process-section h4{
+color:var(--primary-color);
+font-size:1.2rem;
+margin-bottom:var(--spacing-md);
+padding-bottom:var(--spacing-xs);
+border-bottom:2px solid var(--primary-color);}
+
+.process-steps{
+display:grid;
+gap:var(--spacing-md);}
+
+.step{
+display:flex;
+align-items:flex-start;
+gap:var(--spacing-md);
+padding:var(--spacing-md);
+background:var(--white);
+border-radius:var(--radius-md);
+box-shadow:var(--shadow-sm);
+border-left:4px solid var(--primary-color);}
+
+.step-number{
+flex-shrink:0;
+width:32px;
+height:32px;
+background:var(--primary-color);
+color:var(--white);
+border-radius:50%;
+display:flex;
+align-items:center;
+justify-content:center;
+font-weight:600;
+font-size:.9rem;}
+
+.step-content h5{
+color:var(--text-dark);
+margin-bottom:var(--spacing-xs);
+font-size:1rem;}
+
+.step-content p{
+color:var(--text-light);
+font-size:.9rem;
+margin:0;}
+
+.quality-points li{
+padding:var(--spacing-xs) 0;
+padding-left:var(--spacing-lg);
+position:relative;
+color:var(--text-light);}
+
+.quality-points li:before{
+content:'✓';
+position:absolute;
+left:0;
+color:var(--primary-color);
+font-weight:bold;}
+
+.density-grade h5{
+color:#1976d2;}
+
+.temp-grade:hover{
+border-color:var(--primary-color);
+transform:translateY(-2px);
+box-shadow:var(--shadow-md);}
+
+.hamburger span{
+width:25px;
+height:3px;
+background:var(--text-dark);
+border-radius:2px;
+transition:var(--transition);}
+
+/* Product Hero */ .products-hero{
+background:var(--background-light);
+padding:var(--spacing-xl) 0;
+text-align:center;}
+
+.category-link:hover{
+border-color:var(--primary-color);
+background:var(--primary-color);
+color:var(--white);}
+
+/* Product Detail Hero */
+
+.product-breadcrumb a:hover{
+text-decoration:underline;}
+
+.product-breadcrumb span{
+color:var(--text-dark);
+font-weight:500;}
+
+.product-header .product-title{
+font-size:2.5rem;
+margin-bottom:var(--spacing-xs);}
+
+.product-header .product-subtitle{
+font-size:1.1rem;
+color:var(--text-light);
+font-style:italic;
+margin-bottom:var(--spacing-sm);}
+
+/* ========== CONTENT SECTIONS ========== */ .section{
+padding:var(--spacing-xl) 0;}
+
+.section-title{
+text-align:center;
+font-size:2rem;
+margin-bottom:var(--spacing-xl);}
+
+/* ========== PRODUCT GRID ========== */ /* Product filters */
+
+.filter-btn:hover,
+
+from{
+opacity:0;transform:translateY(20px);}
+
+to{
+opacity:1;transform:translateY(0);}
+
+/* ========== BUTTONS ========== */
+.btn {
+    display: inline-block;
+    padding: 0.75rem 1.5rem;
+    border: none;
+    border-radius: var(--radius-md);
+    text-decoration: none;
+    text-align: center;
+    font-weight: 600;
+    font-size: 0.95rem;
+    cursor: pointer;
+    transition: var(--transition);
+    line-height: 1.2;
+}
+
+.btn-primary {
+    background: var(--primary-color);
+    color: var(--white);
+}
+
+.btn-primary:hover {
+    background: var(--primary-dark);
+    color: var(--white);
+    transform: translateY(-2px);
+}
+
+.btn-secondary {
+    background: transparent;
+    color: var(--primary-color);
+    border: 2px solid var(--primary-color);
+}
+
+.btn-secondary:hover {
+    background: var(--primary-color);
+    color: var(--white);
+}
+
+/* ========== UTILITIES ========== */
+.text-center { text-align: center; }
+.text-left { text-align: left; }
+.text-right { text-align: right; }
+
+.mb-0 { margin-bottom: 0; }
+.mb-1 { margin-bottom: var(--spacing-xs); }
+.mb-2 { margin-bottom: var(--spacing-sm); }
+.mb-3 { margin-bottom: var(--spacing-md); }
+.mb-4 { margin-bottom: var(--spacing-lg); }
+
+.mt-0 { margin-top: 0; }
+.mt-1 { margin-top: var(--spacing-xs); }
+.mt-2 { margin-top: var(--spacing-sm); }
+.mt-3 { margin-top: var(--spacing-md); }
+.mt-4 { margin-top: var(--spacing-lg); }
+
+/* ========== RESPONSIVE UTILITIES ========== */
+@media (max-width: 768px) {
+    .container {
+        padding: 0 var(--spacing-sm);
+    }
+
+    h1 {
+        font-size: 2rem;
+    }
+
+    h2 {
+        font-size: 1.75rem;
+    }
+
+    .hero-content h1 {
+        font-size: 1.8rem;
+    }
+}
+
+/* ========== 首页专用区块样式 ========== */
+
+/* 区块背景样式 */
+.section-bg-light {
+    background-color: var(--bg-light);
+}
+
+.section-bg-white {
+    background-color: var(--bg-white);
+}
+
+/* 区块标题和图标 */
+.section-header-with-icon {
+    text-align: center;
+    margin-bottom: 3rem;
+}
+
+.section-icon {
+    font-size: 3rem;
+    color: var(--primary-color);
+    margin-bottom: 1rem;
+    display: block;
+}
+
+.section-header-with-icon h2 {
+    font-size: 2.5rem;
+    color: var(--text-primary);
+    margin-bottom: 1rem;
+    font-weight: var(--font-weight-bold);
+}
+
+.section-header-with-icon p {
+    font-size: 1.2rem;
+    color: var(--text-secondary);
+    max-width: 600px;
+    margin: 0 auto;
+    line-height: 1.6;
+}
+
+/* USP区块样式 */
+.usp-section {
+    padding: 4rem 0;
+}
+
+.usp-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 2rem;
+    margin-top: 2rem;
+}
+
+.usp-item {
+    background: var(--bg-white);
+    padding: 2rem;
+    border-radius: 12px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+    text-align: center;
+    transition: transform 0.3s ease;
+}
+
+.usp-item:hover {
+    transform: translateY(-5px);
+}
+
+.usp-icon {
+    font-size: 3rem;
+    color: var(--primary-color);
+    margin-bottom: 1rem;
+}
+
+.usp-item h3 {
+    font-size: 1.5rem;
+    color: var(--text-primary);
+    margin-bottom: 0.5rem;
+    font-weight: var(--font-weight-semibold);
+}
+
+.usp-item p {
+    color: var(--text-secondary);
+    line-height: 1.6;
+}
+
+/* 产品区块样式 */
+.products-section {
+    padding: 4rem 0;
+}
+
+/* 客户案例区块样式 */
+.customers-section {
+    padding: 4rem 0;
+}
+
+.project-showcase {
+    position: relative;
+    margin: 2rem 0;
+    background: var(--bg-white);
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 8px 30px rgba(0, 0, 0, 0.1);
+}
+
+.project-carousel {
+    position: relative;
+    height: 400px;
+    overflow: hidden;
+}
+
+.project-slide {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    transition: opacity 0.6s ease;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.project-slide.active {
+    opacity: 1;
+}
+
+.project-slide img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.project-overlay {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: linear-gradient(transparent, rgba(0,0,0,0.8));
+    color: white;
+    padding: 2rem;
+    transform: translateY(20px);
+    opacity: 0;
+    transition: all 0.3s ease;
+}
+
+.project-slide.active .project-overlay {
+    transform: translateY(0);
+    opacity: 1;
+}
+
+.project-overlay h3 {
+    font-size: 1.5rem;
+    margin-bottom: 0.5rem;
+    color: #fff;
+}
+
+.project-overlay p {
+    color: rgba(255,255,255,0.9);
+    line-height: 1.5;
+}
+
+.carousel-controls {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 1rem;
+    pointer-events: none;
+}
+
+.carousel-btn {
+    background: rgba(0,0,0,0.5);
+    color: white;
+    border: none;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    font-size: 1.5rem;
+    cursor: pointer;
+    pointer-events: auto;
+    transition: all 0.3s ease;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.carousel-btn:hover {
+    background: rgba(0,0,0,0.8);
+    transform: scale(1.1);
+}
+
+.customers-stats {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2rem;
+    margin: 2rem 0;
+    text-align: center;
+}
+
+.stat-item {
+    background: var(--bg-white);
+    padding: 2rem 1rem;
+    border-radius: 12px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+    transition: transform 0.3s ease;
+}
+
+.stat-item:hover {
+    transform: translateY(-5px);
+}
+
+.stat-number {
+    font-size: 3rem;
+    font-weight: var(--font-weight-bold);
+    color: var(--primary-color);
+    margin-bottom: 0.5rem;
+}
+
+.stat-label {
+    color: var(--text-secondary);
+    font-weight: var(--font-weight-medium);
+}
+
+/* 行业案例网格 */
+.industry-cases-optimized {
+    margin: 3rem 0;
+}
+
+.industry-cases-optimized h3 {
+    text-align: center;
+    font-size: 2rem;
+    color: var(--text-primary);
+    margin-bottom: 2rem;
+    font-weight: var(--font-weight-semibold);
+}
+
+.industry-grid-optimized {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2rem;
+}
+
+.industry-case-optimized {
+    background: var(--bg-white);
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.08);
+    transition: all 0.3s ease;
+    position: relative;
+}
+
+.industry-case-optimized:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 15px 40px rgba(0, 0, 0, 0.15);
+}
+
+.industry-case-optimized img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+.industry-icon-tag {
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+    background: var(--primary-color);
+    color: white;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.2rem;
+}
+
+.industry-content-bottom {
+    padding: 1.5rem;
+}
+
+.industry-content-bottom h4 {
+    font-size: 1.3rem;
+    color: var(--text-primary);
+    margin-bottom: 0.5rem;
+    font-weight: var(--font-weight-semibold);
+}
+
+.industry-content-bottom > p {
+    color: var(--text-secondary);
+    margin-bottom: 1rem;
+}
+
+.industry-description-extended {
+    color: var(--text-muted);
+    line-height: 1.6;
+    font-size: 0.9rem;
+}
+
+.customers-logos {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 3rem 0;
+    padding: 2rem;
+    background: rgba(255, 255, 255, 0.7);
+    border-radius: 12px;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+
+.logo-item {
+    font-weight: var(--font-weight-semibold);
+    color: var(--text-secondary);
+    padding: 0.75rem 1.5rem;
+    background: var(--bg-white);
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
+    transition: all 0.3s ease;
+}
+
+.logo-item:hover {
+    transform: scale(1.05);
+    color: var(--primary-color);
+}
+
+/* 区块底部CTA */
+.section-cta {
+    text-align: center;
+    margin-top: 2rem;
+}
+
+.btn-cta-primary {
+    background: var(--primary-color);
+    color: white;
+    padding: 1rem 2rem;
+    border-radius: 8px;
+    text-decoration: none;
+    font-weight: var(--font-weight-semibold);
+    transition: all 0.3s ease;
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.btn-cta-primary:hover {
+    background: #b71c1c;
+    transform: translateY(-2px);
+    color: white;
+    text-decoration: none;
+}
+
+/* 产品区域按钮组布局优化 */
+.cta-buttons-group {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5rem;
+    margin-top: 2rem;
+}
+
+/* 确保按钮大小一致 */
+.cta-buttons-group .btn-cta-primary {
+    flex: 0 0 auto;
+    min-width: 160px;
+    text-align: center;
+}
+
+/* 强制统一button和a标签的样式 */
+button.btn-cta-primary {
+    border: none !important; /* 移除button默认边框 */
+    background: var(--primary-color) !important;
+    font-family: inherit !important;
+    font-size: inherit !important;
+    font-weight: var(--font-weight-semibold) !important;
+    -webkit-appearance: none !important; /* 移除webkit默认样式 */
+    -moz-appearance: none !important; /* 移除firefox默认样式 */
+    appearance: none !important; /* 移除默认样式 */
+}
+
+button.btn-cta-primary:hover {
+    background: #b71c1c !important;
+    border: none !important;
+}
+
+/* 响应式设计 */
+@media (max-width: 768px) {
+    /* 移动端按钮组样式 */
+    .cta-buttons-group {
+        flex-direction: column;
+        gap: 1rem;
+    }
+
+    .cta-buttons-group .btn-cta-primary {
+        width: 100%;
+        max-width: 280px;
+    }
+
+    .usp-grid {
+        grid-template-columns: 1fr;
+        gap: 1.5rem;
+    }
+
+    .customers-stats {
+        grid-template-columns: 1fr;
+        gap: 1.5rem;
+    }
+
+    .industry-grid-optimized {
+        grid-template-columns: 1fr;
+        gap: 1.5rem;
+    }
+
+    .project-carousel {
+        height: 250px;
+    }
+
+    .section-header-with-icon h2 {
+        font-size: 2rem;
+    }
+
+    .section-icon {
+        font-size: 2.5rem;
+    }
+
+    .customers-logos {
+        justify-content: center;
+    }
+}

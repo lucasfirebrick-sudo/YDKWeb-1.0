@@ -1,0 +1,181 @@
+/* ===================================================================== */
+/* CRITICAL FIXES AND ENHANCEMENTS - 关键修复和增强 */
+/* ===================================================================== */
+
+/* ===================================================================== */
+/* FOOTER PROFESSIONAL REDESIGN - Footer专业重新设计 */
+/* ===================================================================== */
+
+.footer {
+    background: linear-gradient(135deg, #1a1a2e 0%, #16213e 50%, #0f171f 100%) !important;
+    color: #ffffff !important;
+    padding: 0 !important;
+    margin: 0 !important;
+    position: relative !important;
+    overflow: hidden !important;
+}
+
+.footer::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 4px;
+    background: linear-gradient(90deg, #c53737, #e74c3c, #c53737);
+    z-index: 1;
+}
+
+.footer-content {
+    position: relative !important;
+    z-index: 2 !important;
+    max-width: 1200px !important;
+    margin: 0 auto !important;
+    padding: 3rem 2rem 0 2rem !important;
+}
+
+.footer-main {
+    display: grid !important;
+    grid-template-columns: 2fr 1fr 1fr 1fr 1.5fr !important;
+    gap: 2.5rem !important;
+    margin-bottom: 2.5rem !important;
+    align-items: flex-start !important;
+}
+
+/* ===================================================================== */
+/* 产品卡片文字遮挡终极修复 */
+/* ===================================================================== */
+
+.products-section .product-card,
+.product-card {
+    min-height: 420px !important;
+    overflow: visible !important;
+    z-index: 1 !important;
+}
+
+.products-section .product-body,
+.product-body {
+    padding: 20px !important;
+    z-index: 3 !important;
+    position: relative !important;
+    min-height: 200px !important;
+}
+
+.products-section .product-body h3,
+.product-body h3 {
+    min-height: 50px !important;
+    max-height: 50px !important;
+    z-index: 4 !important;
+    overflow: hidden !important;
+}
+
+.products-section .product-badge,
+.product-badge {
+    z-index: 10 !important;
+    pointer-events: none !important;
+}
+
+/* ===================================================================== */
+/* 产品下拉菜单压缩空间优化 */
+/* ===================================================================== */
+
+/* 压缩下拉菜单整体尺寸 */
+.mega-dropdown-menu {
+    width: 600px !important;
+    max-width: 90vw !important;
+    border-radius: 12px !important;
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.12) !important;
+}
+
+/* 压缩内容区域布局 */
+.mega-dropdown-content {
+    gap: 16px !important;
+    padding: 16px !important;
+}
+
+/* 优化产品类别设计 */
+.category-title {
+    font-size: 0.9rem !important;
+    margin-bottom: 8px !important;
+    padding: 8px 0 !important;
+}
+
+/* 压缩产品列表 */
+.category-products,
+.category-applications {
+    gap: 2px !important;
+}
+
+.category-products a,
+.category-applications a {
+    padding: 6px 8px !important;
+    font-size: 0.85rem !important;
+    line-height: 1.3 !important;
+}
+
+.category-products a:hover,
+.category-applications a:hover {
+    transform: translateX(3px) !important;
+}
+
+/* 压缩底部区域 */
+.mega-dropdown-footer {
+    padding: 12px 16px !important;
+}
+
+.view-all-btn {
+    padding: 8px 16px !important;
+    font-size: 0.85rem !important;
+}
+
+/* 移动端进一步压缩 */
+@media (max-width: 768px) {
+    .mega-dropdown-content {
+        gap: 12px !important;
+        padding: 12px !important;
+    }
+
+    .category-title {
+        font-size: 0.85rem !important;
+        margin-bottom: 6px !important;
+    }
+
+    .category-products a,
+    .category-applications a {
+        padding: 5px 6px !important;
+        font-size: 0.8rem !important;
+    }
+}
+
+/* ===================================================================== */
+/* 传承时间线现代化增强 */
+/* ===================================================================== */
+
+/* 增强整体背景效果 */
+.heritage-timeline {
+    background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%) !important;
+    border-radius: 24px !important;
+    padding: 4rem 0 !important;
+    position: relative !important;
+    overflow: hidden !important;
+}
+
+/* 增强卡片设计 */
+.timeline-content:hover {
+    transform: translateY(-8px) scale(1.02) !important;
+    box-shadow: 0 16px 64px rgba(0, 0, 0, 0.15) !important;
+}
+
+/* 增强时间标记 */
+.timeline-year {
+    background: linear-gradient(135deg, #c53737, #e74c3c) !important;
+    box-shadow: 0 6px 20px rgba(197, 55, 55, 0.4) !important;
+    font-weight: 700 !important;
+}
+
+/* 功能特性增强 */
+.feature-item:hover {
+    background: linear-gradient(135deg, rgba(197, 55, 55, 0.05), rgba(197, 55, 55, 0.1)) !important;
+    transform: translateX(8px) !important;
+    border-color: rgba(197, 55, 55, 0.2) !important;
+}

@@ -1,0 +1,22 @@
+User-agent: *
+Allow: /
+
+# 优先抓取重要页面
+Crawl-delay: 1
+
+# 网站地图
+Sitemap: https://www.yuandake.com/sitemap.xml
+
+# 禁止抓取的目录
+Disallow: /dist/
+Disallow: /backup/
+Disallow: /node_modules/
+Disallow: /*.py$
+Disallow: /*.js$
+Disallow: /build-report.json
+Disallow: /package*.json
+
+# 禁止抓取的文件类型
+Disallow: /*.log$
+Disallow: /*.bak$
+Disallow: /*.tmp$
