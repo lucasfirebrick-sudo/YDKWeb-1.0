@@ -1,6 +1,6 @@
 /**
  * Language Switcher Component
- * Handles switching between Chinese (7788/) and English (7788-en/) versions
+ * Handles switching between Chinese (zh/) and English (en/) versions
  */
 
 class LanguageSwitcher {
@@ -14,13 +14,13 @@ class LanguageSwitcher {
      */
     detectCurrentLanguage() {
         const path = window.location.pathname;
-        if (path.includes('/7788-en/')) {
+        if (path.includes('/en/')) {
             return 'en';
-        } else if (path.includes('/7788/')) {
+        } else if (path.includes('/zh/')) {
             return 'zh';
         }
         // Default detection based on domain or folder structure
-        return 'en'; // Default to English for 7788-en folder
+        return 'en'; // Default to English for en folder
     }
 
     /**
@@ -98,18 +98,18 @@ class LanguageSwitcher {
         let newPath;
 
         if (targetLang === 'zh') {
-            // Switch to Chinese version (7788/)
-            if (currentPath.includes('/7788-en/')) {
-                newPath = currentPath.replace('/7788-en/', '/7788/');
+            // Switch to Chinese version (zh/)
+            if (currentPath.includes('/en/')) {
+                newPath = currentPath.replace('/en/', '/zh/');
             } else {
-                newPath = '/7788/' + currentPath.split('/').pop();
+                newPath = '/zh/' + currentPath.split('/').pop();
             }
         } else {
-            // Switch to English version (7788-en/)
-            if (currentPath.includes('/7788/')) {
-                newPath = currentPath.replace('/7788/', '/7788-en/');
+            // Switch to English version (en/)
+            if (currentPath.includes('/zh/')) {
+                newPath = currentPath.replace('/zh/', '/en/');
             } else {
-                newPath = '/7788-en/' + currentPath.split('/').pop();
+                newPath = '/en/' + currentPath.split('/').pop();
             }
         }
 
@@ -143,9 +143,9 @@ class LanguageSwitcher {
         const currentPath = window.location.pathname;
 
         if (alternateLang === 'zh') {
-            return currentPath.replace('/7788-en/', '/7788/');
+            return currentPath.replace('/en/', '/zh/');
         } else {
-            return currentPath.replace('/7788/', '/7788-en/');
+            return currentPath.replace('/zh/', '/en/');
         }
     }
 }

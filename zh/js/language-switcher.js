@@ -1,6 +1,6 @@
 /**
  * 语言切换组件
- * 处理中文版(7788/)和英文版(7788-en/)之间的切换
+ * 处理中文版(zh/)和英文版(en/)之间的切换
  */
 
 class LanguageSwitcher {
@@ -14,13 +14,13 @@ class LanguageSwitcher {
      */
     detectCurrentLanguage() {
         const path = window.location.pathname;
-        if (path.includes('/7788-en/')) {
+        if (path.includes('/en/')) {
             return 'en';
-        } else if (path.includes('/7788/')) {
+        } else if (path.includes('/zh/')) {
             return 'zh';
         }
         // 基于域名或文件夹结构的默认检测
-        return 'zh'; // 7788文件夹默认为中文
+        return 'zh'; // zh文件夹默认为中文
     }
 
     /**
@@ -98,18 +98,18 @@ class LanguageSwitcher {
         let newPath;
 
         if (targetLang === 'zh') {
-            // 切换到中文版 (7788/)
-            if (currentPath.includes('/7788-en/')) {
-                newPath = currentPath.replace('/7788-en/', '/7788/');
+            // 切换到中文版 (zh/)
+            if (currentPath.includes('/en/')) {
+                newPath = currentPath.replace('/en/', '/zh/');
             } else {
-                newPath = '/7788/' + currentPath.split('/').pop();
+                newPath = '/zh/' + currentPath.split('/').pop();
             }
         } else {
-            // 切换到英文版 (7788-en/)
-            if (currentPath.includes('/7788/')) {
-                newPath = currentPath.replace('/7788/', '/7788-en/');
+            // 切换到英文版 (en/)
+            if (currentPath.includes('/zh/')) {
+                newPath = currentPath.replace('/zh/', '/en/');
             } else {
-                newPath = '/7788-en/' + currentPath.split('/').pop();
+                newPath = '/en/' + currentPath.split('/').pop();
             }
         }
 
@@ -143,9 +143,9 @@ class LanguageSwitcher {
         const currentPath = window.location.pathname;
 
         if (alternateLang === 'zh') {
-            return currentPath.replace('/7788-en/', '/7788/');
+            return currentPath.replace('/en/', '/zh/');
         } else {
-            return currentPath.replace('/7788/', '/7788-en/');
+            return currentPath.replace('/zh/', '/en/');
         }
     }
 }
