@@ -10,12 +10,36 @@
     min-height: 400px;
 }
 
-/* 产品网格布局 - 统一4列设计 */
+/* Product Grid Layout - Mobile-First Responsive Design */
 .products-grid {
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    gap: 2rem;
+    grid-template-columns: 1fr; /* Default 1 column - Mobile */
+    gap: 1rem;
     padding: 1rem 0;
+}
+
+/* Small phones >= 640px - 2 columns */
+@media (min-width: 640px) {
+    .products-grid {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 1.5rem;
+    }
+}
+
+/* Tablets >= 1024px - 3 columns */
+@media (min-width: 1024px) {
+    .products-grid {
+        grid-template-columns: repeat(3, 1fr);
+        gap: 1.75rem;
+    }
+}
+
+/* Desktop >= 1280px - 4 columns */
+@media (min-width: 1280px) {
+    .products-grid {
+        grid-template-columns: repeat(4, 1fr);
+        gap: 2rem;
+    }
 }
 
 /* ========================================
@@ -362,7 +386,7 @@
         padding: 1.25rem;
     }
 
-    /* 移动端：优化hover-overlay显示 */
+    /* Mobile: Tap to activate overlay */
     .hover-overlay {
         padding: 1rem;
         overflow-y: auto;
@@ -370,7 +394,34 @@
         opacity: 0;
         visibility: hidden;
         pointer-events: none;
-        /* 移动端可以通过点击触发，但保持hover机制 */
+        transition: opacity 0.3s ease, visibility 0.3s ease;
+    }
+
+    /* Mobile active state - controlled by JavaScript */
+    .product-card.mobile-active .hover-overlay {
+        opacity: 1 !important;
+        visibility: visible !important;
+        pointer-events: auto !important;
+    }
+
+    /* Add close button style */
+    .product-card.mobile-active .hover-overlay::before {
+        content: '×';
+        position: absolute;
+        top: 10px;
+        right: 15px;
+        font-size: 32px;
+        line-height: 1;
+        color: white;
+        cursor: pointer;
+        z-index: 100;
+        width: 36px;
+        height: 36px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background: rgba(0, 0, 0, 0.3);
+        border-radius: 50%;
     }
 
     .overlay-content {

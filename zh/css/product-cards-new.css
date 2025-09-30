@@ -10,12 +10,36 @@
     min-height: 400px;
 }
 
-/* 产品网格布局 - 统一4列设计 */
+/* 产品网格布局 - 移动优先响应式设计 */
 .products-grid {
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    gap: 2rem;
+    grid-template-columns: 1fr; /* 默认1列 - 手机端 */
+    gap: 1rem;
     padding: 1rem 0;
+}
+
+/* 小手机 >= 640px - 2列 */
+@media (min-width: 640px) {
+    .products-grid {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 1.5rem;
+    }
+}
+
+/* 平板 >= 1024px - 3列 */
+@media (min-width: 1024px) {
+    .products-grid {
+        grid-template-columns: repeat(3, 1fr);
+        gap: 1.75rem;
+    }
+}
+
+/* 桌面 >= 1280px - 4列 */
+@media (min-width: 1280px) {
+    .products-grid {
+        grid-template-columns: repeat(4, 1fr);
+        gap: 2rem;
+    }
 }
 
 /* ========================================
@@ -362,15 +386,42 @@
         padding: 1.25rem;
     }
 
-    /* 移动端：优化hover-overlay显示 */
+    /* 移动端：点击激活overlay */
     .hover-overlay {
         padding: 1rem;
         overflow-y: auto;
         align-items: flex-start;
-        opacity: 0 !important;
-        visibility: hidden !important;
-        pointer-events: none !important;
-        /* 移动端可以通过点击触发，但保持hover机制 */
+        opacity: 0;
+        visibility: hidden;
+        pointer-events: none;
+        transition: opacity 0.3s ease, visibility 0.3s ease;
+    }
+
+    /* 移动端激活状态 - 通过JavaScript添加 */
+    .product-card.mobile-active .hover-overlay {
+        opacity: 1 !important;
+        visibility: visible !important;
+        pointer-events: auto !important;
+    }
+
+    /* 添加关闭按钮样式 */
+    .product-card.mobile-active .hover-overlay::before {
+        content: '×';
+        position: absolute;
+        top: 10px;
+        right: 15px;
+        font-size: 32px;
+        line-height: 1;
+        color: white;
+        cursor: pointer;
+        z-index: 100;
+        width: 36px;
+        height: 36px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background: rgba(0, 0, 0, 0.3);
+        border-radius: 50%;
     }
 
     .overlay-content {
