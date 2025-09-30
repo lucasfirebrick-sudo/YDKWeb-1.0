@@ -2,6 +2,7 @@
    🎨 新产品卡片设计系统 - 正式版
    ======================================== */
 
+
 /* 产品展示区域 */
 .products-section {
     background: var(--bg-light);
@@ -204,19 +205,21 @@
         rgba(0, 0, 0, 0.45) 100%
     );
     backdrop-filter: blur(1px);
-    opacity: 0;
-    visibility: hidden;
-    transition: all 0.4s cubic-bezier(0.4, 0.0, 0.2, 1);
-    z-index: 5;
     display: flex;
     align-items: center;
     justify-content: center;
     padding: 2rem;
+    opacity: 0;
+    visibility: hidden;
+    pointer-events: none;
+    transition: all 0.4s cubic-bezier(0.4, 0.0, 0.2, 1);
+    z-index: 5;
 }
 
 .product-card:hover .hover-overlay {
     opacity: 1;
     visibility: visible;
+    pointer-events: auto;
 }
 
 .overlay-content {
@@ -364,6 +367,9 @@
         padding: 1rem;
         overflow-y: auto;
         align-items: flex-start;
+        opacity: 0 !important;
+        visibility: hidden !important;
+        pointer-events: none !important;
         /* 移动端可以通过点击触发，但保持hover机制 */
     }
 
@@ -451,6 +457,9 @@
     /* 进一步压缩overlay内容 */
     .hover-overlay {
         padding: 0.75rem;
+        opacity: 0 !important;
+        visibility: hidden !important;
+        pointer-events: none !important;
     }
 
     .overlay-title {
@@ -523,13 +532,12 @@
 .product-card:nth-child(5) { animation-delay: 0.5s; }
 .product-card:nth-child(6) { animation-delay: 0.6s; }
 
-/* 加载状态 */
-.product-card {
-    opacity: 0;
-}
+/* 卡片动画和加载状态 */
 
-.product-card.loaded {
-    opacity: 1;
+/* 产品筛选隐藏状态 - 使用class而非内联样式 */
+.product-card.product-hidden {
+    display: none !important;
+    opacity: 0 !important;
 }
 
 /* 焦点状态（键盘导航支持） */

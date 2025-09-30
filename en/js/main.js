@@ -133,16 +133,15 @@
         // 切换产品卡片显示状态
         toggleProductCard(card, shouldShow) {
             if (shouldShow) {
-                card.style.display = 'block';
-                card.style.opacity = '1';
-                card.style.transform = 'translateY(0)';
+                // 显示卡片：移除隐藏class，清除可能存在的内联样式
+                card.classList.remove('product-hidden');
+                card.style.removeProperty('opacity');
+                card.style.removeProperty('transform');
+                card.style.removeProperty('display');
             } else {
-                card.style.opacity = '0';
-                card.style.transform = 'translateY(20px)';
+                // 隐藏卡片：添加隐藏class
                 setTimeout(() => {
-                    if (card.style.opacity === '0') {
-                        card.style.display = 'none';
-                    }
+                    card.classList.add('product-hidden');
                 }, 300);
             }
         },
@@ -162,7 +161,7 @@
         // 更新产品数量显示
         updateProductCounts() {
             const visibleCards = Array.from(this.productCards).filter(card =>
-                card.style.display !== 'none' && card.style.opacity !== '0'
+                !card.classList.contains('product-hidden')
             );
 
             // 更新各类别的显示数量

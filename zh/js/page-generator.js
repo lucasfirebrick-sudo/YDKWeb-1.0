@@ -27,7 +27,6 @@ class PageGenerator {
 
             const templateHtml = await response.text();
             this.templateCache.set('standard', templateHtml);
-            console.log('✅ 标准模板加载成功');
 
             return templateHtml;
         } catch (error) {
@@ -385,8 +384,6 @@ class PageGenerator {
      * 批量生成所有产品页面
      */
     async generateAllPages() {
-        console.log('🚀 开始批量生成产品页面...');
-
         try {
             // 加载标准模板
             const template = await this.loadTemplate();
@@ -398,8 +395,6 @@ class PageGenerator {
                 throw new Error('无法获取产品数据库');
             }
 
-            console.log(`📋 找到 ${allProducts.length} 个产品，开始生成...`);
-
             const results = {
                 success: [],
                 errors: [],
@@ -409,8 +404,6 @@ class PageGenerator {
             // 生成每个产品的页面
             for (const productInfo of allProducts) {
                 try {
-                    console.log(`🔄 生成产品页面: ${productInfo.name} (${productInfo.id})`);
-
                     const pageHtml = this.generateProductPage(productInfo, template);
                     const filename = `${productInfo.id}.html`;
 
@@ -423,8 +416,6 @@ class PageGenerator {
                         filename: filename,
                         size: pageHtml.length
                     });
-
-                    console.log(`✅ ${productInfo.name} 页面生成成功 (${Math.round(pageHtml.length/1024)}KB)`);
 
                 } catch (error) {
                     console.error(`❌ 生成 ${productInfo.name} 页面失败:`, error);
@@ -449,22 +440,24 @@ class PageGenerator {
      * 记录生成结果
      */
     logGenerationResults(results) {
-        console.log('\n📊 页面生成结果汇总:');
-        console.log(`✅ 成功生成: ${results.success.length} 个页面`);
-        console.log(`❌ 生成失败: ${results.errors.length} 个页面`);
-        console.log(`⚠️ 警告信息: ${results.warnings.length} 个`);
+        if (window.DEBUG_MODE) {
+            console.log('\n📊 页面生成结果汇总:');
+            console.log(`✅ 成功生成: ${results.success.length} 个页面`);
+            console.log(`❌ 生成失败: ${results.errors.length} 个页面`);
+            console.log(`⚠️ 警告信息: ${results.warnings.length} 个`);
 
-        if (results.success.length > 0) {
-            const totalSize = results.success.reduce((sum, page) => sum + page.size, 0);
-            console.log(`📦 总大小: ${Math.round(totalSize/1024)} KB`);
-            console.log(`📄 平均页面大小: ${Math.round(totalSize/results.success.length/1024)} KB`);
-        }
+            if (results.success.length > 0) {
+                const totalSize = results.success.reduce((sum, page) => sum + page.size, 0);
+                console.log(`📦 总大小: ${Math.round(totalSize/1024)} KB`);
+                console.log(`📄 平均页面大小: ${Math.round(totalSize/results.success.length/1024)} KB`);
+            }
 
-        if (results.errors.length > 0) {
-            console.log('\n❌ 生成失败的页面:');
-            results.errors.forEach(error => {
-                console.log(`   • ${error.productName} (${error.productId}): ${error.error}`);
-            });
+            if (results.errors.length > 0) {
+                console.log('\n❌ 生成失败的页面:');
+                results.errors.forEach(error => {
+                    console.log(`   • ${error.productName} (${error.productId}): ${error.error}`);
+                });
+            }
         }
     }
 
@@ -488,7 +481,6 @@ class PageGenerator {
     downloadPage(filename) {
         const pageHtml = this.generatedPages.get(filename);
         if (!pageHtml) {
-            console.error(`页面不存在: ${filename}`);
             return;
         }
 
@@ -504,7 +496,6 @@ class PageGenerator {
         document.body.removeChild(link);
 
         setTimeout(() => URL.revokeObjectURL(url), 1000);
-        console.log(`✅ 页面已下载: ${filename}`);
     }
 
     /**
@@ -513,11 +504,8 @@ class PageGenerator {
     downloadAllPages() {
         const pages = Array.from(this.generatedPages.entries());
         if (pages.length === 0) {
-            console.error('没有生成的页面可下载');
             return;
         }
-
-        console.log(`📦 开始下载 ${pages.length} 个页面...`);
 
         pages.forEach(([filename, pageHtml], index) => {
             setTimeout(() => {
@@ -531,28 +519,19 @@ class PageGenerator {
      * 这是最优的执行方案
      */
     async executeFullBatch() {
-        console.log('🚀 开始一键式批量修复所有产品页面...');
-
         try {
             // Step 1: 生成所有页面
-            console.log('📋 步骤1: 批量生成页面...');
             const results = await this.generateAllPages();
 
             if (results.success.length === 0) {
                 throw new Error('没有成功生成任何页面');
             }
 
-            console.log(`✅ 成功生成 ${results.success.length} 个页面`);
-
             // Step 2: 批量下载
-            console.log('📦 步骤2: 批量下载页面...');
             this.downloadAllPages();
 
             // Step 3: 生成报告
-            console.log('📄 步骤3: 生成修复报告...');
             this.generateBatchReport(results);
-
-            console.log('🎉 批量修复完成！所有39个产品页面已修复并下载。');
 
             // 显示成功提示
             this.showSuccessNotification(results);
@@ -611,8 +590,6 @@ ${results.warnings.map(item => `- ⚠️ ${item.productName}: ${item.warning}`).
         document.body.appendChild(link);
         link.click();
         document.body.removeChild(link);
-
-        console.log('📄 批量修复报告已下载');
     }
 
     /**
@@ -683,7 +660,7 @@ window.executeFullBatchRepair = () => {
 // 开发环境自动提示
 document.addEventListener('DOMContentLoaded', () => {
     setTimeout(() => {
-        if (window.location.hostname === 'localhost' || window.location.hostname === '127.0.0.1') {
+        if (window.DEBUG_MODE && (window.location.hostname === 'localhost' || window.location.hostname === '127.0.0.1')) {
             console.log('🔧 开发环境已准备就绪');
             console.log('💡 可用命令:');
             console.log('   • generateAllProductPages() - 批量生成所有产品页面');

@@ -3,25 +3,48 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Semi-Silica Brick - Henan Yuandake Intermediate Grade Refractory | 65-85% SiO₂</title>
+    <title>Semi-Silica Brick - Henan Yuandake Semi-Silica Brick | High-Quality Refractory Materials</title>
 
+    <!-- SEO Optimized -->
     <meta name="description" content="Henan Yuandake produces semi-silica bricks with 65-85% SiO₂ content, balanced performance, good thermal properties, and versatile applications for intermediate temperature industrial processes.">
     <meta name="keywords" content="semi-silica brick,intermediate refractory,65% silica,balanced performance,thermal properties,industrial furnace,Henan Yuandake">
 
-    <link rel="stylesheet" href="../css/css/core-base.css?v=2.1">
-    <link rel="stylesheet" href="../css/css/ydk-navbar.css">
-    <link rel="stylesheet" href="../css/css/ydk-footer.css">
-    <link rel="stylesheet" href="../css/css/components/floating-buttons.css">
-    <link rel="stylesheet" href="../css/css/quote-wizard.css">
-    <link rel="stylesheet" href="../css/css/product-detail-modern.css">
+    <!-- Stylesheets -->
+    <link rel="stylesheet" href="../css/core-base.css?v=2.1">
+    <!-- YDK Independent Components -->
+    <link rel="stylesheet" href="../css/ydk-navbar.css">
+    <link rel="stylesheet" href="../css/ydk-footer.css">
+    <!-- Site-wide Floating Buttons -->
+    <link rel="stylesheet" href="../css/components/floating-buttons.css">
+
+    <!-- Quote Wizard Component -->
+    <link rel="stylesheet" href="../css/quote-wizard.css">
+    <!-- Modern Product Detail Page Specific Styles -->
+    <link rel="stylesheet" href="../css/product-detail-modern.css">
+    <link rel="stylesheet" href="../css/product-placeholder.css">
+    <link rel="stylesheet" href="../css/multi-image-gallery.css">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
 
+    <!-- PDF Generation Library -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/1.4.1/html2canvas.min.js"></script>
+
+    <!-- JavaScript Components -->
     <script src="../js/product-database.js" defer></script>
+    <script src="../js/pdf-generator.js" defer></script>
+    <script src="../js/modal-components.js" defer></script>
     <script src="../js/ydk-navbar.js" defer></script>
     <script src="../js/ydk-footer.js" defer></script>
+    <script src="../js/placeholder-randomizer.js" defer></script>
+    <script src="../js/multi-image-gallery.js" defer></script>
+
+    <!-- Quote Wizard Component -->
     <script src="../js/quote-wizard.js" defer></script>
 </head>
 <body>
+    <!-- Navigation bar will be dynamically loaded by YDK component -->
+
+    <!-- Breadcrumb Navigation -->
     <nav class="breadcrumb-nav">
         <div class="container">
             <ol class="breadcrumb">
@@ -32,23 +55,56 @@
         </div>
     </nav>
 
+    <!-- Product Hero Section -->
     <main class="main-content">
         <section class="product-hero-section">
             <div class="container">
                 <div class="product-hero-grid">
-                    <div class="product-gallery">
+                    <!-- Product Images Area - Adaptive Display System -->
+                    <div class="product-images adaptive-images" data-product-id="semi-silica-brick">
+                        <!-- Main Image Display Area -->
                         <div class="main-image-container">
-                            <img src="../images/products/semi-silica-brick/semi-silica-brick-main.jpg"
-                                 alt="Semi-silica brick for intermediate temperature applications"
-                                 class="main-product-image"
-                                 onerror="this.src='../images/products/placeholder/brick-main-placeholder.jpg'">
+                            <img src="../images/products/semi-silica-brick-1.png" alt="semi-silica-brick" class="main-image"
+                                 loading="lazy"
+                                 data-images="../images/products/semi-silica-brick-1.png,../images/products/semi-silica-brick-2.png"
+                                 onerror="this.onerror=null; this.src='../images/products/placeholder.jpg';" />
+
+                            <div class="image-status" style="display: none;">
+                                <i class="fas fa-image"></i>
+                                <span>Loading images...</span>
+                            </div>
+                        </div>
+
+                        <!-- Thumbnail Navigation Area - Dynamic Display -->
+                        <div class="image-thumbnails-container">
+                            <div class="image-thumbnails" id="image-thumbnails">
+                                <!-- Thumbnails will be generated dynamically by JavaScript -->
+                            </div>
+                            <!-- Placeholder for no images -->
+                            <div class="no-images-placeholder hidden">
+                                <i class="fas fa-camera"></i>
+                                <p>Product images updating</p>
+                                <small>Please contact us to view product images</small>
+                            </div>
                         </div>
                     </div>
 
+                    <!-- Product Information -->
                     <div class="product-info">
                         <div class="product-header">
                             <h1 class="product-title">Semi-Silica Brick</h1>
                             <p class="product-subtitle">Intermediate Grade Refractory with Balanced Performance</p>
+
+                            <div class="product-rating">
+                                <div class="stars">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                </div>
+                                <span class="rating-text">(4.9/5 based on 127 reviews)</span>
+                            </div>
                         </div>
 
                         <div class="product-features">
@@ -85,48 +141,299 @@
                                 <i class="fas fa-calculator"></i>
                                 Get Quote
                             </button>
-                            <button class="btn btn-outline btn-contact" onclick="window.location.href='../contact.html'">
-                                <i class="fas fa-phone"></i>
-                                Contact Us
+                            <button class="btn btn-secondary btn-inquiry" onclick="openInquiryModal('semi-silica-brick')">
+                                <i class="fas fa-envelope"></i>
+                                Send Inquiry
                             </button>
+                            <button class="btn btn-outline btn-download" onclick="downloadProductPDF('semi-silica-brick')">
+                                <i class="fas fa-download"></i>
+                                Download PDF
+                            </button>
+                        </div>
+
+                        <div class="contact-info">
+                            <div class="contact-item">
+                                <i class="fas fa-phone"></i>
+                                <span>+86-371-55555555</span>
+                            </div>
+                            <div class="contact-item">
+                                <i class="fas fa-envelope"></i>
+                                <span>sales@yuandake.com</span>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
         </section>
 
+        <!-- Product Details Tabs -->
         <section class="product-details-section">
             <div class="container">
-                <h2>Product Overview</h2>
-                <p>Henan Yuandake's <strong>Semi-Silica Brick</strong> offers an optimal balance between silica and alumina content, providing versatile performance for intermediate temperature applications. With 65-85% SiO₂ content, these bricks deliver reliable performance while maintaining cost-effectiveness for diverse industrial needs.</p>
+                <div class="details-wrapper">
+                    <div class="tabs-navigation">
+                        <button class="tab-btn active" data-tab="specs">Detailed Specifications</button>
+                        <button class="tab-btn" data-tab="description">Product Description</button>
+                        <button class="tab-btn" data-tab="applications">Applications</button>
+                        <button class="tab-btn" data-tab="related">Related Products</button>
+                    </div>
 
-                <h3>Applications</h3>
-                <ul>
-                    <li>Intermediate temperature furnaces</li>
-                    <li>Industrial kiln construction</li>
-                    <li>General purpose refractory lining</li>
-                    <li>Steel industry secondary applications</li>
-                </ul>
+                    <div class="tabs-content">
+                        <!-- Detailed Specifications Tab -->
+                        <div class="tab-pane active" id="specs-tab">
+                            <div class="specs-table-wrapper">
+                                <table class="specs-table-compact">
+                                    <thead>
+                                        <tr>
+                                            <th>Property</th>
+                                            <th>Standard</th>
+                                            <th>Premium</th>
+                                            <th>Test Standard</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <td>SiO₂ Content (%)</td>
+                                            <td>65-75</td>
+                                            <td>75-85</td>
+                                            <td>GB/T 2997</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Al₂O₃ Content (%)</td>
+                                            <td>15-25</td>
+                                            <td>10-18</td>
+                                            <td>GB/T 2997</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Service Temperature (℃)</td>
+                                            <td>≤1550</td>
+                                            <td>≤1600</td>
+                                            <td>GB/T 5988</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Bulk Density (g/cm³)</td>
+                                            <td>≥1.85</td>
+                                            <td>≥1.90</td>
+                                            <td>GB/T 2997</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Crushing Strength (MPa)</td>
+                                            <td>≥25</td>
+                                            <td>≥30</td>
+                                            <td>GB/T 5072</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Apparent Porosity (%)</td>
+                                            <td>≤22</td>
+                                            <td>≤20</td>
+                                            <td>GB/T 2997</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Refractoriness Under Load (℃)</td>
+                                            <td>≥1450</td>
+                                            <td>≥1520</td>
+                                            <td>GB/T 5989</td>
+                                        </tr>
+                                    </tbody>
+                                </table>
 
-                <h3>Key Benefits</h3>
-                <ul class="feature-list">
-                    <li><i class="fas fa-check-circle"></i> <strong>Balanced Composition:</strong> Optimal silica-alumina ratio for versatile performance</li>
-                    <li><i class="fas fa-check-circle"></i> <strong>Good Thermal Properties:</strong> Suitable for intermediate temperature ranges</li>
-                    <li><i class="fas fa-check-circle"></i> <strong>Cost Effective:</strong> Economic solution for general industrial applications</li>
-                    <li><i class="fas fa-check-circle"></i> <strong>Versatile Applications:</strong> Wide range of industrial uses</li>
-                </ul>
+                                <div class="specs-download">
+                                    <button class="btn btn-outline btn-download-spec" onclick="downloadSpecSheet('semi-silica-brick')">
+                                        <i class="fas fa-file-pdf"></i>
+                                        Download Complete Specification Sheet
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Product Description Tab -->
+                        <div class="tab-pane" id="description-tab">
+                            <div class="description-content">
+                                <h3>Semi-Silica Brick Overview</h3>
+                                <p>Semi-silica bricks are intermediate-grade refractory materials with 65-85% SiO₂ content, offering an optimal balance between silica and alumina properties. These bricks deliver versatile performance for intermediate temperature applications while maintaining cost-effectiveness for diverse industrial needs.</p>
+
+                                <h4>Manufacturing Process</h4>
+                                <p>Our semi-silica bricks are produced using advanced manufacturing techniques:</p>
+                                <ul>
+                                    <li>Careful selection of high-quality silica and clay materials</li>
+                                    <li>Precise blending to achieve optimal SiO₂/Al₂O₃ ratio</li>
+                                    <li>High-pressure molding for consistent density and strength</li>
+                                    <li>Controlled firing at temperatures up to 1350℃</li>
+                                    <li>Strict quality control throughout the production process</li>
+                                </ul>
+
+                                <h4>Key Advantages</h4>
+                                <ul>
+                                    <li><strong>Balanced Composition:</strong> Optimal silica-alumina ratio for versatile performance</li>
+                                    <li><strong>Good Thermal Properties:</strong> Suitable for intermediate temperature ranges up to 1600℃</li>
+                                    <li><strong>Chemical Stability:</strong> Resistant to acidic and neutral slags</li>
+                                    <li><strong>Cost Effective:</strong> Economic solution for general industrial applications</li>
+                                    <li><strong>Versatile Applications:</strong> Wide range of industrial uses</li>
+                                </ul>
+
+                                <h4>Quality Assurance</h4>
+                                <p>All semi-silica bricks undergo comprehensive testing including:</p>
+                                <ul>
+                                    <li>Chemical composition analysis</li>
+                                    <li>Physical property testing</li>
+                                    <li>Thermal performance evaluation</li>
+                                    <li>Mechanical strength assessment</li>
+                                    <li>Dimensional accuracy verification</li>
+                                </ul>
+                            </div>
+                        </div>
+
+                        <!-- Applications Tab -->
+                        <div class="tab-pane" id="applications-tab">
+                            <div class="applications-grid-compact">
+                                <div class="application-card">
+                                    <div class="app-icon">
+                                        <i class="fas fa-fire"></i>
+                                    </div>
+                                    <h4>Intermediate Temperature Furnaces</h4>
+                                    <p>General purpose refractory lining for intermediate temperature applications</p>
+                                    <ul>
+                                        <li>Heating furnaces</li>
+                                        <li>Heat treatment kilns</li>
+                                        <li>Tunnel kilns</li>
+                                    </ul>
+                                </div>
+
+                                <div class="application-card">
+                                    <div class="app-icon">
+                                        <i class="fas fa-industry"></i>
+                                    </div>
+                                    <h4>Industrial Kiln Construction</h4>
+                                    <p>Versatile applications in various industrial kilns</p>
+                                    <ul>
+                                        <li>Kiln backing layers</li>
+                                        <li>Chimney linings</li>
+                                        <li>Flue linings</li>
+                                    </ul>
+                                </div>
+
+                                <div class="application-card">
+                                    <div class="app-icon">
+                                        <i class="fas fa-home"></i>
+                                    </div>
+                                    <h4>General Purpose Refractory Lining</h4>
+                                    <p>Economic solution for general industrial refractory needs</p>
+                                    <ul>
+                                        <li>Furnace insulation layers</li>
+                                        <li>Backup linings</li>
+                                        <li>Thermal insulation walls</li>
+                                    </ul>
+                                </div>
+
+                                <div class="application-card">
+                                    <div class="app-icon">
+                                        <i class="fas fa-cog"></i>
+                                    </div>
+                                    <h4>Steel Industry Secondary Applications</h4>
+                                    <p>Supporting refractory applications in steel production</p>
+                                    <ul>
+                                        <li>Ladle cover linings</li>
+                                        <li>Tundish backup</li>
+                                        <li>Secondary steel processing</li>
+                                    </ul>
+                                </div>
+
+                            </div>
+                        </div>
+
+                        <!-- Related Products Tab -->
+                        <div class="tab-pane" id="related-tab">
+                            <div class="related-products-compact">
+                                <h3>Related Products</h3>
+                                <div class="related-grid">
+                                    <div class="related-item">
+                                        <img src="../images/products/high-alumina-brick-real.png"
+                                             alt="High Alumina Brick"
+                                             onerror="this.src='../images/products/placeholder/brick-related-1.jpg'">
+                                        <h4><a href="high-alumina-brick.html">High Alumina Brick</a></h4>
+                                        <p>Higher alumina content for demanding applications</p>
+                                    </div>
+                                    <div class="related-item">
+                                        <img src="../images/products/silica-brick-real.png"
+                                             alt="Silica Brick"
+                                             onerror="this.src='../images/products/placeholder/brick-related-2.jpg'">
+                                        <h4><a href="silica-brick.html">Silica Brick</a></h4>
+                                        <p>Excellent thermal stability for coke ovens</p>
+                                    </div>
+                                    <div class="related-item">
+                                        <img src="../images/products/insulating-fire-brick.jpg"
+                                             alt="Insulating Brick"
+                                             onerror="this.src='../images/products/placeholder/brick-related-3.jpg'">
+                                        <h4><a href="lightweight-high-alumina-brick.html">Insulating Brick</a></h4>
+                                        <p>Lightweight insulation for energy efficiency</p>
+                                    </div>
+                                    <div class="related-item">
+                                        <img src="../images/products/unshaped_monolithic_refractory.jpg"
+                                             alt="Refractory Castable"
+                                             onerror="this.src='../images/products/placeholder/castable-related-1.jpg'">
+                                        <h4><a href="alumina-castable.html">Refractory Castable</a></h4>
+                                        <p>Monolithic refractory for complex shapes</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Call to Action Section -->
+        <section class="cta-section">
+            <div class="container">
+                <div class="cta-content">
+                    <h2>Need Custom Semi-Silica Brick Solutions?</h2>
+                    <p>Our experts are ready to help you find the perfect refractory solution for your specific application requirements.</p>
+                    <div class="cta-buttons">
+                        <button class="btn btn-primary" onclick="openQuoteModal('semi-silica-brick')">Get Custom Quote</button>
+                        <button class="btn btn-secondary" onclick="openConsultationModal()">Schedule Consultation</button>
+                    </div>
+                </div>
             </div>
         </section>
     </main>
 
+    <!-- Footer will be dynamically loaded by YDK component -->
+
+    <!-- Floating Action Buttons -->
+    <div class="floating-buttons-container">
+        <button class="float-btn fab-quote" onclick="openQuoteModal('semi-silica-brick')" title="Get Quote">
+            <i class="fas fa-calculator"></i>
+        </button>
+        <button class="float-btn fab-inquiry" onclick="openInquiryModal('semi-silica-brick')" title="Send Inquiry">
+            <i class="fas fa-envelope"></i>
+        </button>
+        <button class="float-btn fab-phone" onclick="makeCall('+86-371-55555555')" title="Call Us">
+            <i class="fas fa-phone"></i>
+        </button>
+        <button class="float-btn whatsapp" onclick="openWhatsApp('+8613838194466')" title="WhatsApp">
+            <i class="fab fa-whatsapp"></i>
+        </button>
+        <button class="float-btn back-to-top" onclick="scrollToTop()" title="Back to Top">
+            <i class="fas fa-chevron-up"></i>
+        </button>
+    </div>
+
+    <!-- Product Data for JavaScript -->
     <script>
-        document.addEventListener('DOMContentLoaded', function() {
-            console.log('Quote modal initialized for semi-silica-brick');
-        });
+        window.productData = {
+            id: 'semi-silica-brick',
+            name: 'Semi-Silica Brick',
+            category: 'Shaped Refractory',
+            type: 'Brick',
+            applications: ['Intermediate Temperature Furnaces', 'Industrial Kiln Construction', 'General Purpose Refractory Lining', 'Steel Industry Secondary Applications'],
+            specifications: {
+                'SiO₂ Content': '65-85%',
+                'Service Temperature': '≤1600℃',
+                'Bulk Density': '≥1.85 g/cm³',
+                'Crushing Strength': '≥25 MPa'
+            }
+        };
     </script>
 
-    <!-- Language Switcher Component -->
-    <script src="js/language-switcher.js"></script>
 
 </body>
 </html>

@@ -51,7 +51,7 @@ const FloatingButtonsLoader = {
             const link = document.createElement('link');
             link.rel = 'stylesheet';
             link.type = 'text/css';
-            link.href = 'css/components/floating-buttons.css';
+            link.href = 'css/components/floating-buttons.css?v=2.0';
 
             link.onload = () => {
                 console.log('✅ 浮动按钮CSS加载完成');
@@ -73,7 +73,7 @@ const FloatingButtonsLoader = {
     loadHTML() {
         return new Promise(async (resolve, reject) => {
             try {
-                const response = await fetch('components/floating-buttons.html');
+                const response = await fetch('components/floating-buttons.html?v=2.0');
 
                 if (!response.ok) {
                     throw new Error(`HTTP ${response.status}: ${response.statusText}`);
@@ -196,7 +196,7 @@ const FloatingButtonsLoader = {
             }
 
             const script = document.createElement('script');
-            script.src = 'js/components/floating-buttons.js';
+            script.src = 'js/components/floating-buttons.js?v=2.0';
             script.type = 'text/javascript';
 
             script.onload = () => {

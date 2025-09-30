@@ -53,11 +53,14 @@ class LanguageSwitcher {
 
         // Insert switcher into page (try multiple locations)
         const navbarContainer = document.querySelector('.navbar .container');
+        const navContainer = document.querySelector('.navbar .nav-container');
         const headerContainer = document.querySelector('header .container');
         const bodyElement = document.body;
 
         if (navbarContainer) {
             navbarContainer.insertAdjacentHTML('beforeend', switcherHTML);
+        } else if (navContainer) {
+            navContainer.insertAdjacentHTML('beforeend', switcherHTML);
         } else if (headerContainer) {
             headerContainer.insertAdjacentHTML('beforeend', switcherHTML);
         } else {

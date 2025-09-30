@@ -34,6 +34,15 @@
         return page;
     }
 
+    // 动态获取脚本路径（用于语言切换器）
+    function getScriptPath(scriptName) {
+        const currentPath = window.location.pathname;
+        if (currentPath.includes('/products/') || currentPath.includes('\\products\\')) {
+            return '../js/' + scriptName;
+        }
+        return 'js/' + scriptName;
+    }
+
     // Navbar HTML模板 - 完全按照截图
     const NAVBAR_HTML = `
     <nav class="ydk-navbar">
@@ -64,6 +73,9 @@
                 </li>
             </ul>
 
+            <!-- 语言切换器容器 (会被JS动态填充) -->
+            <div id="ydkLanguageSwitcherContainer"></div>
+
             <button class="ydk-hamburger" aria-label="切换菜单">
                 <span class="ydk-hamburger-line"></span>
                 <span class="ydk-hamburger-line"></span>
@@ -86,6 +98,7 @@
             this.render();
             this.setActiveLink();
             this.bindEvents();
+            this.initLanguageSwitcher();
         }
 
         render() {
@@ -162,6 +175,29 @@
         closeMobileMenu() {
             this.hamburger.classList.remove('active');
             this.navMenu.classList.remove('mobile-active');
+        }
+
+        // 初始化语言切换器组件
+        initLanguageSwitcher() {
+            // 检查脚本是否已加载
+            if (document.querySelector('script[src*="ydk-language-switcher.js"]')) {
+                console.log('✅ 语言切换器已加载');
+                return;
+            }
+
+            const script = document.createElement('script');
+            script.src = getScriptPath('ydk-language-switcher.js');
+            script.type = 'text/javascript';
+
+            script.onload = () => {
+                console.log('✅ 语言切换器组件已加载');
+            };
+
+            script.onerror = () => {
+                console.error('❌ 语言切换器组件加载失败');
+            };
+
+            document.head.appendChild(script);
         }
 
         // 公共方法：重新设置活跃链接

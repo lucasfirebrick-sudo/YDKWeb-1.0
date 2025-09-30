@@ -156,16 +156,12 @@ class ProductsEventManager {
     filterProducts(category, productCards) {
         productCards.forEach(card => {
             if (category === 'all' || card.getAttribute('data-category') === category) {
-                card.style.display = 'block';
-                setTimeout(() => {
-                    card.style.opacity = '1';
-                    card.style.transform = 'translateY(0)';
-                }, 50);
+                // 显示卡片：移除隐藏class
+                card.classList.remove('product-hidden');
             } else {
-                card.style.opacity = '0';
-                card.style.transform = 'translateY(20px)';
+                // 隐藏卡片：添加隐藏class
                 setTimeout(() => {
-                    card.style.display = 'none';
+                    card.classList.add('product-hidden');
                 }, 300);
             }
         });

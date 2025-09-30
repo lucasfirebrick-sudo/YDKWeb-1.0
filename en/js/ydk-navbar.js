@@ -34,6 +34,15 @@
         return page;
     }
 
+    // Dynamically get script path for language switcher
+    function getScriptPath(scriptName) {
+        const currentPath = window.location.pathname;
+        if (currentPath.includes('/products/') || currentPath.includes('\\products\\')) {
+            return '../js/' + scriptName;
+        }
+        return 'js/' + scriptName;
+    }
+
     // Navbar HTML template - exactly as per screenshot
     const NAVBAR_HTML = `
     <nav class="ydk-navbar">
@@ -64,6 +73,9 @@
                 </li>
             </ul>
 
+            <!-- 语言切换器容器 (会被JS动态填充) -->
+            <div id="ydkLanguageSwitcherContainer"></div>
+
             <button class="ydk-hamburger" aria-label="Toggle Menu">
                 <span class="ydk-hamburger-line"></span>
                 <span class="ydk-hamburger-line"></span>
@@ -86,6 +98,7 @@
             this.render();
             this.setActiveLink();
             this.bindEvents();
+            this.initLanguageSwitcher();
         }
 
         render() {
@@ -162,6 +175,29 @@
         closeMobileMenu() {
             this.hamburger.classList.remove('active');
             this.navMenu.classList.remove('mobile-active');
+        }
+
+        // Initialize language switcher component
+        initLanguageSwitcher() {
+            // Check if script already loaded
+            if (document.querySelector('script[src*="ydk-language-switcher.js"]')) {
+                console.log('✅ Language switcher already loaded');
+                return;
+            }
+
+            const script = document.createElement('script');
+            script.src = getScriptPath('ydk-language-switcher.js');
+            script.type = 'text/javascript';
+
+            script.onload = () => {
+                console.log('✅ Language switcher component loaded');
+            };
+
+            script.onerror = () => {
+                console.error('❌ Failed to load language switcher component');
+            };
+
+            document.head.appendChild(script);
         }
 
         // Public method: reset active link

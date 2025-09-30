@@ -1,0 +1,241 @@
+{
+  "general-silica-brick": {
+    "images": [],
+    "imageCount": 0
+  },
+  "semi-silica-brick": {
+    "images": [],
+    "imageCount": 0
+  },
+  "mullite-brick": {
+    "images": [
+      "mullite-brick-1.png",
+      "mullite-brick-2.png",
+      "mullite-brick-3.png"
+    ],
+    "imageCount": 3
+  },
+  "hot-blast-stove-checker-silica-brick": {
+    "images": [],
+    "imageCount": 0
+  },
+  "hot-blast-stove-silica-brick": {
+    "images": [
+      "hot-blast-stove-silica-brick-1.png",
+      "hot-blast-stove-silica-brick-2.png",
+      "hot-blast-stove-silica-brick-3.png"
+    ],
+    "imageCount": 3
+  },
+  "hot-blast-stove-clay-checker-brick": {
+    "images": [],
+    "imageCount": 0
+  },
+  "coke-oven-brick": {
+    "images": [],
+    "imageCount": 0
+  },
+  "silica-brick": {
+    "images": [
+      "silica-brick-1.png",
+      "silica-brick-2.png"
+    ],
+    "imageCount": 2
+  },
+  "silica-molybdenum-brick": {
+    "images": [
+      "silica-molybdenum-brick-1.png",
+      "silica-molybdenum-brick-2.png"
+    ],
+    "imageCount": 2
+  },
+  "combination-brick": {
+    "images": [
+      "combination-brick-1.png"
+    ],
+    "imageCount": 1
+  },
+  "mullite-aggregate-lightweight-brick": {
+    "images": [
+      "mullite-aggregate-lightweight-brick-1.png",
+      "mullite-aggregate-lightweight-brick-2.png"
+    ],
+    "imageCount": 2
+  },
+  "lightweight-fireclay-brick": {
+    "images": [
+      "lightweight-fireclay-brick-1.png",
+      "lightweight-fireclay-brick-2.png"
+    ],
+    "imageCount": 2
+  },
+  "lightweight-mullite-brick": {
+    "images": [
+      "lightweight-mullite-brick-1.png",
+      "lightweight-mullite-brick-2.png"
+    ],
+    "imageCount": 2
+  },
+  "lightweight-high-alumina-brick": {
+    "images": [
+      "lightweight-high-alumina-brick-1.png",
+      "lightweight-high-alumina-brick-2.png"
+    ],
+    "imageCount": 2
+  },
+  "lightweight-clay-brick": {
+    "images": [
+      "lightweight-clay-brick-1.png",
+      "lightweight-clay-brick-2.png",
+      "lightweight-clay-brick-3.png"
+    ],
+    "imageCount": 3
+  },
+  "high-alumina-brick": {
+    "images": [
+      "high-alumina-brick-1.png",
+      "high-alumina-brick-2.png"
+    ],
+    "imageCount": 2
+  },
+  "high-alumina-aggregate-lightweight-brick": {
+    "images": [
+      "high-alumina-aggregate-lightweight-brick-1.png",
+      "high-alumina-aggregate-lightweight-brick-2.png"
+    ],
+    "imageCount": 2
+  },
+  "clay-brick": {
+    "images": [
+      "clay-brick-1.png",
+      "clay-brick-2.png"
+    ],
+    "imageCount": 2
+  },
+  "unshaped-refractory-material": {
+    "images": [
+      "unshaped-refractory-material-1.png"
+    ],
+    "imageCount": 1
+  },
+  "unshaped-refractory": {
+    "images": [
+      "unshaped-refractory-1.png",
+      "unshaped-refractory-2.png",
+      "unshaped-refractory-3.png",
+      "unshaped-refractory-4.png",
+      "unshaped-refractory-5.png",
+      "unshaped-refractory-6.png",
+      "unshaped-refractory-7.png",
+      "unshaped-refractory-8.png",
+      "unshaped-refractory-9.png",
+      "unshaped-refractory-10.png",
+      "unshaped-refractory-11.png",
+      "unshaped-refractory-12.png"
+    ],
+    "imageCount": 12
+  },
+  "corundum-silicon-carbide-precast": {
+    "images": [],
+    "imageCount": 0
+  },
+  "corundum-castable": {
+    "images": [
+      "corundum-castable-1.png",
+      "corundum-castable-2.png"
+    ],
+    "imageCount": 2
+  },
+  "steel-fiber-castable": {
+    "images": [
+      "steel-fiber-castable-1.png"
+    ],
+    "imageCount": 1
+  },
+  "chrome-corundum-castable": {
+    "images": [
+      "chrome-corundum-castable-1.png"
+    ],
+    "imageCount": 1
+  },
+  "refractory-spray-coating": {
+    "images": [],
+    "imageCount": 0
+  },
+  "blast-furnace-ceramic-cup": {
+    "images": [
+      "blast-furnace-ceramic-cup-1.png",
+      "blast-furnace-ceramic-cup-2.png"
+    ],
+    "imageCount": 2
+  },
+  "alumina-castable": {
+    "images": [
+      "alumina-castable-1.png"
+    ],
+    "imageCount": 1
+  },
+  "corundum-brick": {
+    "images": [
+      "corundum-brick-1.png",
+      "corundum-brick-2.png"
+    ],
+    "imageCount": 2
+  },
+  "corundum-refractory-ball": {
+    "images": [
+      "corundum-refractory-ball-1.png",
+      "corundum-refractory-ball-2.png"
+    ],
+    "imageCount": 2
+  },
+  "corundum-mullite": {
+    "images": [
+      "corundum-mullite-1.png",
+      "corundum-mullite-2.png"
+    ],
+    "imageCount": 2
+  },
+  "alumina-hollow-sphere-brick": {
+    "images": [
+      "alumina-hollow-sphere-brick-1.png",
+      "alumina-hollow-sphere-brick-2.png"
+    ],
+    "imageCount": 2
+  },
+  "phosphate-brick": {
+    "images": [
+      "phosphate-brick-1.png"
+    ],
+    "imageCount": 1
+  },
+  "phosphate-wear-resistant-brick": {
+    "images": [
+      "phosphate-wear-resistant-brick-1.png",
+      "phosphate-wear-resistant-brick-2.png"
+    ],
+    "imageCount": 2
+  },
+  "regenerator-refractory-ball": {
+    "images": [
+      "regenerator-refractory-ball-1.png",
+      "regenerator-refractory-ball-2.png",
+      "regenerator-refractory-ball-3.png"
+    ],
+    "imageCount": 3
+  },
+  "magnesia-chrome-brick": {
+    "images": [
+      "magnesia-chrome-brick-1.png",
+      "magnesia-chrome-brick-2.png"
+    ],
+    "imageCount": 2
+  },
+  "ceramic-honeycomb-regenerator": {
+    "images": [
+      "ceramic-honeycomb-regenerator-1.png",
+      "ceramic-honeycomb-regenerator-2.png"
+    ],
+    "imageCount": 2
+  }
+}
