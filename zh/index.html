@@ -905,8 +905,6 @@
 
     <!-- 页面优化脚本 -->
     <script>
-        // AI选择器代码已清理
-
         // Toast 通知系统
         function showToast(message, type = 'info', duration = 5000) {
             const container = document.getElementById('toast-container');
@@ -933,7 +931,7 @@
             // 自动移除
             if (duration > 0) {
                 setTimeout(() => {
-                    removeToast(toast.querySelector('.toast-close'));
+                    removeToast(toast.querySelector('.panel-close'));
                 }, duration);
             }
 
@@ -958,7 +956,7 @@
 
         // 页面功能初始化
         document.addEventListener('DOMContentLoaded', function() {
-            // AI选择器事件绑定已移除
+            // 页面功能初始化完成
         });
 
 

@@ -243,6 +243,12 @@ const switcherStyles = `
         .flag-icon {
             font-size: 18px;
         }
+
+        /* Fix: Move language switcher down to avoid blocking navbar */
+        .language-switcher-fixed {
+            top: 95px !important;
+            right: 15px;
+        }
     }
 
     /* Dark theme support */

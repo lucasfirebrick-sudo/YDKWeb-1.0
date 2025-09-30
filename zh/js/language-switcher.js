@@ -243,6 +243,12 @@ const switcherStyles = `
         .flag-icon {
             font-size: 18px;
         }
+
+        /* 修复：语言切换器向下偏移，避免遮挡导航栏 */
+        .language-switcher-fixed {
+            top: 95px !important;
+            right: 15px;
+        }
     }
 
     /* 深色主题支持 */
