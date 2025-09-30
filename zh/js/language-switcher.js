@@ -113,11 +113,35 @@ class LanguageSwitcher {
             }
         }
 
-        // 构建完整URL
-        const newUrl = window.location.origin + newPath + currentSearch + currentHash;
+        // 检查目标页面是否存在，如果不存在则跳转到首页
+        this.navigateToLanguage(newPath, targetLang, currentSearch, currentHash);
+    }
 
-        // 导航到新语言版本
-        window.location.href = newUrl;
+    /**
+     * 导航到目标语言页面，如果页面不存在则跳转到首页
+     */
+    navigateToLanguage(newPath, targetLang, search, hash) {
+        const testUrl = window.location.origin + newPath;
+
+        // 使用fetch检查页面是否存在
+        fetch(testUrl, { method: 'HEAD' })
+            .then(response => {
+                let finalUrl;
+                if (response.ok) {
+                    // 页面存在，直接跳转
+                    finalUrl = testUrl + search + hash;
+                } else {
+                    // 页面不存在，跳转到该语言的首页
+                    const homePath = targetLang === 'zh' ? '/zh/index.html' : '/en/index.html';
+                    finalUrl = window.location.origin + homePath;
+                }
+                window.location.href = finalUrl;
+            })
+            .catch(() => {
+                // 网络错误或其他问题，跳转到首页
+                const homePath = targetLang === 'zh' ? '/zh/index.html' : '/en/index.html';
+                window.location.href = window.location.origin + homePath;
+            });
     }
 
     /**

@@ -113,11 +113,35 @@ class LanguageSwitcher {
             }
         }
 
-        // Construct full URL
-        const newUrl = window.location.origin + newPath + currentSearch + currentHash;
+        // Check if target page exists, fallback to homepage if not
+        this.navigateToLanguage(newPath, targetLang, currentSearch, currentHash);
+    }
 
-        // Navigate to new language version
-        window.location.href = newUrl;
+    /**
+     * Navigate to target language page, fallback to homepage if page doesn't exist
+     */
+    navigateToLanguage(newPath, targetLang, search, hash) {
+        const testUrl = window.location.origin + newPath;
+
+        // Use fetch to check if page exists
+        fetch(testUrl, { method: 'HEAD' })
+            .then(response => {
+                let finalUrl;
+                if (response.ok) {
+                    // Page exists, navigate directly
+                    finalUrl = testUrl + search + hash;
+                } else {
+                    // Page doesn't exist, navigate to homepage
+                    const homePath = targetLang === 'zh' ? '/zh/index.html' : '/en/index.html';
+                    finalUrl = window.location.origin + homePath;
+                }
+                window.location.href = finalUrl;
+            })
+            .catch(() => {
+                // Network error or other issues, navigate to homepage
+                const homePath = targetLang === 'zh' ? '/zh/index.html' : '/en/index.html';
+                window.location.href = window.location.origin + homePath;
+            });
     }
 
     /**
